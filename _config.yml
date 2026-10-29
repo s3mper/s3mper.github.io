@@ -1,7 +1,7 @@
 # Site
 title:            s3mper
 tagline:          ""
-description:      "s3mper — Latin for “_always._” Always learning, growing, and building."
+description:      "s3mper — Latin for “_always._”"
 url:              "https://s3mper.github.io"
 baseurl:          ""
 future:           true # 미래 날짜 포스트도 공개
