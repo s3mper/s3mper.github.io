@@ -136,11 +136,11 @@ print('꼬꼬마 명사 추출 :',kkma.nouns("열심히 코딩한 당신, 연휴
 
 ## 출처
 
-- [GitHub, 「okt github」](https://github.com/open-korean-text/open-korean-text)
-- [KoNLPy, 「KoNLPy tag Package」](https://konlpy.org/en/latest/api/konlpy.tag/)
-- [WikiDocs, 「텍스트 전처리(Text preprocessing)」](https://wikidocs.net/21694)
-- [Tistory, 「정규표현식(Regular Expression) with 파이썬」](https://jh2021.tistory.com/8)
-- [GitHub, 「한국어 소설 텍스트를 위한 자연어처리 라이브러리」](https://github.com/storidient/KoBookNLP)
+- GitHub. 「okt github」. [GitHub](https://github.com/open-korean-text/open-korean-text)
+- KoNLPy. 「KoNLPy tag Package」. [KoNLPy](https://konlpy.org/en/latest/api/konlpy.tag/)
+- WikiDocs. 「텍스트 전처리(Text preprocessing)」. [WikiDocs](https://wikidocs.net/21694)
+- Tistory. 「정규표현식(Regular Expression) with 파이썬」. [Tistory](https://jh2021.tistory.com/8)
+- GitHub. 「한국어 소설 텍스트를 위한 자연어처리 라이브러리」. [GitHub](https://github.com/storidient/KoBookNLP)
 
 <div class="obsidian-links" style="display: none;">
 

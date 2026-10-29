@@ -220,5 +220,5 @@ plt.show()
 
 ## 출처
 
-- [Naver, 「소프트맥스(softmax) 함수 조금 자세히 알아보기」](https://m.blog.naver.com/luexr/223133865455)
-- [Velog, 「Softmax Function」](https://velog.io/@chiroya/13-Softmax-Function)
+- 네이버 블로그. 「소프트맥스(softmax) 함수 조금 자세히 알아보기」. [네이버 블로그](https://m.blog.naver.com/luexr/223133865455)
+- Velog. 「Softmax Function」. [Velog](https://velog.io/@chiroya/13-Softmax-Function)

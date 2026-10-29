@@ -98,14 +98,14 @@ tags: [BLOG]
 
 ## 출처
 
-- [GitHub Pages, 「github 블로그 SEO 설정하기」](https://ch3coo2ca.github.io/2022-05-02/github-blog-seo-settings)
-- [Tistory, 「Google Search Console 사이트맵 등록 안 될 때」](https://gh96.tistory.com/59)
-- [GitHub Pages, 「구글에 깃허브 블로그(github.io) 노출시키기」](https://yongjunism.github.io/tips/how-to-expose-github-blog-to-google.html)
-- [Buildable SEO, 「구글 서치 콘솔 사이트맵 가져올 수 없음, 4가지 원인과 완벽 해결 가이드라인」](https://www.buildableseo.io/blog/google-search-console-sitemap-fetch-error-causes-solutions)
-- [GitHub Pages, 「구글 서치 콘솔 사이트맵 가져올 수 없음」](https://yi-sang.github.io/blog/Blog-GoogleSearchConsoleSitemap)
-- [Present, 「Google Search Console의 사이트맵을 가져올 수 없음 문제를 해결한 과정」](https://present.kim/posts/blog/sitemap-issue)
-- [Blog, 「[github.io] 블로그 구글 검색 등록하기(SEO 설정)」](https://blog.jagaldol.com/blog/blog-google-seo-setting/)
-- [Tistory, 「구글 서치콘솔 사이트맵 등록이 안 될 때 가져올 수 없음 상태 해결 방법 알려드립니다.」](https://gh96.tistory.com/59)
+- Github 블로그. 「github 블로그 SEO 설정하기」. [Github 블로그](https://ch3coo2ca.github.io/2022-05-02/github-blog-seo-settings)
+- Tistory. 「Google Search Console 사이트맵 등록 안 될 때」. [Tistory](https://gh96.tistory.com/59)
+- Github 블로그. 「구글에 깃허브 블로그(github.io) 노출시키기」. [Github 블로그](https://yongjunism.github.io/tips/how-to-expose-github-blog-to-google.html)
+- Buildable SEO. 「구글 서치 콘솔 사이트맵 가져올 수 없음, 4가지 원인과 완벽 해결 가이드라인」. [Buildable SEO](https://www.buildableseo.io/blog/google-search-console-sitemap-fetch-error-causes-solutions)
+- Github 블로그. 「구글 서치 콘솔 사이트맵 가져올 수 없음」. [Github 블로그](https://yi-sang.github.io/blog/Blog-GoogleSearchConsoleSitemap)
+- Present. 「Google Search Console의 사이트맵을 가져올 수 없음 문제를 해결한 과정」. [Present](https://present.kim/posts/blog/sitemap-issue)
+- Blog. 「[github.io] 블로그 구글 검색 등록하기(SEO 설정)」. [Blog](https://blog.jagaldol.com/blog/blog-google-seo-setting/)
+- Tistory. 「구글 서치콘솔 사이트맵 등록이 안 될 때 가져올 수 없음 상태 해결 방법 알려드립니다.」. [Tistory](https://gh96.tistory.com/59)
 
 <div class="obsidian-links" style="display: none;">
 

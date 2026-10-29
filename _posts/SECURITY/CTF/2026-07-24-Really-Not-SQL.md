@@ -348,7 +348,7 @@ pass
 
 ## 출처
 
-- [Wikipedia, 「WebDAV」](https://ko.wikipedia.org/wiki/WebDAV)
+- Wikipedia. 「WebDAV」. [Wikipedia](https://ko.wikipedia.org/wiki/WebDAV)
 
 <div class="obsidian-links" style="display: none;">
 

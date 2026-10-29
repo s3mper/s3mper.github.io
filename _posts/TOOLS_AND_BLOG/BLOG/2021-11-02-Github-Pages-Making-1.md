@@ -240,13 +240,13 @@ Git이 파일을 관리하게 하려면 저장소에 파일을 추가하고 커�
 
 ## 출처
 
-- [GitHub Pages, 「Jekyll을 이용한 .github.io 블로그 만들기[1」](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-1.html)
-- [GitHub Pages, 「Jekyll을 이용한 .github.io 블로그 만들기[2」](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-2.html)
-- [GitHub Pages, 「Jekyll을 이용한 .github.io 블로그 만들기[3」](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-3.html)
-- [Tistory, 「왕초보를 위한 Github 블로그 만들기 (1)」](https://zeddios.tistory.com/1222)
-- [Tistory, 「왕초보를 위한 Github 블로그 만들기 (2) - 테마 적용(with Jekyll)」](https://zeddios.tistory.com/1223)
-- [GitHub Pages, 「GitHub Pages에 Jekyll로 블로그 만들기」](https://minacle.github.io/post/create-a-blog-with-jekyll-on-github-pages/)
-- [GitHub Pages, 「jekyll에 favicon을 추가해줍니다.」](https://frhyme.github.io/blog/jekyll_add_Favicon/)
-- [Jekyllrb, 「jekyll Themes Docs」](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
-- [GitHub Pages, 「왜 jekyll serve가 안될까?」](https://frhyme.github.io/others/jekyll_serve_not_work/)
-- [Corecode, 「루비/jekyll 설치, bundle update」](https://corecode.pe.kr/normal/2020/08/21/ruby_jekyll_install/)
+- Github 블로그. 「Jekyll을 이용한 .github.io 블로그 만들기[1」. [Github 블로그](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-1.html)
+- Github 블로그. 「Jekyll을 이용한 .github.io 블로그 만들기[2」. [Github 블로그](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-2.html)
+- Github 블로그. 「Jekyll을 이용한 .github.io 블로그 만들기[3」. [Github 블로그](https://gmlwjd9405.github.io/2017/10/06/Jekyll-github.io-blog-3.html)
+- Tistory. 「왕초보를 위한 Github 블로그 만들기 (1)」. [Tistory](https://zeddios.tistory.com/1222)
+- Tistory. 「왕초보를 위한 Github 블로그 만들기 (2) - 테마 적용(with Jekyll)」. [Tistory](https://zeddios.tistory.com/1223)
+- Github 블로그. 「GitHub Pages에 Jekyll로 블로그 만들기」. [Github 블로그](https://minacle.github.io/post/create-a-blog-with-jekyll-on-github-pages/)
+- Github 블로그. 「jekyll에 favicon을 추가해줍니다.」. [Github 블로그](https://frhyme.github.io/blog/jekyll_add_Favicon/)
+- Jekyllrb. 「jekyll Themes Docs」. [Jekyllrb](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
+- Github 블로그. 「왜 jekyll serve가 안될까?」. [Github 블로그](https://frhyme.github.io/others/jekyll_serve_not_work/)
+- Corecode. 「루비/jekyll 설치, bundle update」. [Corecode](https://corecode.pe.kr/normal/2020/08/21/ruby_jekyll_install/)

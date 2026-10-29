@@ -248,7 +248,7 @@ pw: `asdf`
 
 ## 출처
 
-- [OWASP, 「Injection」](https://owasp.org/Top10/2021/A03_2021-Injection/index.html)
+- OWASP. 「Injection」. [OWASP](https://owasp.org/Top10/2021/A03_2021-Injection/index.html)
 
 <div class="obsidian-links" style="display: none;">
 

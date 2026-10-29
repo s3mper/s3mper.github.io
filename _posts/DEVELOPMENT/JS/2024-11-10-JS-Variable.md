@@ -231,4 +231,4 @@ let과 마찬가지로 const 선언도 맨 위로 끌어올려지지만, 초기�
 
 ## 출처
 
-- [Freecodecamp, 「var, let, const의 차이점」](https://www.freecodecamp.org/korean/news/var-let-constyi-caijeomeun/)
+- Freecodecamp. 「var, let, const의 차이점」. [Freecodecamp](https://www.freecodecamp.org/korean/news/var-let-constyi-caijeomeun/)

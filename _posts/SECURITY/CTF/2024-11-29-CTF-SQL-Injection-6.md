@@ -671,11 +671,11 @@ tags: [TIL, DATABASE, CTF]
 -> 예측한 글자: segfa ult{C ongra tz_fi rstBl indSq li}   -->
 
 # 출처
-- [출처] [Tistory, 「SQL 문자열 길이 출력 함수」](https://lcs1245.tistory.com/entry/SQL-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B8%B8%EC%9D%B4-%EC%B6%9C%EB%A0%A5-%ED%95%A8%EC%88%98-LENGTH-CHARLENGTH-LEN-DATALENGTH-LENGTHB)
-- [출처] [Tistory, 「SQL 특정 개수의 값 출력」](https://lcs1245.tistory.com/entry/SQL-%ED%8A%B9%EC%A0%95-%EA%B0%9C%EC%88%98%EC%9D%98-%EA%B0%92-%EC%B6%9C%EB%A0%A5-SELECT-TOP-N-TOP-LIMIT-ROWNUM?category=348747)
-- [출처] [W3Schools, 「MySQL CHAR_LENGTH() Function」](https://www.w3schools.com/sql/func_mysql_char_length.asp)
-- [출처] [W3Schools, 「MySQL SUBSTR() Function」](https://www.w3schools.com/sql/func_mysql_substr.asp)
-- [출처] [W3Schools, 「MySQL ASCII() Function」](https://www.w3schools.com/sql/func_mysql_ascii.asp)
+- 출처] [Tistory. 「SQL 문자열 길이 출력 함수」. [출처] [Tistory](https://lcs1245.tistory.com/entry/SQL-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B8%B8%EC%9D%B4-%EC%B6%9C%EB%A0%A5-%ED%95%A8%EC%88%98-LENGTH-CHARLENGTH-LEN-DATALENGTH-LENGTHB)
+- 출처] [Tistory. 「SQL 특정 개수의 값 출력」. [출처] [Tistory](https://lcs1245.tistory.com/entry/SQL-%ED%8A%B9%EC%A0%95-%EA%B0%9C%EC%88%98%EC%9D%98-%EA%B0%92-%EC%B6%9C%EB%A0%A5-SELECT-TOP-N-TOP-LIMIT-ROWNUM?category=348747)
+- 출처] [W3Schools. 「MySQL CHAR_LENGTH() Function」. [출처] [W3Schools](https://www.w3schools.com/sql/func_mysql_char_length.asp)
+- 출처] [W3Schools. 「MySQL SUBSTR() Function」. [출처] [W3Schools](https://www.w3schools.com/sql/func_mysql_substr.asp)
+- 출처] [W3Schools. 「MySQL ASCII() Function」. [출처] [W3Schools](https://www.w3schools.com/sql/func_mysql_ascii.asp)
 
 <div class="obsidian-links" style="display: none;">
 

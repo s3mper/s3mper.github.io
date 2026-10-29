@@ -220,14 +220,14 @@ MySQL은 위치와 도형 정보를 저장하는 공간 자료형을 지원한�
 
 ## 출처
 
-- [GitHub Pages, 「MySQL 자료형 종류 정리 1」](https://devdhjo.github.io/mysql/2020/01/30/database-mysql-003.html)
-- [Tistory, 「MySQL 자료형 종류 정리 2」](https://inpa.tistory.com/entry/MYSQL-%F0%9F%93%9A-%EC%9E%90%EB%A3%8C%ED%98%95-%ED%83%80%EC%9E%85-%EC%A2%85%EB%A5%98-%EC%A0%95%EB%A6%AC)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: Data Types」](https://dev.mysql.com/doc/refman/8.4/en/data-types.html)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: 저장 공간」](https://dev.mysql.com/doc/refman/8.4/en/storage-requirements.html)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: 숫자형 문법」](https://dev.mysql.com/doc/refman/8.4/en/numeric-type-syntax.html)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: 날짜 및 시간형」](https://dev.mysql.com/doc/refman/8.4/en/date-and-time-types.html)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: 문자형」](https://dev.mysql.com/doc/refman/8.4/en/string-types.html)
-- [MySQL Docs, 「MySQL 8.4 공식 문서: JSON」](https://dev.mysql.com/doc/refman/8.4/en/json.html)
+- Github 블로그. 「MySQL 자료형 종류 정리 1」. [Github 블로그](https://devdhjo.github.io/mysql/2020/01/30/database-mysql-003.html)
+- Tistory. 「MySQL 자료형 종류 정리 2」. [Tistory](https://inpa.tistory.com/entry/MYSQL-%F0%9F%93%9A-%EC%9E%90%EB%A3%8C%ED%98%95-%ED%83%80%EC%9E%85-%EC%A2%85%EB%A5%98-%EC%A0%95%EB%A6%AC)
+- MySQL Docs. 「MySQL 8.4 공식 문서: Data Types」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/data-types.html)
+- MySQL Docs. 「MySQL 8.4 공식 문서: 저장 공간」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/storage-requirements.html)
+- MySQL Docs. 「MySQL 8.4 공식 문서: 숫자형 문법」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/numeric-type-syntax.html)
+- MySQL Docs. 「MySQL 8.4 공식 문서: 날짜 및 시간형」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/date-and-time-types.html)
+- MySQL Docs. 「MySQL 8.4 공식 문서: 문자형」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/string-types.html)
+- MySQL Docs. 「MySQL 8.4 공식 문서: JSON」. [MySQL Docs](https://dev.mysql.com/doc/refman/8.4/en/json.html)
 
 <div class="obsidian-links" style="display: none;">
 

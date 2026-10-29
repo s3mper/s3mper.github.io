@@ -68,8 +68,8 @@ tags: [TIL, WEB, SECURITY]
 
 ### 출처
 
-- [Onecoin Life, 「버퍼 오버플로우 공격(Buffer Overfloaw Attack) 원리와 개념」](https://onecoin-life.com/31)
-- [Namu, 「버퍼 오버플로」](https://namu.wiki/w/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C)
+- Onecoin Life. 「버퍼 오버플로우 공격(Buffer Overfloaw Attack) 원리와 개념」. [Onecoin Life](https://onecoin-life.com/31)
+- Namu. 「버퍼 오버플로」. [Namu](https://namu.wiki/w/%EB%B2%84%ED%8D%BC%20%EC%98%A4%EB%B2%84%ED%94%8C%EB%A1%9C)
 
 ## 2. 포맷스트링(Format String), FS
 
@@ -89,7 +89,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ### 출처
 
-- [Naver, 「버퍼 오버플로우 공격 - 포맷 스트링 공격」](https://m.blog.naver.com/wnrjsxo/221267600469)
+- 네이버 블로그. 「버퍼 오버플로우 공격 - 포맷 스트링 공격」. [네이버 블로그](https://m.blog.naver.com/wnrjsxo/221267600469)
 
 ## 3. <abbr title="Lightweight Directory Access Protocol">LDAP</abbr> 인젝션(<abbr title="Lightweight Directory Access Protocol">LDAP</abbr> Injection), LI
 
@@ -170,8 +170,8 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ### 출처
 
-- [PortSwigger, 「LDAP injection」](https://portswigger.net/kb/issues/00100500_ldap-injection)
-- [LDAP.com, 「LDAP DNs and RDNs」](https://ldap.com/ldap-dns-and-rdns/)
+- PortSwigger. 「LDAP injection」. [PortSwigger](https://portswigger.net/kb/issues/00100500_ldap-injection)
+- LDAP.com. 「LDAP DNs and RDNs」. [LDAP.com](https://ldap.com/ldap-dns-and-rdns/)
 
 ## 4. 운영체제 명령 실행(OS Command Execution), OC
 
@@ -197,8 +197,8 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ### 출처
 
-- [MITRE CVE, 「Search CVE List」](https://cve.mitre.org/cve/search_cve_list.html)
-- [NVD, 「Search Vulnerability Database」](https://nvd.nist.gov/vuln/search)
+- MITRE CVE. 「Search CVE List」. [MITRE CVE](https://cve.mitre.org/cve/search_cve_list.html)
+- NVD. 「Search Vulnerability Database」. [NVD](https://nvd.nist.gov/vuln/search)
 
 ## 5. <abbr title="Structured Query Language">SQL</abbr> 인젝션(<abbr title="Structured Query Language">SQL</abbr> Injection), SI
 
@@ -229,7 +229,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ### 출처
 
-- [Velog, 「JSP, PHP, ASP 개념 / 장단점 / 비교」](https://velog.io/@bcl0206/JSP-PHP-ASP)
+- Velog. 「JSP, PHP, ASP 개념 / 장단점 / 비교」. [Velog](https://velog.io/@bcl0206/JSP-PHP-ASP)
 
 ## 6. <abbr title="Server Side Includes">SSI</abbr> 인젝션(<abbr title="Server Side Includes">SSI</abbr> Injection), SS
 
@@ -251,7 +251,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ### 출처
 
-- [Tistory, 「SSI 인젝션 개념 정리 및 실습」](https://mokpo.tistory.com/390)
+- Tistory. 「SSI 인젝션 개념 정리 및 실습」. [Tistory](https://mokpo.tistory.com/390)
 
 ## 7. XPath 인젝션(XPath Injection), XI
 
@@ -269,7 +269,7 @@ XPath 쿼리에 사용자가 값을 입력할 수 있는 경우, 엄격한 입�
 
 ### 출처
 
-- [Imperva, 「XPath Injection」](https://www.imperva.com/learn/application-security/xpath-injection/)
+- Imperva. 「XPath Injection」. [Imperva](https://www.imperva.com/learn/application-security/xpath-injection/)
 
 ## 8. 디렉터리 인덱싱(Directory Indexing), DI
 
@@ -287,7 +287,7 @@ XPath 쿼리에 사용자가 값을 입력할 수 있는 경우, 엄격한 입�
 
 ### 출처
 
-- [Tistory, 「4. 디렉토리 인덱싱 취약점」](https://whitesnake1004.tistory.com/134)
+- Tistory. 「4. 디렉토리 인덱싱 취약점」. [Tistory](https://whitesnake1004.tistory.com/134)
 
 ## 9 정보 누출(Information Leakage), IL
 

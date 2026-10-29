@@ -656,13 +656,13 @@ CREATE
 
 ## 출처
 
-- [MDN, 「SQL Injection」](https://developer.mozilla.org/ko/docs/Glossary/SQL_Injection)
-- [OWASP, 「SQL Injection」](https://owasp.org/www-community/attacks/SQL_Injection)
-- [OWASP, 「SQL Injection Prevention Cheat Sheet」](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
-- [OWASP, 「Query Parameterization Cheat Sheet」](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html)
-- [MITRE CWE-89, 「Improper Neutralization of Special Elements used in an SQL Command」](https://cwe.mitre.org/data/definitions/89.html)
-- [PortSwigger Web Security Academy, 「SQL Injection」](https://portswigger.net/web-security/sql-injection)
-- [PortSwigger Web Security Academy, 「SQL Injection Labs」](https://portswigger.net/web-security/all-labs#sql-injection)
+- MDN. 「SQL Injection」. [MDN](https://developer.mozilla.org/ko/docs/Glossary/SQL_Injection)
+- OWASP. 「SQL Injection」. [OWASP](https://owasp.org/www-community/attacks/SQL_Injection)
+- OWASP. 「SQL Injection Prevention Cheat Sheet」. [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- OWASP. 「Query Parameterization Cheat Sheet」. [OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html)
+- MITRE CWE-89. 「Improper Neutralization of Special Elements used in an SQL Command」. [MITRE CWE-89](https://cwe.mitre.org/data/definitions/89.html)
+- PortSwigger Web Security Academy. 「SQL Injection」. [PortSwigger Web Security Academy](https://portswigger.net/web-security/sql-injection)
+- PortSwigger Web Security Academy. 「SQL Injection Labs」. [PortSwigger Web Security Academy](https://portswigger.net/web-security/all-labs#sql-injection)
 
 <div class="obsidian-links" style="display: none;">
 

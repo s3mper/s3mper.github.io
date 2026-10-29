@@ -139,14 +139,14 @@ double extension (이중확장자)
 4. nas 서버: 파일 저장 서버
 
 # 출처
-- [Imperva, 「What Is a Web Shell?」](https://www.imperva.com/learn/application-security/web-shell/)
-- [Boannews, 「왕초보를 위한 용어 풀이, 디페이스(Deface) 공격이란?」](https://m.boannews.com/html/detail.html?idx=55936)
-- [Naver, 「디페이스 공격이란?」](https://m.blog.naver.com/lhi5693/221347344931)
-- [Imperva, 「What Is a Reverse Shell?」](https://www.imperva.com/learn/application-security/reverse-shell/)
-- [MDN, 「MIME types (IANA media types)」](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types)
-- [MDN, 「Content Type」](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
-- [Naver, 「헥스에디터 ( Hex Editor 핵사 에디터 ) 의 사용법」](https://blog.naver.com/PostView.nhn?blogId=kjg5345&logNo=150098304449)
-- [Apache HTTP Server Docs, 「.htaccess files」](https://httpd.apache.org/docs/2.4/en/howto/htaccess.html)
+- Imperva. 「What Is a Web Shell?」. [Imperva](https://www.imperva.com/learn/application-security/web-shell/)
+- Boannews. 「왕초보를 위한 용어 풀이, 디페이스(Deface) 공격이란?」. [Boannews](https://m.boannews.com/html/detail.html?idx=55936)
+- 네이버 블로그. 「디페이스 공격이란?」. [네이버 블로그](https://m.blog.naver.com/lhi5693/221347344931)
+- Imperva. 「What Is a Reverse Shell?」. [Imperva](https://www.imperva.com/learn/application-security/reverse-shell/)
+- MDN. 「MIME types (IANA media types)」. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types)
+- MDN. 「Content Type」. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
+- 네이버 블로그. 「헥스에디터 ( Hex Editor 핵사 에디터 ) 의 사용법」. [네이버 블로그](https://blog.naver.com/PostView.nhn?blogId=kjg5345&logNo=150098304449)
+- Apache HTTP Server Docs. 「.htaccess files」. [Apache HTTP Server Docs](https://httpd.apache.org/docs/2.4/en/howto/htaccess.html)
 
 <div class="obsidian-links" style="display: none;">
 

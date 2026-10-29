@@ -213,4 +213,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['file'])) {
 
 ## 출처
 
-- [Cloudflare, 「원격 코드 실행이란?」](https://www.cloudflare.com/ko-kr/learning/security/what-is-remote-code-execution/)
+- Cloudflare. 「원격 코드 실행이란?」. [Cloudflare](https://www.cloudflare.com/ko-kr/learning/security/what-is-remote-code-execution/)

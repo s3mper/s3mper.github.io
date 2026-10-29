@@ -349,15 +349,15 @@ int main(int argc, char *argv[]) {
 
 # 출처
 
-- [Tistory, 「[운영체제] 운영체제(OS)란?」](https://jerryjerryjerry.tistory.com/171)
-- [Operating Systems, 「Three Easy Pieces」](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [Naver, 「C언어 main( ) 함수의 명령 인수 (argc, argv)」](https://blog.naver.com/sharonichoya/220501242693)
-- [Tistory, 「[C언어/C++] assert 함수에 대해서: 디버깅을위한, 더 안전한 코드를 위한 오류 검출 방법」](https://blockdmask.tistory.com/286)
-- [Tistory, 「gcc 그리고 unistd.h」](https://wonillism.tistory.com/151)
-- [Naver, 「c언어의 volatile 키워드」](https://m.blog.naver.com/eslectures/80143556699)
-- [Naver, 「[C] pthread란? pthread 예제」](https://m.blog.naver.com/whtie5500/221692793640)
-- [Tistory, 「C/C++ open 함수 - 파일 생성 / 읽기 / 쓰기」](https://bubble-dev.tistory.com/entry/CC-open-%ED%95%A8%EC%88%98-%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1-%EC%9D%BD%EA%B8%B0-%EC%93%B0%EA%B8%B0)
-- [Tistory, 「open, read, write, close 사용하기」](https://tempdev.tistory.com/44)
+- Tistory. 「[운영체제] 운영체제(OS)란?」. [Tistory](https://jerryjerryjerry.tistory.com/171)
+- Operating Systems. 「Three Easy Pieces」. [Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- 네이버 블로그. 「C언어 main( ) 함수의 명령 인수 (argc, argv)」. [네이버 블로그](https://blog.naver.com/sharonichoya/220501242693)
+- Tistory. 「[C언어/C++] assert 함수에 대해서: 디버깅을위한, 더 안전한 코드를 위한 오류 검출 방법」. [Tistory](https://blockdmask.tistory.com/286)
+- Tistory. 「gcc 그리고 unistd.h」. [Tistory](https://wonillism.tistory.com/151)
+- 네이버 블로그. 「c언어의 volatile 키워드」. [네이버 블로그](https://m.blog.naver.com/eslectures/80143556699)
+- 네이버 블로그. 「[C] pthread란? pthread 예제」. [네이버 블로그](https://m.blog.naver.com/whtie5500/221692793640)
+- Tistory. 「C/C++ open 함수 - 파일 생성 / 읽기 / 쓰기」. [Tistory](https://bubble-dev.tistory.com/entry/CC-open-%ED%95%A8%EC%88%98-%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1-%EC%9D%BD%EA%B8%B0-%EC%93%B0%EA%B8%B0)
+- Tistory. 「open, read, write, close 사용하기」. [Tistory](https://tempdev.tistory.com/44)
 
 <div class="obsidian-links" style="display: none;">
 

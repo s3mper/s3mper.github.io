@@ -83,11 +83,11 @@ Injection 보안 대책의 핵심은 데이터를 명령 및 쿼리와 분리하
 
 ## 출처
 
-- [invicti, 「JSON 주입」](https://www.invicti.com/learn/json-injection)
-- [GeekNews, 「JSON 인젝션을 이용한 API 공격」](https://news.hada.io/topic?id=17615)
-- [OWASP, 「Injection」](https://owasp.org/Top10/2021/A03_2021-Injection/index.html)
-- [PortSwigger, 「DOM-based client-side JSON injection」](https://portswigger.net/web-security/dom-based/client-side-json-injection)
-- [CWE, 「OWASP Top Ten 2013 Category A1 - Injection」](https://cwe.mitre.org/data/definitions/929.html)
+- invicti. 「JSON 주입」. [invicti](https://www.invicti.com/learn/json-injection)
+- GeekNews. 「JSON 인젝션을 이용한 API 공격」. [GeekNews](https://news.hada.io/topic?id=17615)
+- OWASP. 「Injection」. [OWASP](https://owasp.org/Top10/2021/A03_2021-Injection/index.html)
+- PortSwigger. 「DOM-based client-side JSON injection」. [PortSwigger](https://portswigger.net/web-security/dom-based/client-side-json-injection)
+- CWE. 「OWASP Top Ten 2013 Category A1 - Injection」. [CWE](https://cwe.mitre.org/data/definitions/929.html)
 
 <div class="obsidian-links" style="display: none;">
 

@@ -954,15 +954,15 @@ for (path, dirs, files) in os.walk(root_path):
 
 # 출처
 
-- [Velog, 「Dataset.map」](https://velog.io/@gsgh3016/Dataset.map)
-- [Tistory, 「[RN] ONNX(Open Neural Network Exchange) 이해하기 -1: React Native 활용」](https://adjh54.tistory.com/203)
-- [Tistory, 「전이학습(Transfer learning)과 파인튜닝(Fine tuning)」](https://hi-ai0913.tistory.com/32)
-- [Tistory, 「[Python, KoBERT] 다중 감정 분류 모델 구현하기 (huggingface로 이전 방법 O)」](https://hoit1302.tistory.com/159)
-- [Tistory, 「[KoBERT] SKTBrain의 KoBERT 공부하기」](https://nowolver.tistory.com/13)
-- [Tistory, 「1.허깅페이스란?」](https://jaeyoon-95.tistory.com/222)
-- [Hugging Face, 「KoBERT」](https://huggingface.co/monologg/kobert)
-- [Steemit, 「[인지과학] 사람의 감정을 어떻게 정의할 수 있을까?」](https://steemit.com/kr-science/@man-in-the-moon/5sboad)
-- [Tistory, 「[Python] 히트맵 그리기 (Heatmap by python matplotlib, seaborn, pandas)」](https://rfriend.tistory.com/419)
+- Velog. 「Dataset.map」. [Velog](https://velog.io/@gsgh3016/Dataset.map)
+- Tistory. 「[RN] ONNX(Open Neural Network Exchange) 이해하기 -1: React Native 활용」. [Tistory](https://adjh54.tistory.com/203)
+- Tistory. 「전이학습(Transfer learning)과 파인튜닝(Fine tuning)」. [Tistory](https://hi-ai0913.tistory.com/32)
+- Tistory. 「[Python, KoBERT] 다중 감정 분류 모델 구현하기 (huggingface로 이전 방법 O)」. [Tistory](https://hoit1302.tistory.com/159)
+- Tistory. 「[KoBERT] SKTBrain의 KoBERT 공부하기」. [Tistory](https://nowolver.tistory.com/13)
+- Tistory. 「1.허깅페이스란?」. [Tistory](https://jaeyoon-95.tistory.com/222)
+- Hugging Face. 「KoBERT」. [Hugging Face](https://huggingface.co/monologg/kobert)
+- Steemit. 「[인지과학] 사람의 감정을 어떻게 정의할 수 있을까?」. [Steemit](https://steemit.com/kr-science/@man-in-the-moon/5sboad)
+- Tistory. 「[Python] 히트맵 그리기 (Heatmap by python matplotlib, seaborn, pandas)」. [Tistory](https://rfriend.tistory.com/419)
 
 <div class="obsidian-links" style="display: none;">
 

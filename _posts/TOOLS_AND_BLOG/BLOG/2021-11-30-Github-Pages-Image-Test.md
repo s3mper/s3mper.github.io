@@ -55,11 +55,11 @@ cdn 이용하기
 
 ## 출처
 
-- [GitHub Raw, 「github blog raw code」](https://raw.githubusercontent.com/TaylanTatli/Moon/master/_posts/2016-03-20-markdown-syntax.md)
-- [GitHub, 「2013-05-22-sample-post-images.md」](https://github.com/TaylanTatli/Moon/blob/master/_posts/2013-05-22-sample-post-images.md)
-- [Taewan, 「마크다운 사용법 - Quick Start」](http://taewan.kim/post/markdown/#comment)
-- [GitHub Pages, 「[Blog] GitHub Pages 블로그 이미지 업로드」](https://hyeonjiwon.github.io/blog/markdown_img/)
-- [Blog, 「지킬(Jekyll) 포스팅에 이미지 첨부하는 방법 총체적 정리」](https://blog.jaeyoon.io/2017/12/jekyll-image.html)
+- GitHub Raw. 「github blog raw code」. [GitHub Raw](https://raw.githubusercontent.com/TaylanTatli/Moon/master/_posts/2016-03-20-markdown-syntax.md)
+- GitHub. 「2013-05-22-sample-post-images.md」. [GitHub](https://github.com/TaylanTatli/Moon/blob/master/_posts/2013-05-22-sample-post-images.md)
+- Taewan. 「마크다운 사용법 - Quick Start」. [Taewan](http://taewan.kim/post/markdown/#comment)
+- Github 블로그. 「[Blog] GitHub Pages 블로그 이미지 업로드」. [Github 블로그](https://hyeonjiwon.github.io/blog/markdown_img/)
+- Blog. 「지킬(Jekyll) 포스팅에 이미지 첨부하는 방법 총체적 정리」. [Blog](https://blog.jaeyoon.io/2017/12/jekyll-image.html)
 
 <div class="obsidian-links" style="display: none;">
 

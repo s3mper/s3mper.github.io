@@ -149,13 +149,13 @@ Event-Synchronous OTP는 시간 대신 **이벤트/카운터(예: 버튼 누름,
 
 ## 출처
 
-- [Auth Wiki, 「OTP는 무엇인가요?」](https://auth-wiki.logto.io/ko/otp)
-- [Entrust, 「OTP란 무엇입니까?」](https://www.entrust.com/ko/resources/learn/what-is-a-one-time-password)
-- [Wikipedia, 「OTP」](https://ko.wikipedia.org/wiki/%EC%9D%BC%ED%9A%8C%EC%9A%A9_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8)
-- [Naver, 「2차 인증 방식」](https://d2.naver.com/helloworld/279640)
-- [Tistory, 「OTP(One-Time Password)에 대해 알아보겠습니다.」](https://feccle.tistory.com/329)
-- [Tistory, 「OTP의 동작 원리, HOTP와 TOTP 이해하기」](https://danyoujeong.tistory.com/223)
-- [Tistory, 「OTP (One Time Password) 인증」](https://plummmm.tistory.com/311)
+- Auth Wiki. 「OTP는 무엇인가요?」. [Auth Wiki](https://auth-wiki.logto.io/ko/otp)
+- Entrust. 「OTP란 무엇입니까?」. [Entrust](https://www.entrust.com/ko/resources/learn/what-is-a-one-time-password)
+- Wikipedia. 「OTP」. [Wikipedia](https://ko.wikipedia.org/wiki/%EC%9D%BC%ED%9A%8C%EC%9A%A9_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8)
+- Naver. 「2차 인증 방식」. [Naver](https://d2.naver.com/helloworld/279640)
+- Tistory. 「OTP(One-Time Password)에 대해 알아보겠습니다.」. [Tistory](https://feccle.tistory.com/329)
+- Tistory. 「OTP의 동작 원리, HOTP와 TOTP 이해하기」. [Tistory](https://danyoujeong.tistory.com/223)
+- Tistory. 「OTP (One Time Password) 인증」. [Tistory](https://plummmm.tistory.com/311)
 
 <div class="obsidian-links" style="display: none;">
 

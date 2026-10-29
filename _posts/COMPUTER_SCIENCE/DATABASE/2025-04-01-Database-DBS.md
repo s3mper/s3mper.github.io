@@ -179,7 +179,7 @@ DBMS 성능 개선(tuning)
 
 # 출처
 
-- [Tistory, 「스키마란? (개념스키마, 내부스키마, 외부스키마)」](https://jwprogramming.tistory.com/47)
+- Tistory. 「스키마란? (개념스키마, 내부스키마, 외부스키마)」. [Tistory](https://jwprogramming.tistory.com/47)
 
 <div class="obsidian-links" style="display: none;">
 
