@@ -18,26 +18,26 @@ tags: [SOFTWARE_DESIGN]
 
 ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-12-12-45-48.png?raw=true)
 
-1. [McCall (1977)](#51-mccall-1977)
-	1. [목적·배경](#511-목적배경)
-	2. [3대 관점과 11개 요인](#512-3대-관점과-11개-요인)
-	3. [계층 구조(측정 프레임)](#513-계층-구조측정-프레임)
-	4. [장점·한계](#514-장점한계)
-2. [Boehm (1978)](#52-boehm-1978)
-	1. [목적·배경](#521-목적배경)
-	2. [구조(3계층)](#522-구조3계층)
-	3. [모델 관계·특징](#523-모델-관계특징)
-	4. [장점·한계](#524-장점한계)
-3. [FURPS(+)](#53-furps)
-	1. [목적·배경](#531-목적배경)
-	2. [구조](#532-구조)
-	3. [모델 관계/특징](#533-모델-관계특징)
-	4. [장점·한계](#534-장점한계)
-4. [Dromey](#54-dromey)
-	1. [목적·배경](#541-목적배경)
-	2. [구조](#542-구조)
-	3. [모델 관계/특징](#543-모델-관계특징)
-	4. [장점·한계](#544-장점한계)
+1. [McCall (1977)](#1-mccall-1977)
+	1. [목적·배경](#11-목적배경)
+	2. [3대 관점과 11개 요인](#12-3대-관점과-11개-요인)
+	3. [계층 구조(측정 프레임)](#13-계층-구조측정-프레임)
+	4. [장점·한계](#14-장점한계)
+2. [Boehm (1978)](#2-boehm-1978)
+	1. [목적·배경](#21-목적배경)
+	2. [구조(3계층)](#22-구조3계층)
+	3. [모델 관계·특징](#23-모델-관계특징)
+	4. [장점·한계](#24-장점한계)
+3. [FURPS(+)](#3-furps)
+	1. [목적·배경](#31-목적배경)
+	2. [구조](#32-구조)
+	3. [모델 관계/특징](#33-모델-관계특징)
+	4. [장점·한계](#34-장점한계)
+4. [Dromey](#4-dromey)
+	1. [목적·배경](#41-목적배경)
+	2. [구조](#42-구조)
+	3. [모델 관계/특징](#43-모델-관계특징)
+	4. [장점·한계](#44-장점한계)
 5. [출처](#출처)
 
 ---
@@ -124,6 +124,7 @@ tags: [SOFTWARE_DESIGN]
 
 - 1978년 Barry W. Boehm이 제안한 소프트웨어 품질 모델이다.
 - 자동·정량 평가의 한계를 보완하기 위해 **속성 집합과 메트릭으로 품질을 정성적으로 정의**하는 **계층형 모델**(상위→중간→원시 특성)이다.
+- McCall 모델이 주로 상위 수준 특성의 정밀한 측정에 초점을 맞추는 반면, Boehm 모델은 더 광범위한 특성을 기반으로 한다.
 
 ![|500x375](../../../_image/2026-10-29-22-21-53.png)
 > **그림 출처:** Bitew, N., & Singh, J. (2019). _A Study on Software Quality Factors and Metrics to Enhance Software Quality Assurance_, Figure 4, “Boehm software quality model.” [원본 도식](https://www.researchgate.net/figure/Boehm-software-quality-model_fig3_337550373)을 참고하여 AI로 재구성.
@@ -131,17 +132,17 @@ tags: [SOFTWARE_DESIGN]
 ### 2.2. 구조(3계층)
 
 1. **상위 특성(High-level)**: 사용자가 실제로 묻는 3가지 질문
-	- **As-is Utility**: 지금 당장 신뢰성·효율성·사용성 측면에서 잘 쓸 수 있는가?
-	- **Maintainability**: 이해·수정·재테스트가 쉬운가?
-	- **Portability**: 환경이 바뀌어도 쓸 수 있는가?
+	- **유용성(As-is Utility)**: 지금 당장 신뢰성·효율성·사용성 측면에서 잘 쓸 수 있는가?
+	- **유지보수성(Maintainability)**: 이해·수정·재테스트가 쉬운가?
+	- **이식성(Portability)**: 환경이 바뀌어도 쓸 수 있는가?
 2. **중간 요인(7 Factors)**: 시스템에 기대되는 품질, 각 요인의 정의와 귀속(As-is, Maintainability, General Utility)까지 제시
-	- **Portability**
-	- **Reliability**
-	- **Efficiency**
-	- **Usability(인간공학)**
-	- **Testability**
-	- **Understandability**
-	- **Flexibility(=Modifiability)**.
+	- **이식성(Portability)**
+	- **신뢰성(Reliability)**
+	- **효율성(Efficiency)**
+	- **사용성(인간공학)(Usability)**
+	- **테스트 용이성(Testability)**
+	- **이해 용이성(Understandability)**
+	- **수정 용이성(Flexibility(=Modifiability))**.
 3. **원시 특성(Primitive) & 메트릭 계층**: **측정 기반**을 제공(특성별 하나 이상 메트릭 연결).
 
 ### 2.3. 모델 관계·특징
@@ -227,10 +228,10 @@ tags: [SOFTWARE_DESIGN]
 
 ## 출처
 
-- [ACADEMIA, 「Software Quality Models and Philosophies」](https://www.academia.edu/24491465/Chapter_One_1_Software_Quality_Models_and_Philosophies_1_1_Introduction)
-- [IT 위키: McCall 품질 모델](https://itwiki.kr/w/McCall_%ED%92%88%EC%A7%88_%EB%AA%A8%EB%8D%B8)
-- [Geeksforgeeks: McCall's Quality Model](https://www.geeksforgeeks.org/software-engineering/mccalls-quality-model/)
-- Doinea, M., & Van Osch, W. (2010). Collaborative Systems: Defining and Measuring Quality Characteristics. Journal of Applied Collaborative Systems, 2(1), 50–61.
-- [Tistory: (소프트웨어공학) McCall의 품질 모델](https://continuetochallenge.tistory.com/186)
-- [Geeksforgeeks: Boehm's Software Quality Model](https://www.geeksforgeeks.org/software-engineering/boehms-software-quality-model/)
-- Bitew, N., & Singh, J. (2019). _A Study on Software Quality Factors and Metrics to Enhance Software Quality Assurance_, Figure 4, “Boehm software quality model.”
+- ACADEMIA. 「Software Quality Models and Philosophies」. [Academia.edu](https://www.academia.edu/24491465/Chapter_One_1_Software_Quality_Models_and_Philosophies_1_1_Introduction)
+- IT 위키. 「McCall 품질 모델」. [IT 위키](https://itwiki.kr/w/McCall_%ED%92%88%EC%A7%88_%EB%AA%A8%EB%8D%B8)
+- GeeksforGeeks. 「McCall's Quality Model」. [GeeksforGeeks](https://www.geeksforgeeks.org/software-engineering/mccalls-quality-model/)
+- Doinea, M., & Van Osch, W. (2010). 「Collaborative Systems: Defining and Measuring Quality Characteristics」. _Journal of Applied Collaborative Systems_, 2(1), 50–61. [ResearchGate](https://www.researchgate.net/publication/228728142_Collaborative_Systems_Defining_and_Measuring_Quality_Characteristics)
+- Tistory. 「(소프트웨어공학) McCall의 품질 모델」. [Tistory](https://continuetochallenge.tistory.com/186)
+- GeeksforGeeks. 「Boehm's Software Quality Model」. [GeeksforGeeks](https://www.geeksforgeeks.org/software-engineering/boehms-software-quality-model/)
+- Bitew, N., & Singh, J. (2019). 「A Study on Software Quality Factors and Metrics to Enhance Software Quality Assurance」. Figure 4, _Boehm Software Quality Model_. [ResearchGate](https://www.researchgate.net/figure/Boehm-software-quality-model_fig3_337550373)
