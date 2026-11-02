@@ -12,7 +12,13 @@
     {% if trail.num == paginator.page %}
       <span class="page current" aria-current="page">{{ trail.num }}</span>
     {% else %}
-      <a class="page number" href="{{ trail.path | relative_url }}">{{ trail.num }}</a>
+      {% assign trail_path = trail.path %}
+      {% assign trail_suffix = trail_path | slice: -11, 11 %}
+      {% if trail_suffix == '/index.html' %}
+        {% assign trail_length = trail_path.size | minus: 10 %}
+        {% assign trail_path = trail_path | slice: 0, trail_length %}
+      {% endif %}
+      <a class="page number" href="{{ trail_path | relative_url }}">{{ trail.num }}</a>
     {% endif %}
   {% endfor %}
 
