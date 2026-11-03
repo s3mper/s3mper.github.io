@@ -172,6 +172,6 @@ tags: [TIL, WEB, DATABASE, CTF]
 <div class="obsidian-links" style="display: none;">
 
 [\[SECURITY\] SQL Injection 정리](../SECURITY_FUNDAMENTALS/2024-11-14-SQL-Injection.md)
-[\[SECURITY\] Union SQL Injection](../SECURITY_FUNDAMENTALS/2024-11-20-Union-SQL-Injection.md)
+[\[SECURITY\] Union SQL Injection](../SECURITY_FUNDAMENTALS/2024-11-20-UNION-SQL-Injection.md)
 
 </div>
