@@ -30,7 +30,7 @@ tags: [TIL, WEB, CTF]
 
 ## 1. Intro
 
-[출처] [Dreamhack, 「Are you admin?」](https://dreamhack.io/wargame/challenges/1922)
+Dreamhack. 「Are you admin?」. [Dreamhack](https://dreamhack.io/wargame/challenges/1922)
 
 ## 2. Code
 

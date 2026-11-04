@@ -72,7 +72,7 @@ tags: [COMPUTER_VISION]
 
 - [Richard Szeliski «Computer Vision: Algorithms and Applications» (2nd Edition, 2022)](https://szeliski.org/Book)
 - [Aston Zhang «Dive into Deep Learning» (2022)](https://d2l.ai/)
-- <https://learnpython.org>
+- LearnPython.org. 「Learn Python - Free Interactive Python Tutorial」. [LearnPython.org](https://learnpython.org/)
 - [코세라](https://kr/courser.org/courses?query=python)
 
 <div class="obsidian-links" style="display: none;">

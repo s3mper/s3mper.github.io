@@ -16,7 +16,7 @@ tags: [ALGORITHM, BAEKJOON, PYTHON]
 
 # 11758 CCW
 
-[출처] [Baekjoon Online Judge, 「11758번 문제」](https://www.acmicpc.net/problem/11758)
+Baekjoon Online Judge. 「11758번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/11758)
 
 ![문제](/_image/2025-03-05-00-00-09.png)
 

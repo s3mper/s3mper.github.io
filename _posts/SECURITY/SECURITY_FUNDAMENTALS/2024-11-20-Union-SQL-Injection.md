@@ -80,13 +80,13 @@ UNION SQL Injection(이하 UNION SQLi): SQL Injection 중에서 `UNION` 구문�
 
 ---
 
-## 참고
+## 출처
 
-1. https://www.redirhub.com/ko/blog/redirect-types-and-seo-effects-2
-2. https://developer.mozilla.org/ko/docs/Web/HTTP/Redirections
-3. <https://sqlfiddle.com/>
-4. <https://pentestmonkey.net/cheat-sheet/sql-injection/oracle-sql-injection-cheat-sheet>
-5. <https://blog.naver.com/sk_shieldus/222734386644>
+- RedirHub. 「Redirect Types and SEO Effects」. [RedirHub](https://www.redirhub.com/ko/blog/redirect-types-and-seo-effects-2)
+- MDN. 「HTTP 리디렉션」. [MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Redirections)
+- SQL Fiddle. 「Online SQL Compiler for Learning & Practice」. [SQL Fiddle](https://sqlfiddle.com/)
+- Pentestmonkey. 「Oracle SQL Injection Cheat Sheet」. [Pentestmonkey](https://pentestmonkey.net/cheat-sheet/sql-injection/oracle-sql-injection-cheat-sheet)
+- SK Shieldus. 「웹 취약점과 해킹 메커니즘 #2 SQL Injection 개요」. [네이버 블로그](https://blog.naver.com/sk_shieldus/222734386644)
 
 <div class="obsidian-links" style="display: none;">
 

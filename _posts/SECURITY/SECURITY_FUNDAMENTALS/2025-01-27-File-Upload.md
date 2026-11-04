@@ -138,7 +138,7 @@ double extension (이중확장자)
 -> BLOB / CLOB
 4. nas 서버: 파일 저장 서버
 
-# 출처
+## 출처
 - Imperva. 「What Is a Web Shell?」. [Imperva](https://www.imperva.com/learn/application-security/web-shell/)
 - Boannews. 「왕초보를 위한 용어 풀이, 디페이스(Deface) 공격이란?」. [Boannews](https://m.boannews.com/html/detail.html?idx=55936)
 - 네이버 블로그. 「디페이스 공격이란?」. [네이버 블로그](https://m.blog.naver.com/lhi5693/221347344931)

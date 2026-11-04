@@ -35,7 +35,7 @@ tags: [DATABASE, TIL]
 유일성 제약
 무결성 제약
 
-# 출처
+## 출처
 - Tistory. 「관계데이터모델」. [Tistory](https://mangkyu.tistory.com/21)
 - Velog. 「관계 데이터 모델과 제약조건」. [Velog](https://velog.io/@wilko97/2%EC%9E%A5.-%EA%B4%80%EA%B3%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EA%B3%BC-%EC%A0%9C%EC%95%BD%EC%A1%B0%EA%B1%B4)
 

@@ -16,7 +16,7 @@ tags: [ALGORITHM, BAEKJOON, PYTHON]
 
 # 12789 도키도키 간식드리미
 
-[출처] [Baekjoon Online Judge, 「12789번 문제」](https://www.acmicpc.net/problem/12789)
+Baekjoon Online Judge. 「12789번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/12789)
 
 ![문제](/_image/2025-03-11-00-00-00.png)
 

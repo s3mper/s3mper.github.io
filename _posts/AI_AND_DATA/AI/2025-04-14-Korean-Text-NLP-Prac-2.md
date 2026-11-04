@@ -53,7 +53,7 @@ tags: [NLP, TIL]
 ## 1. 활용 데이터셋 소개
 
 emotion_korTran.data  
-[출처] [Naver, 「감정분석과 감정분석 말뭉치」](https://cafe.naver.com/nlpk/335)
+Naver. 「감정분석과 감정분석 말뭉치」. [Naver](https://cafe.naver.com/nlpk/335)
 
 ## 2. 환경설정 (Google Colab)
 
@@ -952,7 +952,7 @@ for (path, dirs, files) in os.walk(root_path):
 
 ---
 
-# 출처
+## 출처
 
 - Velog. 「Dataset.map」. [Velog](https://velog.io/@gsgh3016/Dataset.map)
 - Tistory. 「[RN] ONNX(Open Neural Network Exchange) 이해하기 -1: React Native 활용」. [Tistory](https://adjh54.tistory.com/203)

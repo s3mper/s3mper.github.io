@@ -33,7 +33,7 @@ tags: [TIL, WEB, CTF]
 
 ## 1. Intro
 
-[출처] [Dreamhack, 「Really Not SQL」](https://dreamhack.io/wargame/challenges/2105)
+Dreamhack. 「Really Not SQL」. [Dreamhack](https://dreamhack.io/wargame/challenges/2105)
 
 Apache와 PHP로 구성된 간단한 로그인 애플리케이션이다.
 

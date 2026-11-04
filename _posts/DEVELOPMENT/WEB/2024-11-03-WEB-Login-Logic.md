@@ -218,13 +218,13 @@ function login8($conn, $user_id, $user_pw) {
 }
 ```
 
-# 출처
+## 출처
 
-1. [PHP Hash 함수 사용](https://blog.naver.com/crehacktive3/221146696692)
-1. [SQL Injection](https://ko.wikipedia.org/wiki/SQL_%EC%82%BD%EC%9E%85)
-1. [Escape String 1](https://www.w3schools.com/php/php_string_escape.asp)
-1. [Escape String 2](https://m.blog.naver.com/jskorl/220544334899)
-1. [PHP 문법: mysqli_real_escape_string](https://www.php.net/manual/en/mysqli.real-escape-string.php)
+- 네이버 블로그. 「PHP Hash 함수 사용」. [네이버 블로그](https://blog.naver.com/crehacktive3/221146696692)
+- Wikipedia. 「SQL 삽입」. [Wikipedia](https://ko.wikipedia.org/wiki/SQL_%EC%82%BD%EC%9E%85)
+- W3Schools. 「PHP Escape Characters」. [W3Schools](https://www.w3schools.com/php/php_string_escape.asp)
+- 네이버 블로그. 「Escape String」. [네이버 블로그](https://m.blog.naver.com/jskorl/220544334899)
+- PHP Docs. 「mysqli::real_escape_string」. [PHP Docs](https://www.php.net/manual/en/mysqli.real-escape-string.php)
 
 <div class="obsidian-links" style="display: none;">
 

@@ -84,7 +84,7 @@ tags: [BLOG]
 - Velog. 「[Github Blog] 방문자 통계(Analytics)하기」. [Velog](https://velog.io/@eona1301/Github-Blog-%EB%B0%A9%EB%AC%B8%EC%9E%90-%ED%86%B5%EA%B3%84Analytics%ED%95%98%EA%B8%B0)
 - Tistory. 「깃블로그(jekyll)에 구글 애널리틱스(Google Analytics) 적용법!」. [Tistory](https://mingnol2.tistory.com/70)
 - Github 블로그. 「github blog, page google analytics로 측정하기」. [Github 블로그](https://chinsun9.github.io/2020/11/20/github-blog-page-google-analytics%EB%A1%9C-%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0/)
-* ~~[404 Not Found](https://atgane.tistory.com/14)~~
+- ~~[404 Not Found](https://atgane.tistory.com/14)~~
 
 <div class="obsidian-links" style="display: none;">
 

@@ -85,7 +85,7 @@ Skipjack,
 <img src = "/_image/2024-11-08-00-00-01.jpg">
 -> 이런 방식으로 서로 같은 키를 공유할 수 있다!
 
-# 출처
+## 출처
 - Namu. 「인코딩」. [Namu](https://namu.wiki/w/%EC%9D%B8%EC%BD%94%EB%94%A9)
 - Raonctf. 「암호화」. [Raonctf](https://raonctf.com/essential/study/web/cryptography)
 - Namu. 「복호화」. [Namu](https://namu.wiki/w/%EB%B3%B5%ED%98%B8%ED%99%94)
@@ -96,7 +96,7 @@ Skipjack,
 - Tistory. 「단/양방향 암호화 2」. [Tistory](https://javaplant.tistory.com/26)
 - Velog. 「단/양방향 암호화 3」. [Velog](https://velog.io/@kdh10806/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94)
 - Tistory. 「단/양방향 암호화 4」. [Tistory](https://0boss.tistory.com/71)
-* \<정보보안 개론\> - 양대일
+- 양대일. 「정보보안 개론」.
 
 <script>
 mermaid.initialize({startOnLoad:true});

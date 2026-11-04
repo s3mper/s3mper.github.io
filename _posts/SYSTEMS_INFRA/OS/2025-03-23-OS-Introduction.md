@@ -347,7 +347,7 @@ int main(int argc, char *argv[]) {
     * 보안성
     * Mobility
 
-# 출처
+## 출처
 
 - Tistory. 「[운영체제] 운영체제(OS)란?」. [Tistory](https://jerryjerryjerry.tistory.com/171)
 - Operating Systems. 「Three Easy Pieces」. [Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/)

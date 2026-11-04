@@ -67,7 +67,7 @@ tags: [LINUX, PARTITION, FILESYSTEM, INSTALLATIO]
 
 ![partition](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-05-42.png)
 
-<small>[출처] [정보통신기술용어해설, 「Disk Partition, Disk Volume 디스크 파티션, 디스크 볼륨, 디스크 구성 단위」](http://www.ktword.co.kr/test/view/view.php?no=4856)</small>
+<small>정보통신기술용어해설. 「Disk Partition, Disk Volume 디스크 파티션, 디스크 볼륨, 디스크 구성 단위」. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?no=4856)</small>
 
 예를 들어 하나의 디스크를 다음과 같이 분리할 수 있다.
 
@@ -100,7 +100,7 @@ D: 데이터 저장 영역
 
 ![mount](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-07-58.png)
 
-<small>[출처] [TakeTheNotes, 「Exploring the World of Mount Points in Linux Disk Management」](https://takethenotes.com/mount-points/)</small>
+<small>TakeTheNotes. 「Exploring the World of Mount Points in Linux Disk Management」. [TakeTheNotes](https://takethenotes.com/mount-points/)</small>
 
 리눅스는 모든 파일과 장치를 최상위 디렉터리인 루트 디렉터리 `/` 아래에 배치한다. 따라서 별도의 드라이브 문자를 사용하는 대신 파티션을 특정 디렉터리에 연결한다.
 
@@ -307,7 +307,7 @@ MBR 방식에서는 하나의 디스크에 최대 네 개까지 만들 수 있�
 
 ![MBR vs GPT](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-15-26.png)
 
-<small>[출처] [howtouselinux, 「Understanding Disk Partition in Linux – MBR vs GPT」](https://www.howtouselinux.com/post/mbr-vs-gpt)</small>
+<small>howtouselinux. 「Understanding Disk Partition in Linux – MBR vs GPT」. [howtouselinux](https://www.howtouselinux.com/post/mbr-vs-gpt)</small>
 
 ### 6.1. MBR
 

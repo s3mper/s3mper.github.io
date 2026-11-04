@@ -371,4 +371,4 @@ tags: [ECONOMY]
 
 ## 출처
 
-<https://www.tradingkey.com/kr/tools/heat-map>
+- TradingKey. 「시장 히트맵」. [TradingKey](https://www.tradingkey.com/kr/tools/heat-map)

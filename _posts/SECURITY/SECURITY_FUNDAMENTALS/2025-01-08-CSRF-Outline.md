@@ -119,7 +119,7 @@ GET 방식이면 프리패스
 POST -> XSS, form tag
 CORS 정책이 잘 적용되어 있지 않다 -> 공격자 서버 만들어서 공격
 
-# 출처
+## 출처
 - Velog. 「CSRF 공격과 방어 기법」. [Velog](https://velog.io/@gwanuuoo/CSRF-%EA%B3%B5%EA%B2%A9%EA%B3%BC-%EB%B0%A9%EC%96%B4-%EA%B8%B0%EB%B2%95)
 - Tistory. 「Spring Security_CSRF Token의 개념과 사용 방법」. [Tistory](https://codevang.tistory.com/282)
 - Tistory. 「CSRF(Cross Site Request Forgery)란?」. [Tistory](https://tibetsandfox.tistory.com/11)

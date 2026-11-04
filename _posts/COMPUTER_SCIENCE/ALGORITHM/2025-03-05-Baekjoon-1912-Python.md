@@ -16,7 +16,7 @@ tags: [ALGORITHM, BAEKJOON, PYTHON]
 
 # 연속합
 
-[출처] [Baekjoon Online Judge, 「1912번 문제」](https://www.acmicpc.net/problem/1912)
+Baekjoon Online Judge. 「1912번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/1912)
 
 ![문제](/_image/2025-03-07-00-00-00.png)
 

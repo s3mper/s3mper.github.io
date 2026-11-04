@@ -31,12 +31,12 @@ tags: [AI, DEEP_LEARNING]
 **Decision Tree(의사결정나무)**: 일련의 질문을 통해 예측 결과를 찾아가는 트리 구조의 머신러닝 모델이다.
 
 ![500x452](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-08-02-16-20-54.png)
-<small>[출처] [Towards Data Science, 「Decision Tree Regressor Explained」](https://towardsdatascience.com/decision-tree-regressor-explained-a-visual-guide-with-code-examples-fbd2836c3bef/)</small>
+<small>Towards Data Science. 「Decision Tree Regressor Explained」. [Towards Data Science](https://towardsdatascience.com/decision-tree-regressor-explained-a-visual-guide-with-code-examples-fbd2836c3bef/)</small>
 
 ## 2. Decision Tree의 구조
 
 ![500x231](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-08-02-16-25-39.png)
-<small>[출처] [Tistory, 「Decision Tree Regression 개념과 Python 예제」](https://riverzayden.tistory.com/6)</small>
+<small>Tistory. 「Decision Tree Regression 개념과 Python 예제」. [Tistory](https://riverzayden.tistory.com/6)</small>
 
 | 구성 요소 | 설명                        |
 | ----- | ------------------------- |
@@ -377,7 +377,7 @@ plt.show()
 
 ---
 
-### 출처
+## 출처
 
 - scikit-learn docs. 「DecisionTreeRegressor」. [scikit-learn docs](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
 - scikit-learn docs. 「Decision Trees」. [scikit-learn docs](https://scikit-learn.org/stable/modules/tree.html)

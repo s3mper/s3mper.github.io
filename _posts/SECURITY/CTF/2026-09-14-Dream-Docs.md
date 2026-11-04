@@ -29,7 +29,7 @@ tags: [TIL, WEB, CTF]
 
 ## 1. Intro
 
-[출처] [Dreamhack, 「DreamDocs」](https://dreamhack.io/wargame/challenges/2325)
+Dreamhack. 「DreamDocs」. [Dreamhack](https://dreamhack.io/wargame/challenges/2325)
 
 ## 2. Code
 

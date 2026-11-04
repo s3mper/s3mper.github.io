@@ -234,7 +234,7 @@ Web Service = Web Server(Static Resource) + WAS(Dinamic Resource) + DB
 ## 출처
 
 - Tistory. 「[Docker] Docker Network (docker0와 veth)」. [Tistory](https://yoo11052.tistory.com/208)
-- 키워드] veth. 「리눅스 가상 이더넷 인터페이스란?」. [키워드] veth](https://www.44bits.io/ko/keyword/veth)
+- 44BITS. 「리눅스 가상 이더넷 인터페이스란?」. [44BITS](https://www.44bits.io/ko/keyword/veth)
 - Medium. 「바인딩(Binding)」. [Medium](https://medium.com/pocs/%EB%B0%94%EC%9D%B8%EB%94%A9-binding-4a4a2f641b27)
 - 네이버 블로그. 「리눅스 NIC 종류 (eth, ens, eno, enp)」. [네이버 블로그](https://blog.naver.com/appeal7712/222294712570)
 - Tistory. 「NIC이란 무엇인가?」. [Tistory](https://jettstream.tistory.com/345)
@@ -256,7 +256,8 @@ Web Service = Web Server(Static Resource) + WAS(Dinamic Resource) + DB
 
 ---
 
-* 번외)  
+번외)
+
 후... 우분투 사랑해 ^^7 -> 리눅스 다시 한 번 보는 걸로
 
 <div class="obsidian-links" style="display: none;">

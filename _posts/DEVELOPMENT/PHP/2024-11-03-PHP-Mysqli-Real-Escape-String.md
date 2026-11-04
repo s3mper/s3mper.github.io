@@ -34,6 +34,6 @@ $query = sprintf("INSERT INTO English (sentence) VALUE ('$s')", mysqli_real_esca
 $result = mysqli_query($mysqli, $query);
 ```
 
-# 출처
-1. https://www.php.net/manual/en/mysqli.real-escape-string.php
-2. https://programming119.tistory.com/43
+## 출처
+- PHP Docs. 「mysqli::real_escape_string」. [PHP Docs](https://www.php.net/manual/en/mysqli.real-escape-string.php)
+- 서상혁. 「[PHP] mysqli_real_escape_string 사용법 / PHP 보안」. [Tistory](https://programming119.tistory.com/43)

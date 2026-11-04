@@ -73,7 +73,7 @@ tags: [OS, TIL]
 
 **PCB (Process Control Block)**: 프로세스별 상태(enum proc_state), pid, 부모 포인터, 메모리 크기·시작 주소, 커널 스택 포인터, 컨텍스트 저장 공간(struct context), 트랩 프레임(struct trapframe) 등을 포함한다
 
-# 출처
+## 출처
 
 - Operating Systems. 「Three Easy Pieces」. [Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 

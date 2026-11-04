@@ -146,11 +146,11 @@ cat etc/shadow 패스워드가 암호화되서 저장
 /usr/local: 일반적 프로그램 설치
 /usr/src: rpm, 소스 파일들을 저장해 사용
 
-# 출처
-1. <https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=akohong&logNo=220797668319>
-2. <https://doongdangdoongdangdong.tistory.com/129>
-3. <https://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS6259570844>
-1. <https://helloitstory.tistory.com/25>
+## 출처
+- 네이버 블로그. 「리눅스 부트로더」. [네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=akohong&logNo=220797668319)
+- 둥당둥당동. 「부트 매니저 - LILO, GRUB」. [Tistory](https://doongdangdoongdangdong.tistory.com/129)
+- 한빛출판네트워크. 「리눅스 부팅과 부트로더」. [한빛출판네트워크](https://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS6259570844)
+- Tistory. 「리눅스 부트로더와 실행 레벨」. [Tistory](https://helloitstory.tistory.com/25)
 
 <div class="obsidian-links" style="display: none;">
 
