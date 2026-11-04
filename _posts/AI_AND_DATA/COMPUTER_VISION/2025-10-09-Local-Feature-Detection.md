@@ -180,7 +180,7 @@ tags: [COMPUTER_VISION]
 
 ## 출처
 
-- Github 블로그. 「다변수 함수의 테일러 근사와 tangent hyperplane」. [Github 블로그](https://lightaxis.github.io/posts/multivariable-taylor-series/)
+- lightaxis. 「다변수 함수의 테일러 근사와 tangent hyperplane」. [Github 블로그](https://lightaxis.github.io/posts/multivariable-taylor-series/)
 
 <div class="obsidian-links" style="display: none;">
 

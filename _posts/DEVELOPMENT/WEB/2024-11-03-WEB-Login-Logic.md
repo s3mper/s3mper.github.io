@@ -220,10 +220,10 @@ function login8($conn, $user_id, $user_pw) {
 
 ## 출처
 
-- 네이버 블로그. 「PHP Hash 함수 사용」. [네이버 블로그](https://blog.naver.com/crehacktive3/221146696692)
+- crehacktive3. 「PHP Hash 함수 사용」. [네이버 블로그](https://blog.naver.com/crehacktive3/221146696692)
 - Wikipedia. 「SQL 삽입」. [Wikipedia](https://ko.wikipedia.org/wiki/SQL_%EC%82%BD%EC%9E%85)
 - W3Schools. 「PHP Escape Characters」. [W3Schools](https://www.w3schools.com/php/php_string_escape.asp)
-- 네이버 블로그. 「Escape String」. [네이버 블로그](https://m.blog.naver.com/jskorl/220544334899)
+- jskorl. 「Escape String」. [네이버 블로그](https://m.blog.naver.com/jskorl/220544334899)
 - PHP Docs. 「mysqli::real_escape_string」. [PHP Docs](https://www.php.net/manual/en/mysqli.real-escape-string.php)
 
 <div class="obsidian-links" style="display: none;">

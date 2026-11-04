@@ -230,6 +230,6 @@ tags: [SOFTWARE_DESIGN]
 - IT 위키. 「McCall 품질 모델」. [IT 위키](https://itwiki.kr/w/McCall_%ED%92%88%EC%A7%88_%EB%AA%A8%EB%8D%B8)
 - GeeksforGeeks. 「McCall's Quality Model」. [GeeksforGeeks](https://www.geeksforgeeks.org/software-engineering/mccalls-quality-model/)
 - Doinea, M., & Van Osch, W. (2010). 「Collaborative Systems: Defining and Measuring Quality Characteristics」. _Journal of Applied Collaborative Systems_, 2(1), 50–61. [ResearchGate](https://www.researchgate.net/publication/228728142_Collaborative_Systems_Defining_and_Measuring_Quality_Characteristics)
-- Tistory. 「(소프트웨어공학) McCall의 품질 모델」. [Tistory](https://continuetochallenge.tistory.com/186)
+- continuetochallenge. 「(소프트웨어공학) McCall의 품질 모델」. [Tistory](https://continuetochallenge.tistory.com/186)
 - GeeksforGeeks. 「Boehm's Software Quality Model」. [GeeksforGeeks](https://www.geeksforgeeks.org/software-engineering/boehms-software-quality-model/)
 - Bitew, N., & Singh, J. (2019). 「A Study on Software Quality Factors and Metrics to Enhance Software Quality Assurance」. Figure 4, _Boehm Software Quality Model_. [ResearchGate](https://www.researchgate.net/figure/Boehm-software-quality-model_fig3_337550373)

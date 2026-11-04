@@ -347,4 +347,4 @@ from __future__ import annotations
 - PEP. 「PEP 563 — Postponed Evaluation of Annotations」. [PEP](https://peps.python.org/pep-0563/)
 - PEP. 「PEP 649 — Deferred Evaluation of Annotations」. [PEP](https://peps.python.org/pep-0649/)
 - PEP. 「PEP 749 — Implementing PEP 649」. [PEP](https://peps.python.org/pep-0749/)
-- Tistory. 「Python의 `from __future__ import annotations` 기능」. [Tistory](https://memoryhub.tistory.com/entry/from-future-import-annotations-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- memoryhub. 「Python의 `from __future__ import annotations` 기능」. [Tistory](https://memoryhub.tistory.com/entry/from-future-import-annotations-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)

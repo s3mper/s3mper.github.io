@@ -109,7 +109,7 @@ extractvalue()는 XML(xml_frag 인수)과 XPath 표현식(xpath_expr 인수), �
 - Bright Security. 「SQL Injection Payloads: How SQLi exploits work」. [Bright Security](https://brightsec.com/blog/sql-injection-payloads/)
 - SK Shieldus. 「웹 취약점과 해킹 매커니즘 #4 Error Based SQL Injection」. [SK Shieldus](https://www.skshieldus.com/download/files/download.do?o_fname=EQST%20insight_Special%20Report_202207.pdf&r_fname=20220718162542886.pdf)
 - Bug Bounty Club. 「오류 기반 SQL Injection이란?」. [Bug Bounty Club](https://www.bugbountyclub.com/pentestgym/view/53)
-- 네이버 블로그. 「crehacktive3/222187681939」. [네이버 블로그](https://blog.naver.com/crehacktive3/222187681939)
+- crehacktive3. 「crehacktive3/222187681939」. [네이버 블로그](https://blog.naver.com/crehacktive3/222187681939)
 
 <div class="obsidian-links" style="display: none;">
 

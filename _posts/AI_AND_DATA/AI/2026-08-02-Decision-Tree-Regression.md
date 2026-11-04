@@ -36,7 +36,7 @@ tags: [AI, DEEP_LEARNING]
 ## 2. Decision Tree의 구조
 
 ![500x231](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-08-02-16-25-39.png)
-<small>Tistory. 「Decision Tree Regression 개념과 Python 예제」. [Tistory](https://riverzayden.tistory.com/6)</small>
+<small>riverzayden. 「Decision Tree Regression 개념과 Python 예제」. [Tistory](https://riverzayden.tistory.com/6)</small>
 
 | 구성 요소 | 설명                        |
 | ----- | ------------------------- |
@@ -382,8 +382,8 @@ plt.show()
 - scikit-learn docs. 「DecisionTreeRegressor」. [scikit-learn docs](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
 - scikit-learn docs. 「Decision Trees」. [scikit-learn docs](https://scikit-learn.org/stable/modules/tree.html)
 - Towards Data Science. 「Decision Tree Regressor Explained」. [Towards Data Science](https://towardsdatascience.com/decision-tree-regressor-explained-a-visual-guide-with-code-examples-fbd2836c3bef/)
-- Tistory. 「Decision Tree Regression 개념과 Python 예제」. [Tistory](https://riverzayden.tistory.com/6)
-- Tistory. 「DecisionTreeRegressor 회귀 트리 모델」. [Tistory](https://everyday-joyful.tistory.com/entry/DecisionTreeRegressor-%ED%9A%8C%EA%B7%80-%ED%8A%B8%EB%A6%AC-%EB%AA%A8%EB%8D%B8)
-- Tistory. 「9. 의사결정나무(Decision Tree)에 대해서 알아보자 with Python」. [Tistory](https://zephyrus1111.tistory.com/124)
-- Tistory. 「DecisionTreeClassifier와 DecisionTreeRegressor」. [Tistory](https://zephyrus1111.tistory.com/227)
-- Tistory. 「[Regression & Classifcation] Decision Tree」. [Tistory](https://moogie.tistory.com/144#2.%20%EB%85%B8%EB%93%9C%20%EB%B6%88%EC%88%9C%EB%8F%84%20%EC%A7%80%ED%91%9C-1-1)
+- riverzayden. 「Decision Tree Regression 개념과 Python 예제」. [Tistory](https://riverzayden.tistory.com/6)
+- everyday-joyful. 「DecisionTreeRegressor 회귀 트리 모델」. [Tistory](https://everyday-joyful.tistory.com/entry/DecisionTreeRegressor-%ED%9A%8C%EA%B7%80-%ED%8A%B8%EB%A6%AC-%EB%AA%A8%EB%8D%B8)
+- zephyrus1111. 「9. 의사결정나무(Decision Tree)에 대해서 알아보자 with Python」. [Tistory](https://zephyrus1111.tistory.com/124)
+- zephyrus1111. 「DecisionTreeClassifier와 DecisionTreeRegressor」. [Tistory](https://zephyrus1111.tistory.com/227)
+- moogie. 「[Regression & Classifcation] Decision Tree」. [Tistory](https://moogie.tistory.com/144#2.%20%EB%85%B8%EB%93%9C%20%EB%B6%88%EC%88%9C%EB%8F%84%20%EC%A7%80%ED%91%9C-1-1)

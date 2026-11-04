@@ -67,7 +67,7 @@ OTP는 **매번 바뀌는 값**을 만들어 내는 인증 방식이며, 사용�
 ## 5. 동작 방식
 
 ![404x231](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-01-05-18-31-10.png?raw=true)
-<small>Tistory. 「OTP의 동작 원리, HOTP와 TOTP 이해하기」. [Tistory](https://danyoujeong.tistory.com/223)</small>
+<small>danyoujeong. 「OTP의 동작 원리, HOTP와 TOTP 이해하기」. [Tistory](https://danyoujeong.tistory.com/223)</small>
 
 1. 비밀키 생성
 	1. 사용자와 시스템 간 공유되는 비밀키를 생성한다.
@@ -91,7 +91,7 @@ OTP는 **매번 바뀌는 값**을 만들어 내는 인증 방식이며, 사용�
 S/KEY OTP는 **해시 함수를 연쇄 적용한 값(Lamport 해시 체인)** 을 역순으로 한 번씩 제출해 인증하는 방식으로, 매번 값이 소모되어 재사용이 불가능하다.
 
 ![404x231](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-01-05-18-42-41.png?raw=true)
-<small>Tistory. 「OTP (One Time Password) 인증」. [Tistory](https://plummmm.tistory.com/311)</small>
+<small>plummmm. 「OTP (One Time Password) 인증」. [Tistory](https://plummmm.tistory.com/311)</small>
 
 1. 클라이언트 A : 임의의 비밀키를 서버로 전송한다.
 2. 서버 S : 클라이언트 A로부터 받은 비밀키를 첫 값으로 사용하여, 해시 체인 방식으로, 이전 결과 값에 대한 해시 값을 구하는 작업을 n번 반복한다.
@@ -153,9 +153,9 @@ Event-Synchronous OTP는 시간 대신 **이벤트/카운터(예: 버튼 누름,
 - Entrust. 「OTP란 무엇입니까?」. [Entrust](https://www.entrust.com/ko/resources/learn/what-is-a-one-time-password)
 - Wikipedia. 「OTP」. [Wikipedia](https://ko.wikipedia.org/wiki/%EC%9D%BC%ED%9A%8C%EC%9A%A9_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8)
 - Naver. 「2차 인증 방식」. [Naver](https://d2.naver.com/helloworld/279640)
-- Tistory. 「OTP(One-Time Password)에 대해 알아보겠습니다.」. [Tistory](https://feccle.tistory.com/329)
-- Tistory. 「OTP의 동작 원리, HOTP와 TOTP 이해하기」. [Tistory](https://danyoujeong.tistory.com/223)
-- Tistory. 「OTP (One Time Password) 인증」. [Tistory](https://plummmm.tistory.com/311)
+- feccle. 「OTP(One-Time Password)에 대해 알아보겠습니다.」. [Tistory](https://feccle.tistory.com/329)
+- danyoujeong. 「OTP의 동작 원리, HOTP와 TOTP 이해하기」. [Tistory](https://danyoujeong.tistory.com/223)
+- plummmm. 「OTP (One Time Password) 인증」. [Tistory](https://plummmm.tistory.com/311)
 
 <div class="obsidian-links" style="display: none;">
 

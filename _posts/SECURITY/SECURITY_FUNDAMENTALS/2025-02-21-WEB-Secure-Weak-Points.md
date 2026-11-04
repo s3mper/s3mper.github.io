@@ -89,7 +89,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ## 출처
 
-- 네이버 블로그. 「버퍼 오버플로우 공격 - 포맷 스트링 공격」. [네이버 블로그](https://m.blog.naver.com/wnrjsxo/221267600469)
+- wnrjsxo. 「버퍼 오버플로우 공격 - 포맷 스트링 공격」. [네이버 블로그](https://m.blog.naver.com/wnrjsxo/221267600469)
 
 ## 3. <abbr title="Lightweight Directory Access Protocol">LDAP</abbr> 인젝션(<abbr title="Lightweight Directory Access Protocol">LDAP</abbr> Injection), LI
 
@@ -229,7 +229,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ## 출처
 
-- Velog. 「JSP, PHP, ASP 개념 / 장단점 / 비교」. [Velog](https://velog.io/@bcl0206/JSP-PHP-ASP)
+- bcl0206. 「JSP, PHP, ASP 개념 / 장단점 / 비교」. [Velog](https://velog.io/@bcl0206/JSP-PHP-ASP)
 
 ## 6. <abbr title="Server Side Includes">SSI</abbr> 인젝션(<abbr title="Server Side Includes">SSI</abbr> Injection), SS
 
@@ -251,7 +251,7 @@ C언어로 만드는 프로그램 중 변수의 값을 출력하거나 입력받
 
 ## 출처
 
-- Tistory. 「SSI 인젝션 개념 정리 및 실습」. [Tistory](https://mokpo.tistory.com/390)
+- mokpo. 「SSI 인젝션 개념 정리 및 실습」. [Tistory](https://mokpo.tistory.com/390)
 
 ## 7. XPath 인젝션(XPath Injection), XI
 
@@ -287,7 +287,7 @@ XPath 쿼리에 사용자가 값을 입력할 수 있는 경우, 엄격한 입�
 
 ## 출처
 
-- Tistory. 「4. 디렉토리 인덱싱 취약점」. [Tistory](https://whitesnake1004.tistory.com/134)
+- whitesnake1004. 「4. 디렉토리 인덱싱 취약점」. [Tistory](https://whitesnake1004.tistory.com/134)
 
 ## 9 정보 누출(Information Leakage), IL
 

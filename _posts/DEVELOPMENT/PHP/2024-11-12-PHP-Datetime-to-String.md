@@ -56,5 +56,5 @@ $string = $date->format('Y-m-d H:i:s');
 ## 출처
 - Stack Overflow. 「PHP Convert DateTime to String」. [Stack Overflow](https://stackoverflow.com/questions/10569053/convert-datetime-to-string-php)
 - PHP Manual. 「PHP Manual - DateTime class」. [PHP Manual](https://www.php.net/manual/en/class.datetime.php)
-- 네이버 블로그. 「PHP date format」. [네이버 블로그](https://blog.naver.com/diceworld/220256080804)
+- diceworld. 「PHP date format」. [네이버 블로그](https://blog.naver.com/diceworld/220256080804)
 - PHP Manual. 「PHP Manual - DateTime format」. [PHP Manual](https://www.php.net/manual/en/datetime.format.php)

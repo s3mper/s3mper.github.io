@@ -282,8 +282,8 @@ CSMA/CA: 충돌 회피를 위한 프로토콜로, 주로 무선 LAN에서 사용
 ## 출처
 
 - 정보통신기술용어해설. 「Contention Method 경쟁 방식」. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?no=4902)
-- Velog. 「[데이터통신] ALOHA」. [Velog](https://velog.io/@seokjun0915/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%86%B5%EC%8B%A0-ALOHA)
-- Velog. 「기초컴퓨터네트워크 25 (Medium Access Control, Random Access Protocols, ALOHA, CSMA)」. [Velog](https://velog.io/@tonyhan18/%EA%B8%B0%EC%B4%88%EC%BB%B4%ED%93%A8%ED%84%B0%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-25)
+- seokjun0915. 「[데이터통신] ALOHA」. [Velog](https://velog.io/@seokjun0915/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%86%B5%EC%8B%A0-ALOHA)
+- tonyhan18. 「기초컴퓨터네트워크 25 (Medium Access Control, Random Access Protocols, ALOHA, CSMA)」. [Velog](https://velog.io/@tonyhan18/%EA%B8%B0%EC%B4%88%EC%BB%B4%ED%93%A8%ED%84%B0%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-25)
 - 정보통신기술용어해설. 「CSMA/CA」. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?no=2038)
 - Forouzan, B. A. 「Data Communications and Networking with TCP/IP Protocol Suite」. McGraw Hill, 6판.
 

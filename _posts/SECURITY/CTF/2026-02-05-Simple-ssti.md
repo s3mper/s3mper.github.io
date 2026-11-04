@@ -160,4 +160,4 @@ FLAG는 `./flag.txt`에서 읽어와 `app.secret_key`로 저장하고 있다.
 - quantylab. 「파이썬 리플렉션 (동적 클래스 인스턴스 생성 및 함수 호출)」. [quantylab](https://blog.quantylab.com/python_reflection.html)
 - Python Docs. 「reflection」. [Python Docs](https://docs.python.org/ko/3/c-api/reflection.html)
 - WikiDocs. 「subprocess.Popen()」. [WikiDocs](https://wikidocs.net/14350)
-- Github 블로그. 「Server-Side Template Injection(SSTI)」. [Github 블로그](https://core-research-team.github.io/2021-05-01/Server-Side-Template-Injection(SSTI))
+- core-research-team. 「Server-Side Template Injection(SSTI)」. [Github 블로그](https://core-research-team.github.io/2021-05-01/Server-Side-Template-Injection(SSTI))

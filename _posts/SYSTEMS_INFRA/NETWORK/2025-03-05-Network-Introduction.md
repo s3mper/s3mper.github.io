@@ -78,7 +78,7 @@ tags: [COMPUTER NETWORK, NETWORK, TIL]
 ### 4.2. Numbers
 
 ![이미지](/_image/2025-03-05-00-00-03.png)
-<small>Velog. 「이진수」. [Velog](https://velog.io/@k_k_s__h/%EC%9D%B4%EC%A7%84%EC%88%98)</small>
+<small>k_k_s__h. 「이진수」. [Velog](https://velog.io/@k_k_s__h/%EC%9D%B4%EC%A7%84%EC%88%98)</small>
 
 * numbers 또한 0과 1로 이뤄진 일련의 bit들이다.
 * number는 이진수로 변환되어 표현된다.

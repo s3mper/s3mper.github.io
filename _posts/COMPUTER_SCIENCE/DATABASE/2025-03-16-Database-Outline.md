@@ -69,10 +69,10 @@ tags: [DATABASE, TIL]
 
 ## 출처
 
-- Tistory. 「[Database] 인덱스(index)란?」. [Tistory](https://mangkyu.tistory.com/96)
+- mangkyu. 「[Database] 인덱스(index)란?」. [Tistory](https://mangkyu.tistory.com/96)
 - Codecademy. 「What is a Database Index?」. [Codecademy](https://www.codecademy.com/article/sql-indexes)
-- 네이버 블로그. 「데이터베이스의 개념」. [네이버 블로그](https://blog.naver.com/k97b1114/140153610388)
-- Tistory. 「데이터베이스의 개념적 구성(개체, 속성, 관계)」. [Tistory](https://kingnamji.tistory.com/34)
+- k97b1114. 「데이터베이스의 개념」. [네이버 블로그](https://blog.naver.com/k97b1114/140153610388)
+- kingnamji. 「데이터베이스의 개념적 구성(개체, 속성, 관계)」. [Tistory](https://kingnamji.tistory.com/34)
 
 <div class="obsidian-links" style="display: none;">
 

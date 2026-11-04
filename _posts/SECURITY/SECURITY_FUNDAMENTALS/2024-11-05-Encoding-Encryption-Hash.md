@@ -89,13 +89,13 @@ Skipjack,
 - Namu. 「인코딩」. [Namu](https://namu.wiki/w/%EC%9D%B8%EC%BD%94%EB%94%A9)
 - Raonctf. 「암호화」. [Raonctf](https://raonctf.com/essential/study/web/cryptography)
 - Namu. 「복호화」. [Namu](https://namu.wiki/w/%EB%B3%B5%ED%98%B8%ED%99%94)
-- Tistory. 「인/디코딩, 해시, 암/복호화 1」. [Tistory](https://meongae.tistory.com/96)
-- Velog. 「인/디코딩, 해시, 암/복호화 2」. [Velog](https://velog.io/@dainel/%EC%9D%B8%EC%BD%94%EB%94%A9-%ED%95%B4%EC%8B%B1-%EC%95%94%ED%98%B8%ED%99%94%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4)
-- Tistory. 「단방향 암호화」. [Tistory](https://hyunseo-fullstackdiary.tistory.com/127)
-- Velog. 「단/양방향 암호화 1」. [Velog](https://velog.io/@kdh10806/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94)
-- Tistory. 「단/양방향 암호화 2」. [Tistory](https://javaplant.tistory.com/26)
-- Velog. 「단/양방향 암호화 3」. [Velog](https://velog.io/@kdh10806/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94)
-- Tistory. 「단/양방향 암호화 4」. [Tistory](https://0boss.tistory.com/71)
+- meongae. 「인/디코딩, 해시, 암/복호화 1」. [Tistory](https://meongae.tistory.com/96)
+- dainel. 「인/디코딩, 해시, 암/복호화 2」. [Velog](https://velog.io/@dainel/%EC%9D%B8%EC%BD%94%EB%94%A9-%ED%95%B4%EC%8B%B1-%EC%95%94%ED%98%B8%ED%99%94%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4)
+- hyunseo-fullstackdiary. 「단방향 암호화」. [Tistory](https://hyunseo-fullstackdiary.tistory.com/127)
+- kdh10806. 「단/양방향 암호화 1」. [Velog](https://velog.io/@kdh10806/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94)
+- javaplant. 「단/양방향 암호화 2」. [Tistory](https://javaplant.tistory.com/26)
+- kdh10806. 「단/양방향 암호화 3」. [Velog](https://velog.io/@kdh10806/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%95%94%ED%98%B8%ED%99%94)
+- 0boss. 「단/양방향 암호화 4」. [Tistory](https://0boss.tistory.com/71)
 - 양대일. 「정보보안 개론」.
 
 <script>

@@ -205,7 +205,7 @@ burp, param check, response에 같은 값 있나?
 ## 출처
 
 - OWASP. 「Cross Site Scripting」. [OWASP](https://owasp.org/www-community/attacks/xss/)
-- Tistory. 「XSS란?」. [Tistory](https://tibetsandfox.tistory.com/5)
+- tibetsandfox. 「XSS란?」. [Tistory](https://tibetsandfox.tistory.com/5)
 - Nordvpn. 「크로스 사이트 스크립팅의 정의 및 공격 유형」. [Nordvpn](https://nordvpn.com/ko/blog/xss-attack/)
 - OWASP Cheat Sheet Series. 「XSS Filter Evasion Cheat Sheet」. [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
 - PortSwigger. 「DOM-based XSS 1」. [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based)
@@ -213,8 +213,8 @@ burp, param check, response에 같은 값 있나?
 - Blog. 「해시뱅(#!)에 대해서...」. [Blog](https://blog.outsider.ne.kr/698)
 - Medium. 「DOM XSS in jQuery anchor href attribute sink using location.search source」. [Medium](https://medium.com/@marduk.i.am/dom-xss-in-jquery-anchor-href-attribute-sink-using-location-search-source-b1000b4b16b3)
 - SK Shieldus. 「XSS(크로스 사이트 스크립트)란? 공격 유형부터 보안대책까지!」. [SK Shieldus](https://www.skshieldus.com/blog-security/security-trend-idx-06)
-- Tistory. 「[알아두면 유용한] 넷상의 쓰레기통들 - pastebin과 requestbin」. [Tistory](https://domdom.tistory.com/38)
-- Github 블로그. 「Requestbin Development」. [Github 블로그](https://glasses96.github.io/posts/24/)
+- domdom. 「[알아두면 유용한] 넷상의 쓰레기통들 - pastebin과 requestbin」. [Tistory](https://domdom.tistory.com/38)
+- glasses96. 「Requestbin Development」. [Github 블로그](https://glasses96.github.io/posts/24/)
 - Stack Overflow. 「Request Capture like requestbin PHP」. [Stack Overflow](https://stackoverflow.com/questions/42685368/request-capture-like-requestbin-php)
 - GitHub. 「PHP-Micro-RequestBin」. [GitHub](https://github.com/vinhch/PHP-Micro-RequestBin)
 - W3Schools. 「HTML Entities」. [W3Schools](https://www.w3schools.com/html/html_entities.asp)

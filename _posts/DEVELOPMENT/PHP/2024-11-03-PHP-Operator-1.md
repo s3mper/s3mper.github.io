@@ -50,6 +50,6 @@ $arr = array(
 ```
 
 ## 출처
-- 네이버 블로그. 「-> 연산자 의미」. [네이버 블로그](https://blog.naver.com/pjh445/222140371310)
-- Tistory. 「-> 와 =>의 차이점」. [Tistory](https://withhsunny.tistory.com/63)
+- pjh445. 「-> 연산자 의미」. [네이버 블로그](https://blog.naver.com/pjh445/222140371310)
+- withhsunny. 「-> 와 =>의 차이점」. [Tistory](https://withhsunny.tistory.com/63)
 - PHP Docs. 「Objects」. [PHP Docs](https://www.php.net/manual/en/language.types.object.php)
