@@ -12,9 +12,12 @@ categories: [SECURITY]
 tags: [TIL, WEB, DATABASE, SECURITY]
 ---
 
+<!-- markdownlint-disable MD010 MD025 MD033 -->
+
 # Error-Based SQL Injection
 
-기본 원리와 대응 방안은 [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-SQL-Injection %})에서 확인할 수 있다. 데이터를 화면에 출력하는 [Union SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-20-Union-SQL-Injection %})과 비교하면 오류 메시지를 이용하는 방식의 차이가 드러난다.
+- SQLi: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-SQL-Injection %})
+- UNION SQLi: [Union SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-20-Union-SQL-Injection %})
 
 ## Error-Based SQL Injection란?
 
@@ -28,8 +31,8 @@ DB의 종류에 따라 문법과 SQL구문, 함수 등이 다른 부분이 존�
 
 1. 단순 에러 메시지: 일반적으로 출력되는 에러 메시지로 단순히 문법이 잘못되었다는 에러 정보
 2. 정보 획득이 가능한 에러 메시지: 서브쿼리의 실행 결과를 보여주는 함수로 공격에 활용 가능  
-    -> 문법 에러 X, 로직 에러이면서 DBMS 에러
-    * 서브쿼리는 기존의 쿼리문 안에 쿼리문이 삽입되는 것으로, 정보 획득이 가능한 함수를 사용할 때 서브쿼리에 에러 정보를 추출하고 싶은 쿼리를 삽입하면 된다.
+    - 문법 에러 X, 로직 에러이면서 DBMS 에러
+    - 서브쿼리는 기존의 쿼리문 안에 쿼리문이 삽입되는 것으로, 정보 획득이 가능한 함수를 사용할 때 서브쿼리에 에러 정보를 추출하고 싶은 쿼리를 삽입하면 된다.
 
 ## 공격 진행 과정
 
@@ -53,9 +56,6 @@ DB의 종류에 따라 문법과 SQL구문, 함수 등이 다른 부분이 존�
     2. 컬럼 1개씩 추출
     3. 모든 컬럼 추출
     4. 컬럼 이름 확인
-
-### 3. 원하는 데이터 탈취
-
 3. 데이터 정보 추출
     1. 데이터 정보 추출
     2. 데이터 1개씩 추출
@@ -68,7 +68,7 @@ DB의 종류에 따라 문법과 SQL구문, 함수 등이 다른 부분이 존�
 
 extractvalue() 함수 활용하는 기법으로 MySQL 5.1 이상의 버전에서만 유효하다.
 
-* 문법: `extractvalue(xml_frag, xpath_expr)`
+- 문법: `extractvalue(xml_frag, xpath_expr)`
 extractvalue()는 XML(xml_frag 인수)과 XPath 표현식(xpath_expr 인수), 두 개의 인수가 필요하고, 두 개의 인수를 통해 XML에서 XPath 표현식에 일치하는 데이터를 추출하여 반환한다.
 
 이 함수는 xpath_expr이라는 두 번째 인수에 유효하지 않은 XPath 표현식이 사용된다면 다음과 같은 오류가 발생한다.
@@ -81,9 +81,9 @@ extractvalue()는 XML(xml_frag 인수)과 XPath 표현식(xpath_expr 인수), �
 그리고 마지막으로 후속 쿼리를 무효화하기 위해 가장 끝에 주석 문자(--)와 공백 문자(스페이스)를 추가합니다.
 주석 문자 뒤에 공백 문자(스페이스)를 추가하는 것을 잊지마세요.
 
-최종적으로는 아래와 같은 형태가 되겠군요. 
+최종적으로는 아래와 같은 형태가 되겠군요.
 
-`AND extractvalue(rand(), concat(0x3a, 실행할-SQL-쿼리))-- `
+`AND extractvalue(rand(), concat(0x3a, 실행할-SQL-쿼리))--`
 
 위의 extractvalue() 함수의 오류 메시지는 단일 행(한 줄)으로 반환되므로 LIMIT을 사용하여 한 번에 하나의 행만 출력될 수 있도록 하였습니다.
 계속해서 다음 행의 데이터를 추출하기 위해서는 아래와 같이 반복하여 실행하면 됩니다.
@@ -99,7 +99,7 @@ extractvalue()는 XML(xml_frag 인수)과 XPath 표현식(xpath_expr 인수), �
 위의 방식과 유사한 기법으로 updatexml() 함수를 이용할 수도 있습니다.
 기본형은 아래와 같으며 추출하고자 하는 데이터에 따라 "실행할-SQL-쿼리" 부분만 위의 방식대로 변경해주면 됩니다.
 
-`AND updatexml(null, 실행할-SQL-쿼리, null)-- `
+`AND updatexml(null, 실행할-SQL-쿼리, null)--`
 
 ---
 

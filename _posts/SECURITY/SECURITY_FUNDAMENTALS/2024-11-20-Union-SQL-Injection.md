@@ -14,9 +14,12 @@ tags:
   - SECURITY
 ---
 
+<!-- markdownlint-disable MD010 MD025 MD033 -->
+
 # UNION SQL Injection 개념 정리
 
-SQL Injection의 전체 공격 유형과 대응 방안은 [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-SQL-Injection %})에서 다룬다. 결과가 화면에 직접 출력되지 않는 경우는 [Blind SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-Blind-SQL-Injection %})과 비교해 볼 수 있다.
+- SQL Injection: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-SQL-Injection %})
+- Blind SQLi: [Blind SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-Blind-SQL-Injection %})
 
 ## 1. UNION SQL Injection이란?
 
@@ -48,34 +51,44 @@ UNION SQL Injection(이하 UNION SQLi): SQL Injection 중에서 `UNION` 구문�
 3. 데이터 탈취
 	1. DB 이름을 확인한다.
 		- MySQL
+
 			```SQL
 			SELECT DATABASE()
 			```
+
 	2. 테이블 이름을 확인한다.
 		- MySQL
+
 			```SQL
 			SELECT table_name
 			FROM information_schema.tables
 			WHERE table_schema = [DB 이름]
 			```
+
 		- ORACLE
+
 			```SQL
 			SELECT TABLE_NAME
 			FROM ALL_TABLES
 			```
+
 	3. 컬럼 이름을 확인한다.
 		- MySQL
+
 			```SQL
 			SELECT column_name
 			FROM information_schema.columns
 			WHERE table_name = [테이블 이름]
 			```
+
 		- ORACLE
+
 			```SQL
 			SELECT COLUMN_NAME
 			FROM ALL_TAB_COLUMNS
 			WHERE TABLE_NAME=[테이블 이름]
 			```
+
 	4. 원하는 데이터를 추출한다.
 
 ---
