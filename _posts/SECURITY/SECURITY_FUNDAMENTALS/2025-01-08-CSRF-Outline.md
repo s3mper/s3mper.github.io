@@ -12,24 +12,35 @@ categories: [SECURITY]
 tags: [TIL, WEB, SECURITY]
 ---
 
-# CSRF란?
+# CSRF(Cross Site Request Forgery)
 
-인증 상태가 유지되는 배경은 [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-WEB-Cookie-and-Session-Cache %})에서, iframe과 form 제출을 사용하는 예시는 [CSRF CTF 풀이]({% post_url SECURITY/CTF/2025-01-11-CTF-CSRF-1 %})에서 다룬다. 서버가 요청을 보내는 [SSRF]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2026-01-16-SSRF %})와도 비교해 볼 수 있다.
+인증 상태가 유지되는 원리: [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-WEB-Cookie-and-Session-Cache %})
+`iframe`과 `form`을 이용한 실습: [CSRF CTF 풀이]({% post_url SECURITY/CTF/2025-01-11-CTF-CSRF-1 %})
+관련 내용: [SSRF]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2026-01-16-SSRF %})
 
-## 1. 개요
+## 1. 정의
+
 **CRSF(Cross Site Request Forgery)**: 
 -> 공격자가 원하는 요청을 피해자가 하게 만든다!
 웹 애플리케이션 취약점 중 하나로 사용자가 자신의 의지와 무관하게 공격자가 의도한 행동을 하여 특정 웹페이지를 보안에 취약하게 한다거나 수정, 삭제 등의 작업을 하게 만드는 공격방법을 의미한다. 유명 경매 사이트 옥션의 개인정보 유출 사건에 사용된 공격 방식이다.
+정상적인 요청과 조작된 요청을 서버가 구분하지 못 할 경우 발생한다. 애플리케이션을 이용하는 사용자로 하여금 조작된 요청을 웹 애플리케이션에 전송하도록 유도해 피해를 발생시킨다.
+공격 당한 사용자의 권한을 그대로 사용해 사용자의 권한 수준에 따라 피해 범위가 달라진다. XSS 취약점과 무관하게 공격이 가능하지만 XSS 취약점과 연계 시 공격 범위가 증가한다.
 
 ## 취약점
+
 모든 요청에서 발생 가능
+
+## CSRF VS. XSS
+
 
 ## 공격방식
 
 ## 공격유형
 
 ## 공격 구문 예시
-## post method로만 파라미터 전달이 가능할 때 csrf 공격방식
+
+### post method로만 파라미터 전달이 가능할 때 csrf 공격방식
+
 form tag를 삽입해야 한다 -> XSS로부터 무결해야 한다
 
 ```html
@@ -45,12 +56,15 @@ form tag를 삽입해야 한다 -> XSS로부터 무결해야 한다
 ```
 
 ## 공격 순서
+
 모든 요청에서 CSRF가 발생가능하다
 이 요청은 위조해도 되는가
 이 요청은 함부로 위조할 수 있는가
 
 ## 대응방안
+
 ### CSRF Token
+
 CSRF 공격을 막기 위해 만든 난수값 토큰 발행
 e.g. 마이페이지에 접근할 때 토큰 발행
 
@@ -65,16 +79,20 @@ csrf 토큰도 탈취해야 하는구나?
 사용자의 form 태그가 있는 페이지에 접근할 때 csrf 토큰이 발행된다
 
 ### Referrer Check
+
 확장성이 떨어질 수 있다
 개발자가 예외처리를 했을 경우
 -> `<meta name='referrer' content='no-referrer'>`
 
 ### 요청을 위조할 수 없게 하자
+
 파라미터에 모르는 데이터를 넣게 하자 -> 인증정보
 인증정보를 넣는 것!
 
 ### SOP / CORS
+
 #### SOP, Same-Origin Policy
+
 다른 출처의 자원에 접근하지 못하게 브라우저가 막는 것
 
 같은 출처의 기준
@@ -83,6 +101,7 @@ csrf 토큰도 탈취해야 하는구나?
 - 포트
 
 #### CORS, Cross Origin Resource Sharing
+
 다른 출처에서도 데이터를 쓸 수 있게 함
 
 ACAO Header, Access Controll Allow Origin
@@ -120,6 +139,7 @@ POST -> XSS, form tag
 CORS 정책이 잘 적용되어 있지 않다 -> 공격자 서버 만들어서 공격
 
 ## 출처
+
 - gwanuuoo. 「CSRF 공격과 방어 기법」. [Velog](https://velog.io/@gwanuuoo/CSRF-%EA%B3%B5%EA%B2%A9%EA%B3%BC-%EB%B0%A9%EC%96%B4-%EA%B8%B0%EB%B2%95)
 - codevang. 「Spring Security_CSRF Token의 개념과 사용 방법」. [Tistory](https://codevang.tistory.com/282)
 - tibetsandfox. 「CSRF(Cross Site Request Forgery)란?」. [Tistory](https://tibetsandfox.tistory.com/11)
@@ -128,6 +148,10 @@ CORS 정책이 잘 적용되어 있지 않다 -> 공격자 서버 만들어서 �
 - 나무위키. 「XSS」. [나무위키](https://namu.wiki/w/XSS)
 - Falsy. 「웹 취약점 공격 방법인 XSS, CSRF에 대하여 간단하게 알아보기」. [Falsy](https://falsy.me/%EC%9B%B9-%EC%B7%A8%EC%95%BD%EC%A0%90-%EA%B3%B5%EA%B2%A9-%EB%B0%A9%EB%B2%95%EC%9D%B8-xss-csrf%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%EC%95%8C%EC%95%84%EB%B3%B4/)
 - leem8419. 「XSS JavaScript 활용 (DOM 객체) 11-1」. [네이버 블로그](https://blog.naver.com/leem8419/223493830500)
+- https://gongv-log.tistory.com/88
+- https://kr.linkedin.com/pulse/bypassing-unpredictable-csrf-token-rizvi-nassar-bqehc?tl=ko
+- https://docs.spring.io/spring-security/reference/features/exploits/csrf.html
+- https://blog.naver.com/ayj412/221451212883
 <div class="obsidian-links" style="display: none;">
 
 [\[CTF\] CTF 문제 풀이: CSRF 취약점 1](../CTF/2025-01-11-CTF-CSRF-1.md)
