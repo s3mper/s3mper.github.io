@@ -24,7 +24,7 @@ tags: [TIL, WEB, SECURITY, DATABASE]
 
 sql injection 필터링 우회기법 알아보기
 
---
+---
 
 sql injection: data 추출
 union
