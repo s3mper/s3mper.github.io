@@ -8,7 +8,7 @@ excerpt: "점 연산, 영역 연산"
 date: 2025-10-05
 last_modified_at: 2025-10-17
 
-categories: [COMPUTER VISION]
+categories: [COMPUTER_VISION]
 tags: [COMPUTER_VISION]
 
 permalink: /image-processing-operations-1/

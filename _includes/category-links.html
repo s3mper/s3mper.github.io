@@ -1,12 +1,25 @@
-{% comment %}
-  Dynamically generate list of links to all category pages
-{% endcomment %}
-{% assign pages_list = site.pages|sort:"sidebar_sort_order" %}
-{% for node in pages_list %}
-  {% if node.title != null %}
-    {% if node.layout == "category" %}
-      <a class="category-link {% if page.url == node.url %} active{% endif %}"
-          href="{{ node.url | relative_url }}">{{ node.title }}</a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+{% assign category_pages = site.pages | where: "layout", "category" %}
+<div class="sidebar-categories">
+  <a class="sidebar-post-count" href="{{ '/' | relative_url }}">전체 글 수 {{ site.posts.size }}개</a>
+  <ul class="sidebar-category-groups">
+    {% for group in site.data.category_groups %}
+      <li>
+        <span class="sidebar-category-heading">{{ group.title | escape }}</span>
+        <ul class="sidebar-category-children">
+          {% for child in group.children %}
+            {% assign node = category_pages | where: "title", child.key | first %}
+            {% assign posts = site.categories[child.key] %}
+            {% if node and posts.size > 0 %}
+              <li>
+                <a class="category-link{% if page.url == node.url %} active{% endif %}"
+                   href="{{ node.url | relative_url }}"{% if page.url == node.url %} aria-current="page"{% endif %}>
+                  {{ child.title | escape }} ({{ posts.size }})
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -285,6 +285,31 @@ html.js body.drawer-open #sidebar {
     padding-right: .25rem; // 스크롤바 간격
   }
 
+  .sidebar-post-count {
+    display: block;
+    font-weight: bold;
+  }
+
+  .sidebar-category-groups,
+  .sidebar-category-children {
+    margin: 0;
+    list-style: none;
+  }
+
+  .sidebar-category-groups {
+    padding-left: 0;
+  }
+
+  .sidebar-category-heading {
+    display: block;
+    margin-top: .65rem;
+    font-weight: bold;
+  }
+
+  .sidebar-category-children {
+    padding-left: .85rem;
+  }
+
   /* 하단 고정 영역(아이콘/라이선스)은 스크롤 대상에서 제외 */
   #sidebar-icon-links,
   .sidebar-footer,

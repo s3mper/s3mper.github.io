@@ -8,7 +8,7 @@ excerpt: "컴퓨터 비전 개요"
 date: 2025-10-01
 last_modified_at: 2025-10-17
 
-categories: [COMPUTER VISION]
+categories: [COMPUTER_VISION]
 tags: [COMPUTER_VISION]
 ---
 
