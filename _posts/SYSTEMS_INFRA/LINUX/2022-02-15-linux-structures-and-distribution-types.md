@@ -16,6 +16,7 @@ guid: https://s3mper.github.io/Linux-Structures-and-Distribution-Types/
 ---
 
 ## 리눅스 기능 - 다양한 서버의 역할담당
+
 * 웹 서버 기능: 웹 서비스를 제공
 * DNS 서버 기능: 실제 IP로 호스트에 접속하는 것이 아니라 도메인만으로도 호스트에 접속할 수 있는 서비스 제공
 * 메일 서버 기능: 메일 보내기/받기 서비스 제공
@@ -23,8 +24,10 @@ guid: https://s3mper.github.io/Linux-Structures-and-Distribution-Types/
 * NFS 서버 기능: 다른 호스트에 있는 파일 시스템의 일부를 자신의 디렉토리처럼 사용할 수 있도록 하는 서비스 제공
 * SAMBA 서버 기능: 서로 다른 운영체제하에서 특정 파일이나 프린터기 등을 공유할 수 있도록 하는 서비스 제공
 
+    ```text
     클라이언트 - 서비스 요청 -> 서버
     클라이언트 <- 서비스 제공 - 서버
+    ```
 
 ## 리눅스 구조
 
@@ -36,6 +39,7 @@ guid: https://s3mper.github.io/Linux-Structures-and-Distribution-Types/
 * GNU utility: 
 
 ## 리눅스 배포판
+
 * 쉘 + 리눅스 커널 + GNU + 공개 프로그램 => 리눅스 배포판
 * 리눅스는 누구나 자유롭게 배포가 가능.
 
@@ -49,7 +53,9 @@ guid: https://s3mper.github.io/Linux-Structures-and-Distribution-Types/
 5. CENTOS: 레드햇 엔터프라이즈 소스 그대로 빌드. 레드햇 리눅스에 가장 근접. 네트워크 서버뿐만 아니라 임베디드 시스템의 운영체제로 활용.
 
 ## 리눅스 디렉토리 개요
+
 ### 디렉토리 구조
+
 1. / (root 디렉토리): 크기가 작은 파일들이 있는 디렉토리를 포함. 루트 디렉토리에 데이터 디렉토리를 설정해 많은 데이터 파일 저장 시 크기를 좀 더 크게 설정해도 무관.
 2. /bin (binary 실행파일 저장): 리눅스 기본 명령어가 저장되어 있는 공간
 3. /dev (device): 리눅스 시스템의 모든 장치들이 파일로 표시되어 있음.

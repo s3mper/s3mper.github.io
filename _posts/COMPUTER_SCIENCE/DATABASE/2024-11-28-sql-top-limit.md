@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "SQL TOP과 LIMIT으로 조회 결과 개수 제한하기"
+title: "[NySQL] SQL TOP과 LIMIT으로 조회 결과 개수 제한하기"
 excerpt: "모의해킹 취업반 스터디 7기 7주차"
 
 date: 2024-11-28
@@ -10,12 +10,10 @@ last_modified_at:
 
 categories: [database]
 tags: [til, database, sql]
-redirect_from:
-  - /SQL-Top-Limit/
-guid: https://s3mper.github.io/SQL-Top-Limit/
 ---
 
-# 특정 개수의 값 출력
+# MySQL 특정 개수의 값 출력
+
 ## TOP
 
 `SELECT TOP [N(개수)/N%(비율)] ~ FROM ~`  
@@ -26,6 +24,8 @@ TOP N% WITH TIES`
 
 `SELECT ~ FROM ~ LIMIT N(시작할 위치), M(개수)`
 e.g. `SELECT * FROM TABLE ORDER BY SCORE LIMIT 3`
+
+---
 
 ## 출처
 

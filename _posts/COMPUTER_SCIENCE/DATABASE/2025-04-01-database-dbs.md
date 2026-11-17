@@ -10,9 +10,6 @@ last_modified_at: 2025-10-17
 
 categories: [database]
 tags: [database, til]
-redirect_from:
-  - /Database-DBS/
-guid: https://s3mper.github.io/Database-DBS/
 ---
 
 # 목차

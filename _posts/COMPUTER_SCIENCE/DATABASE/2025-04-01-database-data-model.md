@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [database]
 tags: [database, til]
-redirect_from:
-  - /Database-Data-Model/
-guid: https://s3mper.github.io/Database-Data-Model/
 ---
 
 # 목차

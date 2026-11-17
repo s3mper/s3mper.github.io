@@ -19,7 +19,7 @@ guid: https://s3mper.github.io/Linux-Directory-Manipulation-Commands/
 
 2. `cd [이동할 directory]`: 현재 위치에서 디렉토리 변경 시 사용
     * `cd ..`: 상위 디렉토리로 이동
-    * `cd \`: 무조건 루트 디렉토리로 이동
+    * `cd /`: 루트 디렉토리로 이동
     * `cd ~`: 어떤 위치에서든 현재 계정의 홈디렉토리로 이동
 
 1. `ls [option] [directory]`: 도스의  dir과 같은 명령으로써 파일명, 디렉토리 등을 화면에 출력하는 명령

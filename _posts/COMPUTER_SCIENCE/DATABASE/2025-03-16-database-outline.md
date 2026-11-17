@@ -10,9 +10,6 @@ last_modified_at: 2026-09-01
 
 categories: [database]
 tags: [database, til]
-redirect_from:
-  - /Database-Outline/
-guid: https://s3mper.github.io/Database-Outline/
 ---
 
 # Database란?
