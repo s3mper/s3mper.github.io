@@ -8,7 +8,7 @@ excerpt: "오류 멈춰!"
 date: 2021-11-30
 last_modified_at: 2025-01-18
 
-categories: [BLOG]
+categories: [blog]
 tags: [BLOG]
 ---
 

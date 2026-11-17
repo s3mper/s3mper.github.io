@@ -8,7 +8,7 @@ excerpt: "임의 파일 덮어쓰기"
 date: 2026-07-24
 last_modified_at: 2026-07-28
 
-categories: [CTF]
+categories: [ctf]
 tags: [TIL, WEB, CTF]
 ---
 

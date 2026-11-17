@@ -8,7 +8,7 @@ excerpt: "커밋 메시지를 일관되게 작성하기 위한 규칙"
 date: 2025-11-01
 last_modified_at: 2026-02-07
 
-categories: [GIT]
+categories: [git]
 tags: [GIT]
 ---
 

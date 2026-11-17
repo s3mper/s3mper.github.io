@@ -8,7 +8,7 @@ excerpt: "대치 규칙 10가지"
 date: 2026-05-19
 last_modified_at: 2026-05-19
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 ---
 

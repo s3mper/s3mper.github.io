@@ -6,7 +6,7 @@ excerpt: MySQL과 ORACLE 실습 코드 정리
 date: 2024-11-20
 last_modified_at: 2026-11-03
 categories:
-  - SECURITY
+  - security
 tags:
   - TIL
   - WEB

@@ -8,7 +8,7 @@ excerpt: "ISO 9001, ISO 9126, IEEE"
 date: 2025-11-12
 last_modified_at: 2026-10-29
 
-categories: [SOFTWARE_DESIGN]
+categories: [software-design]
 tags: [SOFTWARE_DESIGN]
 ---
 

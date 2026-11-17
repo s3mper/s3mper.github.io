@@ -8,7 +8,7 @@ excerpt: "형식적 오류"
 date: 2026-04-06
 last_modified_at: 2026-04-08
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 
 permalink: /formal-fallacies/

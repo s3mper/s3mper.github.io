@@ -8,7 +8,7 @@ excerpt: ""
 date: 2024-10-26
 last_modified_at: 2026-02-15
 
-categories: [BLOG]
+categories: [blog]
 tags: [BLOG]
 ---
 

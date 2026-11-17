@@ -8,7 +8,7 @@ excerpt: "Controlled Access Protocol"
 date: 2025-04-30
 last_modified_at:
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 ---
 

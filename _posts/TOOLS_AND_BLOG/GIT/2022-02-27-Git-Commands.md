@@ -8,7 +8,7 @@ excerpt: "자주 쓰는 20개 정리"
 date: 2022-02-27
 last_modified_at: 2026-09-01
 
-categories: [GIT]
+categories: [git]
 tags: [GIT]
 ---
 

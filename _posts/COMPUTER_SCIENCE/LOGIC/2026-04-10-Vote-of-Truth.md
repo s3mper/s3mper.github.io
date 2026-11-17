@@ -8,7 +8,7 @@ excerpt: "진리표"
 date: 2026-04-10
 last_modified_at: 2026-04-10
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 
 permalink: /truth-tables/

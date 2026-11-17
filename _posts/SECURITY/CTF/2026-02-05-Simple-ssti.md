@@ -8,7 +8,7 @@ excerpt: "SSTI(Server-side Template Injection)"
 date: 2026-02-05
 last_modified_at: 2026-02-05
 
-categories: [CTF]
+categories: [ctf]
 tags: [TIL, WEB, CTF]
 ---
 

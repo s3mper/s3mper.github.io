@@ -8,7 +8,7 @@ excerpt: "w.Python matplotlib"
 date: 2022-10-24
 last_modified_at: 2024-11-08
 
-categories: [AI]
+categories: [ai]
 tags: [DATASCIENCE]
 ---
 

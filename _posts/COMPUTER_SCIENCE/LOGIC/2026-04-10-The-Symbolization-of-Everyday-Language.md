@@ -8,7 +8,7 @@ excerpt: "명제 논리와 일상 언어의 차이"
 date: 2026-04-10
 last_modified_at: 2026-04-10
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 ---
 

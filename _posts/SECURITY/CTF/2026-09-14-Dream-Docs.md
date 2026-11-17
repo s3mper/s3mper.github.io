@@ -8,7 +8,7 @@ excerpt: "불충분한 인증"
 date: 2026-09-14
 last_modified_at: 2026-09-14
 
-categories: [CTF]
+categories: [ctf]
 tags: [TIL, WEB, CTF]
 ---
 

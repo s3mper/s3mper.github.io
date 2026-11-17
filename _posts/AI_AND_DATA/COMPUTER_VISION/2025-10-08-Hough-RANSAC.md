@@ -8,7 +8,7 @@ excerpt: "Hough Transform, RANSAC"
 date: 2025-10-08
 last_modified_at: 2025-10-17
 
-categories: [COMPUTER_VISION]
+categories: [computer-vision]
 tags: [COMPUTER_VISION]
 ---
 

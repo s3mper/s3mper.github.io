@@ -8,7 +8,7 @@ excerpt: "소프트웨어 품질의 개념과 품질 관리"
 date: 2025-11-12
 last_modified_at: 2026-10-29
 
-categories: [SOFTWARE_DESIGN]
+categories: [software-design]
 tags: [SOFTWARE_DESIGN]
 ---
 

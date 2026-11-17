@@ -8,7 +8,7 @@ excerpt: "COD 개요"
 date: 2022-09-30
 last_modified_at:
 
-categories: [COD]
+categories: [computer-organization]
 tags: [COD, MIPS, SPIM]
 ---
 

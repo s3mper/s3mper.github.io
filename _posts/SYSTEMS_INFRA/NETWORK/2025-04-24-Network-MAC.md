@@ -8,7 +8,7 @@ excerpt: "MAC 계층의 개념과 이슈, 프로토콜 분류"
 date: 2025-04-24
 last_modified_at: 2026-09-01
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 ---
 

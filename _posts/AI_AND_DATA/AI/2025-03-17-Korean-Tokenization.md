@@ -8,7 +8,7 @@ excerpt: "토큰화의 기준과 한국어의 특성을 이해, NLTK·KSS·KoNLP
 date: 2025-03-16
 last_modified_at: 2026-11-16
 
-categories: [AI]
+categories: [ai]
 tags: [TIL, NLP, AI, TOKENIZATION]
 ---
 

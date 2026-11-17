@@ -8,7 +8,7 @@ excerpt: "Community Plugins - Clear Unused Images"
 date: 2026-04-14
 last_modified_at: 2026-04-15
 
-categories: [OBSIDIAN]
+categories: [obsidian]
 tags: [OBSIDIAN, COMMUNITY-PLUGINS]
 ---
 

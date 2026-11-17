@@ -8,7 +8,7 @@ excerpt: ""
 date: 2022-10-07
 last_modified_at:
 
-categories: [MATHEMATICS]
+categories: [mathematics]
 tags: [DISCRETE MATHEMATICS]
 ---
 

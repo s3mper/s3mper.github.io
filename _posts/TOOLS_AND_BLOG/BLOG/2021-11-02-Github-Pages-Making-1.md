@@ -8,7 +8,7 @@ excerpt: "항상 느낍니다. 왜 안되는거냐?"
 date: 2021-11-02
 last_modified_at: 2025-10-02
 
-categories: [BLOG]
+categories: [blog]
 tags: [BLOG]
 ---
 

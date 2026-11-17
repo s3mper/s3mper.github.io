@@ -8,7 +8,7 @@ excerpt: "한글 텍스트 자연어 처리: 소설 속 등장인물 감정 흐�
 date: 2025-04-13
 last_modified_at: 2025-11-13
 
-categories: [AI]
+categories: [ai]
 tags: [NLP, TIL]
 ---
 

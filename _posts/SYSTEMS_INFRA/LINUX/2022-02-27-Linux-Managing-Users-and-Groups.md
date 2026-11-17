@@ -8,7 +8,7 @@ excerpt: "리눅스 사용자 계정 생성/관리에 필요한 명령 및 관�
 date: 2022-02-27
 last_modified_at:
 
-categories: [LINUX]
+categories: [linux]
 tags: [LINUX]
 ---
 

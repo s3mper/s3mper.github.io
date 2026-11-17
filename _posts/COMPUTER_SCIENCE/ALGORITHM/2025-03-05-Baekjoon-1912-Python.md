@@ -8,7 +8,7 @@ excerpt: "w. Python"
 date: 2025-03-05
 last_modified_at: 2025-11-01
 
-categories: [ALGORITHM]
+categories: [algorithm]
 tags: [ALGORITHM, BAEKJOON, PYTHON]
 ---
 

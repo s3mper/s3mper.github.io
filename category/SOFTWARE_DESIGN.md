@@ -1,4 +1,4 @@
 ---
 layout: category
-title: SOFTWARE_DESIGN
+title: software-design
 ---

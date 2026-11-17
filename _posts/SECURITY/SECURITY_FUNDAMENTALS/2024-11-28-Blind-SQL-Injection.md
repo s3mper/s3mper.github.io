@@ -6,7 +6,7 @@ excerpt: Blind SQL Injection 공격 과정 소개
 date: 2024-11-28
 last_modified_at: 2026-11-04
 categories:
-  - SECURITY
+  - security
 tags:
   - TIL
   - WEB

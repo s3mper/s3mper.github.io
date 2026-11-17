@@ -8,7 +8,7 @@ excerpt: "구글 애널리틱스 적용"
 date: 2021-12-09
 last_modified_at: 2026-04-10
 
-categories: [BLOG]
+categories: [blog]
 tags: [BLOG]
 ---
 

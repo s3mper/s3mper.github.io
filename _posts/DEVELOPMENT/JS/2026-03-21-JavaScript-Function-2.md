@@ -8,7 +8,7 @@ excerpt: "함수를 만드는 방법"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 
-categories: [JS]
+categories: [javascript]
 tags: [WEB, JS]
 ---
 

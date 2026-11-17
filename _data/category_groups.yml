@@ -1,56 +1,58 @@
 - title: 컴퓨터 과학
   children:
-    - key: ALGORITHM
+    - key: algorithm
       title: 알고리즘
-    - key: DATABASE
+    - key: database
       title: 데이터베이스
-    - key: MATHEMATICS
+    - key: mathematics
       title: 이산수학
-    - key: LOGIC
+    - key: logic
       title: 논리학
 - title: AI와 데이터
   children:
-    - key: AI
+    - key: ai
       title: AI
-    - key: COMPUTER_VISION
+    - key: computer-vision
       title: 컴퓨터 비전
 - title: 개발
   children:
-    - key: PYTHON
+    - key: python
       title: Python
-    - key: JS
+    - key: javascript
       title: JavaScript
-    - key: PHP
+    - key: php
       title: PHP
-    - key: WEB
+    - key: web
       title: Web
-    - key: SOFTWARE_DESIGN
+    - key: software-design
       title: 소프트웨어 공학
 - title: 보안
   children:
-    - key: SECURITY
+    - key: security
       title: 보안 기초
-    - key: CTF
+    - key: ctf
       title: CTF
 - title: 시스템과 인프라
   children:
-    - key: COD
+    - key: computer-organization
       title: 컴퓨터 구조
-    - key: OS
+    - key: os
       title: 운영체제
-    - key: LINUX
+    - key: linux
       title: Linux
-    - key: NETWORK
+    - key: network
       title: 네트워크
 - title: 도구와 블로그
   children:
-    - key: BLOG
+    - key: blog
       title: 블로그
-    - key: GIT
+    - key: git
       title: Git
-    - key: OBSIDIAN
-      title: Obsidian
+    - key: obsidian
+      title: 옵시디언
+    - key: markdown
+      title: 마크다운
 - title: 기타
   children:
-    - key: ECONOMY
+    - key: economy
       title: 경제

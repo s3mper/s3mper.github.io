@@ -8,7 +8,7 @@ excerpt: "함수란 무엇인가"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 
-categories: [JS]
+categories: [javascript]
 tags: [WEB, JS]
 ---
 

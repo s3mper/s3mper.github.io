@@ -8,7 +8,7 @@ excerpt: "오답노트 1"
 date: 2022-06-24
 last_modified_at:
 
-categories: [LINUX]
+categories: [linux]
 tags: [LINUX, LICENSE]
 ---
 

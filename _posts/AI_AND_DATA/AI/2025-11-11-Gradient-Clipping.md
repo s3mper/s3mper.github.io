@@ -8,7 +8,7 @@ excerpt: ""
 date: 2025-11-11
 last_modified_at: 2025-11-11
 
-categories: [AI]
+categories: [ai]
 tags: [AI, DEEP_LEARNING]
 ---
 

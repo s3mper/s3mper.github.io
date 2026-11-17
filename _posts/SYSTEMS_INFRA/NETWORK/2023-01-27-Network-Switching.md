@@ -8,7 +8,7 @@ excerpt: "회선 교환(Circuit Switching)과 패킷 교환(Packet Switching)"
 date: 2023-01-25
 last_modified_at: 2026-09-01
 
-categories: [NETWORK]
+categories: [network]
 tags: [NETWORK]
 ---
 

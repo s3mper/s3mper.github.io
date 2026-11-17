@@ -8,7 +8,7 @@ excerpt: "Random Access Protocol"
 date: 2025-04-30
 last_modified_at: 2025-10-02
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 ---
 

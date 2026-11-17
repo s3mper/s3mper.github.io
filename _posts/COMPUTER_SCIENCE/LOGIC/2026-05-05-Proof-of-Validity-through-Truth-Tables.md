@@ -8,7 +8,7 @@ excerpt: "직접 진리표와 간접 진리표"
 date: 2026-05-05
 last_modified_at: 2026-05-05
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 ---
 

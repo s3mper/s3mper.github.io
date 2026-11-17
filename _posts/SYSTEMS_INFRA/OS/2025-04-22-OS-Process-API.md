@@ -8,7 +8,7 @@ excerpt: "Operating System: Three Easy Pieces 정리"
 date: 2025-04-22
 last_modified_at:
 
-categories: [OS]
+categories: [os]
 tags: [OS, TIL]
 ---
 

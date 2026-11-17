@@ -8,7 +8,7 @@ excerpt: "기본 명령어 - 디렉토리 관련명령: 리눅스 시스템 종�
 date: 2022-02-18
 last_modified_at:
 
-categories: [LINUX]
+categories: [linux]
 tags: [LINUX]
 ---
 

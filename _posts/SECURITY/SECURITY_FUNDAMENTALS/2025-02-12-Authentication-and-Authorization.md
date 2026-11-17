@@ -8,7 +8,7 @@ excerpt: "모의해킹 취업반 스터디 7기 16주차"
 date: 2025-02-16
 last_modified_at: 2026-09-07
 
-categories: [SECURITY]
+categories: [security]
 tags: [TIL, WEB, SECURITY]
 ---
 

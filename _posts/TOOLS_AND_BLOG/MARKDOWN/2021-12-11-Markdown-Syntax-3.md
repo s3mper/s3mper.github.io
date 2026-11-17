@@ -8,7 +8,7 @@ excerpt: "Part 3: 이미지, 이모지, 다이어그램, HTML/CSS/JS"
 date: 2021-12-11
 last_modified_at: 2026-04-10
 
-categories: [BLOG]
+categories: [markdown]
 tags: [BLOG, MARKDOWN]
 ---
 

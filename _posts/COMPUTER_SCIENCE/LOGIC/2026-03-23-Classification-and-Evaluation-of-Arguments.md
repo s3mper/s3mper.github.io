@@ -8,7 +8,7 @@ excerpt: "논증의 분류와 평가"
 date: 2026-03-23
 last_modified_at: 2026-04-08
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 ---
 

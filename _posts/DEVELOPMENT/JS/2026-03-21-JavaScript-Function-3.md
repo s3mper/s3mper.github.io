@@ -8,7 +8,7 @@ excerpt: "JS에서 함수가 특별한 이유"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 
-categories: [JS]
+categories: [javascript]
 tags: [WEB, JS]
 ---
 

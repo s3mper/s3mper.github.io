@@ -8,7 +8,7 @@ excerpt: "Protocol의 의미와 인터넷 모델"
 date: 2025-04-02
 last_modified_at: 2026-09-01
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 
 published: true

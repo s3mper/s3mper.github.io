@@ -8,7 +8,7 @@ excerpt: ""
 date: 2025-04-14
 last_modified_at:
 
-categories: []
+categories: [software-design]
 tags: [TIL]
 ---
 

@@ -8,7 +8,7 @@ excerpt: "OTP, One Time Password"
 date: 2026-01-05
 last_modified_at: 2026-01-05
 
-categories: [SECURITY]
+categories: [security]
 tags: [TIL, SECURITY]
 ---
 

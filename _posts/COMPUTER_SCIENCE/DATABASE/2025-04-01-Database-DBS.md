@@ -8,7 +8,7 @@ excerpt: "DBS(DataBase System)"
 date: 2025-04-01
 last_modified_at: 2025-10-17
 
-categories: [DATABASE]
+categories: [database]
 tags: [DATABASE, TIL]
 ---
 

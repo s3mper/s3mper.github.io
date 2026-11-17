@@ -8,7 +8,7 @@ excerpt: "Pretext Library Demo Site"
 date: 2026-04-16
 last_modified_at: 2026-04-16
 
-categories: [WEB]
+categories: [web]
 tags: [DEMO, PRETEXT]
 ---
 

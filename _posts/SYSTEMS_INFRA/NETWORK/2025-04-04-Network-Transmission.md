@@ -8,7 +8,7 @@ excerpt: "Data Transmission"
 date: 2025-04-04
 last_modified_at: 2026-04-15
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 ---
 

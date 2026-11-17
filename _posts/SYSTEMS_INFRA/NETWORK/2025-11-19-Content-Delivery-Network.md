@@ -8,7 +8,7 @@ excerpt: "CDN(Content Delivery Network)"
 date: 2025-11-19
 last_modified_at: 2026-09-01
 
-categories: [NETWORK]
+categories: [network]
 tags: [CDN, NETWORK, EDGE_COMPUTING]
 ---
 

@@ -8,7 +8,7 @@ excerpt: "Image Test"
 date: 2021-11-30
 last_modified_at: 2025-11-01
 
-categories: [BLOG]
+categories: [blog]
 tags: [BLOG]
 ---
 

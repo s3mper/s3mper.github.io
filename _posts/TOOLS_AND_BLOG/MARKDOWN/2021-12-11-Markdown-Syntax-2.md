@@ -8,7 +8,7 @@ excerpt: "Part 2: Heading ID, 코드, 표, 수식"
 date: 2021-12-11
 last_modified_at: 2026-02-05
 
-categories: [BLOG]
+categories: [markdown]
 tags: [BLOG, MARKDOWN]
 ---
 

@@ -8,7 +8,7 @@ excerpt: "Data Communication 의미, 특징과 요소"
 date: 2025-03-05
 last_modified_at: 2025-03-28
 
-categories: [NETWORK]
+categories: [network]
 tags: [COMPUTER NETWORK, NETWORK, TIL]
 ---
 

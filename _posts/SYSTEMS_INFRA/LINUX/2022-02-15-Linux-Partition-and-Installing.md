@@ -8,7 +8,7 @@ excerpt: "리눅스 파티션의 정의와 구조, 파일 시스템, 디스크 �
 date: 2022-02-15
 last_modified_at: 2026-07-21
 
-categories: [LINUX]
+categories: [linux]
 tags: [LINUX, PARTITION, FILESYSTEM, INSTALLATIO]
 ---
 

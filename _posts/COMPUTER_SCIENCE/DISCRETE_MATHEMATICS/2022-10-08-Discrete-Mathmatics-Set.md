@@ -8,7 +8,7 @@ excerpt: "집합"
 date: 2022-10-08
 last_modified_at:
 
-categories: [MATHEMATICS]
+categories: [mathematics]
 tags: [DISCRETE MATHEMATICS]
 
 permalink: /discrete-mathematics-set/

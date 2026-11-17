@@ -8,7 +8,7 @@ excerpt: "RCE 취약점"
 date: 2026-02-24
 last_modified_at: 2026-02-24
 
-categories: [CTF]
+categories: [ctf]
 tags: [TIL, WEB, CTF]
 ---
 

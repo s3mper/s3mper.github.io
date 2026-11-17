@@ -8,7 +8,7 @@ excerpt: "Six Sigma와 소프트웨어 품질 모델 비교"
 date: 2025-11-12
 last_modified_at: 2026-10-29
 
-categories: [SOFTWARE_DESIGN]
+categories: [software-design]
 tags: [SOFTWARE_DESIGN]
 ---
 

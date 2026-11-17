@@ -8,7 +8,7 @@ excerpt: "논리적 연결사와 일상 언어의 기호화"
 date: 2026-04-10
 last_modified_at: 2026-04-10
 
-categories: [LOGIC]
+categories: [logic]
 tags: [LOGIC]
 ---
 

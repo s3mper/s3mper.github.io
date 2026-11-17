@@ -8,7 +8,7 @@ excerpt: "관계 제약(Relational Constraints)이란?"
 date: 2025-04-01
 last_modified_at:
 
-categories: [DATABASE]
+categories: [database]
 tags: [DATABASE, TIL]
 ---
 

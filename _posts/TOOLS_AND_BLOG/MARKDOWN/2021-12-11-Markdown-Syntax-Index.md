@@ -8,7 +8,7 @@ excerpt: "Index 페이지"
 date: 2021-12-11
 last_modified_at: 2026-02-05
 
-categories: [BLOG]
+categories: [markdown]
 tags: [BLOG, MARKDOWN]
 ---
 

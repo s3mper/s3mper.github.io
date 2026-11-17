@@ -8,7 +8,7 @@ excerpt: "Stock Market"
 date: 2024-11-04
 last_modified_at:
 
-categories: [ECONOMY]
+categories: [economy]
 tags: [ECONOMY]
 ---
 

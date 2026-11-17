@@ -8,7 +8,7 @@ excerpt: "함수의 심화 문법과 설계"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 
-categories: [JS]
+categories: [javascript]
 tags: [WEB, JS]
 ---
 

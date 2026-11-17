@@ -8,7 +8,7 @@ excerpt: "JSON Injection"
 date: 2026-02-03
 last_modified_at: 2026-02-03
 
-categories: [CTF]
+categories: [ctf]
 tags: [TIL, WEB, CTF]
 ---
 

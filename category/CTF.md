@@ -1,4 +1,4 @@
 ---
 layout: category
-title: CTF
+title: ctf
 ---

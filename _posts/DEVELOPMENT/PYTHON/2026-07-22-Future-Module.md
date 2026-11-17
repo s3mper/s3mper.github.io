@@ -8,7 +8,7 @@ excerpt: "Python의 future 모듈과 from future import annotations의 동작 �
 date: 2026-07-22
 last_modified_at: 2026-07-22
 
-categories: [PYTHON]
+categories: [python]
 tags: [PYTHON, FUTURE, ANNOTATIONS, TYPE-HINT, TYPE-CHECKING]
 ---
 

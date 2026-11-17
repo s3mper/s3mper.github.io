@@ -8,7 +8,7 @@ excerpt: "파일관련 명령어 2: 검색조건에 맞는 파일 검색 및 리
 date: 2022-03-07
 last_modified_at: 2026-07-30
 
-categories: [LINUX]
+categories: [linux]
 tags: [LINUX]
 ---
 

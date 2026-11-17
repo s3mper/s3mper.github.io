@@ -8,7 +8,7 @@ excerpt: "Agent Skills 개요"
 date: 2026-05-07
 last_modified_at: 2026-05-07
 
-categories: [AI]
+categories: [ai]
 tags: []
 ---
 

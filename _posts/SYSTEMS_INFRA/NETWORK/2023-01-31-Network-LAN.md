@@ -8,7 +8,7 @@ excerpt: "네트워크 2"
 date: 2023-01-31
 last_modified_at:
 
-categories: [NETWORK]
+categories: [network]
 tags: [NETWORK]
 ---
 
