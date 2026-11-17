@@ -9,7 +9,7 @@ date: 2022-10-07
 last_modified_at:
 
 categories: [mathematics]
-tags: [DISCRETE MATHEMATICS]
+tags: [discrete-mathematics]
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD029 MD033 MD050 -->

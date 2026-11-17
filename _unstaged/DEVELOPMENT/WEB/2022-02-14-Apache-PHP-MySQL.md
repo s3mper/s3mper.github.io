@@ -10,7 +10,7 @@ date: 2022-02-14
 last_modified_at: 
 
 categories: [WEB]
-tags: [WEB]
+tags: [web]
 ---
 
 _해킹 맛보기_ 를 읽기 시작했다. 책의 설명을 그대로 따라갈 수는 없기에 이런저런 블로그와 사이트를 참고해서 Apache, PHP, MySQL을 다운받았다.

@@ -9,7 +9,7 @@ date: 2022-09-30
 last_modified_at:
 
 categories: [computer-organization]
-tags: [COD, MIPS, SPIM]
+tags: [cod, mips, spim]
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD033-->

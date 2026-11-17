@@ -9,7 +9,7 @@ date: 2022-02-27
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 ## 사용자 관리

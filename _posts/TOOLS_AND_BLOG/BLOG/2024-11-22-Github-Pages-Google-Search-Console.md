@@ -9,7 +9,7 @@ date: 2024-11-22
 last_modified_at: 2024-12-19
 
 categories: [blog]
-tags: [BLOG]
+tags: [blog]
 ---
 
 <!-- markdownlint-disable MD007 MD033-->

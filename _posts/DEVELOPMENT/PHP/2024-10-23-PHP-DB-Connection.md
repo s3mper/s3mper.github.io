@@ -9,7 +9,7 @@ date: 2024-10-23
 last_modified_at: 2024-11-22
 
 categories: [web]
-tags: [WEB, PHP, DATABASE]
+tags: [web, php, database]
 ---
 
 # 회고

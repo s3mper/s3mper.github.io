@@ -11,9 +11,9 @@ last_modified_at: 2026-10-13
 categories:
   - WEB
 tags:
-  - WEB
-  - SECURITY
-  - TOOL
+  - web
+  - security
+  - tool
 ---
 # Burp Suite란?
 

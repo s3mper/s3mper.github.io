@@ -12,7 +12,7 @@ date: 2025-04-04
 last_modified_at: 
 
 categories: [NETWORK]
-tags: [COMPUTER NETWORK, NETWORK, TIL]
+tags: [computer-network, network, til]
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>

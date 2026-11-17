@@ -9,7 +9,7 @@ date: 2026-08-03
 last_modified_at: 2026-08-03
 
 categories: [ai]
-tags: [AI, ACTIVATION_FUNCTION]
+tags: [ai, activation-function]
 ---
 
 <!-- markdownlint-disable MD004 MD010 MD025 MD033 MD060 -->

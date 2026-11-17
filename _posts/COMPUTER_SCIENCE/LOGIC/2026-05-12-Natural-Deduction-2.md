@@ -9,7 +9,7 @@ date: 2026-05-19
 last_modified_at: 2026-05-19
 
 categories: [logic]
-tags: [LOGIC]
+tags: [logic]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD033 -->

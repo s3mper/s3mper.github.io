@@ -9,7 +9,7 @@ date: 2024-11-05
 last_modified_at: 2024-11-08
 
 categories: [security]
-tags: [CRYPTOGRAPHY, SECURITY]
+tags: [cryptography, security]
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>

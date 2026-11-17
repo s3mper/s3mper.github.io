@@ -9,7 +9,7 @@ date: 2025-04-14
 last_modified_at:
 
 categories: [software-design]
-tags: [TIL]
+tags: [til]
 ---
 
 # 목차

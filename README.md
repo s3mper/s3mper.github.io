@@ -61,7 +61,7 @@ date: 2026-02-05
 last_modified_at: 2026-02-05
 
 categories: [SECURITY]
-tags: [SECURITY, WEB]
+tags: [security, web]
 ---
 ```
 

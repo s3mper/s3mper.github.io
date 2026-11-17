@@ -9,7 +9,7 @@ date: 2022-10-08
 last_modified_at:
 
 categories: [mathematics]
-tags: [DISCRETE MATHEMATICS]
+tags: [discrete-mathematics]
 
 permalink: /discrete-mathematics-set/
 redirect_from:

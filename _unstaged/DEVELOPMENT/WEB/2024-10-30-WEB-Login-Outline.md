@@ -5,7 +5,7 @@ date: 2024-10-30
 last_modified_at: 2026-04-28
 excerpt: 모의해킹 취업반 스터디 7기 3주차
 tags:
-  - WEB
+  - web
 comments: true
 ---
 # 로그인이란?

@@ -9,7 +9,7 @@ date: 2022-02-27
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 1. `pwd`: 현재 위치한 디렉토리의 절대 경로 표시

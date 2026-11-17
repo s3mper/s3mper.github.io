@@ -9,7 +9,7 @@ date: 2022-02-15
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 ## 운영체제 정의

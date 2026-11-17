@@ -9,7 +9,7 @@ date: 2025-11-19
 last_modified_at: 2026-09-01
 
 categories: [network]
-tags: [CDN, NETWORK, EDGE_COMPUTING]
+tags: [cdn, network, edge-computing]
 ---
 
 <!-- markdownlint-disable md007 md010 md025 md033 -->

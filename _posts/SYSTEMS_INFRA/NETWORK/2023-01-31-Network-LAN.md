@@ -9,7 +9,7 @@ date: 2023-01-31
 last_modified_at:
 
 categories: [network]
-tags: [NETWORK]
+tags: [network]
 ---
 
 <!-- markdownlint-disable md025 md033 -->

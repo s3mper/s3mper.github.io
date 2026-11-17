@@ -9,7 +9,7 @@ date: 2021-11-30
 last_modified_at: 2025-11-01
 
 categories: [blog]
-tags: [BLOG]
+tags: [blog]
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 MD049-->

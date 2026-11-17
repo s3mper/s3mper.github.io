@@ -9,7 +9,7 @@ date: 2022-03-07
 last_modified_at: 2026-07-30
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 redirection 명령: 입출력의 방향을 바꾸는 작업

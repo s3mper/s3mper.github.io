@@ -9,7 +9,7 @@ date: 2025-11-11
 last_modified_at: 2025-11-11
 
 categories: [ai]
-tags: [AI, DEEP_LEARNING]
+tags: [ai, deep-learning]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

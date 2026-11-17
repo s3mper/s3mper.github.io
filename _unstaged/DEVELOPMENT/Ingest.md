@@ -1,6 +1,6 @@
 ---
 tags:
-  - ESW
+  - esw
 ---
 
 # Ingest 서비스란?

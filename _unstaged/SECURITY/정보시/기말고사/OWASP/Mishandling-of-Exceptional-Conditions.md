@@ -13,11 +13,11 @@ last_modified_at: 2026-07-22
 categories:
     - SECURITY
 tags:
-    - OWASP
-    - OWASP-TOP-10
-    - EXCEPTION-HANDLING
-    - WEB-SECURITY
-    - FAIL-CLOSED
+    - owasp
+    - owasp-top-10
+    - exception-handling
+    - web-security
+    - fail-closed
 
 ---
 

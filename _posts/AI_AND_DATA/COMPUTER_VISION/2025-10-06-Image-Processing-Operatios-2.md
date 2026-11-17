@@ -9,7 +9,7 @@ date: 2025-10-06
 last_modified_at: 2025-10-17
 
 categories: [computer-vision]
-tags: [COMPUTER_VISION]
+tags: [computer-vision]
 
 permalink: /image-processing-operations-2/
 redirect_from:

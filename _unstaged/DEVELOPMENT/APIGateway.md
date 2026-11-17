@@ -10,7 +10,7 @@ date:
 last_modified_at: 
 
 categories: []
-tags: [ESW]
+tags: [esw]
 ---
 
 # API Gateway

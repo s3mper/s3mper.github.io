@@ -9,7 +9,7 @@ date: 2024-11-10
 last_modified_at:
 
 categories: [javascript]
-tags: [JS]
+tags: [js]
 ---
 
 <!-- markdownlint-disable MD025 -->

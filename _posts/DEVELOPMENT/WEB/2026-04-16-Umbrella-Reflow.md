@@ -9,7 +9,7 @@ date: 2026-04-16
 last_modified_at: 2026-04-16
 
 categories: [web]
-tags: [DEMO, PRETEXT]
+tags: [demo, pretext]
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

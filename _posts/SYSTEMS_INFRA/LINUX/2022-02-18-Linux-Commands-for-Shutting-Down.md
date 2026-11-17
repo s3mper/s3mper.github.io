@@ -9,7 +9,7 @@ date: 2022-02-18
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 ## 시스템 종료와 재부팅

@@ -12,7 +12,7 @@ date: 2025-11-03
 last_modified_at:
 
 categories: [SECURITY]
-tags: [CRYPTOGRAPHY]
+tags: [cryptography]
 ---
 
 # 보안의 속성

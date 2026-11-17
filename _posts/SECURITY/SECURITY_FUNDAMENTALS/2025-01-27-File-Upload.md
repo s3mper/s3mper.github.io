@@ -9,7 +9,7 @@ date: 2025-01-27
 last_modified_at:
 
 categories: [security]
-tags: [TIL, WEB, SECURITY]
+tags: [til, web, security]
 ---
 
 # File Upload 취약점

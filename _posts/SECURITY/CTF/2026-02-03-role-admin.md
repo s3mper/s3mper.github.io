@@ -9,7 +9,7 @@ date: 2026-02-03
 last_modified_at: 2026-02-03
 
 categories: [ctf]
-tags: [TIL, WEB, CTF]
+tags: [til, web, ctf]
 ---
 
 <!-- markdownlint-disable MD010 MD025 -->

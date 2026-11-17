@@ -9,7 +9,7 @@ date: 2025-10-01
 last_modified_at: 2025-10-17
 
 categories: [computer-vision]
-tags: [COMPUTER_VISION]
+tags: [computer-vision]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

@@ -9,7 +9,7 @@ date: 2026-04-14
 last_modified_at: 2026-04-15
 
 categories: [obsidian]
-tags: [OBSIDIAN, COMMUNITY-PLUGINS]
+tags: [obsidian, community-plugins]
 ---
 
 <!-- markdownlint-disable MD004 MD010 MD025 MD029 -->

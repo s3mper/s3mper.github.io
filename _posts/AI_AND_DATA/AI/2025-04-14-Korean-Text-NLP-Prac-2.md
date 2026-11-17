@@ -9,7 +9,7 @@ date: 2025-04-13
 last_modified_at: 2025-11-13
 
 categories: [ai]
-tags: [NLP, TIL]
+tags: [nlp, til]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD033 -->

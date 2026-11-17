@@ -9,7 +9,7 @@ date: 2022-02-18
 last_modified_at: 2024-12-27
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 # 부트로더

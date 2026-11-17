@@ -9,7 +9,7 @@ date: 2024-11-04
 last_modified_at:
 
 categories: [web]
-tags: [WEB, PHP]
+tags: [web, php]
 ---
 
 # 목차

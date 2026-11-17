@@ -9,7 +9,7 @@ date: 2024-10-17
 last_modified_at: 2026-04-10
 
 categories: [web]
-tags: [WEB, VMWare]
+tags: [web, vmware]
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD024 MD025 MD029 MD033 -->

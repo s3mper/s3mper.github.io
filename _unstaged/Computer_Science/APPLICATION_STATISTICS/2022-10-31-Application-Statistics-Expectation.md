@@ -11,7 +11,7 @@ excerpt: "기댓값, 분산, 표준편차"
 date: 2022-10-31
 last_modified_at: 
 
-tags: [APPLICATION_STATISTICS]
+tags: [application-statistics]
 ---
 
 ## 확률변수의 기댓값

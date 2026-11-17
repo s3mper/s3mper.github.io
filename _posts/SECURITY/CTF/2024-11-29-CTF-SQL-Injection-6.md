@@ -9,7 +9,7 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [ctf]
-tags: [TIL, DATABASE, CTF]
+tags: [til, database, ctf]
 ---
 
 [Blind SQL Injection의 참·거짓 응답 원리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-Blind-SQL-Injection %})를 적용해 데이터베이스, 테이블, 컬럼과 데이터를 차례로 확인하는 실습이다.

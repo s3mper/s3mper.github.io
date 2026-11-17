@@ -9,7 +9,7 @@ date: 2025-04-30
 last_modified_at:
 
 categories: [network]
-tags: [COMPUTER NETWORK, NETWORK, TIL]
+tags: [computer-network, network, til]
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD025 MD033 -->

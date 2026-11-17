@@ -8,10 +8,10 @@ last_modified_at: 2026-11-04
 categories:
   - security
 tags:
-  - TIL
-  - WEB
-  - DATABASE
-  - SECURITY
+  - til
+  - web
+  - database
+  - security
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

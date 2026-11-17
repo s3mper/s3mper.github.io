@@ -9,7 +9,7 @@ date: 2022-06-29
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX, LICENSE]
+tags: [linux, license]
 ---
 
 ## 2017년 09월 09일 필기 기출문제

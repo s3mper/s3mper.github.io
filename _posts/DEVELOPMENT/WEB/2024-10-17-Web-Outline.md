@@ -9,7 +9,7 @@ date: 2024-10-17
 last_modified_at: 2026-01-06
 
 categories: [web]
-tags: [WEB]
+tags: [web]
 ---
 
 <!-- markdownlint-disable MD007 MD025 -->

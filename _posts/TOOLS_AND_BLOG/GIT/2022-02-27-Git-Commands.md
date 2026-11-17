@@ -9,7 +9,7 @@ date: 2022-02-27
 last_modified_at: 2026-09-01
 
 categories: [git]
-tags: [GIT]
+tags: [git]
 ---
 
 <!-- markdownlint-disable md004 MD010 MD025 MD029 -->

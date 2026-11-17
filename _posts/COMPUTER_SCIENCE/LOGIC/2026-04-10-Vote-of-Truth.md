@@ -9,7 +9,7 @@ date: 2026-04-10
 last_modified_at: 2026-04-10
 
 categories: [logic]
-tags: [LOGIC]
+tags: [logic]
 
 permalink: /truth-tables/
 redirect_from:

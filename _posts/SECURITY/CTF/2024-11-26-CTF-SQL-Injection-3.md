@@ -9,7 +9,7 @@ date: 2024-11-26
 last_modified_at:
 
 categories: [ctf]
-tags: [TIL, WEB, DATABASE, CTF]
+tags: [til, web, database, ctf]
 ---
 
 # Login Bypass 5

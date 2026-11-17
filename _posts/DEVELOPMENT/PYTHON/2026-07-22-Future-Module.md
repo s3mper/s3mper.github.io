@@ -9,7 +9,7 @@ date: 2026-07-22
 last_modified_at: 2026-07-22
 
 categories: [python]
-tags: [PYTHON, FUTURE, ANNOTATIONS, TYPE-HINT, TYPE-CHECKING]
+tags: [python, future, annotations, type-hint, type-checking]
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD060 -->

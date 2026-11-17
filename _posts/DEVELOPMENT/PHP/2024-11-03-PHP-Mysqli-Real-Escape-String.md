@@ -9,7 +9,7 @@ date: 2024-11-03
 last_modified_at:
 
 categories: [web]
-tags: [WEB, PHP]
+tags: [web, php]
 ---
 
 # mysqli real escape string 함수

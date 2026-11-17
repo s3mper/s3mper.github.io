@@ -9,7 +9,7 @@ date: 2025-02-09
 last_modified_at: 2025-02-12
 
 categories: [security]
-tags: [TIL, WEB, SECURITY]
+tags: [til, web, security]
 ---
 
 # 파일 다운로드 취약점

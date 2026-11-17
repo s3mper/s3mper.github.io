@@ -9,7 +9,7 @@ date: 2026-04-06
 last_modified_at: 2026-04-08
 
 categories: [logic]
-tags: [LOGIC]
+tags: [logic]
 
 permalink: /formal-fallacies/
 redirect_from:

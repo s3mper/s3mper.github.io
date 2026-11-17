@@ -9,7 +9,7 @@ date: 2024-11-03
 last_modified_at: 2024-11-08
 
 categories: [web]
-tags: [WEB, PHP]
+tags: [web, php]
 ---
 
 # -> 와 => 연산자

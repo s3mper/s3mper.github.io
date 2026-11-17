@@ -9,7 +9,7 @@ date: 2025-02-16
 last_modified_at: 2026-09-07
 
 categories: [security]
-tags: [TIL, WEB, SECURITY]
+tags: [til, web, security]
 ---
 
 <!-- markdownlint-disable md004 md007 md010 MD025 md033 -->

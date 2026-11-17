@@ -9,7 +9,7 @@ date: 2025-03-16
 last_modified_at: 2025-04-22
 
 categories: [os]
-tags: [OS, "C/C++", TIL]
+tags: [os, c-cpp, til]
 ---
 
 # 목차

@@ -9,7 +9,7 @@ date: 2024-10-23
 last_modified_at: 2025-02-25
 
 categories: [php]
-tags: [WEB, TIL]
+tags: [web, til]
 ---
 
 # 외부 PHP 코드 import 하기

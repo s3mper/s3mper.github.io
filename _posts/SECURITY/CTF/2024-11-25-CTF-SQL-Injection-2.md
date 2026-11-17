@@ -9,7 +9,7 @@ date: 2024-11-25
 last_modified_at: 2024-11-25
 
 categories: [ctf]
-tags: [TIL, WEB, DATABASE, CTF]
+tags: [til, web, database, ctf]
 ---
 
 # 목차

@@ -9,7 +9,7 @@ date: 2024-12-09
 last_modified_at:
 
 categories: [ctf]
-tags: [TIL, WEB]
+tags: [til, web]
 ---
 
 # login.php

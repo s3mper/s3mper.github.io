@@ -9,7 +9,7 @@ date: 2022-02-15
 last_modified_at:
 
 categories: [linux]
-tags: [LINUX]
+tags: [linux]
 ---
 
 ## 리눅스 기능 - 다양한 서버의 역할담당
