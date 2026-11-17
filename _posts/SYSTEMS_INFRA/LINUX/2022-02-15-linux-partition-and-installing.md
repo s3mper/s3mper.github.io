@@ -1,0 +1,474 @@
+---
+layout: post
+comments: true
+
+title: "리눅스 설치 준비: 디스크 파티션과 마운트"
+excerpt: "리눅스 파티션의 정의와 구조, 파일 시스템, 디스크 장치 이름, 설치 방식과 사전 준비사항 정리"
+
+date: 2022-02-15
+last_modified_at: 2026-07-21
+
+categories: [linux]
+tags: [linux, partition, filesystem, installatio]
+redirect_from:
+  - /Linux-Partition-and-Installing/
+guid: https://s3mper.github.io/Linux-Partition-and-Installing/
+---
+
+<!-- markdownlint-disable MD004 MD007 MD025 MD033 MD036 MD046 -->
+
+# 리눅스 파티션과 설치 준비 작업
+
+> **리눅스 파티션**: 하나의 물리적 디스크를 여러 논리적 저장 영역으로 나누고, 각 영역을 리눅스 디렉터리 구조에 연결해 사용하는 디스크 관리 방식이다.
+
+---
+
+## 목차
+
+1. [디스크와 파티션](#1-디스크와-파티션)
+    1. [파티션이란?](#11-파티션이란)
+2. [리눅스의 마운트 개념](#2-리눅스의-마운트-개념)
+    1. [마운트란?](#21-마운트란)
+3. [리눅스 설치 시 주요 파티션](#3-리눅스-설치-시-주요-파티션)
+    1. [루트 파티션 `/`](#31-루트-파티션-)
+    2. [부트 파티션 `/boot`](#32-부트-파티션-boot)
+    3. [홈 파티션 `/home`](#33-홈-파티션-home)
+    4. [스왑 영역](#34-스왑-영역)
+4. [디스크 장치 이름](#4-디스크-장치-이름)
+    1. [과거 IDE 디스크](#41-과거-ide-디스크)
+    2. [Master와 Slave](#42-master와-slave)
+    3. [SATA·SCSI·USB 디스크](#43-satascsiusb-디스크)
+    4. [NVMe SSD](#44-nvme-ssd)
+5. [MBR 파티션 구조](#5-mbr-파티션-구조)
+    1. [기본 파티션](#51-기본-파티션)
+    2. [확장 파티션](#52-확장-파티션)
+    3. [논리 파티션](#53-논리-파티션)
+6. [MBR과 GPT](#6-mbr과-gpt)
+    1. [MBR](#61-mbr)
+    2. [GPT](#62-gpt)
+7. [리눅스 파일 시스템](#7-리눅스-파일-시스템)
+    1. [ext2](#71-ext2)
+    2. [ext3](#72-ext3)
+    3. [ext4](#73-ext4)
+    4. [XFS](#74-xfs)
+    5. [Btrfs](#75-btrfs)
+8. [리눅스 설치 전 확인 사항](#8-리눅스-설치-전-확인-사항)
+9. [리눅스 설치 방식](#9-리눅스-설치-방식)
+    1. [리눅스 단독 설치](#91-리눅스-단독-설치)
+    2. [듀얼 부팅](#92-듀얼-부팅)
+    3. [가상 머신 설치](#93-가상-머신-설치)
+10. [설치 미디어 준비](#10-설치-미디어-준비)
+11. [출처](#출처)
+
+---
+
+## 1. 디스크와 파티션
+
+### 1.1. 파티션이란?
+
+**파티션(partition)**: 하나의 물리적 디스크를 여러 개의 독립된 논리적 저장 공간으로 나누는 작업이다.
+
+![partition](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-05-42.png)
+
+<small>정보통신기술용어해설. 「Disk Partition, Disk Volume 디스크 파티션, 디스크 볼륨, 디스크 구성 단위」. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?no=4856)</small>
+
+예를 들어 하나의 디스크를 다음과 같이 분리할 수 있다.
+
+```text
+C: 운영체제 영역
+D: 데이터 저장 영역
+```
+
+리눅스에서는 윈도우처럼 `C:`, `D:`와 같은 드라이브 문자를 사용하지 않는다. 디스크와 파티션을 장치 파일로 표현하며, 일반적으로 `/dev`(device) 디렉터리 아래에서 확인할 수 있다.
+
+```text
+/dev/sda
+/dev/sdb
+/dev/sda1
+/dev/sda2
+```
+
+* `/dev/sda`: 첫 번째 디스크
+* `/dev/sdb`: 두 번째 디스크
+* `/dev/sda1`: 첫 번째 디스크의 첫 번째 파티션
+* `/dev/sda2`: 첫 번째 디스크의 두 번째 파티션
+
+과거 IDE 디스크는 `/dev/hda`, `/dev/hdb` 형식을 사용했지만, 현대 리눅스에서는 SATA, SCSI, USB뿐 아니라 대부분의 디스크가 `/dev/sdX` 형태로 표시된다. NVMe SSD는 `/dev/nvme0n1`과 같은 형식을 사용한다.
+
+## 2. 리눅스의 마운트 개념
+
+### 2.1. 마운트란?
+
+**마운트(mount)**: 디스크나 파티션을 리눅스의 특정 디렉터리에 연결하여 사용할 수 있게 만드는 작업이다.
+
+![mount](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-07-58.png)
+
+<small>TakeTheNotes. 「Exploring the World of Mount Points in Linux Disk Management」. [TakeTheNotes](https://takethenotes.com/mount-points/)</small>
+
+리눅스는 모든 파일과 장치를 최상위 디렉터리인 루트 디렉터리 `/` 아래에 배치한다. 따라서 별도의 드라이브 문자를 사용하는 대신 파티션을 특정 디렉터리에 연결한다.
+
+예시:
+
+```text
+/dev/sda1 → /
+/dev/sda2 → /home
+/dev/sdb1 → /data
+```
+
+위 구성에서는 다음과 같이 사용된다.
+
+* `/`: 운영체제가 설치되는 기본 영역
+* `/home`: 사용자 개인 파일 영역
+* `/data`: 별도의 데이터 저장 영역
+
+마운트 상태는 다음 명령어로 확인할 수 있다.
+
+```bash
+lsblk
+df -h
+mount
+```
+
+## 3. 리눅스 설치 시 주요 파티션
+
+### 3.1. 루트 파티션 `/`
+
+리눅스 운영체제와 프로그램이 설치되는 핵심 파티션이다. 특별한 목적이 없다면 대부분의 디렉터리를 하나의 루트 파티션에 포함할 수 있다.
+
+```text
+/
+```
+
+### 3.2. 부트 파티션 `/boot`
+
+커널과 부트로더 관련 파일이 저장되는 영역이다. 시스템 구성에 따라 별도의 파티션으로 분리하거나 루트 파티션에 포함한다.
+
+```text
+/boot
+```
+
+**UEFI(Unified Extensible Firmware Interface, 통합 확장 펌웨어 인터페이스)** 방식으로 부팅하는 시스템에서는 EFI 시스템 파티션이 필요하다.
+
+```text
+/boot/efi
+```
+
+EFI 시스템 파티션은 일반적으로 FAT32 파일 시스템으로 구성한다.
+
+### 3.3. 홈 파티션 `/home`
+
+사용자 계정의 문서, 설정 파일, 다운로드 파일 등이 저장되는 영역이다.
+
+```text
+/home
+```
+
+별도 파티션으로 구성하면 운영체제를 다시 설치하더라도 사용자 데이터를 비교적 쉽게 보존할 수 있다.
+
+### 3.4. 스왑 영역
+
+**스왑(swap)**: 물리 메모리인 RAM이 부족할 때 디스크 일부를 임시 메모리처럼 사용하는 공간이다.
+
+스왑은 다음 두 가지 방식으로 구성할 수 있다.
+
+* 스왑 파티션
+* 스왑 파일
+
+과거에는 RAM 용량의 두 배를 스왑으로 설정하는 방식이 흔했지만, 현대 시스템에서는 사용 목적과 RAM 용량에 따라 결정한다.
+
+예를 들어 다음 요소를 고려한다.
+
+* 서버인지 데스크톱인지
+* 시스템 RAM 용량
+* 최대 절전 모드 사용 여부
+* 메모리 사용량이 큰 프로그램의 실행 여부
+
+최대 절전 모드를 사용하려면 일반적으로 RAM의 내용을 저장할 수 있을 정도의 스왑 공간이 필요하다.
+
+스왑 상태는 다음 명령어로 확인한다.
+
+```bash
+swapon --show
+free -h
+```
+
+## 4. 디스크 장치 이름
+
+### 4.1. 과거 IDE 디스크
+
+과거 **IDE(Integrated Drive Electronics)** 방식에서는 디스크 연결 위치에 따라 다음과 같이 이름을 사용했다.
+
+| 구분 | Master | Slave |
+| --- | --- | --- |
+| Primary | /dev/hda | /dev/hdb |
+| Secondary | /dev/hdc | /dev/hdd |
+
+예를 들어 첫 번째 IDE 디스크의 두 번째 파티션은 다음과 같다.
+
+```text
+/dev/hda2
+```
+
+### 4.2. Master와 Slave
+
+IDE 방식에서는 하나의 케이블에 최대 두 개의 장치를 연결할 수 있었다.
+
+* **Master**: 주 장치
+* **Slave**: 보조 장치
+
+이 구분은 과거 IDE 장치에서 사용하던 개념이다. SATA, NVMe 등 현대 저장장치에서는 일반적으로 사용하지 않는다.
+
+### 4.3. SATA·SCSI·USB 디스크
+
+**SATA(Serial Advanced Technology Attachment)**, **SCSI(Small Computer System Interface)**, USB 저장장치는 일반적으로 다음과 같이 표현된다.
+
+```text
+첫 번째 디스크: /dev/sda
+두 번째 디스크: /dev/sdb
+세 번째 디스크: /dev/sdc
+```
+
+파티션 번호는 디스크 이름 뒤에 붙는다.
+
+```text
+/dev/sda1
+/dev/sda2
+/dev/sdb1
+```
+
+### 4.4. NVMe SSD
+
+**SSD(Solid State Drive/Disk)**: NVMe 장치는 다음과 같은 이름을 사용한다.
+
+```text
+/dev/nvme0n1
+/dev/nvme0n1p1
+/dev/nvme0n1p2
+```
+
+* `nvme0`: 첫 번째 NVMe 컨트롤러
+* `n1`: 첫 번째 네임스페이스
+* `p1`: 첫 번째 파티션
+
+## 5. MBR 파티션 구조
+
+전통적인 MBR 파티션 방식에서는 파티션을 기본 파티션, 확장 파티션, 논리 파티션으로 구분한다.
+
+### 5.1. 기본 파티션
+
+**기본 파티션, 프라이머리 파티션(primary -)**: 데이터를 직접 저장하거나 운영체제를 설치할 수 있는 파티션이다.
+
+MBR 방식에서는 하나의 디스크에 최대 네 개까지 만들 수 있다.
+
+```text
+/dev/sda1
+/dev/sda2
+/dev/sda3
+/dev/sda4
+```
+
+기본 파티션 자체가 반드시 윈도우의 `C:` 드라이브를 의미하는 것은 아니다. 어떤 운영체제와 파일 시스템을 배치하는지는 사용자가 결정한다.
+
+### 5.2. 확장 파티션
+
+**확장 파티션**: MBR의 파티션 네 개 제한을 보완하기 위해 사용하는 특수한 파티션이다.
+
+확장 파티션에는 일반 데이터를 직접 저장하기보다 내부에 논리 파티션을 생성한다. 하나의 디스크에는 일반적으로 확장 파티션을 하나만 만들 수 있다.
+
+예시:
+
+```text
+기본 파티션 3개 + 확장 파티션 1개
+```
+
+### 5.3. 논리 파티션
+
+**논리 파티션**: 확장 파티션 내부에 생성된다. 전통적인 리눅스 장치 이름에서는 일반적으로 5번부터 번호가 부여된다.
+
+```text
+/dev/sda5
+/dev/sda6
+/dev/sda7
+```
+
+구조는 다음과 같이 표현할 수 있다.
+
+```text
+디스크
+├─ 기본 파티션
+├─ 기본 파티션
+├─ 기본 파티션
+└─ 확장 파티션
+   ├─ 논리 파티션
+   ├─ 논리 파티션
+   └─ 논리 파티션
+```
+
+논리 파티션을 반드시 12개까지만 만들 수 있는 것은 아니다. 실제 한도는 운영체제와 디스크 관리 도구 등에 따라 달라진다.
+
+## 6. MBR과 GPT
+
+![MBR vs GPT](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-07-21-15-15-26.png)
+
+<small>howtouselinux. 「Understanding Disk Partition in Linux – MBR vs GPT」. [howtouselinux](https://www.howtouselinux.com/post/mbr-vs-gpt)</small>
+
+### 6.1. MBR
+
+**MBR(Master Book Record)**: 디스크의 첫 번째 섹터에 파티션 정보와 초기 부팅 코드를 저장하는 전통적인 파티션 방식이다.
+
+주요 특징은 다음과 같다.
+
+* 기본 파티션 최대 4개
+* 확장 파티션과 논리 파티션 사용
+* 일반적으로 약 2TB까지의 디스크에 적합
+* BIOS 기반 시스템에서 주로 사용
+
+### 6.2. GPT
+
+**GPT(GUID Partition Table)**: 현대 시스템에서 주로 사용하는 파티션 방식이다.
+
+> **GUID**: Globally Unique IDentifier, 전역 고유 식별자
+
+주요 특징은 다음과 같다.
+
+* MBR보다 많은 파티션 생성 가능
+* 2TB 이상의 대용량 디스크 지원
+* 파티션 정보를 디스크 여러 위치에 저장
+* 오류 검증 기능 제공
+* UEFI 방식과 함께 주로 사용
+
+최근 리눅스를 설치할 때는 특별한 이유가 없다면 GPT 방식을 사용하는 것이 일반적이다.
+
+## 7. 리눅스 파일 시스템
+
+**파일 시스템**: 운영체제가 디스크에 파일과 디렉터리를 저장하고 관리하기 위한 구조와 규칙이다.
+
+### 7.1. ext2
+
+**ext2(EXTended filesystem 2, 확장 파일 시스템 2)**: 초기 리눅스에서 사용된 파일 시스템이다.
+
+* 구조가 단순함
+* 저널링 기능이 없음
+* 비정상 종료 후 `fsck` 검사가 오래 걸릴 수 있음
+* USB나 플래시 저장장치처럼 쓰기 횟수를 줄여야 하는 환경에서 제한적으로 사용 가능
+
+### 7.2. ext3
+
+**ext3(EXTended filesystem 3, 확장 파일 시스템 3)**: ext2에 저널링 기능을 추가한 파일 시스템이다.
+
+* 비정상 종료 후 복구 시간이 단축됨
+* ext2와 호환성이 높음
+* 현재는 ext4에 비해 사용 빈도가 낮음
+
+> **저널링(journaling)**: 파일 시스템 변경 내용을 별도의 로그에 먼저 기록하여 비정상 종료 시 복구를 지원하는 기능이다.
+
+### 7.3. ext4
+
+**ext4(EXTended filesystem 4, 확장 파일 시스템 4)**: 현재 리눅스에서 널리 사용되는 범용 파일 시스템이다.
+
+* 대용량 파일과 디스크 지원
+* ext3보다 향상된 성능
+* 저널링 지원
+* 높은 안정성과 호환성
+
+### 7.4. XFS
+
+**XFS(the eXtension of eFS)**: 대용량 파일과 서버 환경에서 많이 사용하는 파일 시스템이다.
+
+* 대용량 데이터 처리에 강함
+* 병렬 입출력 성능이 우수함
+* 여러 서버용 리눅스 배포판에서 기본 파일 시스템으로 사용
+
+### 7.5. Btrfs
+
+**Btrfs(B-TRee/BuTteR/BeTteR File System)**: 스냅샷과 데이터 무결성 기능을 지원하는 현대적인 파일 시스템이다.
+
+* 스냅샷
+* 서브볼륨
+* 압축
+* 체크섬
+* RAID 기능
+
+> **RAID(Redundant Array of Independent Disks)**: 여러 개의 하드 드라이브나 SSD를 결합해 하나의 논리적 드라이브로 작동하게 하는 데이터 저장 기술이다.
+
+다만 운영 환경과 배포판에 따라 지원 수준과 권장 설정을 확인해야 한다.
+
+## 8. 리눅스 설치 전 확인 사항
+
+1. 하드웨어 확인: 설치 전에 하드웨어가 리눅스에서 정상 지원되는지 확인한다.
+2. 데이터 백업: 파티션 작업 중 기존 데이터가 삭제될 수 있으므로 중요한 파일을 외부 저장장치나 클라우드에 백업해야 한다.
+3. 디스크 여유 공간 확보: 듀얼 부팅을 구성한다면 기존 운영체제의 파티션을 축소하여 리눅스 설치 공간을 확보한다.
+4. BIOS·UEFI 설정 확인: 설치 USB와 기존 운영체제는 가능하면 동일한 부팅 방식으로 실행해야 한다.
+
+## 9. 리눅스 설치 방식
+
+### 9.1. 리눅스 단독 설치
+
+디스크 전체를 리눅스에서 사용하는 방식이다.
+
+장점:
+
+* 설치와 파티션 구성이 단순함
+* 디스크 공간을 모두 활용 가능
+* 부트로더 충돌 가능성이 낮음
+
+설치 프로그램은 일반적으로 그래픽 설치 모드를 제공하며, 서버 배포판에서는 텍스트 기반 설치 환경을 제공하기도 한다.
+
+### 9.2. 듀얼 부팅
+
+하나의 컴퓨터에 윈도우와 리눅스를 함께 설치하고, 부팅 시 사용할 운영체제를 선택하는 방식이다.
+
+구성 방법:
+
+* 하나의 디스크를 여러 파티션으로 나누어 설치
+* 서로 다른 디스크에 각각 운영체제 설치
+
+듀얼 부팅에서는 일반적으로 GRUB 부트로더가 운영체제 선택 메뉴를 제공한다.
+
+### 9.3. 가상 머신 설치
+
+VirtualBox, VMware 등의 가상화 프로그램 안에 리눅스를 설치하는 방식이다.
+
+장점:
+
+* 기존 운영체제와 파티션을 변경하지 않음
+* 여러 배포판을 쉽게 실습 가능
+* 스냅샷으로 상태를 저장하고 복구 가능
+
+단점:
+
+* 실제 하드웨어에 직접 설치하는 것보다 성능이 낮음
+* GPU나 일부 장치 사용에 제약이 있음
+
+## 10. 설치 미디어 준비
+
+과거에는 `boot.img`와 같은 부팅 이미지를 사용했지만, 현재는 배포판에서 제공하는 ISO 이미지로 부팅 USB를 만드는 방식이 일반적이다.
+
+설치 절차는 다음과 같다.
+
+1. 설치할 리눅스 배포판의 ISO 파일을 내려받는다. [LINUX: Download Linux](https://www.linux.org/pages/download/)
+2. ISO 파일의 체크섬을 확인한다.
+3. Rufus, balenaEtcher, Ventoy 등의 도구로 부팅 USB를 만든다.
+4. BIOS 또는 UEFI에서 USB를 우선 부팅 장치로 설정한다.
+5. 라이브 환경에서 하드웨어 동작을 점검한다.
+6. 설치 프로그램을 실행한다.
+
+---
+
+## 출처
+
+- Ubuntu. 「Ubuntu Installation Guide」. [Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- ArchWiki. 「ArchWiki - Partitioning」. [ArchWiki](https://wiki.archlinux.org/title/Partitioning)
+- ArchWiki. 「ArchWiki - File systems」. [ArchWiki](https://wiki.archlinux.org/title/File_systems)
+- GNU. 「GNU GRUB Manual」. [GNU](https://www.gnu.org/software/grub/manual/grub/)
+- Red Hat Docs. 「Red Hat Enterprise Linux - Managing File Systems」. [Red Hat Docs](https://docs.redhat.com/)
+- 정보통신기술용어해설. 「Disk Partition, Disk Volume 디스크 파티션, 디스크 볼륨, 디스크 구성 단위」. [정보통신기술용어해설](http://www.ktword.co.kr/test/view/view.php?no=4856)
+- TakeTheNotes. 「Exploring the World of Mount Points in Linux Disk Management」. [TakeTheNotes](https://takethenotes.com/mount-points/)
+- howtouselinux. 「Understanding Disk Partition in Linux – MBR vs GPT」. [howtouselinux](https://www.howtouselinux.com/post/mbr-vs-gpt)
+
+<div class="obsidian-links" style="display: none;">
+
+[\[LINUX\] 리눅스 구조 및 배포판의 종류](2022-02-15-Linux-Structures-and-Distribution-Types.md)
+[\[LINUX\] 부트로더 grub에 대한 설명과 실행레벨 설명](2022-02-18-Linux-Bootloader.md)
+
+</div>
