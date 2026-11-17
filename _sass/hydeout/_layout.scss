@@ -298,6 +298,10 @@ html.js body.drawer-open #sidebar {
 
   .sidebar-category-groups {
     padding-left: 0;
+
+    > li::marker {
+      content: none;
+    }
   }
 
   .sidebar-category-heading {
