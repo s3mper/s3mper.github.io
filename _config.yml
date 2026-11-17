@@ -30,7 +30,7 @@ defaults:
     values: { sitemap: false }
 
 # Sidebar link settings
-sidebar_home_link:  true
+sidebar_home_link:  false
 # sidebar_blog_link:  /blog # 블로그를 /blog로 쓰고 싶을 때 해제
 
 reading_time:     true
