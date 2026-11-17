@@ -4,21 +4,23 @@
   <ul class="sidebar-category-groups">
     {% for group in site.data.category_groups %}
       <li>
-        <span class="sidebar-category-heading">{{ group.title | escape }}</span>
-        <ul class="sidebar-category-children">
-          {% for child in group.children %}
-            {% assign node = category_pages | where: "title", child.key | first %}
-            {% assign posts = site.categories[child.key] %}
-            {% if node and posts.size > 0 %}
-              <li>
-                <a class="category-link{% if page.url == node.url %} active{% endif %}"
-                   href="{{ node.url | relative_url }}"{% if page.url == node.url %} aria-current="page"{% endif %}>
-                  {{ child.title | escape }} ({{ posts.size }})
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+        <details open>
+          <summary class="sidebar-category-heading">{{ group.title | escape }}</summary>
+          <ul class="sidebar-category-children">
+            {% for child in group.children %}
+              {% assign node = category_pages | where: "title", child.key | first %}
+              {% assign posts = site.categories[child.key] %}
+              {% if node and posts.size > 0 %}
+                <li>
+                  <a class="category-link{% if page.url == node.url %} active{% endif %}"
+                     href="{{ node.url | relative_url }}"{% if page.url == node.url %} aria-current="page"{% endif %}>
+                    {{ child.title | escape }} ({{ posts.size }})
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </details>
       </li>
     {% endfor %}
   </ul>

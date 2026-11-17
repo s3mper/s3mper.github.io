@@ -301,9 +301,10 @@ html.js body.drawer-open #sidebar {
   }
 
   .sidebar-category-heading {
-    display: block;
+    display: list-item;
     margin-top: .65rem;
     font-weight: bold;
+    cursor: pointer;
   }
 
   .sidebar-category-children {
