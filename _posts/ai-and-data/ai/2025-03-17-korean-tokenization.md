@@ -12,7 +12,7 @@ categories: [ai]
 tags: [nlp, ai, tokenization]
 ---
 
-<!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 -->
+<!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 MD060 -->
 
 # 토큰화(Tokenization)
 
@@ -100,13 +100,13 @@ tags: [nlp, ai, tokenization]
 
 | 표현            | 고려 사항                   |
 | ------------- | ----------------------- |
-| `오늘은 맑다.`     | 마침표가` 문장의 끝`을 나타낸다.     |
-| `3.14`        | 마침표가` 소수점`으로 사용된다.      |
+| `오늘은 맑다.`     | 마침표가 `문장의 끝`을 나타낸다.     |
+| `3.14`        | 마침표가 `소수점`으로 사용된다.      |
 | `m.p.h.`      | 마침표가 `약어`에 포함된다.        |
 | `AT&T`        | 기호가 `고유명사의 일부`이다.       |
 | `$45.55`      | 통화 기호와 소수점이 `금액을 표현`한다. |
-| `25/03/12`    | 슬래시가` 날짜의 구성 요`소를 구분한다. |
-| `123,456,789` | 쉼표가 `자릿수를 구`분한다.        |
+| `25/03/12`    | 슬래시가 `날짜의 구성 요소`를 구분한다. |
+| `123,456,789` | 쉼표가 `자릿수를 구분`한다.        |
 
 특히 마침표는 문장의 끝뿐 아니라 숫자, 약어, 주소 등에도 나타난다. 따라서 마침표만 기준으로 문자열을 나누면 문장 경계를 잘못 판단할 수 있다.
 
@@ -140,10 +140,13 @@ NLTK의 `TreebankWordTokenizer`는 Penn Treebank의 규칙을 바탕으로 정�
 ### 3.2. NLTK 실습
 
 1. NLTK 설치
+
 	```bash
 	python -m pip install nltk
 	```
+
 2. 실습 예제 코드
+
 	```python
 	from nltk.tokenize import TreebankWordTokenizer
 	
@@ -272,10 +275,13 @@ e.g. 에디가 책을 읽었다
 ### 6.1. KSS(Korean Sentence Splitter)를 이용한 문장 분리
 
 1. KSS 설치
+
 	```bash
 	python -m pip install kss
 	```
+
 2. KSS 실습
+
 	```python
 	from kss import Kss
 	
@@ -295,10 +301,13 @@ KoNLPy는 여러 한국어 형태소 분석기를 Python에서 사용할 수 있
 - 대표 예시: Okt(Open Korea Text), Mecab, Komoran, Hannanum, KKma(꼬꼬마)
 
 1. KoNLPy 설치
+
 	```bash
 	python -m pip install konlpy
 	```
+
 2. Okt 형태소 분석기
+
 	```python
 	from konlpy.tag import Okt
 	
@@ -309,7 +318,9 @@ KoNLPy는 여러 한국어 형태소 분석기를 Python에서 사용할 수 있
 	print("Okt 품사 태깅:", okt.pos(text))
 	print("Okt 명사 추출:", okt.nouns(text))
 	```
+
 3. Kkma 형태소 분석
+
 	```python
 	from konlpy.tag import Kkma
 	
