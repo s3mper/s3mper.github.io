@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: true
+
 title: UNION SQL Injection 개념 정리
 excerpt: MySQL과 ORACLE 실습 코드 정리
+
 date: 2024-11-20
 last_modified_at: 2026-11-03
+
 categories:
   - security
 tags:
-  - til
   - web
   - database
   - security
@@ -17,6 +19,16 @@ tags:
 <!-- markdownlint-disable MD010 MD025 MD033 -->
 
 # UNION SQL Injection 개념 정리
+
+## 목차
+
+1. [UNION SQL Injection이란?](#1-union-sql-injection이란)
+2. [UNION SQLi 공격 Point](#union-sqli-공격-point)
+3. [ORDER BY](#order-by)
+4. [UNION SQLi Process](#union-sqli-process)
+5. [출처](#출처)
+
+---
 
 - SQL Injection: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
 - Blind SQLi: [Blind SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-blind-sql-injection %})

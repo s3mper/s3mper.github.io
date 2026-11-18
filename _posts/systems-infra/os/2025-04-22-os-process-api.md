@@ -9,10 +9,20 @@ date: 2025-04-22
 last_modified_at:
 
 categories: [os]
-tags: [os, til]
+tags: [os]
 ---
 
 # Process API
+
+## 목차
+
+1. [프로세스 생성·종료 API](#프로세스-생성종료-api)
+2. [시그널(signal) API](#시그널signal-api)
+3. [권한과 격리](#권한과-격리)
+4. [유용한 시스템 모니터링 도구](#유용한-시스템-모니터링-도구)
+5. [요약](#요약)
+
+---
 
 ## 프로세스 생성·종료 API
 

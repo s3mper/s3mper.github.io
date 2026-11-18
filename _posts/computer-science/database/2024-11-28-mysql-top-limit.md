@@ -9,10 +9,18 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [database]
-tags: [til, database, sql]
+tags: [database, sql]
 ---
 
 # MySQL 특정 개수의 값 출력
+
+## 목차
+
+1. [TOP](#top)
+2. [LIMIT](#limit)
+3. [출처](#출처)
+
+---
 
 ## TOP
 

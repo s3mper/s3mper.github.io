@@ -9,7 +9,7 @@ date: 2025-04-02
 last_modified_at: 2026-09-01
 
 categories: [network]
-tags: [computer-network, network, til]
+tags: [computer-network, network]
 
 published: true
 ---

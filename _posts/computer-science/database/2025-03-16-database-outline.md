@@ -9,7 +9,7 @@ date: 2025-03-16
 last_modified_at: 2026-09-01
 
 categories: [database]
-tags: [database, til]
+tags: [database]
 ---
 
 # Database란?

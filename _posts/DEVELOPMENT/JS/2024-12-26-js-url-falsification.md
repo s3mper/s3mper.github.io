@@ -9,12 +9,22 @@ date: 2024-12-26
 last_modified_at:
 
 categories: [javascript]
-tags: [til, web, js]
+tags: [web, js]
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->
 
 # 주소창 변조하기
+
+## 목차
+
+1. [Syntax](#syntax)
+2. [Parameters](#parameters)
+3. [Return Value](#return-value)
+4. [Example Code](#example-code)
+5. [출처](#출처)
+
+---
 
 ## Syntax
 

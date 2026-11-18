@@ -12,6 +12,16 @@ categories: [web]
 tags: [web, php]
 ---
 
+## 목차
+
+1. [회고](#회고)
+2. [DateTime](#datetime)
+3. [DateTime to String](#datetime-to-string)
+    1. [Date Format](#date-format)
+    1. [출처](#출처)
+
+---
+
 # 회고
 게시판 웹사이트를 만들면서 글 작성 날짜를 DB에 넣어줘야 했다.
 

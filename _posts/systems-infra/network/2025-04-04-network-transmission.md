@@ -9,10 +9,19 @@ date: 2025-04-04
 last_modified_at: 2026-04-15
 
 categories: [network]
-tags: [computer-network, network, til]
+tags: [computer-network, network]
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->
+
+## 목차
+
+1. [Digital Transmission](#digital-transmission)
+    1. [Line Coding](#line-coding)
+    2. [Signal Elements VS Data Elements](#signal-elements-vs-data-elements)
+    3. [출처](#출처)
+
+---
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 

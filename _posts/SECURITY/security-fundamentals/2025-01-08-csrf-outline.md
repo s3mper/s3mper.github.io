@@ -9,10 +9,31 @@ date: 2025-01-09
 last_modified_at: 2025-01-18
 
 categories: [security]
-tags: [til, web, security]
+tags: [web, security]
 ---
 
 # CSRF(Cross Site Request Forgery)
+
+## 목차
+
+1. [정의](#1-정의)
+2. [취약점](#취약점)
+3. [CSRF VS. XSS](#csrf-vs-xss)
+4. [공격방식](#공격방식)
+5. [공격유형](#공격유형)
+6. [공격 구문 예시](#공격-구문-예시)
+    1. [post method로만 파라미터 전달이 가능할 때 csrf 공격방식](#post-method로만-파라미터-전달이-가능할-때-csrf-공격방식)
+7. [공격 순서](#공격-순서)
+8. [대응방안](#대응방안)
+    1. [CSRF Token](#csrf-token)
+    2. [Referrer Check](#referrer-check)
+    3. [요청을 위조할 수 없게 하자](#요청을-위조할-수-없게-하자)
+    4. [SOP / CORS](#sop--cors)
+        1. [SOP, Same-Origin Policy](#sop-same-origin-policy)
+        2. [CORS, Cross Origin Resource Sharing](#cors-cross-origin-resource-sharing)
+9. [출처](#출처)
+
+---
 
 인증 상태가 유지되는 원리: [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})
 `iframe`과 `form`을 이용한 실습: [CSRF CTF 풀이]({% post_url SECURITY/CTF/2025-01-11-ctf-csrf-1 %})

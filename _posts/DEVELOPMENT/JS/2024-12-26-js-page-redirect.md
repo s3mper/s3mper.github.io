@@ -9,12 +9,18 @@ date: 2024-12-26
 last_modified_at:
 
 categories: [javascript]
-tags: [til, web, js]
+tags: [web, js]
 ---
 
 <!-- markdownlint-disable MD025 -->
 
 # Page Redirect
+
+## 목차
+
+1. [출처](#출처)
+
+---
 
 JS를 이용해 다른 웹페이지로 리다이렉트하는 방법이다.  
 보통 `location.href`나 `location.replace`를 사용한다.  

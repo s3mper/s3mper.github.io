@@ -12,7 +12,7 @@ date: 2025-05-27
 last_modified_at: 
 
 categories: [NETWORK]
-tags: [computer-network, network, til]
+tags: [computer-network, network]
 ---
 
 # 목차

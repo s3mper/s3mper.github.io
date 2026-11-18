@@ -9,7 +9,16 @@ date: 2025-02-06
 last_modified_at:
 
 categories: [security]
-tags: [til, web, security]
+tags: [web, security]
+---
+
+## 목차
+
+1. [File Include](#file-include)
+2. [RFI, Remote File Include](#rfi-remote-file-include)
+3. [LFI, 웹 서버 내에 있는 파일](#lfi-웹-서버-내에-있는-파일)
+    1. [출처](#출처)
+
 ---
 
 # File Include

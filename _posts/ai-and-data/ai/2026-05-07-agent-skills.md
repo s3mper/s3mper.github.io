@@ -16,6 +16,26 @@ tags: [skill, mcp, llm]
 
 # Agent Skills
 
+## 목차
+
+1. [Agent Skills란?](#1-agent-skills란)
+    1. [Skills, Prompt, MCP의 차이](#11-skills-prompt-mcp의-차이)
+2. [왜 Agent Skills가 필요한가?](#2-왜-agent-skills가-필요한가)
+3. [Progressive Disclosure](#3-progressive-disclosure)
+    1. [Skills Architecture](#31-skills-architecture)
+4. [Skills 구조](#4-skills-구조)
+    1. [핵심 구조: `SKILL.md`](#41-핵심-구조-skillmd)
+5. [플랫폼별 비교](#5-플랫폼별-비교)
+    1. [Claude Skills](#51-claude-skills)
+        1. [Claude Agent Skills](#511-claude-agent-skills)
+        2. [Claude Code Skills](#512-claude-code-skills)
+    2. [Gemini CLI Skills](#52-gemini-cli-skills)
+    3. [OpenAI Skills와 Codex Skills](#53-openai-skills와-codex-skills)
+6. [보안 주의사항](#6-보안-주의사항)
+7. [출처](#출처)
+
+---
+
 ## 1. Agent Skills란?
 
 > **Agent Skills는 AI 에이전트가 특정 작업을 일관되게 수행하도록 `SKILL.md`를 중심으로 지침, 절차, 코드, 참고자료, 템플릿을 묶어 제공하는 파일 기반 업무 패키지다.**

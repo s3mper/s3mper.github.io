@@ -9,7 +9,24 @@ date: 2025-01-27
 last_modified_at:
 
 categories: [security]
-tags: [til, web, security]
+tags: [web, security]
+---
+
+## 목차
+
+1. [File Upload 취약점](#file-upload-취약점)
+    1. [정의](#정의)
+    2. [발생 원인](#발생-원인)
+    3. [발생 위치](#발생-위치)
+    4. [공격 시나리오](#공격-시나리오)
+        1. [서버 측 실행 파일 -> Web Shell](#서버-측-실행-파일---web-shell)
+        2. [웹쉘 공격의 핵심](#웹쉘-공격의-핵심)
+    5. [대응](#대응)
+    6. [Image Web Shell](#image-web-shell)
+        1. [webshell.php.jpg](#1-webshellphpjpg)
+2. [대응 방안](#대응-방안)
+    1. [출처](#출처)
+
 ---
 
 # File Upload 취약점

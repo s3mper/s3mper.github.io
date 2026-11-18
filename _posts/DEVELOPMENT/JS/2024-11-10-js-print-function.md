@@ -16,6 +16,18 @@ tags: [js, web]
 
 # 출력
 
+## 목차
+
+1. [document.getElementById().innerHTML](#1-documentgetelementbyidinnerhtml)
+2. [console.log()](#2-consolelog)
+3. [document.write()](#3-documentwrite)
+4. [alert()](#4-alert)
+5. [prompt()](#5-prompt)
+6. [confirm()](#6-confirm)
+7. [출처](#출처)
+
+---
+
 ## 1. document.getElementById().innerHTML
 
 ```html

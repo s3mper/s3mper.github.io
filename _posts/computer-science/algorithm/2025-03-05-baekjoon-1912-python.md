@@ -16,6 +16,17 @@ tags: [algorithm, baekjoon, python]
 
 # 연속합
 
+## 목차
+
+1. [첫 번째 시도](#첫-번째-시도)
+2. [두 번째 시도](#두-번째-시도)
+3. [세 번째 시도](#세-번째-시도)
+4. [네 번째 시도](#네-번째-시도)
+5. [다섯 번째 시도](#다섯-번째-시도)
+6. [풀이](#풀이)
+
+---
+
 Baekjoon Online Judge. 「1912번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/1912)
 
 ![문제](/_image/2025-03-07-00-00-00.png)

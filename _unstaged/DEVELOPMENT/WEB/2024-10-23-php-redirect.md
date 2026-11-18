@@ -9,7 +9,7 @@ date: 2024-10-23
 last_modified_at: 2024-11-01
 
 categories: [php]
-tags: [web, til]
+tags: [web]
 redirect_from:
   - /PHP-Redirect/
 guid: https://s3mper.github.io/PHP-Redirect/

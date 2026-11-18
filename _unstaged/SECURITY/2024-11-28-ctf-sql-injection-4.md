@@ -9,7 +9,7 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [ctf]
-tags: [til, web]
+tags: [web]
 redirect_from:
   - /CTF-SQL-Injection-4/
 guid: https://s3mper.github.io/CTF-SQL-Injection-4/

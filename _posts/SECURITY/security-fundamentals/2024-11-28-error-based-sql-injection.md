@@ -9,12 +9,25 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [security]
-tags: [til, web, database, security]
+tags: [web, database, security]
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->
 
 # Error-Based SQL Injection
+
+## 목차
+
+1. [Error-Based SQL Injection란?](#error-based-sql-injection란)
+2. [에러 반환 종류](#에러-반환-종류)
+3. [공격 진행 과정](#공격-진행-과정)
+    1. [SQL Injection 취약점 존재 여부 확인](#1-sql-injection-취약점-존재-여부-확인)
+    2. [Error Based SQL Injection 진행](#2-error-based-sql-injection-진행)
+4. [MySQL에서 공격](#mysql에서-공격)
+    1. [XPath](#xpath)
+5. [출처](#출처)
+
+---
 
 - SQLi: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
 - UNION SQLi: [Union SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-20-union-sql-injection %})

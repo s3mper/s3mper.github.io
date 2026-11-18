@@ -9,7 +9,7 @@ date: 2024-12-26
 last_modified_at: 2024-12-27
 
 categories: [javascript]
-tags: [til, web, js]
+tags: [web, js]
 ---
 
 <!-- markdownlint-disable MD024 MD025 MD029 MD033 MD036 MD045 -->

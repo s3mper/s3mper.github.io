@@ -14,6 +14,25 @@ tags: [datascience]
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 -->
 
+## 목차
+
+1. [Data Visualization](#data-visualization)
+    1. [matplotlib](#matplotlib)
+2. [Basic Linear Algebra](#basic-linear-algebra)
+    1. [vector](#vector)
+    2. [python's list != vector](#pythons-list--vector)
+    3. [벡터의 연산](#벡터의-연산)
+    4. [행렬](#행렬)
+        1. [행렬의 연산](#행렬의-연산)
+        2. [행렬의 응용](#행렬의-응용)
+    5. [numpy](#numpy)
+3. [Probability and Statistics](#probability-and-statistics)
+4. [Regression](#regression)
+5. [Linear Regression Practice](#linear-regression-practice)
+    1. [pytorch](#pytorch)
+
+---
+
 # Data Visualization
 
 ## matplotlib

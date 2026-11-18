@@ -9,7 +9,7 @@ date: 2025-04-01
 last_modified_at:
 
 categories: [database]
-tags: [database, til]
+tags: [database]
 redirect_from:
   - /Database-Relational-Constraints/
 guid: https://s3mper.github.io/Database-Relational-Constraints/

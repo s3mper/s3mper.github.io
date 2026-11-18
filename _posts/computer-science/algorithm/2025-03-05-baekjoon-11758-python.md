@@ -16,6 +16,13 @@ tags: [algorithm, baekjoon, python]
 
 # 11758 CCW
 
+## 목차
+
+1. [문제 이해](#문제-이해)
+2. [풀이](#풀이)
+
+---
+
 Baekjoon Online Judge. 「11758번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/11758)
 
 ![문제](/_image/2025-03-05-00-00-09.png)

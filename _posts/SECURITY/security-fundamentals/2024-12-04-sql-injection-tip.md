@@ -9,7 +9,7 @@ date: 2024-12-04
 last_modified_at:
 
 categories: [security]
-tags: [til, web, security, database]
+tags: [web, security, database]
 ---
 
 공격기법을 공부할 때는 시나리오를 생각해봐라

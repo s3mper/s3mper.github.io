@@ -14,6 +14,19 @@ tags: [cod, mips, spim]
 
 <!-- markdownlint-disable MD004 MD025 MD033-->
 
+## 목차
+
+1. [Inside the Processor (CPU)](#inside-the-processor-cpu)
+2. [The MIPS Instruction Set](#the-mips-instruction-set)
+    1. [Types of Instructions](#types-of-instructions)
+        1. [Arithmetic / Logic Instructions = ALU (Arithmetic Logic Unit) Operations](#arithmetic--logic-instructions--alu-arithmetic-logic-unit-operations)
+            1. [Arithmetic Instructions](#arithmetic-instructions)
+            2. [Logical Instructions](#logical-instructions)
+        2. [Data Transfer Instructions = Load / Store Instructions](#data-transfer-instructions--load--store-instructions)
+        3. [Branch Instructions = Control Transfer Instructions](#branch-instructions--control-transfer-instructions)
+
+---
+
 1. Computer Architecture: 컴퓨터 구조
 2. ISA(Instruction Set Architecture): 명령어 집합 구조
     - MIPS

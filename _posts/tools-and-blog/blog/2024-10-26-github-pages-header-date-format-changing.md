@@ -14,6 +14,22 @@ tags: [blog]
 
 <!-- markdownlint-disable MD010 MD025 MD033 MD045-->
 
+## 목차
+
+1. [Date Format 변경하기](#date-format-변경하기)
+    1. [date 문구 추적](#1-date-문구-추적)
+    2. [scripts.html 추적](#2-scriptshtml-추적)
+    3. [post.html](#3-posthtml)
+    4. ['updated date' 추가](#4-updated-date-추가)
+    5. [CSS 수정](#5-css-수정)
+        1. [created date랑 updated date랑 가로로 배치하고 싶다](#51-created-date랑-updated-date랑-가로로-배치하고-싶다)
+        2. [updated date 생성 안 했을 때 grid 없애기](#52-updated-date-생성-안-했을-때-grid-없애기)
+2. [궁금한 거](#6-궁금한-거)
+3. [home 버튼을 눌렀는데 home/index.html이 아니라 2024-10-23.md가 왜 불러와지는거죠??](#7-home-버튼을-눌렀는데-homeindexhtml이-아니라-2024-10-23md가-왜-불러와지는거죠)
+    1. [출처](#출처)
+
+---
+
 # Date Format 변경하기
 
 ## 1. date 문구 추적

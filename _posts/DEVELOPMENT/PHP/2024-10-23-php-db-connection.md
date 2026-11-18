@@ -12,6 +12,18 @@ categories: [web]
 tags: [web, php, database]
 ---
 
+## 목차
+
+1. [회고](#회고)
+2. [Q. PHP에서 MySQL query를 어떻게 연결하냐?](#q-php에서-mysql-query를-어떻게-연결하냐)
+    1. [MySQLi (Object-Oriented)](#mysqli-object-oriented)
+    2. [MySQLi (Procedural)](#mysqli-procedural)
+    3. [PDO(PHP Data Object)](#pdophp-data-object)
+3. [Q. WAS 내부 코드에는 DB에 접속하기 위한 ID와 PW가 있는데 암호화할 수 없는 것일까?](#q-was-내부-코드에는-db에-접속하기-위한-id와-pw가-있는데-암호화할-수-없는-것일까)
+    1. [출처](#출처)
+
+---
+
 # 회고
 
 1. WAS(Web + Application + Server): 애플리케이션을 수행 -> 주로 동적 서버 컨텐츠를 수행, 주로 데이터베이스 서버와 같이 수행된다.

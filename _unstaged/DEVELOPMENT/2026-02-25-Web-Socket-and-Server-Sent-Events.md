@@ -10,7 +10,7 @@ date: 2025-04-14
 last_modified_at: 
 
 categories: []
-tags: [til]
+tags: []
 ---
 
 # 웹소켓(WebSocket)과 SSE(Server-Sent Events) 정리

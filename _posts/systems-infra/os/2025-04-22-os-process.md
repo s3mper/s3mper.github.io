@@ -9,7 +9,7 @@ date: 2025-04-22
 last_modified_at:
 
 categories: [os]
-tags: [os, til]
+tags: [os]
 ---
 
 # 목록

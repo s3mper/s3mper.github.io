@@ -9,7 +9,7 @@ date: 2025-04-01
 last_modified_at: 2025-10-17
 
 categories: [database]
-tags: [database, til]
+tags: [database]
 ---
 
 # 목차

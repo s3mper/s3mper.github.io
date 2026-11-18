@@ -16,6 +16,13 @@ tags: [algorithm, baekjoon, python]
 
 # 12789 도키도키 간식드리미
 
+## 목차
+
+1. [문제 이해](#문제-이해)
+2. [풀이](#풀이)
+
+---
+
 Baekjoon Online Judge. 「12789번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/12789)
 
 ![문제](/_image/2025-03-11-00-00-00.png)

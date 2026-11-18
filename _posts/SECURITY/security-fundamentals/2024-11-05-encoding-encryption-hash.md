@@ -12,6 +12,22 @@ categories: [security]
 tags: [cryptography, security]
 ---
 
+## 목차
+
+1. [개요](#개요)
+2. [인코딩/디코딩](#1-인코딩디코딩)
+    1. [인코딩(Encoding)](#인코딩encoding)
+    2. [디코딩(Decoding)](#디코딩decoding)
+3. [암호화/복호화](#2-암호화복호화)
+    1. [단방향 암호화(One Way Encryption)](#21-단방향-암호화one-way-encryption)
+        1. [해시(Hash)](#해시hash)
+    2. [양방향 암호화](#22-양방향-암호화)
+        1. [대칭키(비공개키)](#대칭키비공개키)
+        2. [비대칭키(공개키)](#비대칭키공개키)
+    3. [출처](#출처)
+
+---
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
 # 개요

@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: true
+
 title: Blind SQL Injection 개념
 excerpt: Blind SQL Injection 공격 과정 소개
+
 date: 2024-11-28
 last_modified_at: 2026-11-04
+
 categories:
   - security
 tags:
-  - til
   - web
   - database
   - security
@@ -17,6 +19,19 @@ tags:
 <!-- markdownlint-disable MD010 MD025 MD033 -->
 
 # Blind SQL Injection
+
+## 목차
+
+1. [Blind SQL Injection이란?](#blind-sql-injection이란)
+2. [공격 과정](#공격-과정)
+3. [선수 지식](#선수-지식)
+    1. [`substr()`/`substring()`](#substrsubstring)
+    2. [`ascii()`](#ascii)
+    3. [`ascii()` × `substring()`](#ascii--substring)
+4. [MySQL 예제](#mysql-예제)
+5. [출처](#출처)
+
+---
 
 - SQL Injection: [SQL Injection의 전체 원리와 유형]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
 - 실습: [Blind SQL Injection CTF 풀이]({% post_url SECURITY/CTF/2024-11-29-ctf-sql-injection-6 %})

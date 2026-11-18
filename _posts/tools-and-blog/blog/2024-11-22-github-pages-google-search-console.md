@@ -14,6 +14,17 @@ tags: [blog]
 
 <!-- markdownlint-disable MD007 MD033-->
 
+## 목차
+
+1. [sitemap.xml 생성하기](#1-sitemapxml-생성하기)
+2. [포스트 내에서 sitemap 설정하기](#2-포스트-내에서-sitemap-설정하기)
+3. [robots.txt 생성하기](#3-robotstxt-생성하기)
+4. [Google 검색엔진에 등록하기](#4-google-검색엔진에-등록하기)
+5. [sitemap 등록 상태에서 가져올 수 없음이 나왔다](#5-sitemap-등록-상태에서-가져올-수-없음이-나왔다)
+6. [출처](#출처)
+
+---
+
 [GitHub Pages 블로그 만들기]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-02-github-pages-making-1 %}) 이후 검색 등록을 진행한 기록이다. 방문자의 이용 통계를 확인하는 설정은 [Google Analytics 적용하기]({% post_url TOOLS_AND_BLOG/BLOG/2021-12-09-github-pages-google-analytics %})에 정리했다.
 
 ## 1. sitemap.xml 생성하기

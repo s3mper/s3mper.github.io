@@ -9,7 +9,7 @@ date: 2025-09-27
 last_modified_at: 2025-09-29
 
 categories: [security]
-tags: [til]
+tags: [security, ai]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

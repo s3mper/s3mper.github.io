@@ -9,7 +9,7 @@ date: 2025-03-16
 last_modified_at: 2026-11-16
 
 categories: [ai]
-tags: [til, nlp, ai, tokenization]
+tags: [nlp, ai, tokenization]
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 -->

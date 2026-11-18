@@ -13,6 +13,16 @@ tags: [web, php]
 ---
 
 # mysqli real escape string 함수
+
+## 목차
+
+1. [Object-oriented style](#object-oriented-style)
+2. [Procedural style](#procedural-style)
+3. [예제](#예제)
+4. [출처](#출처)
+
+---
+
 mysql과 connection할 때 string -> escape string으로 만들어준다
 
 ## Object-oriented style
