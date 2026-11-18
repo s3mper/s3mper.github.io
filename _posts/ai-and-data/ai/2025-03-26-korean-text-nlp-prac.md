@@ -9,7 +9,7 @@ date: 2025-03-26
 last_modified_at:
 
 categories: [ai]
-tags: [nlp]
+tags: [nlp, sentiment-analysis]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

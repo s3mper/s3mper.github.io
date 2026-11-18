@@ -9,7 +9,7 @@ date: 2022-10-24
 last_modified_at: 2024-11-08
 
 categories: [ai]
-tags: [datascience]
+tags: [datascience, python, matplotlib]
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 -->

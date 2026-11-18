@@ -9,7 +9,7 @@ date: 2021-12-09
 last_modified_at: 2026-04-10
 
 categories: [blog]
-tags: [blog]
+tags: [blog, github-pages]
 ---
 
 <!-- markdownlint-disable MD004 MD025-->

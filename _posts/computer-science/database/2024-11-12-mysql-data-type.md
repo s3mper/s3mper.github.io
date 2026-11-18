@@ -9,7 +9,7 @@ date: 2024-11-13
 last_modified_at: 2026-09-09
 
 categories: [database]
-tags: [database]
+tags: [database, sql, mysql]
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD033 -->

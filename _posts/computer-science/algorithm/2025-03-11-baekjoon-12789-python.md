@@ -9,7 +9,7 @@ date: 2025-03-05
 last_modified_at: 2025-11-01
 
 categories: [algorithm]
-tags: [algorithm, baekjoon, python]
+tags: [algorithm, baekjoon, python, stack]
 ---
 
 <!-- markdownlint-disable MD010 MD025 -->

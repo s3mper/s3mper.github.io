@@ -14,6 +14,7 @@ tags:
   - web
   - database
   - security
+  - sql-injection
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

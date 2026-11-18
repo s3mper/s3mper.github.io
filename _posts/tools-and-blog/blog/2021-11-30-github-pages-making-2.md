@@ -9,7 +9,7 @@ date: 2021-11-30
 last_modified_at: 2025-01-18
 
 categories: [blog]
-tags: [blog]
+tags: [blog, github-pages, jekyll]
 ---
 
 <!-- markdownlint-disable MD005 MD010 MD025 MD033 MD049-->

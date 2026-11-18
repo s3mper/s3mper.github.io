@@ -9,7 +9,7 @@ date: 2021-11-30
 last_modified_at:
 
 categories: [blog]
-tags: [blog]
+tags: [blog, github-pages]
 ---
 
 ## 목차

@@ -9,7 +9,7 @@ date: 2024-11-04
 last_modified_at:
 
 categories: [economy]
-tags: [economy]
+tags: [economy, stock-market]
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

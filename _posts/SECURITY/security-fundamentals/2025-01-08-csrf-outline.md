@@ -9,7 +9,7 @@ date: 2025-01-09
 last_modified_at: 2025-01-18
 
 categories: [security]
-tags: [web, security]
+tags: [web, security, csrf]
 ---
 
 # CSRF(Cross Site Request Forgery)

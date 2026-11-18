@@ -9,7 +9,7 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [database]
-tags: [database, sql]
+tags: [database, sql, mysql]
 ---
 
 # MySQL 특정 개수의 값 출력

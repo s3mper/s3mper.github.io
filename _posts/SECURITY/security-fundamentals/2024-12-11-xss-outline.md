@@ -9,7 +9,7 @@ date: 2024-12-11
 last_modified_at: 2026-04-15
 
 categories: [security]
-tags: [web, security]
+tags: [web, security, xss]
 ---
 
 <!-- markdownlint-disable MD004 Md007 MD010 MD025 MD029 MD033 -->

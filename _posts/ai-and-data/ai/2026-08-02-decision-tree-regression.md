@@ -9,7 +9,7 @@ date: 2026-08-02
 last_modified_at: 2026-08-02
 
 categories: [ai]
-tags: [ai, deep-learning]
+tags: [ai, deep-learning, machine-learning, regression]
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD060 -->

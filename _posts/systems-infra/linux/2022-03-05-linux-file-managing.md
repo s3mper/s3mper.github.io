@@ -9,7 +9,7 @@ date: 2022-03-05
 last_modified_at:
 
 categories: [linux]
-tags: [linux]
+tags: [linux, filesystem]
 ---
 
 `파일명 "."으로 시작하는 파일은 숨겨진 파일`

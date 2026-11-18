@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "Git 커밋 메시지 규칙과 Conventional Commits"
+title: "[Git] Git 커밋 메시지 규칙과 Conventional Commits"
 excerpt: "커밋 메시지를 일관되게 작성하기 위한 규칙"
 
 date: 2025-11-01

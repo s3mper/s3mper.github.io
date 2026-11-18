@@ -9,7 +9,7 @@ date: 2024-11-28
 last_modified_at:
 
 categories: [security]
-tags: [web, database, security]
+tags: [web, database, security, sql-injection]
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

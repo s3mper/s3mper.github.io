@@ -9,7 +9,7 @@ date: 2025-04-22
 last_modified_at:
 
 categories: [os]
-tags: [os]
+tags: [os, process]
 ---
 
 ## 목록

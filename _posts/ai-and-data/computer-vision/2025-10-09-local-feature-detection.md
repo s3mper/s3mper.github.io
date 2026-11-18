@@ -9,7 +9,7 @@ date: 2025-10-09
 last_modified_at: 2025-10-17
 
 categories: [computer-vision]
-tags: [computer-vision]
+tags: [computer-vision, image-processing]
 ---
 
 ## 목차

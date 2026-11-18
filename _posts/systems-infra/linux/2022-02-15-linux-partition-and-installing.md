@@ -9,7 +9,7 @@ date: 2022-02-15
 last_modified_at: 2026-07-21
 
 categories: [linux]
-tags: [linux, partition, filesystem, installatio]
+tags: [linux, partition, filesystem, installation]
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD025 MD033 MD036 MD046 -->
