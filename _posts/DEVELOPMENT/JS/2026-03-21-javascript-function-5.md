@@ -10,9 +10,6 @@ last_modified_at: 2026-03-21
 
 categories: [javascript]
 tags: [web, js]
-redirect_from:
-  - /JavaScript-Function-5/
-guid: https://s3mper.github.io/JavaScript-Function-5/
 ---
 
 <!-- markdownlint-disable MD004 MD010 MD025 -->

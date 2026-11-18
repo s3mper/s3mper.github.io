@@ -10,9 +10,6 @@ last_modified_at: 2025-03-28
 
 categories: [network]
 tags: [computer-network, network, til]
-redirect_from:
-  - /Network-Introduction/
-guid: https://s3mper.github.io/Network-Introduction/
 ---
 
 <!-- markdownlint-disable md007 md025 md033 -->

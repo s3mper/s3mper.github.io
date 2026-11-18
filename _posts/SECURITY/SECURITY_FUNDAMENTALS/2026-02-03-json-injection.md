@@ -10,9 +10,6 @@ last_modified_at: 2026-02-04
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /JSON-Injection/
-guid: https://s3mper.github.io/JSON-Injection/
 ---
 
 <!-- markdownlint-disable MD010 MD025 -->

@@ -10,9 +10,6 @@ last_modified_at: 2025-09-29
 
 categories: [security]
 tags: [til]
-redirect_from:
-  - /AI-and-Security/
-guid: https://s3mper.github.io/AI-and-Security/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

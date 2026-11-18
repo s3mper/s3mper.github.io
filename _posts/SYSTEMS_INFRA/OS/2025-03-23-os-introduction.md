@@ -10,9 +10,6 @@ last_modified_at: 2025-04-22
 
 categories: [os]
 tags: [os, c-cpp, til]
-redirect_from:
-  - /OS-Introduction/
-guid: https://s3mper.github.io/OS-Introduction/
 ---
 
 # 목차

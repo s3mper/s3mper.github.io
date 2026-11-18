@@ -10,9 +10,6 @@ last_modified_at: 2026-07-21
 
 categories: [linux]
 tags: [linux, partition, filesystem, installatio]
-redirect_from:
-  - /Linux-Partition-and-Installing/
-guid: https://s3mper.github.io/Linux-Partition-and-Installing/
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD025 MD033 MD036 MD046 -->

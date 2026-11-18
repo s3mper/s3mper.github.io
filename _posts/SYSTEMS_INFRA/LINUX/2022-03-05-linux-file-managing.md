@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-File-Managing/
-guid: https://s3mper.github.io/Linux-File-Managing/
 ---
 
 `파일명 "."으로 시작하는 파일은 숨겨진 파일`

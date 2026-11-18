@@ -10,9 +10,6 @@ last_modified_at: 2026-04-08
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Informal-Error/
-guid: https://s3mper.github.io/Informal-Error/
 ---
 
 <!-- markdownlint-disable MD007 MD025 -->

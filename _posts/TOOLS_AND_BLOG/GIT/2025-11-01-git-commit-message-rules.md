@@ -10,9 +10,6 @@ last_modified_at: 2026-02-07
 
 categories: [git]
 tags: [git]
-redirect_from:
-  - /Git-Commit-Message-Rules/
-guid: https://s3mper.github.io/Git-Commit-Message-Rules/
 ---
 
 <!-- markdownlint-disable MD005 MD007 MD010 MD025 md033 MD060 -->

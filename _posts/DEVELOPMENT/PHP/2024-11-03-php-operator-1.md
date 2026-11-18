@@ -10,9 +10,6 @@ last_modified_at: 2024-11-08
 
 categories: [web]
 tags: [web, php]
-redirect_from:
-  - /PHP-Operator-1/
-guid: https://s3mper.github.io/PHP-Operator-1/
 ---
 
 # -> 와 => 연산자

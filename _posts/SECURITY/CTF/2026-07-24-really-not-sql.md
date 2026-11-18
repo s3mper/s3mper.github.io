@@ -10,9 +10,6 @@ last_modified_at: 2026-07-28
 
 categories: [ctf]
 tags: [til, web, ctf]
-redirect_from:
-  - /Really-Not-SQL/
-guid: https://s3mper.github.io/Really-Not-SQL/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD029 MD033 -->

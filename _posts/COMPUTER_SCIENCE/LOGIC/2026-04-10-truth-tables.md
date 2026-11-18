@@ -12,9 +12,6 @@ categories: [logic]
 tags: [logic]
 
 permalink: /truth-tables/
-redirect_from:
-  - /Vote-of-Truth/
-guid: https://s3mper.github.io/Vote-of-Truth/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

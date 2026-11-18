@@ -10,9 +10,6 @@ last_modified_at: 2026-09-01
 
 categories: [network]
 tags: [computer-network, network, til]
-redirect_from:
-  - /Network-MAC/
-guid: https://s3mper.github.io/Network-MAC/
 ---
 
 <!-- markdownlint-disable md025 md033 -->

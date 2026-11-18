@@ -12,9 +12,6 @@ categories: [network]
 tags: [computer-network, network, til]
 
 published: true
-redirect_from:
-  - /Network-Protocol/
-guid: https://s3mper.github.io/Network-Protocol/
 ---
 
 <!-- markdownlint-disable md025 md033 -->

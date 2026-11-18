@@ -10,9 +10,6 @@ last_modified_at: 2025-02-12
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /File-Download/
-guid: https://s3mper.github.io/File-Download/
 ---
 
 # 파일 다운로드 취약점

@@ -10,9 +10,6 @@ last_modified_at: 2025-10-17
 
 categories: [computer-vision]
 tags: [computer-vision]
-redirect_from:
-  - /Hough-RANSAC/
-guid: https://s3mper.github.io/Hough-RANSAC/
 ---
 
 # 목차

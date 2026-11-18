@@ -10,9 +10,6 @@ last_modified_at: 2026-01-05
 
 categories: [security]
 tags: [til, security]
-redirect_from:
-  - /One-Time-Password/
-guid: https://s3mper.github.io/One-Time-Password/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

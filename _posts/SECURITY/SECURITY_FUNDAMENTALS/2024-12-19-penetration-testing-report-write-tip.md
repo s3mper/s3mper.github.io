@@ -10,9 +10,6 @@ last_modified_at: 2026-03-27
 
 categories: [security]
 tags: [til, security]
-redirect_from:
-  - /Penetration-Testing-Report-Write-Tip/
-guid: https://s3mper.github.io/Penetration-Testing-Report-Write-Tip/
 ---
 
 <!-- markdownlint-disable MD025 -->

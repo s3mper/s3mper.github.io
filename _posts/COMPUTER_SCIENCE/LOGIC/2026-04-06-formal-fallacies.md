@@ -12,9 +12,6 @@ categories: [logic]
 tags: [logic]
 
 permalink: /formal-fallacies/
-redirect_from:
-  - /Perfunctory-Error/
-guid: https://s3mper.github.io/Perfunctory-Error/
 ---
 
 <!-- markdownlint-disable MD007 MD025 MD033 MD036 MD060 -->

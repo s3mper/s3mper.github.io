@@ -10,9 +10,6 @@ last_modified_at: 2026-09-07
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /Authentication-and-Authorization/
-guid: https://s3mper.github.io/Authentication-and-Authorization/
 ---
 
 <!-- markdownlint-disable md004 md007 md010 MD025 md033 -->

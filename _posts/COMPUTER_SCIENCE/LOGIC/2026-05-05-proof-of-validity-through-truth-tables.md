@@ -10,9 +10,6 @@ last_modified_at: 2026-05-05
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Proof-of-Validity-through-Truth-Tables/
-guid: https://s3mper.github.io/Proof-of-Validity-through-Truth-Tables/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD033 -->

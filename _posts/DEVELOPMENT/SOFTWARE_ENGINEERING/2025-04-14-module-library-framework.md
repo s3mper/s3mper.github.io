@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [software-design]
 tags: [til]
-redirect_from:
-  - /Module-Library-Framework/
-guid: https://s3mper.github.io/Module-Library-Framework/
 ---
 
 # 목차

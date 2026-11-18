@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [javascript]
 tags: [til, web, js]
-redirect_from:
-  - /JS-URL-Falsification/
-guid: https://s3mper.github.io/JS-URL-Falsification/
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

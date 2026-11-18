@@ -10,9 +10,6 @@ last_modified_at: 2026-05-12
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Natural-Deduction-1/
-guid: https://s3mper.github.io/Natural-Deduction-1/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD033 -->

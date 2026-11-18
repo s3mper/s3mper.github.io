@@ -10,9 +10,6 @@ last_modified_at: 2026-09-14
 
 categories: [ctf]
 tags: [til, web, ctf]
-redirect_from:
-  - /Dream-Docs/
-guid: https://s3mper.github.io/Dream-Docs/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD029 MD033 -->

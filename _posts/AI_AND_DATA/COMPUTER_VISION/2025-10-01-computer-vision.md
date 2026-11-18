@@ -10,9 +10,6 @@ last_modified_at: 2025-10-17
 
 categories: [computer-vision]
 tags: [computer-vision]
-redirect_from:
-  - /Computer-Vision/
-guid: https://s3mper.github.io/Computer-Vision/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->
@@ -20,6 +17,8 @@ guid: https://s3mper.github.io/Computer-Vision/
 # 컴퓨터 비전
 
 디지털 표현의 기본: 센서→ADC를 거쳐 명암을 8비트(0–255)로 양자화해 “디지털 영상”으로 저장한다
+
+---
 
 ## 목차
 

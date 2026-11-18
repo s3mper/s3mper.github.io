@@ -10,9 +10,6 @@ last_modified_at: 2026-04-15
 
 categories: [network]
 tags: [computer-network, network, til]
-redirect_from:
-  - /Network-Transmission/
-guid: https://s3mper.github.io/Network-Transmission/
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

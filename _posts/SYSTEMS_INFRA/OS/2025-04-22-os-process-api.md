@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [os]
 tags: [os, til]
-redirect_from:
-  - /OS-Process-API/
-guid: https://s3mper.github.io/OS-Process-API/
 ---
 
 # Process API

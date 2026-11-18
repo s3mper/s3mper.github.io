@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [ai]
 tags: [nlp, til]
-redirect_from:
-  - /Korean-Text-NLP-Prac/
-guid: https://s3mper.github.io/Korean-Text-NLP-Prac/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

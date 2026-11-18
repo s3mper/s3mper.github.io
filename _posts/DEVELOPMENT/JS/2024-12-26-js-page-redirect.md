@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [javascript]
 tags: [til, web, js]
-redirect_from:
-  - /JS-Page-Redirect/
-guid: https://s3mper.github.io/JS-Page-Redirect/
 ---
 
 <!-- markdownlint-disable MD025 -->

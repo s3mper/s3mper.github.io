@@ -10,9 +10,6 @@ last_modified_at: 2026-09-14
 
 categories: [ctf]
 tags: [til, web, ctf]
-redirect_from:
-  - /Are-you-admin/
-guid: https://s3mper.github.io/Are-you-admin/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD029 MD033 -->

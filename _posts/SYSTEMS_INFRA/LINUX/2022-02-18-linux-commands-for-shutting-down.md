@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Commands-for-Shutting-Down/
-guid: https://s3mper.github.io/Linux-Commands-for-Shutting-Down/
 ---
 
 ## 시스템 종료와 재부팅

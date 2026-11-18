@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux, license]
-redirect_from:
-  - /Linux-Master-Grade-2-CBT-1/
-guid: https://s3mper.github.io/Linux-Master-Grade-2-CBT-1/
 ---
 
 ## 2017년 06월 10일 필기 기출문제

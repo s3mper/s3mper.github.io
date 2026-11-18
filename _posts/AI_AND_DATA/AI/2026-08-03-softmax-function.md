@@ -10,9 +10,6 @@ last_modified_at: 2026-08-03
 
 categories: [ai]
 tags: [ai, activation-function]
-redirect_from:
-  - /Softmax-Function/
-guid: https://s3mper.github.io/Softmax-Function/
 ---
 
 <!-- markdownlint-disable MD004 MD010 MD025 MD033 MD060 -->

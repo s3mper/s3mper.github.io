@@ -10,9 +10,6 @@ last_modified_at: 2026-04-08
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Classification-and-Evaluation-of-Arguments/
-guid: https://s3mper.github.io/Classification-and-Evaluation-of-Arguments/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

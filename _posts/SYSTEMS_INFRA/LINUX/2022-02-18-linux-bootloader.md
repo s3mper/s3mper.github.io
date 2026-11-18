@@ -10,9 +10,6 @@ last_modified_at: 2024-12-27
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Bootloader/
-guid: https://s3mper.github.io/Linux-Bootloader/
 ---
 
 # 부트로더

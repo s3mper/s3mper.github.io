@@ -10,9 +10,6 @@ last_modified_at: 2025-10-17
 
 categories: [computer-vision]
 tags: [computer-vision]
-redirect_from:
-  - /Local-Feature-Detection/
-guid: https://s3mper.github.io/Local-Feature-Detection/
 ---
 
 # 목차

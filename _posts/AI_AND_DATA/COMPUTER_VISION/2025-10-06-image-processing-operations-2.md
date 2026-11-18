@@ -12,9 +12,6 @@ categories: [computer-vision]
 tags: [computer-vision]
 
 permalink: /image-processing-operations-2/
-redirect_from:
-  - /Image-Processing-Operatios-2/
-guid: https://s3mper.github.io/Image-Processing-Operatios-2/
 ---
 
 # 목차

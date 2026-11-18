@@ -10,9 +10,6 @@ last_modified_at: 2026-07-22
 
 categories: [python]
 tags: [python, future, annotations, type-hint, type-checking]
-redirect_from:
-  - /Future-Module/
-guid: https://s3mper.github.io/Future-Module/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD060 -->

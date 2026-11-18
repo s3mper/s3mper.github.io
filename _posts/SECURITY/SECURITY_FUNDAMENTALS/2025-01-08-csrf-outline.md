@@ -10,9 +10,6 @@ last_modified_at: 2025-01-18
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /CSRF-Outline/
-guid: https://s3mper.github.io/CSRF-Outline/
 ---
 
 # CSRF(Cross Site Request Forgery)

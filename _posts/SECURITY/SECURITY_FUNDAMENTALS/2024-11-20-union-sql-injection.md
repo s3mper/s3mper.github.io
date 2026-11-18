@@ -12,9 +12,6 @@ tags:
   - web
   - database
   - security
-redirect_from:
-  - /Union-SQL-Injection/
-guid: https://s3mper.github.io/Union-SQL-Injection/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

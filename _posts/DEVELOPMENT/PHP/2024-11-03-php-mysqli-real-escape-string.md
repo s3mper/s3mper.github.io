@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [web]
 tags: [web, php]
-redirect_from:
-  - /PHP-Mysqli-Real-Escape-String/
-guid: https://s3mper.github.io/PHP-Mysqli-Real-Escape-String/
 ---
 
 # mysqli real escape string 함수

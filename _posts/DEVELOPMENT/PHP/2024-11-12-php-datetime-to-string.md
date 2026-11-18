@@ -10,9 +10,6 @@ last_modified_at: 2024-11-22
 
 categories: [web]
 tags: [web, php]
-redirect_from:
-  - /PHP-Datetime-to-String/
-guid: https://s3mper.github.io/PHP-Datetime-to-String/
 ---
 
 # 회고

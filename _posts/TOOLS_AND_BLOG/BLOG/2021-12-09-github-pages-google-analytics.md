@@ -10,9 +10,6 @@ last_modified_at: 2026-04-10
 
 categories: [blog]
 tags: [blog]
-redirect_from:
-  - /Github-Pages-Google-Analytics/
-guid: https://s3mper.github.io/Github-Pages-Google-Analytics/
 ---
 
 <!-- markdownlint-disable MD004 MD025-->

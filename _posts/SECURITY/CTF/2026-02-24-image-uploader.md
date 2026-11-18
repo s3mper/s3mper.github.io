@@ -10,9 +10,6 @@ last_modified_at: 2026-02-24
 
 categories: [ctf]
 tags: [til, web, ctf]
-redirect_from:
-  - /Image-Uploader/
-guid: https://s3mper.github.io/Image-Uploader/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [javascript]
 tags: [js]
-redirect_from:
-  - /JS-Variable/
-guid: https://s3mper.github.io/JS-Variable/
 ---
 
 <!-- markdownlint-disable MD025 -->

@@ -10,9 +10,6 @@ last_modified_at: 2025-11-01
 
 categories: [algorithm]
 tags: [algorithm, baekjoon, python]
-redirect_from:
-  - /Baekjoon-1912-Python/
-guid: https://s3mper.github.io/Baekjoon-1912-Python/
 ---
 
 <!-- markdownlint-disable MD010 MD025 -->

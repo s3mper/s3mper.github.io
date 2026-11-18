@@ -10,9 +10,6 @@ last_modified_at: 2024-11-05
 
 categories: [web]
 tags: [web, php]
-redirect_from:
-  - /WEB-Login-Logic/
-guid: https://s3mper.github.io/WEB-Login-Logic/
 ---
 
 # 목차

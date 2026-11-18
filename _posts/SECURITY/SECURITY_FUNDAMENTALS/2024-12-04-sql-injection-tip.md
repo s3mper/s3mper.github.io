@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [security]
 tags: [til, web, security, database]
-redirect_from:
-  - /SQL-Injection-Tip/
-guid: https://s3mper.github.io/SQL-Injection-Tip/
 ---
 
 공격기법을 공부할 때는 시나리오를 생각해봐라

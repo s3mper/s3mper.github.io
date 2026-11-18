@@ -10,9 +10,6 @@ last_modified_at: 2026-09-09
 
 categories: [database]
 tags: [database]
-redirect_from:
-  - /MySQL-Data-Type/
-guid: https://s3mper.github.io/MySQL-Data-Type/
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD033 -->

@@ -10,9 +10,6 @@ last_modified_at: 2026-04-16
 
 categories: [javascript]
 tags: [demo, pretext, ㅓㄴ]
-redirect_from:
-  - /Umbrella-Reflow/
-guid: https://s3mper.github.io/Umbrella-Reflow/
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

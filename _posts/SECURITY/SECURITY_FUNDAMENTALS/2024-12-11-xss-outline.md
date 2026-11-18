@@ -10,9 +10,6 @@ last_modified_at: 2026-04-15
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /XSS-Outline/
-guid: https://s3mper.github.io/XSS-Outline/
 ---
 
 <!-- markdownlint-disable MD004 Md007 MD010 MD025 MD029 MD033 -->

@@ -10,9 +10,6 @@ last_modified_at: 2026-09-01
 
 categories: [network]
 tags: [cdn, network, edge-computing]
-redirect_from:
-  - /Content-Delivery-Network/
-guid: https://s3mper.github.io/Content-Delivery-Network/
 ---
 
 <!-- markdownlint-disable md007 md010 md025 md033 -->

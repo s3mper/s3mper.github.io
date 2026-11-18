@@ -10,9 +10,6 @@ last_modified_at: 2026-07-30
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Redirection/
-guid: https://s3mper.github.io/Linux-Redirection/
 ---
 
 redirection 명령: 입출력의 방향을 바꾸는 작업

@@ -10,9 +10,6 @@ last_modified_at: 2025-01-18
 
 categories: [blog]
 tags: [blog]
-redirect_from:
-  - /Github-Pages-Making-2/
-guid: https://s3mper.github.io/Github-Pages-Making-2/
 ---
 
 <!-- markdownlint-disable MD005 MD010 MD025 MD033 MD049-->

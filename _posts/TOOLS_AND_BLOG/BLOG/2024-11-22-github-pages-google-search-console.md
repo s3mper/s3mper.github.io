@@ -10,9 +10,6 @@ last_modified_at: 2024-12-19
 
 categories: [blog]
 tags: [blog]
-redirect_from:
-  - /Github-Pages-Google-Search-Console/
-guid: https://s3mper.github.io/Github-Pages-Google-Search-Console/
 ---
 
 <!-- markdownlint-disable MD007 MD033-->

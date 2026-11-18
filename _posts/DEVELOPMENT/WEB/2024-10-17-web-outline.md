@@ -10,9 +10,6 @@ last_modified_at: 2026-01-06
 
 categories: [web]
 tags: [web]
-redirect_from:
-  - /Web-Outline/
-guid: https://s3mper.github.io/Web-Outline/
 ---
 
 <!-- markdownlint-disable MD007 MD025 -->

@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [computer-organization]
 tags: [cod, mips, spim]
-redirect_from:
-  - /COD-Outline/
-guid: https://s3mper.github.io/COD-Outline/
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD033-->

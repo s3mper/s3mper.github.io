@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-OS-Definition-and-Classification/
-guid: https://s3mper.github.io/Linux-OS-Definition-and-Classification/
 ---
 
 ## 운영체제 정의

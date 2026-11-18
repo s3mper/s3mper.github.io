@@ -10,9 +10,6 @@ last_modified_at: 2026-04-10
 
 categories: [web]
 tags: [web, vmware]
-redirect_from:
-  - /Web-Server-Practice/
-guid: https://s3mper.github.io/Web-Server-Practice/
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD024 MD025 MD029 MD033 -->

@@ -9,10 +9,7 @@ date: 2026-05-07
 last_modified_at: 2026-05-07
 
 categories: [ai]
-tags: []
-redirect_from:
-  - /Agent-Skills/
-guid: https://s3mper.github.io/Agent-Skills/
+tags: [skill, mcp]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD060 -->

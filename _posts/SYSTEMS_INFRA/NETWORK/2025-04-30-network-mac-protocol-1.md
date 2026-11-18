@@ -10,9 +10,6 @@ last_modified_at: 2025-10-02
 
 categories: [network]
 tags: [computer-network, network, til]
-redirect_from:
-  - /Network-MAC-Protocol-1/
-guid: https://s3mper.github.io/Network-MAC-Protocol-1/
 ---
 
 # 목차

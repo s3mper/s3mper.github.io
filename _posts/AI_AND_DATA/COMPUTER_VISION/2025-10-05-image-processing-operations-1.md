@@ -12,23 +12,24 @@ categories: [computer-vision]
 tags: [computer-vision]
 
 permalink: /image-processing-operations-1/
-redirect_from:
-  - /Image-Processing-Operatios-1/
-guid: https://s3mper.github.io/Image-Processing-Operatios-1/
 ---
 
-# 목차
-
-1. [영상 처리 연산](#-영상-처리-연산)
-	1. [점 연산(Point operation)](#1-점-연산point-operation)
-	2. [영역 연산(Spatial/Neighborhood operation, Filtering)](#2-영역-연산spatialneighborhood-operation-filtering)
-		1. [상관(correlation) vs 컨볼루션(convolution)](#21-상관correlation-vs-컨볼루션convolution)
-		2. [컨볼루션 연산의 대수적 성질](#22-컨볼루션-연산의-대수적-성질)
-		3. [대표 필터와 효과](#23-대표-필터와-효과)
-
----
+<!-- markdownlint-disable MD007 MD010 MD025 MD033 -->
 
 #  영상 처리 연산
+
+---
+
+## 목차
+
+1. [점 연산(Point operation)](#1-점-연산point-operation)
+2. [영역 연산(Spatial/Neighborhood operation, Filtering)](#2-영역-연산spatialneighborhood-operation-filtering)
+	1. [상관(correlation) vs 컨볼루션(convolution)](#21-상관correlation-vs-컨볼루션convolution)
+	2. [컨볼루션 연산의 대수적 성질](#22-컨볼루션-연산의-대수적-성질)
+	3. [대표 필터와 효과](#23-대표-필터와-효과)
+
+---
+
 ## 1. 점 연산(Point operation)
 
 - **정의**: 한 픽셀의 새 값이 **오직 그 픽셀 자신의 명암값**만으로 결정되는 변환

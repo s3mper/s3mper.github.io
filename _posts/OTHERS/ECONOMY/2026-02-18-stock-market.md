@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [economy]
 tags: [economy]
-redirect_from:
-  - /Stock-Market/
-guid: https://s3mper.github.io/Stock-Market/
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

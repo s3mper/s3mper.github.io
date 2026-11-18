@@ -10,9 +10,6 @@ last_modified_at: 2025-11-11
 
 categories: [ai]
 tags: [ai, deep-learning]
-redirect_from:
-  - /Gradient-Clipping/
-guid: https://s3mper.github.io/Gradient-Clipping/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

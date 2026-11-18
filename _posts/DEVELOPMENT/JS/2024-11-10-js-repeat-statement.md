@@ -10,9 +10,6 @@ last_modified_at: 2024-11-11
 
 categories: [javascript]
 tags: [js, web]
-redirect_from:
-  - /JS-Repeat-Statement/
-guid: https://s3mper.github.io/JS-Repeat-Statement/
 ---
 
 <!-- markdownlint-disable MD025 MD029 -->

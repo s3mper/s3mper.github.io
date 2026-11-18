@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /File-Upload/
-guid: https://s3mper.github.io/File-Upload/
 ---
 
 # File Upload 취약점

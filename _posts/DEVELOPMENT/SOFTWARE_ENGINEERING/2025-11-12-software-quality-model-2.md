@@ -10,9 +10,6 @@ last_modified_at: 2026-10-29
 
 categories: [software-design]
 tags: [software-design]
-redirect_from:
-  - /Software-Quality-Model-2/
-guid: https://s3mper.github.io/Software-Quality-Model-2/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

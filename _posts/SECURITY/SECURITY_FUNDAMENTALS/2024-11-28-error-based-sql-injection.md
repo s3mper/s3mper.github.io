@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [security]
 tags: [til, web, database, security]
-redirect_from:
-  - /Error-Based-SQL-Injection/
-guid: https://s3mper.github.io/Error-Based-SQL-Injection/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

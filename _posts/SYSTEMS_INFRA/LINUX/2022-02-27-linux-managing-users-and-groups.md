@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Managing-Users-and-Groups/
-guid: https://s3mper.github.io/Linux-Managing-Users-and-Groups/
 ---
 
 ## 사용자 관리

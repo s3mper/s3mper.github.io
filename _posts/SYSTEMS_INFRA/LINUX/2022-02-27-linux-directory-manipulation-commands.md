@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Directory-Manipulation-Commands/
-guid: https://s3mper.github.io/Linux-Directory-Manipulation-Commands/
 ---
 
 1. `pwd`: 현재 위치한 디렉토리의 절대 경로 표시

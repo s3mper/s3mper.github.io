@@ -10,9 +10,6 @@ last_modified_at: 2026-01-06
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /WEB-Secure-Weak-Points/
-guid: https://s3mper.github.io/WEB-Secure-Weak-Points/
 ---
 
 <!-- markdownlint-disable MD007 MD024 MD025 MD033 -->

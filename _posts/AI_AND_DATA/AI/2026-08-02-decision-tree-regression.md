@@ -10,9 +10,6 @@ last_modified_at: 2026-08-02
 
 categories: [ai]
 tags: [ai, deep-learning]
-redirect_from:
-  - /Decision-Tree-Regression/
-guid: https://s3mper.github.io/Decision-Tree-Regression/
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD060 -->

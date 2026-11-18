@@ -10,9 +10,6 @@ last_modified_at: 2026-09-01
 
 categories: [git]
 tags: [git]
-redirect_from:
-  - /Git-Commands/
-guid: https://s3mper.github.io/Git-Commands/
 ---
 
 <!-- markdownlint-disable md004 MD010 MD025 MD029 -->

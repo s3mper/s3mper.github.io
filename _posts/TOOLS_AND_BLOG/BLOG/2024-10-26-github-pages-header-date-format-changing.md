@@ -10,9 +10,6 @@ last_modified_at: 2026-02-15
 
 categories: [blog]
 tags: [blog]
-redirect_from:
-  - /Github-Pages-Header-Date-Format-Changing/
-guid: https://s3mper.github.io/Github-Pages-Header-Date-Format-Changing/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 MD045-->

@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [security]
 tags: [til, web, security]
-redirect_from:
-  - /File-Include/
-guid: https://s3mper.github.io/File-Include/
 ---
 
 # File Include

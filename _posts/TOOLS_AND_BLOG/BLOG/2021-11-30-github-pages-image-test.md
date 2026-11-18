@@ -10,9 +10,6 @@ last_modified_at: 2025-11-01
 
 categories: [blog]
 tags: [blog]
-redirect_from:
-  - /Github-Pages-Image-Test/
-guid: https://s3mper.github.io/Github-Pages-Image-Test/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 MD049-->

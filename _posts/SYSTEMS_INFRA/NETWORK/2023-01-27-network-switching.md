@@ -10,9 +10,6 @@ last_modified_at: 2026-09-01
 
 categories: [network]
 tags: [network]
-redirect_from:
-  - /Network-Switching/
-guid: https://s3mper.github.io/Network-Switching/
 ---
 
 <!-- markdownlint-disable md025 md033 -->

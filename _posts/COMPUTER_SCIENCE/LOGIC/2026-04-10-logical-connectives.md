@@ -10,9 +10,6 @@ last_modified_at: 2026-04-10
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Logical-Connectives/
-guid: https://s3mper.github.io/Logical-Connectives/
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 -->

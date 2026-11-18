@@ -10,24 +10,25 @@ last_modified_at: 2025-10-17
 
 categories: [computer-vision]
 tags: [computer-vision]
-redirect_from:
-  - /Histogram/
-guid: https://s3mper.github.io/Histogram/
 ---
 
-# 목차
+<!-- markdownlint-disable MD007 MD010 MD025 MD033 -->
 
-1. [히스토그램](#-히스토그램)
-	1. [히스토그램](#1-히스토그램)
-	2. [히스토그램 평활화 (Histogram Equalization)](#2-히스토그램-평활화-histogram-equalization)
-	3. [히스토그램 역투영 & 얼굴 검출](#3-히스토그램-역투영--얼굴-검출)
-	4. [이진 영상: 임계값 & 오츠(Otsu) 알고리즘](#4-이진-영상-임계값--오츠otsu-알고리즘)
-		1. [Otsu 알고리즘](#41-otsu-알고리즘)
-	5. [연결 요소(Connected Components) 라벨링](#5-연결-요소connected-components-라벨링)
+# 히스토그램
 
 ---
 
-#  히스토그램
+## 목차
+
+1. [히스토그램](#1-히스토그램)
+2. [히스토그램 평활화 (Histogram Equalization)](#2-히스토그램-평활화-histogram-equalization)
+3. [히스토그램 역투영 & 얼굴 검출](#3-히스토그램-역투영--얼굴-검출)
+4. [이진 영상: 임계값 & 오츠(Otsu) 알고리즘](#4-이진-영상-임계값--오츠otsu-알고리즘)
+	1. [Otsu 알고리즘](#41-otsu-알고리즘)
+5. [연결 요소(Connected Components) 라벨링](#5-연결-요소connected-components-라벨링)
+
+---
+
 ## 1. 히스토그램
 
 - 정의: $[0, \, L-1]$ 사이의 명암값이 각각 영상 등장 빈도 계산, 밝기(또는 색상) 값의 **분포**를 세는 함수

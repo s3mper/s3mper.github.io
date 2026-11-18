@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [mathematics]
 tags: [discrete-mathematics]
-redirect_from:
-  - /Discrete-Mathematics-Logic/
-guid: https://s3mper.github.io/Discrete-Mathematics-Logic/
 ---
 
 <!-- markdownlint-disable MD004 MD025 MD029 MD033 MD050 -->

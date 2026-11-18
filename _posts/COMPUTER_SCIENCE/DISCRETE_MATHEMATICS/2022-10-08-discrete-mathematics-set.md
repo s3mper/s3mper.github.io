@@ -12,9 +12,6 @@ categories: [mathematics]
 tags: [discrete-mathematics]
 
 permalink: /discrete-mathematics-set/
-redirect_from:
-  - /Discrete-Mathmatics-Set/
-guid: https://s3mper.github.io/Discrete-Mathmatics-Set/
 ---
 
 # 목차

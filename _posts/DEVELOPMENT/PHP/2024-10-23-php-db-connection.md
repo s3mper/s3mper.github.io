@@ -10,9 +10,6 @@ last_modified_at: 2024-11-22
 
 categories: [web]
 tags: [web, php, database]
-redirect_from:
-  - /PHP-DB-Connection/
-guid: https://s3mper.github.io/PHP-DB-Connection/
 ---
 
 # 회고

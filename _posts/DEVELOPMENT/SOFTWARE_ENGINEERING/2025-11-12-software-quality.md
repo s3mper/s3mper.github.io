@@ -10,9 +10,6 @@ last_modified_at: 2026-10-29
 
 categories: [software-design]
 tags: [software-design]
-redirect_from:
-  - /Software-Quality/
-guid: https://s3mper.github.io/Software-Quality/
 ---
 
 # 소프트웨어 품질의 개념과 품질 관리

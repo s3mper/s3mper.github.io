@@ -10,9 +10,6 @@ last_modified_at: 2024-12-27
 
 categories: [javascript]
 tags: [til, web, js]
-redirect_from:
-  - /JS-DOM-Handle/
-guid: https://s3mper.github.io/JS-DOM-Handle/
 ---
 
 <!-- markdownlint-disable MD024 MD025 MD029 MD033 MD036 MD045 -->

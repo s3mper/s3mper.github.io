@@ -12,9 +12,6 @@ tags:
   - web
   - database
   - security
-redirect_from:
-  - /Blind-SQL-Injection/
-guid: https://s3mper.github.io/Blind-SQL-Injection/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

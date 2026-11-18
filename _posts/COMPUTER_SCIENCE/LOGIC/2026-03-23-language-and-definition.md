@@ -10,9 +10,6 @@ last_modified_at: 2026-04-08
 
 categories: [logic]
 tags: [logic]
-redirect_from:
-  - /Language-and-Definition/
-guid: https://s3mper.github.io/Language-and-Definition/
 ---
 
 <!-- markdownlint-disable MD010 MD025 MD033 -->

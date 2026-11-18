@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [network]
 tags: [network]
-redirect_from:
-  - /Network-LAN/
-guid: https://s3mper.github.io/Network-LAN/
 ---
 
 <!-- markdownlint-disable md025 md033 -->

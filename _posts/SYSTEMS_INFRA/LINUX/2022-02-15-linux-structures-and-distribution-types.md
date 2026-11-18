@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [linux]
 tags: [linux]
-redirect_from:
-  - /Linux-Structures-and-Distribution-Types/
-guid: https://s3mper.github.io/Linux-Structures-and-Distribution-Types/
 ---
 
 ## 리눅스 기능 - 다양한 서버의 역할담당

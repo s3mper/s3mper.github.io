@@ -10,9 +10,6 @@ last_modified_at: 2026-11-16
 
 categories: [ai]
 tags: [til, nlp, ai, tokenization]
-redirect_from:
-  - /Korean-Tokenization/
-guid: https://s3mper.github.io/Korean-Tokenization/
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD010 MD025 MD033 -->

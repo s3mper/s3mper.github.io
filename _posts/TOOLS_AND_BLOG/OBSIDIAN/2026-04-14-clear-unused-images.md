@@ -10,9 +10,6 @@ last_modified_at: 2026-04-15
 
 categories: [obsidian]
 tags: [obsidian, community-plugins]
-redirect_from:
-  - /Clear-Unused-Images/
-guid: https://s3mper.github.io/Clear-Unused-Images/
 ---
 
 <!-- markdownlint-disable MD004 MD010 MD025 MD029 -->

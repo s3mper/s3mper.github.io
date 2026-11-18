@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [web]
 tags: [web, php]
-redirect_from:
-  - /WEB-Cookie-and-Session-Cache/
-guid: https://s3mper.github.io/WEB-Cookie-and-Session-Cache/
 ---
 
 # 목차

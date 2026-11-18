@@ -10,9 +10,6 @@ last_modified_at: 2026-02-05
 
 categories: [markdown]
 tags: [blog, markdown]
-redirect_from:
-  - /Markdown-Syntax-Index/
-guid: https://s3mper.github.io/Markdown-Syntax-Index/
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD022 MD025 MD029 MD032 MD033 MD034 MD035 MD048 MD059 -->

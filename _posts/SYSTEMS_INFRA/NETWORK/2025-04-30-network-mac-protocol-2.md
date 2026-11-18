@@ -10,9 +10,6 @@ last_modified_at:
 
 categories: [network]
 tags: [computer-network, network, til]
-redirect_from:
-  - /Network-MAC-Protocol-2/
-guid: https://s3mper.github.io/Network-MAC-Protocol-2/
 ---
 
 <!-- markdownlint-disable MD004 MD007 MD025 MD033 -->
