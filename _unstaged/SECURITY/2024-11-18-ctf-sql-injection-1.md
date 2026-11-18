@@ -18,12 +18,12 @@ guid: https://s3mper.github.io/CTF-SQL-Injection-1/
 [쿠키와 세션의 동작 방식]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})과 [SQL Injection의 기본 원리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})를 바탕으로 문제의 인증 흐름을 분석한 풀이이다.
 
 # get admin
-<img src = "/_image/2024-11-18-00-00-00.png">
+![](/_image/2024-11-18-00-00-00.png)
 쿠키값을 admin으로 바꾸면 clear
 
 # pin code bypass
-<img src = "/_image/2024-11-18-00-00-01.png">
-<img src = "/_image/2024-11-18-00-00-02.png">
+![](/_image/2024-11-18-00-00-01.png)
+![](/_image/2024-11-18-00-00-02.png)
 step1 -> step2 -> step3일거라 예상
 step3로 값 주면 clear
 
@@ -65,7 +65,7 @@ asdf
 # login bypass 2
 login bypass 1에서 로그인한 상태로 접속하면 로그인 상태로 접속되길래 normaltic2로 시도해봄.
 -> login bypass끼리 sql 공유하는 듯
-<img src = "/_image/2024-11-18-00-00-03.png">
+![](/_image/2024-11-18-00-00-03.png)
 플래그는 안 보임 ㄲㅂ
 
 1. 

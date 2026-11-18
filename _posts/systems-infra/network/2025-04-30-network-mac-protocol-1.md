@@ -51,7 +51,7 @@ tags: [computer-network, network]
 * **매체 상태 대응**: 신경 쓰지 않는다.  
 ~~상남자 메타~~
 * **전송 성공/실패 판단**: 평상시보다 에너지 레벨이 2배가 된다
-![Detect a collision|323x24](/_image/2025-05-19-00-00-00.png)
+![Detect a collision](/_image/2025-05-19-00-00-00.png){: width="323" height="24" }
 * **충돌 처리**: 각 장치는 충돌을 감지하고 랜덤한 시간을 기다린 후 재전송을 시도한다
 
 ## 1. Random Access 특징
@@ -234,7 +234,7 @@ CSMA + 충돌 감지(Collision Detection) 메커니즘
 1. 매체 감지: 전송 전 채널이 비어 있는지 확인 (Carrier Sense)
 1. 전송 시도: 채널이 idle이면 데이터 전송 시작
 1. 전송 중 감지: 전송 중 충돌 발생 여부를 실시간으로 감지
-![Detect a collision|323x24](/_image/2025-05-19-00-00-00.png)
+![Detect a collision](/_image/2025-05-19-00-00-00.png){: width="323" height="24" }
 2. 충돌 감지: 전압 변화 등을 통해 충돌이 발생했음을 판단한다. normal 상태의 에너지 레벨의 2배가 된다.
 3. 충돌 후 처리:
     * 즉시 전송 중단

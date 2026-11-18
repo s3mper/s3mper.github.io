@@ -53,7 +53,7 @@ tags: [cryptography]
 
 ## 2. 추가, 확장된 요소 A.A.A.
 
-![Alt Images|394x24](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-22-19.jpg?raw=true)
+![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-22-19.jpg?raw=true){: width="394" height="24" }
 
 ### Assurance(보증)
 - **Assurance(보증)**: 컴퓨터 시스템에서 신뢰를 어떻게 제공·관리하는지에 대한 개념.
@@ -71,11 +71,11 @@ tags: [cryptography]
 ### Authenticity(진위)
 - **Authenticity(진위)**: 사람이나 시스템이 발행한 진술·정책·권한이 **진짜**인지 판단하는 능력.
 	- 도구: **디지털 서명**
-	- ![Alt Images|94x24](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-22-50.jpg?raw=true)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-22-50.jpg?raw=true){: width="94" height="24" }
 
 ### Anonymity(익명성)
 - **Anonymity(익명성)**: 특정 기록/거래가 **개인에게 귀속되지 않음**을 의미.
-	- ![Alt Images|94x24](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-23-01.jpg?raw=true)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-23-01.jpg?raw=true){: width="94" height="24" }
 	- 도구: **집계(aggregation)**, **믹싱(mixing)**, **프록시(proxies)**, **가명(pseudonyms)** 등
 
 ---

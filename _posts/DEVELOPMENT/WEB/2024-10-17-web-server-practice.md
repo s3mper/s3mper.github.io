@@ -34,7 +34,7 @@ tags: [web, vmware]
 
 ## 1. VMWare 환경 설정
 
-<img src = "/_image/2024-10-17-00-00-00.png" alt = "ifconfig">
+![ifconfig](/_image/2024-10-17-00-00-00.png)
 
 결과로 나오는 docker0, ens33, lo가 무엇을 의미하는 지 궁금했다.
 
@@ -139,47 +139,14 @@ url: <http://192.168.219.139:1018/score.php?name=hello>
 * 파라미터: 사용자가 웹서버에게 전달하는 데이터  
 파라미터 입력 받는 메소드 2가지: get / post
 
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>get</th>
-            <th>post</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>리소스 전달 방식</td>
-            <td>쿼리스트링<br>e.g. http://192.168.219.139:1018/score.php?*name=hello*</td>
-            <td>http body<br>e.g. http://192.168.219.139:1018/score.php</td>
-        </tr>
-        <tr>
-            <td>http 응답 코드</td>
-            <td>200(ok)</td>
-            <td>201(created)</td>
-        </tr>
-        <tr>
-            <td>캐시</td>
-            <td>O</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>브라우저 기록</td>
-            <td>O</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>북마크 추가</td>
-            <td>O</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>길이 제한</td>
-            <td>O<br>브라우저의 정책에 따라 URI 길이 제한이 다름.</td>
-            <td>X</td>
-        </tr>
-    </tbody>
-</table>
+|  | get | post |
+| --- | --- | --- |
+| 리소스 전달 방식 | 쿼리스트링<br>e.g. http://192.168.219.139:1018/score.php?&#42;name=hello&#42; | http body<br>e.g. http://192.168.219.139:1018/score.php |
+| http 응답 코드 | 200(ok) | 201(created) |
+| 캐시 | O | X |
+| 브라우저 기록 | O | X |
+| 북마크 추가 | O | X |
+| 길이 제한 | O<br>브라우저의 정책에 따라 URI 길이 제한이 다름. | X |
 
 back-end: 서버 측 코드 ex) php, asp, jsp...  
 front-end: 클라이언트 측 코드, 브라우저가 실행 코드 ex) html, css, js...  

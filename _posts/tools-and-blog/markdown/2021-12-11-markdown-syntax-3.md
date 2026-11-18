@@ -82,7 +82,7 @@ CDN 적용 사이트: [JSDELIVR](https://www.jsdelivr.com/github)
 <img src="https://cdn.pixabay.com/photo/2023/01/27/01/40/brothers-7747561_960_720.jpg" alt="대체 문구입니다" title="다섯 번째 이미지" />
 ```
 
-<img src="https://cdn.pixabay.com/photo/2023/01/27/01/40/brothers-7747561_960_720.jpg" alt="대체 문구입니다" title="다섯 번째 이미지" />
+![대체 문구입니다](https://cdn.pixabay.com/photo/2023/01/27/01/40/brothers-7747561_960_720.jpg "다섯 번째 이미지")
 
 ---
 
@@ -93,7 +93,7 @@ CDN 적용 사이트: [JSDELIVR](https://www.jsdelivr.com/github)
 ### 2.1. Emoji 붙여넣기
 
 1. [Emojipedia](https://emojipedia.org/): img 형태로 복사된다.
-    <img src = "/_image/2024-11-24-00-00-00.png" alt="Emoji">
+    ![Emoji](/_image/2024-11-24-00-00-00.png)
 2. [twitter-symbols](https://kr.piliapp.com/twitter-symbols/): emoji 형태로 복사된다
     🙃
 

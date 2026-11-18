@@ -101,11 +101,11 @@ date 관련된 code 원본: `<h4>Date: {{ page.date | date_to_string }}</h4>`
 
 1. post.html
 
-  <img src = "/_image/2024-10-27-00-00-05.png">
+  ![](/_image/2024-10-27-00-00-05.png)
 
   ->
 
-  <img src = "/_image/2024-10-27-00-00-06.png">
+  ![](/_image/2024-10-27-00-00-06.png)
 
 ## 5. CSS 수정
 
@@ -121,15 +121,15 @@ h4 태그로 감싸져있기 때문에
 
 1. post.html - 코드 수정
 
-  <img src = "/_image/2024-10-27-00-00-00.png">
+  ![](/_image/2024-10-27-00-00-00.png)
 
   ->
 
-  <img src = "/_image/2024-10-27-00-00-01.png">
+  ![](/_image/2024-10-27-00-00-01.png)
 
 1. elements.scss - 코드 추가
 
-  <img src = "/_image/2024-10-27-00-00-02.png">
+  ![](/_image/2024-10-27-00-00-02.png)
 
   -> `Created: 2024.10.17 Thu           Updated: 2024.10.24 Thu`  
 
@@ -138,9 +138,9 @@ h4 태그로 감싸져있기 때문에
 
 ### 5.2. updated date 생성 안 했을 때 grid 없애기
 
-<img src = "/_image/2024-10-27-00-00-03.png">
+![](/_image/2024-10-27-00-00-03.png)
 
-<img src = "/_image/2024-10-27-00-00-04.png">
+![](/_image/2024-10-27-00-00-04.png)
 
 # 6. 궁금한 거
 

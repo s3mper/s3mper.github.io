@@ -24,10 +24,10 @@ tags: [blog, github-pages]
 
 ---
 
-<figure>
-	<a href="https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-screenshot-error.png?raw=true">
-  <img alt="Images" src="/_image/2021-12-01-00-00-05.png">
-  </a>
+<figure markdown="1">
+
+[![Images](/_image/2021-12-01-00-00-05.png)](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-screenshot-error.png?raw=true)
+
 	<figcaption>
   <a href="https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-screenshot-google-analytics.png?raw=true" title="Error">_posts에 업로드했을 경우에는 이미지 주소 복사를 눌러서 직접 가져와야하는 듯.
   </a>
@@ -41,7 +41,7 @@ tags: [blog, github-pages]
 1. 첫번째 favicon
 ![1st-favicon](/_image/2021-12-01-00-00-00.jpg)
 2. 두번째 favicon
-![2nd-favicon|656x656](/_image/2021-12-01-00-00-00.png)
+![2nd-favicon](/_image/2021-12-01-00-00-00.png){: width="656" height="656" }
 3. 세번째 favicon
 ![3rd-favicon](/_image/2021-12-01-00-00-01.png)
 4. 네번째 favicon

@@ -77,7 +77,7 @@ tags: [software-design, software-quality]
 	- **측정(metric)**: 기준을 재는 측정값과 점검표이다.
 - 메트릭은 예/아니오 질문으로 각 기준을 정량화하고, 기준→요인→제품 수준으로 합성이 가능하다. 단, 응답자 주관성이 한계로 지적된다.
 
-![|500x357](../../../_image/2026-10-29-21-53-59.png)
+![](/_image/2026-10-29-21-53-59.png){: width="500" height="357" }
 > 그림 출처: *[Geeksforgeeks: McCall's Quality Model](https://www.geeksforgeeks.org/software-engineering/mccalls-quality-model/)*
 
 ### 1.2. 품질 요소
@@ -116,7 +116,7 @@ tags: [software-design, software-quality]
 
 ### 1.3. 품질 기준
 
-![|500x375](../../../_image/2026-10-29-22-13-11.png)
+![](/_image/2026-10-29-22-13-11.png){: width="500" height="375" }
 > 그림 출처: McCall, J. A., Richards, P. K., & Walters, G. F. (1977). Factors in Software Quality. Rome Air Development Center, RADC-TR-77-369. [원본 도식](https://www.researchgate.net/publication/228728142_Collaborative_Systems_Defining_and_Measuring_Quality_Characteristics)을 참고하여 AI로 재구성.
 
 | 품질 요소  | 주요 품질 기준                                                                  |
@@ -151,7 +151,7 @@ tags: [software-design, software-quality]
 - 자동·정량 평가의 한계를 보완하기 위해 **속성 집합과 메트릭으로 품질을 정성적으로 정의**하는 **계층형 모델**(상위→중간→원시 특성)이다.
 - McCall 모델이 주로 상위 수준 특성의 정밀한 측정에 초점을 맞추는 반면, Boehm 모델은 더 광범위한 특성을 기반으로 한다.
 
-![|500x375](../../../_image/2026-10-29-22-21-53.png)
+![](/_image/2026-10-29-22-21-53.png){: width="500" height="375" }
 > **그림 출처:** Bitew, N., & Singh, J. (2019). _A Study on Software Quality Factors and Metrics to Enhance Software Quality Assurance_, Figure 4, “Boehm software quality model.” [원본 도식](https://www.researchgate.net/figure/Boehm-software-quality-model_fig3_337550373)을 참고하여 AI로 재구성.
 
 ### 2.2. 구조(3계층)

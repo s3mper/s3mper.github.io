@@ -1,7 +1,7 @@
 # CNN: Pooling & Batch Normalization
 ## 1. 1×1 Convolution
 
-![|500x228](2025-11-30-22-03-15.jpg)
+![](../../../_image/2025-11-30-22-03-15.jpg){: width="500" height="228" }
 
 - 일반적인 컨볼루션은 $3\times 3$, $5\times 5$ 등 **공간적 이웃**을 보면서 특징을 추출하지만,  
     **$1\times 1$ 컨볼루션**은 커널 크기가 $1\times 1$이라 **공간 정보는 보지 않고 채널(뎁스)만 섞는 연산**이다.
@@ -36,7 +36,7 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 ## 3. Pooling (풀링) 레이어
 ### 3.1. 개념
 
-![|500x394](2025-11-30-22-03-32.jpg)
+![](../../../_image/2025-11-30-22-03-32.jpg){: width="500" height="394" }
 
 - **목적**: 학습 가능한 파라미터 없이, 피처맵의 해상도를 줄이면서 **지역적 요약값**을 뽑는 연산
 - 하이퍼파라미터
@@ -52,7 +52,7 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 ### 3.2. Max Pooling 예시
 
 - $2\times 2$ 커널, 스트라이드 $2$일 때, 입력의 $2\times2$ 블록마다 **최댓값**만 남긴다.
-- 예: ![|500x262](2025-11-30-22-04-04.jpg)
+- 예: ![](../../../_image/2025-11-30-22-04-04.jpg){: width="500" height="262" }
 - 특징
     - 작은 위치 변화(translation)에 대해 어느 정도 **불변성**을 제공
     - **학습 파라미터가 전혀 없음** (그냥 max/avg 연산만 수행)
@@ -60,7 +60,7 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 ## 4. CNN 구조와 LeNet-5 예시
 ### 4.1. CNN의 전형적인 구성
 
-![|500x166](2025-11-30-22-04-41.jpg)
+![](../../../_image/2025-11-30-22-04-41.jpg){: width="500" height="166" }
 
 - 예전 고전 CNN 구조: **[Conv → ReLU → Pool] × N → Flatten → [FC → ReLU] × M → FC(출력)**
 - 앞부분: 2D 컨볼루션으로 이미지를 처리 (공간 구조 유지)
@@ -68,7 +68,7 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 
 ### 4.2. <font color="#ff0000">LeNet-5 구조</font>
 
-![|500x380](2025-11-30-22-05-16.jpg)
+![](../../../_image/2025-11-30-22-05-16.jpg){: width="500" height="380" }
 
 |단계|출력 크기|비고|
 |---|---|---|
@@ -100,14 +100,14 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 ## 6. Batch Normalization (배치 정규화)
 ### 6.1. 기본 아이디어
 
-![|500x195](2025-11-30-22-05-39.jpg)
+![](../../../_image/2025-11-30-22-05-39.jpg){: width="500" height="195" }
 
 - **레이어 출력(활성값)을 평균 0, 분산 1에 가깝게 정규화**하여  
     internal covariate shift를 줄이고 학습을 안정화/가속화하자는 아이디어.
 
 ### 6.2. 수식 (Fully-connected 기준)
 
-![|500x608](2025-11-30-22-05-54.jpg)
+![](../../../_image/2025-11-30-22-05-54.jpg){: width="500" height="608" }
 
 미니배치 $x \in \mathbb{R}^{N\times D}$ 에 대하여, 각 채널(특징) $j$에 대해:
 - 배치 평균: $$\mu_j = \frac{1}{N}\sum_{i=1}^{N} x_{ij}$$
@@ -123,8 +123,8 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 
 ### 6.3. ConvNet에서의 BatchNorm (Spatial BatchNorm)
 
-- Batch Norm for Fully-Connected: ![|500x269](2025-11-30-22-06-58.jpg)
-- Batch Norm for Conv: ![|500x280](2025-11-30-22-07-03.jpg)
+- Batch Norm for Fully-Connected: ![](../../../_image/2025-11-30-22-06-58.jpg){: width="500" height="269" }
+- Batch Norm for Conv: ![](../../../_image/2025-11-30-22-07-03.jpg){: width="500" height="280" }
 
 - ConvNet에서는 입력이 $x \in \mathbb{R}^{N\times C\times H\times W}$ 일 때, 
     **각 채널 $c$에 대해 $N, H, W$ 전체에 걸쳐 평균·분산**을 계산:
@@ -134,7 +134,7 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 
 ### 6.4. 학습 시와 테스트 시
 
-![|500x260](2025-11-30-22-08-29.jpg)
+![](../../../_image/2025-11-30-22-08-29.jpg){: width="500" height="260" }
 
 - **학습(train) 시**에는 각 미니배치에서 $\mu_j,\sigma_j^2$를 즉석에서 계산.
 - **테스트(test) 시**에는 배치가 1장일 수도 있고 통계가 불안정하므로,  
@@ -159,8 +159,8 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 ## 7. 다른 정규화 기법들: Layer / Instance / Group Norm
 ### 7.1. Layer Normalization
 
-- **Batch Norm** for **Fully-Connected**: ![|500x308](2025-11-30-22-09-10.jpg)
-- **Layer Norm** for **Fully-Connected**: ![|500x310](2025-11-30-22-09-43.jpg)
+- **Batch Norm** for **Fully-Connected**: ![](../../../_image/2025-11-30-22-09-10.jpg){: width="500" height="308" }
+- **Layer Norm** for **Fully-Connected**: ![](../../../_image/2025-11-30-22-09-43.jpg){: width="500" height="310" }
 
 - Fully-connected 네트워크에서 주로 사용.
 - 하나의 샘플 $x_i \in \mathbb{R}^{D}$ 에 대해 **특징 차원 전체**에 대해 평균·분산 계산:
@@ -171,8 +171,8 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 
 ### 7.2. Instance Normalization
 
-- **Batch Norm** for **Conv**: ![|500x318](2025-11-30-22-12-07.jpg)
-- **Instance Norm** for **Conv**: ![|500x315](2025-11-30-22-12-23.jpg)
+- **Batch Norm** for **Conv**: ![](../../../_image/2025-11-30-22-12-07.jpg){: width="500" height="318" }
+- **Instance Norm** for **Conv**: ![](../../../_image/2025-11-30-22-12-23.jpg){: width="500" height="315" }
 
 - ConvNet에서 사용.
 - 각 instance(한 샘플, 한 채널) 에 대해 공간 차원 $H\times W$ 에 대해 평균·분산 계산:
@@ -188,13 +188,13 @@ PyTorch `Conv2d(in_channels, out_channels, kernel_size, stride, padding, ...)`�
 
 ### 7.4. 비교
 
-![|500x194](2025-11-30-22-12-33.jpg)
+![](../../../_image/2025-11-30-22-12-33.jpg){: width="500" height="194" }
 
 - $N$(배치), $C$(채널), $H\times W$(공간)에 대해 어느 축을 따라 평균·분산을 내는지 시각적으로 보여준다.
 
 ## 8. ConvNet 구성 요소 요약
 
-![|500x205](2025-11-30-22-12-44.jpg)
+![](../../../_image/2025-11-30-22-12-44.jpg){: width="500" height="205" }
 
 ConvNet은 다음 5가지 구성요소의 조합으로 이루어진다.
 1. **Convolution Layers** – 대부분의 계산 비용을 차지, 지역적 패턴 추출

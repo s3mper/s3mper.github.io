@@ -42,7 +42,7 @@ tags: [js, web]
 </body>
 ```
 
-<img src = "/_image/2024-11-10-00-00-00.png">
+![](/_image/2024-11-10-00-00-00.png)
 
 ## 2. console.log()
 
@@ -56,7 +56,7 @@ tags: [js, web]
 
 `F12 - 개발자도구 - 콘솔`에서만 확인이 가능하다
 
-<img src = "/_image/2024-11-10-00-00-01.png">
+![](/_image/2024-11-10-00-00-01.png)
 
 ## 3. document.write()
 
@@ -65,7 +65,7 @@ document.write("Hello, World!<br>");
 document.write("Hello, World!");
 ```
 
-<img src = "/_image/2024-11-10-00-00-02.png">
+![](/_image/2024-11-10-00-00-02.png)
 
 ## 4. alert()
 
@@ -77,7 +77,7 @@ document.write("Hello, 119");
 alert("It's OK?");
 ```
 
-<img src = "/_image/2024-11-10-00-00-00.gif">
+![](/_image/2024-11-10-00-00-00.gif)
 
 ## 5. prompt()
 
@@ -90,7 +90,7 @@ document.write("Hi");
 prompt("I'm not OK");
 ```
 
-<img src = "/_image/2024-11-10-00-00-01.gif">
+![](/_image/2024-11-10-00-00-01.gif)
 
 ## 6. confirm()
 
@@ -103,7 +103,7 @@ document.write("DEF");
 confirm("ALPHABET");
 ```
 
-<img src = "/_image/2024-11-10-00-00-02.gif">
+![](/_image/2024-11-10-00-00-02.gif)
 
 ---
 

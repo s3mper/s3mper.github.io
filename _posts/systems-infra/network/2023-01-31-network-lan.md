@@ -82,37 +82,12 @@ tags: [network]
 
 * LAN(Local Area Network)의 주요 내용
 
-<table>
-    <thead>
-        <tr>
-            <th>목적</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>자원 공유</td>
-            <td>1. 원격지의 자원을 공유함.<br>
-            2. 복수의 사용자에게 독점적 사용권을 부여함.<br>
-            3. 사용자는 불편 없이 모든 자원을 효율적으로 사용함.</td>
-        </tr>
-        <tr>
-            <td>분산 처리</td>
-            <td>1. 독립된 각 장비에서 계산과 작업을 처리함.<br>
-            2. 전체 시스템의 능력은 연결된 모든 컴퓨터의 능력에 따라 결정됨.</td>
-        </tr>
-        <tr>
-            <td>분산 제어</td>
-            <td>1. 분산된 지역의 독립적인 장치 간의 통신을 통하여 프로세스를 제어함.<br>
-            2. 높은 데이터 전송 속도와 신뢰도를 유지함.</td>
-        </tr>
-        <tr>
-            <td>정보 교환</td>
-            <td>1. video 및 voice 신호 전달.<br>
-            2. text 데이터 전달.</td>
-        </tr>
-    </tbody>
-</table>
+| 목적 | 설명 |
+| --- | --- |
+| 자원 공유 | 1. 원격지의 자원을 공유함.<br> 2. 복수의 사용자에게 독점적 사용권을 부여함.<br> 3. 사용자는 불편 없이 모든 자원을 효율적으로 사용함. |
+| 분산 처리 | 1. 독립된 각 장비에서 계산과 작업을 처리함.<br> 2. 전체 시스템의 능력은 연결된 모든 컴퓨터의 능력에 따라 결정됨. |
+| 분산 제어 | 1. 분산된 지역의 독립적인 장치 간의 통신을 통하여 프로세스를 제어함.<br> 2. 높은 데이터 전송 속도와 신뢰도를 유지함. |
+| 정보 교환 | 1. video 및 voice 신호 전달.<br> 2. text 데이터 전달. |
 
 ### 1.1.3. 장단점
 
@@ -184,60 +159,19 @@ CSMA를 발전시킨 것으로 CSMA 방식에 충돌 감지를 빨리하고 충�
 
 * IEEE 802 위원회 LAN 표준
 
-<table>
-    <thead>
-        <tr>
-            <th>표준</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>802.1</td>
-            <td>상위계층 인터페이스와 MAC BRIDGE</td>
-        </tr>
-        <tr>
-            <td>802.2</td>
-            <td>LLC(Logical Link Control)</td>
-        </tr>
-        <tr>
-            <td>802.3</td>
-            <td>CSMA/CD(Carrier Sense Multiple Access/Collision Detection)</td>
-        </tr>
-        <tr>
-            <td>802.4</td>
-            <td>토큰버스(Token Bus)</td>
-        </tr>
-        <tr>
-            <td>802.5</td>
-            <td>토큰링(Token Ring)</td>
-        </tr>
-        <tr>
-            <td>802.6</td>
-            <td>MAN(Metropolitan Area Network)</td>
-        </tr>
-        <tr>
-            <td>802.7</td>
-            <td>광대역(Broadband) LAN</td>
-        </tr>
-        <tr>
-            <td>802.8</td>
-            <td>광섬유(Fiber Optic) LAN</td>
-        </tr>
-        <tr>
-            <td>802.9</td>
-            <td>종합데이터 & 음성 네트워크</td>
-        </tr>
-        <tr>
-            <td>802.10</td>
-            <td>보안(Security)</td>
-        </tr>
-        <tr>
-            <td>802.11</td>
-            <td>무선 네트워크(Wireless Network)</td>
-        </tr>
-    </tbody>
-</table>
+| 표준 | 설명 |
+| --- | --- |
+| 802.1 | 상위계층 인터페이스와 MAC BRIDGE |
+| 802.2 | LLC(Logical Link Control) |
+| 802.3 | CSMA/CD(Carrier Sense Multiple Access/Collision Detection) |
+| 802.4 | 토큰버스(Token Bus) |
+| 802.5 | 토큰링(Token Ring) |
+| 802.6 | MAN(Metropolitan Area Network) |
+| 802.7 | 광대역(Broadband) LAN |
+| 802.8 | 광섬유(Fiber Optic) LAN |
+| 802.9 | 종합데이터 & 음성 네트워크 |
+| 802.10 | 보안(Security) |
+| 802.11 | 무선 네트워크(Wireless Network) |
 
 # 2. 이더넷(Ethernet)
 
@@ -266,30 +200,11 @@ CSMA/CD 방식으로 액세스(access) 하는 방법 및 물리 계층의 사용
 
 ## 2.3. 표준
 
-<table>
-    <thead>
-        <tr>
-            <th>표준</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>10Base-5</td>
-            <td>동축 케이블로 500m의 길이를 가짐.
-            Thick 케이블이라고도 부르며, 2.5m 간격으로 트랜시버를 연결해 사용함.</td>
-        </tr>
-        <tr>
-            <td>10Base-2</td>
-            <td>Thin 케이블이라고도 부르며, 200m의 길이를 가짐.</td>
-        </tr>
-        <tr>
-            <td>10Base-T</td>
-            <td>UTP 케이블을 이용하는 것으로 현재 가장 많이 사용됨.
-            100m의 길이를 가짐.</td>
-        </tr>
-    </tbody>
-</table>
+| 표준 | 설명 |
+| --- | --- |
+| 10Base-5 | 동축 케이블로 500m의 길이를 가짐. Thick 케이블이라고도 부르며, 2.5m 간격으로 트랜시버를 연결해 사용함. |
+| 10Base-2 | Thin 케이블이라고도 부르며, 200m의 길이를 가짐. |
+| 10Base-T | UTP 케이블을 이용하는 것으로 현재 가장 많이 사용됨. 100m의 길이를 가짐. |
 
 <span class = "pink">10 -> 전송속도: 10Mbps</span>
 
@@ -299,36 +214,13 @@ UTP 케이블은 5개의 카테고리로 분류되며 유선 LAN을 연결함.
 
 * UTP 케이블 카테고리(Category)
 
-<table>
-    <thead>
-        <tr>
-            <th>카테고리(Category)</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Category 1</td>
-            <td>전화 통신에 사용하며 데이터 전송에 적합하지 않음.</td>
-        </tr>
-        <tr>
-            <td>Category 2</td>
-            <td>UTP 연결 방식 중 하나로 최대 4Mbps 속도로 데이터 전송.</td>
-        </tr>
-        <tr>
-            <td>Category 3</td>
-            <td>10Base-T 네트워크에 사용. 최대 10Mbps 데이터 전송.</td>
-        </tr>
-        <tr>
-            <td>Category 4</td>
-            <td>토큰링 네트워크에서 사용. 최대 16Mbps로 데이터 전송.</td>
-        </tr>
-        <tr>
-            <td>Category 5</td>
-            <td>UTP 케이블 연결 방식. 최대 100Mbps로 데이터 전송.</td>
-        </tr>
-    </tbody>
-</table>
+| 카테고리(Category) | 설명 |
+| --- | --- |
+| Category 1 | 전화 통신에 사용하며 데이터 전송에 적합하지 않음. |
+| Category 2 | UTP 연결 방식 중 하나로 최대 4Mbps 속도로 데이터 전송. |
+| Category 3 | 10Base-T 네트워크에 사용. 최대 10Mbps 데이터 전송. |
+| Category 4 | 토큰링 네트워크에서 사용. 최대 16Mbps로 데이터 전송. |
+| Category 5 | UTP 케이블 연결 방식. 최대 100Mbps로 데이터 전송. |
 
 ## 2.5. UTP 케이블 배열
 
@@ -338,111 +230,29 @@ UTP 케이블은 5개의 카테고리로 분류되며 유선 LAN을 연결함.
 
 * EIA-568A
 
-<table>
-    <thead>
-        <tr>
-            <th>핀 번호</th>
-            <th>케이블 색</th>
-            <th>신호</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>흰색 + 녹색</td>
-            <td>Tx+</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>녹색</td>
-            <td>Tx-</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>흰색 + 주황</td>
-            <td>Rx+</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>파랑</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>흰색 + 파랑</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>주황</td>
-            <td>Rx-</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>흰색 + 갈색</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>갈색</td>
-            <td>사용X</td>
-        </tr>
-    </tbody>
-</table>
+| 핀 번호 | 케이블 색 | 신호 |
+| --- | --- | --- |
+| 1 | 흰색 + 녹색 | Tx+ |
+| 2 | 녹색 | Tx- |
+| 3 | 흰색 + 주황 | Rx+ |
+| 4 | 파랑 | 사용X |
+| 5 | 흰색 + 파랑 | 사용X |
+| 6 | 주황 | Rx- |
+| 7 | 흰색 + 갈색 | 사용X |
+| 8 | 갈색 | 사용X |
 
 * EIA-568B
 
-<table>
-    <thead>
-        <tr>
-            <th>핀 번호</th>
-            <th>케이블 색</th>
-            <th>신호</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>흰색 + 주황</td>
-            <td>Tx+</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>주황</td>
-            <td>Tx-</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>흰색 + 녹색</td>
-            <td>Rx+</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>파랑</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>흰색 + 파랑</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>녹색</td>
-            <td>Rx-</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>흰색 + 갈색</td>
-            <td>사용X</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>갈색</td>
-            <td>사용X</td>
-        </tr>
-    </tbody>
-</table>
+| 핀 번호 | 케이블 색 | 신호 |
+| --- | --- | --- |
+| 1 | 흰색 + 주황 | Tx+ |
+| 2 | 주황 | Tx- |
+| 3 | 흰색 + 녹색 | Rx+ |
+| 4 | 파랑 | 사용X |
+| 5 | 흰색 + 파랑 | 사용X |
+| 6 | 녹색 | Rx- |
+| 7 | 흰색 + 갈색 | 사용X |
+| 8 | 갈색 | 사용X |
 
 # 3. 고속 이더넷(Fast Ethernet)
 
@@ -545,27 +355,10 @@ UTP 케이블은 5개의 카테고리로 분류되며 유선 LAN을 연결함.
 
 # 5.3. 장단점
 
-<table>
-    <thead>
-        <tr>
-            <th>구분</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>장점</td>
-            <td>1. 충돌 발생 X<br>
-            2. 성능 저하가 적음.</td>
-        </tr>
-        <tr>
-            <td>단점</td>
-            <td>1. 설치 비용이 고가이고 복잡함.<br>
-            2. 노드가 많으면 성능이 떨어짐.<br>
-            3. 토큰에 대한 분실 발생 가능.</td>
-        </tr>
-    </tbody>
-</table>
+| 구분 | 설명 |
+| --- | --- |
+| 장점 | 1. 충돌 발생 X<br> 2. 성능 저하가 적음. |
+| 단점 | 1. 설치 비용이 고가이고 복잡함.<br> 2. 노드가 많으면 성능이 떨어짐.<br> 3. 토큰에 대한 분실 발생 가능. |
 
 ---
 

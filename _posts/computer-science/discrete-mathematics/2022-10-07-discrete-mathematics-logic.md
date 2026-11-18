@@ -292,44 +292,15 @@ tags: [discrete-mathematics]
 
 ## 5. 논리연산자의 우선순위
 
-<table>
-    <thead>
-        <tr>
-            <th>우선순위</th>
-            <th>연산자</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>()</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>~</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>∧</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>∨</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>⊕</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>→</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>↔</td>
-        </tr>
-    </tbody>
-</table>
+| 우선순위 | 연산자 |
+| --- | --- |
+| 1 | () |
+| 2 | &#126; |
+| 3 | ∧ |
+| 4 | ∨ |
+| 5 | ⊕ |
+| 6 | → |
+| 7 | ↔ |
 
 ## 6. 논리적 동치
 
@@ -415,28 +386,11 @@ tags: [discrete-mathematics]
 
 ## 9. 한정자와 논리 연산자
 
-<table>
-    <thead>
-        <tr>
-            <th>∀</th>
-            <th>∃</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>∀x(P(x) ∧ Q(x)) ≡ ∀xP(x) ∧ ∀xQ(x)</td>
-            <td>∃x(P(x) ∧ Q(x)) ≡ ∃xP(x) ∧ ∃xQ(x)</td>
-        </tr>
-        <tr>
-            <td>∀x(P(x) ∨ Q(x)) ≡ ∀xP(x) ∨ ∀xQ(x)</td>
-            <td>∃x(P(x) ∨ Q(x)) ≡ ∃xP(x) ∨ ∃xQ(x)</td>
-        </tr>
-        <tr>
-            <td>~(∀xP(x)) ≡ ∃x(~P(x))</td>
-            <td>~(∃xP(x)) ≡ ∀x(~P(x))</td>
-        </tr>
-    </tbody>
-</table>
+| ∀ | ∃ |
+| --- | --- |
+| ∀x(P(x) ∧ Q(x)) ≡ ∀xP(x) ∧ ∀xQ(x) | ∃x(P(x) ∧ Q(x)) ≡ ∃xP(x) ∧ ∃xQ(x) |
+| ∀x(P(x) ∨ Q(x)) ≡ ∀xP(x) ∨ ∀xQ(x) | ∃x(P(x) ∨ Q(x)) ≡ ∃xP(x) ∨ ∃xQ(x) |
+| &#126;(∀xP(x)) ≡ ∃x(&#126;P(x)) | &#126;(∃xP(x)) ≡ ∀x(&#126;P(x)) |
 
 ## 10. 추론
 
@@ -534,49 +488,12 @@ tags: [discrete-mathematics]
 
 ## 12. 논리적 추론법칙
 
-<table>
-    <thead>
-        <tr>
-            <th>법칙 이름</th>
-            <th>추론법칙</th>
-            <th>항진명제</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>논리곱<br>(Conjunction)</td>
-            <td>p<br>q<br>∴ p ∧ q</td>
-            <td>None</td>
-        </tr>
-        <tr>
-            <td>선언적 부가<br>(Disjunctive Addition)</td>
-            <td>p<br>∴ p ∨ q</td>
-            <td>p → (p ∨ q)</td>
-        </tr>
-        <tr>
-            <td>단순화<br>(Simplication)</td>
-            <td>p ∧ q<br>∴ p(or q)</td>
-            <td>(p ∧ q) → p(or q)</td>
-        </tr>
-        <tr>
-            <td>긍정논법<br>(Modus Ponens)</td>
-            <td>p<br>p → q<br>∴ q</td>
-            <td>{p ∧ (p → q)} → q</td>
-        </tr>
-        <tr>
-            <td>부정논법<br>(Modus Tollens)</td>
-            <td>~p<br>p → q<br>∴ p ∨ q</td>
-            <td>{~p ∧ (p → q)} → ~p</td>
-        </tr>
-        <tr>
-            <td>선언적 삼단논법 / 소거<br>(Disjunctive Syllogism)</td>
-            <td>p ∨ q<br>~q<br>∴ p</td>
-            <td>{(p ∨ q) ∧ ~q} → p</td>
-        </tr>
-        <tr>
-            <td>가설적 삼단논법 / 추이<br> (Hypothetical Syllogism)</td>
-            <td>p → q<br>q → r<br>∴ p → r</td>
-            <td>{(p → q) ∧ (q → r)} → (p → r)</td>
-        </tr>
-    </tbody>
-</table>
+| 법칙 이름 | 추론법칙 | 항진명제 |
+| --- | --- | --- |
+| 논리곱<br>(Conjunction) | p<br>q<br>∴ p ∧ q | None |
+| 선언적 부가<br>(Disjunctive Addition) | p<br>∴ p ∨ q | p → (p ∨ q) |
+| 단순화<br>(Simplication) | p ∧ q<br>∴ p(or q) | (p ∧ q) → p(or q) |
+| 긍정논법<br>(Modus Ponens) | p<br>p → q<br>∴ q | &#123;p ∧ (p → q)&#125; → q |
+| 부정논법<br>(Modus Tollens) | &#126;p<br>p → q<br>∴ p ∨ q | &#123;&#126;p ∧ (p → q)&#125; → &#126;p |
+| 선언적 삼단논법 / 소거<br>(Disjunctive Syllogism) | p ∨ q<br>&#126;q<br>∴ p | &#123;(p ∨ q) ∧ &#126;q&#125; → p |
+| 가설적 삼단논법 / 추이<br> (Hypothetical Syllogism) | p → q<br>q → r<br>∴ p → r | &#123;(p → q) ∧ (q → r)&#125; → (p → r) |

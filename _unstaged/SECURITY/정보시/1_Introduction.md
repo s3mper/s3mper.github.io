@@ -40,9 +40,9 @@
 ## 5. 접근통제 모델(Access Control)
 
 - **접근통제 행렬(Access Control Matrix, ACM)**: 주체×객체 테이블에 권한 기입.
-	- ![Alt Images|336x75](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-24-59.jpg?raw=true)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-24-59.jpg?raw=true){: width="336" height="75" }
 - **Access Control List, ACL**: 객체 중심으로 “누가/무엇을” 목록화.
-	- ![Alt Images|94x24](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-25-03.jpg?raw=true)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-25-03.jpg?raw=true){: width="94" height="24" }
 - **Capabilities**: 주체 중심으로 “어떤 객체에 어떤 권한”
 	- ![Alt Images](https://cdn.jsdelivr.net/gh/aliquis-facio/aliquis-facio.github.io@main/_image/2025-10-20-17-25-11.jpg?raw=true)
 - **Role-Based Access Control, RBAC**: 사용자 대신 역할에 권한을 부여.

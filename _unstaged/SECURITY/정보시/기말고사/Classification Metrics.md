@@ -1,7 +1,7 @@
 # Classification Metrics: Accuracy, Precision, Recall, F1, ROC, and PR Curves
 ## 1. Confusion Matrix (혼동 행렬)
 
-![|404x264](2025-12-05-12-42-36.png)
+![](../../../../_image/2025-12-05-12-42-36.png){: width="404" height="264" }
 
 이진 분류에서 실제/예측 결과를 표로 정리한 것
 - **TP (True Positive)**: 실제 Positive, 예측도 Positive
@@ -13,7 +13,7 @@
 ## 2. Accuracy, Precision, Recall
 ### (1) Accuracy (정확도)
 
-![|404x264](2025-12-05-12-43-01.png)
+![](../../../../_image/2025-12-05-12-43-01.png){: width="404" height="264" }
 
 - 정의: 전체 샘플 중 맞춘 비율
     - $Accuracy = \dfrac{TP + TN}{TP + FP + FN + TN}$ 
@@ -24,7 +24,7 @@
 
 ### (2) Precision (정밀도)
 
-![|398x258](2025-12-05-12-43-07.png)
+![](../../../../_image/2025-12-05-12-43-07.png){: width="398" height="258" }
 
 - 정의: 모델이 Positive라고 예측한 것 중 실제로 Positive인 비율
     - $Precision = \dfrac{TP}{TP + FP}$ 
@@ -34,7 +34,7 @@
 	
 ### (3) Recall (재현율)
 
-![|398x263](2025-12-05-12-43-13.png)
+![](../../../../_image/2025-12-05-12-43-13.png){: width="398" height="263" }
 
 - 정의: 실제 Positive 중에서 모델이 Positive로 잘 찾아낸 비율
     - $Recall = \dfrac{TP}{TP + FN}$ 
@@ -54,7 +54,7 @@
 
 ### (2) Precision–Recall Trade-off
 
-![|398x153](2025-12-05-12-43-24.png)
+![](../../../../_image/2025-12-05-12-43-24.png){: width="398" height="153" }
 
 - Threshold(결정 경계)를 조절하면 Precision과 Recall이 서로 **교환관계(trade-off)**:
     - Threshold ↑ → Positive라고 예측하는 경우 ↓  
@@ -62,7 +62,7 @@
     - Threshold ↓ → Positive라고 예측하는 경우 ↑  
         → **Recall ↑, Precision ↓** 경향
 
-![|398x149](2025-12-05-12-43-43.png)
+![](../../../../_image/2025-12-05-12-43-43.png){: width="398" height="149" }
 
 이를 시각화한 것이:
 - **Precision–Recall Curve**: x축 Recall, y축 Precision
@@ -88,7 +88,7 @@ Recall이 “양성을 얼마나 잘 맞추냐”면, TNR은 “음성을 얼마
 
 ### (2) ROC Curve & AUC
 
-![|398x398](2025-12-05-12-43-58.png)
+![](../../../../_image/2025-12-05-12-43-58.png){: width="398" height="398" }
 
 - **ROC Curve**
     - x축: FPR

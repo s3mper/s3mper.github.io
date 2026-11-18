@@ -38,30 +38,12 @@ e.g. A3:34:45:11:92:CC
 Windows: ipconfig /all, getmac -v
 
 # MAC 주소의 세 가지 유형
-<table>
-    <thead>
-        <tr>
-            <th>유형</th>
-            <th>설명</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Unicast</td>
-            <td>1:1 통신 (특정 수신자 MAC 주소 사용)</td>
-        </tr>
-        <tr>
-            <td>Multicast</td>
-            <td>1:N 통신 (MAC 주소의 첫 바이트의 LSB가 1인 경우)
-            <br>e.g. 01:00:5E:01:02:03</td>
-        </tr>
-        <tr>
-            <td>Broadcast</td>
-            <td>1:ALL 통신 (모든 비트가 1인 주소)
-            <br>e.g. FF:FF:FF:FF:FF:FF</td>
-        </tr>
-    </tbody>
-</table>
+
+| 유형 | 설명 |
+| --- | --- |
+| Unicast | 1:1 통신 (특정 수신자 MAC 주소 사용) |
+| Multicast | 1:N 통신 (MAC 주소의 첫 바이트의 LSB가 1인 경우) <br>e.g. 01:00:5E:01:02:03 |
+| Broadcast | 1:ALL 통신 (모든 비트가 1인 주소) <br>e.g. FF:FF:FF:FF:FF:FF |
 
 # ARP (Address Resolution Protocol)
 ![ARP](/_image/2025-05-28-00-00-05.jpg)
