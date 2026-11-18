@@ -16,7 +16,7 @@ tags: [computer-network, network]
 
 # Data Communications
 
-# 목차
+## 목차
 
 1. [Data Communications란?](#1-data-communications란)
 1. [Data Communications의 4가지 특징](#2-data-communications의-4가지-특징)

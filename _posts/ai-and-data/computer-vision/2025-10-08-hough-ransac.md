@@ -12,32 +12,32 @@ categories: [computer-vision]
 tags: [computer-vision]
 ---
 
-# 목차
+#  선분 검출
 
-1. [선분 검출](#-선분-검출)
-	1. [에지 연결과 표현](#1-에지-연결과-표현)
-	2. [선분 근사](#2-선분-근사)
-	3. [Voting Schemes](#3-voting-schemes)
-		1. [개념](#31-개념)
-		2. [노이즈](#32-노이즈)
-			1. [노이즈가 미치는 영향](#321-노이즈가-미치는-영향)
-			2. [노이즈 대응 전략 (Hough 기준)](#322-노이즈-대응-전략-hough-기준)
-			3. [장단점](#323-장단점)
-		3. [동작](#33-동작)
-		4. [특징](#34-특징)
-			1. [장점](#341-장점)
-			2. [단점](#342-단점)
-	4. [허프 변환(Hough Transform)](#4-허프-변환hough-transform)
-		1. [개념](#41-개념)
-		2. [원 검출](#42-원-검출)
-		3. [특징](#43-특징)
-	5. [Implicit Shape Model (ISM)](#5-implicit-shape-model-ism)
-	6. [RANSAC — 불량치(outlier) 견고 추정](#5-ransac--불량치outlier-견고-추정)
-		1. [Hough V.S. RANSAC](#51-hough-vs-ransac)
+## 목차
+
+1. [에지 연결과 표현](#1-에지-연결과-표현)
+2. [선분 근사](#2-선분-근사)
+3. [Voting Schemes](#3-voting-schemes)
+	1. [개념](#31-개념)
+	2. [노이즈](#32-노이즈)
+		1. [노이즈가 미치는 영향](#321-노이즈가-미치는-영향)
+		2. [노이즈 대응 전략 (Hough 기준)](#322-노이즈-대응-전략-hough-기준)
+		3. [장단점](#323-장단점)
+	3. [동작](#33-동작)
+	4. [특징](#34-특징)
+		1. [장점](#341-장점)
+		2. [단점](#342-단점)
+4. [허프 변환(Hough Transform)](#4-허프-변환hough-transform)
+	1. [개념](#41-개념)
+	2. [원 검출](#42-원-검출)
+	3. [특징](#43-특징)
+5. [Implicit Shape Model (ISM)](#5-implicit-shape-model-ism)
+6. [RANSAC — 불량치(outlier) 견고 추정](#5-ransac--불량치outlier-견고-추정)
+	1. [Hough V.S. RANSAC](#51-hough-vs-ransac)
 
 ---
 
-#  선분 검출
 ## 1. 에지 연결과 표현
 
 - ![Alt Images](/_image/2025-10-15-00-00-01.jpg)

@@ -14,7 +14,7 @@ tags: [discrete-mathematics]
 permalink: /discrete-mathematics-set/
 ---
 
-# 목차
+## 목차
 * [집합](#집합)
 * [집합의 개념](#집합의-개념)
 * [집합의 종류](#집합의-종류)

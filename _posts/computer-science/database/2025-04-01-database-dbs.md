@@ -12,27 +12,28 @@ categories: [database]
 tags: [database]
 ---
 
-# 목차
+# DBS(Database System)
 
-1. [DBS(Database System)](#dbsdatabase-system)
-    1. [DBS란?](#1-dbs란)
-    1. [DBS의 구성요소](#2-dbs의-구성요소)
-        1. [데이터 스키마(Data Schema)](#21-데이터-스키마data-schema)
-            1. [개념 스키마](#211-개념-스키마)
-            1. [외부 스키마](#212-외부-스키마)
-            1. [내부 스키마](#213-내부-스키마)
-            1. [3단계 스키마의 도입 이유](#214-3단계-스키마의-도입-이유)
-        1. [데이터 언어(Data Language)](#22-데이터-언어data-language)
-            1. [데이터 정의어(DDL, Data Definition Language)](#221-데이터-정의어ddl-data-definition-language)
-            1. [데이터 조작어(DML, Data Manipulation Language)](#222-데이터-조작어dml-data-manipulation-language)
-            1. [데이터 제어어(DCL, Data Control Language)](#223-데이터-제어어dcl-data-control-language)
-        1. [사용자(User)](#23-사용자user)
-        1. [데이터베이스 관리시스템(DBMS)](#24-데이터베이스-관리시스템dbms)
-        1. [데이터베이스 관리자(DBA)](#25-데이터베이스-관리자dba)
+## 목차
+
+1. [DBS란?](#1-dbs란)
+1. [DBS의 구성요소](#2-dbs의-구성요소)
+    1. [데이터 스키마(Data Schema)](#21-데이터-스키마data-schema)
+        1. [개념 스키마](#211-개념-스키마)
+        1. [외부 스키마](#212-외부-스키마)
+        1. [내부 스키마](#213-내부-스키마)
+        1. [3단계 스키마의 도입 이유](#214-3단계-스키마의-도입-이유)
+    1. [데이터 언어(Data Language)](#22-데이터-언어data-language)
+        1. [데이터 정의어(DDL, Data Definition Language)](#221-데이터-정의어ddl-data-definition-language)
+        1. [데이터 조작어(DML, Data Manipulation Language)](#222-데이터-조작어dml-data-manipulation-language)
+        1. [데이터 제어어(DCL, Data Control Language)](#223-데이터-제어어dcl-data-control-language)
+    1. [사용자(User)](#23-사용자user)
+    1. [데이터베이스 관리시스템(DBMS)](#24-데이터베이스-관리시스템dbms)
+    1. [데이터베이스 관리자(DBA)](#25-데이터베이스-관리자dba)
 1. [출처](#출처)
 
+---
 
-# DBS(Database System)
 ## 1. DBS란?
 
 **DBS**: 기업 혹은 조직이 DBMS를 사용해 개발한 응용 프로그램을 통해 관련 <mark>데이터를 관리하는 시스템</mark>이다.

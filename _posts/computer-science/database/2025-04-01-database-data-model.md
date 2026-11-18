@@ -12,7 +12,7 @@ categories: [database]
 tags: [database]
 ---
 
-# 목차
+## 목차
 
 # 관계 데이터 구조
 ## 데이터 모델(Data Model)이란?

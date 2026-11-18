@@ -12,7 +12,7 @@ categories: [os]
 tags: [os, c-cpp]
 ---
 
-# 목차
+## 목차
 
 1. [운영체제(OS, Operating System)란?](#운영체제os-operating-system란)
     1. [운영체제 동작 방식](#1-운영체제-동작-방식)

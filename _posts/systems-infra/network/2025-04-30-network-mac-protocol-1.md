@@ -12,7 +12,7 @@ categories: [network]
 tags: [computer-network, network]
 ---
 
-# 목차
+## 목차
 
 1. [Random Access 특징](#1-random-access-특징)
 1. [ALOHA](#2-aloha)

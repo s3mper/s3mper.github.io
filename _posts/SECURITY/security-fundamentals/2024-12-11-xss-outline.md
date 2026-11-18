@@ -14,7 +14,7 @@ tags: [web, security]
 
 <!-- markdownlint-disable MD004 Md007 MD010 MD025 MD029 MD033 -->
 
-# 목차
+## 목차
 
 * [1. 개요](#1-개요)
 * [2. 공격 방식](#2-xss-공격-방식)
