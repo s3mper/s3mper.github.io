@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자바스크립트 함수 2: 선언 방식과 호이스팅"
+title: "[JavaScript] 자바스크립트 함수 2: 선언 방식과 호이스팅"
 excerpt: "함수를 만드는 방법"
 
 date: 2026-03-21

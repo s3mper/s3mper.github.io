@@ -2,14 +2,14 @@
 layout: post
 comments: true
 
-title: "Umbrella Text Reflow: Pretext 텍스트 배치 데모"
+title: "[JavaScript] Umbrella Text Reflow: Pretext 텍스트 배치 데모"
 excerpt: "Pretext Library Demo Site"
 
 date: 2026-04-16
 last_modified_at: 2026-04-16
 
 categories: [javascript]
-tags: [demo, pretext, ㅓㄴ]
+tags: [demo, pretext, javascript]
 ---
 
 <!-- markdownlint-disable MD025 MD033 -->

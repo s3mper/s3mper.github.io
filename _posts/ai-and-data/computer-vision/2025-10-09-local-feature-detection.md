@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "지역 특징 검출과 코너 검출 알고리즘"
+title: "[CV] 지역 특징 검출과 코너 검출 알고리즘"
 excerpt: "지역 특징, 코너"
 
 date: 2025-10-09

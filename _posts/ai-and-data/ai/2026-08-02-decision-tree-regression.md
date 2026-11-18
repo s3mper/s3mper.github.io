@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "의사결정나무 회귀의 원리, 가지치기와 Python 실습"
+title: "[DL] 의사결정나무 회귀의 원리, 가지치기와 Python 실습"
 excerpt: "의사결정나무 회귀 개념과 파이썬 코드"
 
 date: 2026-08-02

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "진리표 작성법과 논리 연결사의 진릿값"
+title: "[Logic] 진리표 작성법과 논리 연결사의 진릿값"
 excerpt: "진리표"
 
 date: 2026-04-10

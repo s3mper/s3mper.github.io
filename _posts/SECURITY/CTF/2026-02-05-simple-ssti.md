@@ -2,8 +2,8 @@
 layout: post
 comments: true
 
-title: "Dreamhack Simple-ssti 풀이: Jinja2 템플릿 인젝션"
-excerpt: "SSTI(Server-side Template Injection)"
+title: "[Dreamhack] Simple-ssti 풀이"
+excerpt: "SSTI(Server-side Template Injection) - Jinja2 템플릿 인젝션"
 
 date: 2026-02-05
 last_modified_at: 2026-02-05

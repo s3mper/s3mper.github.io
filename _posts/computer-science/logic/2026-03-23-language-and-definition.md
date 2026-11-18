@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "언어와 정의: 내포와 외연의 차이"
+title: "[Logic] 언어와 정의: 내포와 외연의 차이"
 excerpt: "언어와 정의"
 
 date: 2026-03-23

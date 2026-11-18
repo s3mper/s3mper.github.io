@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자바스크립트 함수 1: 매개변수, 인수와 반환값"
+title: "[JavaScript] 자바스크립트 함수 1: 매개변수, 인수와 반환값"
 excerpt: "함수란 무엇인가"
 
 date: 2026-03-21

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "이산수학 집합: 개념, 종류와 포함 관계"
+title: "[Discrete Math] 이산수학 집합: 개념, 종류와 포함 관계"
 excerpt: "집합"
 
 date: 2022-10-08

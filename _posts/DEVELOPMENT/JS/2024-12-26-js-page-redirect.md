@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자바스크립트로 웹페이지 리디렉션하기"
+title: "[JavaScript] 자바스크립트로 웹페이지 리디렉션하기"
 excerpt: "모의해킹 취업반 스터디 7기 11주차"
 
 date: 2024-12-26

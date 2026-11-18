@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "Softmax 함수의 원리와 Sigmoid 비교"
+title: "[ML] Softmax 함수의 원리와 Sigmoid 비교"
 excerpt: "Softmax 함수의 정의 및 성질과 Sigmoid 함수와의 비교 (w. Python)"
 
 date: 2026-08-03

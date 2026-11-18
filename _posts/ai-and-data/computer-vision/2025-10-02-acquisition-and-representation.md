@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "영상의 획득과 표현: 카메라 모델과 디지털 영상"
+title: "[CV] 영상의 획득과 표현: 카메라 모델과 디지털 영상"
 excerpt: "사람의 눈과 카메라"
 
 date: 2025-10-02

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자바스크립트 함수 4: 스코프, 메서드와 this"
+title: "[JavaScript] 자바스크립트 함수 4: 스코프, 메서드와 this"
 excerpt: "함수의 실행 원리"
 
 date: 2026-03-21

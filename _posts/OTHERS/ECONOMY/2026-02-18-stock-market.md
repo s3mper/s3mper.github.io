@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "주식 시장 지표 모음: 주요 지수와 변동성"
+title: "[Economy] 주식 시장 지표 모음: 주요 지수와 변동성"
 excerpt: "Stock Market"
 
 date: 2024-11-04

@@ -2,8 +2,8 @@
 layout: post
 comments: true
 
-title: "Dreamhack username:password@ 풀이: SSRF와 인증 우회"
-excerpt: "JS Prototype, SSRF"
+title: "[Dreamhack] username:password@ 풀이"
+excerpt: "JS Prototype, SSRF와 인증 우회"
 
 date: 2026-03-21
 last_modified_at: 2026-03-24

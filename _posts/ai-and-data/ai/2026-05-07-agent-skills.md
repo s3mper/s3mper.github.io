@@ -2,14 +2,14 @@
 layout: post
 comments: true
 
-title: "Agent Skills의 구조와 Prompt·MCP의 차이"
+title: "[LLM] Agent Skills의 구조와 Prompt·MCP의 차이"
 excerpt: "Agent Skills 개요"
 
 date: 2026-05-07
 last_modified_at: 2026-05-07
 
 categories: [ai]
-tags: [skill, mcp]
+tags: [skill, mcp, llm]
 ---
 
 <!-- markdownlint-disable MD007 MD010 MD025 MD060 -->

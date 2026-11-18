@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "웹 서버 구축 실습: Apache, PHP와 MySQL"
+title: "[Web] 웹 서버 구축 실습: Apache, PHP와 MySQL"
 excerpt: "모의해킹 취업반 스터디 7기 1주차"
 
 date: 2024-10-17

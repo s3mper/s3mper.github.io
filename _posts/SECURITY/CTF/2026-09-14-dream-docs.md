@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "Dreamhack DreamDocs 풀이"
+title: "[Dreamhack] DreamDocs 풀이"
 excerpt: "불충분한 인증"
 
 date: 2026-09-14

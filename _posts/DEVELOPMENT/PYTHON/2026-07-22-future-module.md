@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "Python __future__와 annotations 지연 평가"
+title: "[Python] __future__와 annotations 지연 평가"
 excerpt: "Python의 future 모듈과 from future import annotations의 동작 원리, Forward Reference 및 순환 import 문제 해결 방법 정리"
 
 date: 2026-07-22

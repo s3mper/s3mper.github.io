@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "형식적 오류: 전건 부정, 후건 긍정과 반례법"
+title: "[Logic] 형식적 오류: 전건 부정, 후건 긍정과 반례법"
 excerpt: "형식적 오류"
 
 date: 2026-04-06

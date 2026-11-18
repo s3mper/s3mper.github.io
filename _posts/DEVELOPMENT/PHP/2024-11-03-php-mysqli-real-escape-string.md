@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "PHP mysqli_real_escape_string 함수 사용법"
+title: "[PHP] mysqli_real_escape_string 함수 사용법"
 excerpt: "모의해킹 취업반 스터디 7기 3주차"
 
 date: 2024-11-03

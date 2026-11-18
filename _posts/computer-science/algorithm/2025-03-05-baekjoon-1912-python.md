@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "백준 1912 연속합 풀이 (Python)"
+title: "[Baekjoon] 백준 1912 연속합 풀이"
 excerpt: "w. Python"
 
 date: 2025-03-05

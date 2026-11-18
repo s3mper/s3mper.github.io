@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자연 연역 2: 대치 규칙과 적용 방법"
+title: "[Logic] 자연 연역 2: 대치 규칙과 적용 방법"
 excerpt: "대치 규칙 10가지"
 
 date: 2026-05-19

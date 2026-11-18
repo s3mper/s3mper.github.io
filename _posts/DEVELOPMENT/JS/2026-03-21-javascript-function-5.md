@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "자바스크립트 함수 5: 매개변수 문법, 재귀와 비동기"
+title: "[JavaScript] 자바스크립트 함수 5: 매개변수 문법, 재귀와 비동기"
 excerpt: "함수의 심화 문법과 설계"
 
 date: 2026-03-21

@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "기울기 클리핑의 원리와 기울기 폭주 방지"
+title: "[DL] 기울기 클리핑의 원리와 기울기 폭주 방지"
 excerpt: ""
 
 date: 2025-11-11

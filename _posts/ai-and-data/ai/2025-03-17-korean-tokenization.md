@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "한국어 텍스트 토큰화의 개념과 실습"
+title: "[NLP] 한국어 텍스트 토큰화의 개념과 실습"
 excerpt: "토큰화의 기준과 한국어의 특성을 이해, NLTK·KSS·KoNLPy 실습"
 
 date: 2025-03-16

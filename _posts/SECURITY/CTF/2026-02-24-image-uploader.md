@@ -2,8 +2,8 @@
 layout: post
 comments: true
 
-title: "Dreamhack Image Uploader 풀이: 파일 업로드와 RCE"
-excerpt: "RCE 취약점"
+title: "[Dreamhack] Image Uploader 풀이"
+excerpt: "파일 업로드와 RCE 취약점"
 
 date: 2026-02-24
 last_modified_at: 2026-02-24

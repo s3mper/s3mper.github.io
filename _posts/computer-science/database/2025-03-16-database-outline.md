@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "데이터베이스의 개념, 특성과 구성 요소"
+title: "[Database] 데이터베이스의 개념, 특성과 구성 요소"
 excerpt: ""
 
 date: 2025-03-16

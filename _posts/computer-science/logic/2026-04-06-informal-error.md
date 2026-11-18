@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "비형식적 오류의 유형과 구별 방법"
+title: "[Logic] 비형식적 오류의 유형과 구별 방법"
 excerpt: "비형식적 오류"
 
 date: 2026-04-06

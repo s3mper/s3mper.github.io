@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "Dreamhack {\"role\": \"admin\"} 풀이: JSON Injection"
+title: "[Dreamhack] {\"role\": \"admin\"} 풀이"
 excerpt: "JSON Injection"
 
 date: 2026-02-03

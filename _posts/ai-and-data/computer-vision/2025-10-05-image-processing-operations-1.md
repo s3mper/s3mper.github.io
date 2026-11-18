@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "영상 처리 연산 1: 점 연산, 컨볼루션과 필터링"
+title: "[CV] 영상 처리 연산 1: 점 연산, 컨볼루션과 필터링"
 excerpt: "점 연산, 영역 연산"
 
 date: 2025-10-05
