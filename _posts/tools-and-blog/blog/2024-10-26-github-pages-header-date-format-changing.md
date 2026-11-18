@@ -101,11 +101,11 @@ date 관련된 code 원본: `<h4>Date: {{ page.date | date_to_string }}</h4>`
 
 1. post.html
 
-  ![](/_image/2024-10-27-00-00-05.png)
+  ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-05.png?raw=true)
 
   ->
 
-  ![](/_image/2024-10-27-00-00-06.png)
+  ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-06.png?raw=true)
 
 ## 5. CSS 수정
 
@@ -121,15 +121,15 @@ h4 태그로 감싸져있기 때문에
 
 1. post.html - 코드 수정
 
-  ![](/_image/2024-10-27-00-00-00.png)
+  ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-00.png?raw=true)
 
   ->
 
-  ![](/_image/2024-10-27-00-00-01.png)
+  ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-01.png?raw=true)
 
 1. elements.scss - 코드 추가
 
-  ![](/_image/2024-10-27-00-00-02.png)
+  ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-02.png?raw=true)
 
   -> `Created: 2024.10.17 Thu           Updated: 2024.10.24 Thu`  
 
@@ -138,9 +138,9 @@ h4 태그로 감싸져있기 때문에
 
 ### 5.2. updated date 생성 안 했을 때 grid 없애기
 
-![](/_image/2024-10-27-00-00-03.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-03.png?raw=true)
 
-![](/_image/2024-10-27-00-00-04.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-27-00-00-04.png?raw=true)
 
 # 6. 궁금한 거
 

@@ -17,11 +17,11 @@
 
 * 실시간 데이터 전송: 웹훅은 이벤트 발생 시 즉시 데이터를 전송하므로 실시간으로 데이터 처리가 가능하다.
 * 단순성과 유연성: 웹훅으로 비교적 간단하게 다른 시스템과 쉽게 통합할 수 있다. 이를 통해 복잡한 통신 방식을 구현하지 않고도 애플리케이션 간의 실시간 데이터 연동을 구현할 수 있다.
-![20250823190013](/_image/2025-08-23-19-00-13.png)
+![20250823190013](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-08-23-19-00-13.png?raw=true)
 
 ## Polling VS Webhook
 
-![20250823185105](/_image/2025-08-23-18-51-05.png)
+![20250823185105](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-08-23-18-51-05.png?raw=true)
 
 Polling:
 

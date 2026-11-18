@@ -150,7 +150,7 @@ AI가 모든 Skill 내용을 처음부터 다 읽는 것이 아니라, 필요한
 
 Skills는 agent가 파일시스템 접근, bash 명령, 코드 실행 기능을 갖춘 코드 실행 환경에서 실행된다.
 
-![](/_image/2026-05-06-13-42-56.png){: width="500" height="281" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-05-06-13-42-56.png?raw=true){: width="500" height="281" }
 
 **Claude가 Skill 콘텐츠에 접근하는 방법:**
 

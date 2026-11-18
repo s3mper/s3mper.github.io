@@ -2,7 +2,7 @@
 ## 1. 전통적인 소프트웨어 개발 과정
 ### 1.1. 폭포수 모델(Waterfall Model)
 
-![](../../../_image/2025-12-03-19-10-17.png){: width="398" height="204" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-03-19-10-17.png?raw=true){: width="398" height="204" }
 
 - 소프트웨어 개발을 **순차적 단계**로 진행
 - 단계: _실현 가능성 분석 → 요구사항 도출·분석 → 설계 → 코딩 및 단위 시험 → 통합 및 시스템 시험 → 배포 및 운영_
@@ -37,7 +37,7 @@
 	
 ## 3. 소프트웨어 프로세스의 필요성
 
-![](../../../_image/2025-12-03-19-10-46.png){: width="398" height="143" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-03-19-10-46.png?raw=true){: width="398" height="143" }
 
 - 프로세스: 소프트웨어 개발을 체계적으로 계획·관리하기 위한 절차
 - 프로세스 필요성:
@@ -51,7 +51,7 @@
 
 ### 4.2. 점진적 모델(Incremental Model)
 
-![](../../../_image/2025-12-03-19-11-10.png){: width="398" height="215" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-03-19-11-10.png?raw=true){: width="398" height="215" }
 
 #### 4.2.1. 전략
 
@@ -72,7 +72,7 @@
 
 ### 4.3. 프로토타입 모델(Prototype Model)
 
-![](../../../_image/2025-12-03-19-11-27.png){: width="398" height="133" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-03-19-11-27.png?raw=true){: width="398" height="133" }
 
 #### 4.3.1. 개념
 
@@ -130,7 +130,7 @@
 
 ## 7. 스크럼(Scrum) 프로세스
 
-![](../../../_image/2025-12-03-19-11-43.png){: width="398" height="262" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-03-19-11-43.png?raw=true){: width="398" height="262" }
 
 ### 7.1. 스크럼 개념
 

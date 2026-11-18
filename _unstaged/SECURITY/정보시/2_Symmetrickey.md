@@ -10,7 +10,7 @@
 - 다른 이름: conventional / private-key / single-key.
 - 전통적인 암호화 방식
 
-![](2025-10-21-17-09-08.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-09-08.jpg?raw=true)
 - 송신자와 수신자가 **같은 비밀키**를 공유한다.
 
 - 안전한 사용을 위해선 **강한 알고리즘**과 **비밀키 보안**이 필수.
@@ -65,13 +65,13 @@
 ### 3.2. 공격 가정(데이터 접근 수준)
 
 - **Ciphertext-Only Attack (COA)**: 암문만 공격, 암호문만 있음 → 빈도/통계 분석(고전암호)
-	- ![](2025-10-21-19-33-34.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-33-34.jpg?raw=true)
 - **Known-Plaintext Attack (KPA)**: 기지 평문 공격, 일부 평문–암호문 쌍을 앎
-	- ![](2025-10-21-19-34-02.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-34-02.jpg?raw=true)
 - **Chosen-Plaintext Attack (CPA)**: 선택 평문 공격, 임의 평문을 암호화 → 블록암호 분석에 강력
-	- ![](2025-10-21-19-34-04.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-34-04.jpg?raw=true)
 - **Chosen-Ciphertext Attack (CCA)**: 선택 암문 공격, 임의 암호문을 복호화 → 패딩 오라클 등
-	- ![](2025-10-21-19-34-07.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-34-07.jpg?raw=true)
 
 > 현대 보안 목표: 보통 **IND-CPA**(스트림/블록 암호 모드)나 **IND-CCA**(암호화+MAC 또는 AEAD) 충족.
 
@@ -132,7 +132,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 ### 5.2. Streaming Cipher
 
-![](2025-10-13-13-38-03.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-13-13-38-03.png?raw=true)
 
 - 바이트 단위 암호화
 - 스트림키를 생성해 **XOR**로 처리($C_i=M_i⊕StreamKey_i$).
@@ -148,32 +148,32 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 ### 6.2. 구조
 
-![](2025-10-21-17-09-47.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-09-47.jpg?raw=true)
 
 - **Feistel 네트워크 16라운드**
     1. 초기 치환(IP)
-	    1. ![](2025-10-21-19-47-07.jpg)
+	    1. ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-47-07.jpg?raw=true)
     2. 좌/우 32비트로 분할
     3. 라운드 함수 **F**: 확장(E, 32→48) → **서브키와 XOR** → **S-box 8개**(6비트→4비트 비선형 치환) → P-박스(확산)
-	    1. DES Round: ![DES ROUND](2025-10-21-17-11-00.jpg)
+	    1. DES Round: ![DES ROUND](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-11-00.jpg?raw=true)
 			> Feistel Cipher 구조
-	    2. Mangler Function: ![Mangler Function](2025-10-21-19-48-26.jpg)
-	    3. Subkey Generation Function: ![Subkey Generation Function](2025-10-21-19-48-42.jpg)
+	    2. Mangler Function: ![Mangler Function](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-48-26.jpg?raw=true)
+	    3. Subkey Generation Function: ![Subkey Generation Function](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-48-42.jpg?raw=true)
     5. 좌우 스왑, 16라운드 반복
     6. 최종 치환(IP⁻¹)
-	    1. ![](2025-10-21-19-47-12.jpg)
+	    1. ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-47-12.jpg?raw=true)
 - **키 스케줄**: 56비트를 PC-1로 분리(C,D) → 라운드마다 순환이동 → PC-2로 48비트 **서브키** 생성.
 
 ## 7. 운용 모드(Modes of Operation) 와 패딩
 ### 7.1. Electronic Code Book, ECB
 
-![](2025-10-21-17-12-43.jpg)
-![](../../../_image/2025-10-21-17-12-48.jpg){: width="556" height="225" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-12-43.jpg?raw=true)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-12-48.jpg?raw=true){: width="556" height="225" }
 
 블록마다 독립 암호화
 - 장점: 단순·병렬화 용이, 블록 손실/손상에 견고함
 - 단점: **패턴 누출**(이미지/문서 부적합).
-	- ![](2025-10-21-17-13-22.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-13-22.jpg?raw=true)
 
 ### 7.2. Cipher Block Chaining, CBC
 #### 7.2.1. 목적
@@ -184,11 +184,11 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 블록 크기를 `n`이라 하고, `IV`(초기화 벡터), 키 `K`, 평문 블록 `P_i`, 암문 블록 `C_i`라면:
 - **암호화**
-	- ![](2025-10-21-17-14-43.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-14-43.jpg?raw=true)
     - $C_0 = E_K(P_0 ⊕ IV)$
     - $C_i = E_K(Pi ⊕ C_{i-1}) (i ≥ 1)$
 - <font color="#ff0000">복호화</font>
-	- ![](2025-10-21-17-14-46.jpg)
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-17-14-46.jpg?raw=true)
     - $P_0 = D_K(C_0) ⊕ IV$
     - $P_i = D_K(C_i) ⊕ C_{i-1}$
 
@@ -203,7 +203,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 #### 7.2.4. 패딩
 
-![](2025-10-21-19-26-46.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-26-46.jpg?raw=true)
 
 - 평문 길이가 블록 크기의 배수가 아니면 **PKCS#7** 등으로 패딩.
 - **주의**: 패딩 오류 메시지를 구분해 주면 **패딩 오라클 공격**에 취약 → 오류 응답을 **동일하게** 처리(상수시간), 혹은 **AEAD** 사용 권장.
@@ -223,7 +223,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 #### 7.2.6. Message Authentication Code, MAC
 
-![](2025-10-21-19-24-48.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-24-48.jpg?raw=true)
 
 - **CBC-MAC에서의 residue**: CBC 방식으로 블록암호를 체이닝했을 때 **마지막 블록(최종 체이닝 값)** 을 가리킵니다. 이 값을 그대로(또는 변환·절단 후) **MAC 태그**로 사용한다.
 - **정의(길이 = 블록 크기 n)**
@@ -243,7 +243,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 ## 8. Triple DES
 
-![](2025-10-13-12-50-56.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-13-12-50-56.png?raw=true)
 
 - **DES**를 세 번 적용해 보안을 강화한 **대칭키 블록 암호**(블록 크기 64비트).
 - 두 키만으로도 구현
@@ -254,7 +254,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 ## 9. Advanced Encryption Standard, AES
 
-![](2025-10-21-19-26-20.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-26-20.jpg?raw=true)
 
 ### 9.1. 정의
 
@@ -277,7 +277,7 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 - 두 단계:
     1. **KSA**(Key Scheduling): 키로 S 초기화
     2. **PRGA**(Pseudo-Random Generation): 바이트 단위 키스트림 생성 → 평문과 XOR
-	    - ![](../../_image/2025-10-21-19-50-51.png)
+	    - ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-21-19-50-51.png?raw=true)
 
 ### 장점
 

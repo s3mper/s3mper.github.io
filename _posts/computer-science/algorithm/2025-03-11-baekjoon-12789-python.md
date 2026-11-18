@@ -25,7 +25,7 @@ tags: [algorithm, baekjoon, python, stack]
 
 Baekjoon Online Judge. 「12789번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/12789)
 
-![문제](/_image/2025-03-11-00-00-00.png)
+![문제](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-00.png?raw=true)
 
 ## 문제 이해
 
@@ -36,14 +36,14 @@ Baekjoon Online Judge. 「12789번 문제」. [Baekjoon Online Judge](https://ww
     1. 같다면 stack의 마지막 수를 빼주고 p를 1증가시키고 다음 마지막 수와 비교한다
     1. 다르다면 반복을 종료한다
 
-1. ![그림1](/_image/2025-03-11-00-00-00.jpg)
-1. ![그림2](/_image/2025-03-11-00-00-01.jpg)
-1. ![그림3](/_image/2025-03-11-00-00-02.jpg)
-1. ![그림4](/_image/2025-03-11-00-00-03.jpg)
-1. ![그림5](/_image/2025-03-11-00-00-04.jpg)
-1. ![그림6](/_image/2025-03-11-00-00-05.jpg)
-1. ![그림7](/_image/2025-03-11-00-00-06.jpg)
-1. ![그림8](/_image/2025-03-11-00-00-07.jpg)
+1. ![그림1](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-00.jpg?raw=true)
+1. ![그림2](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-01.jpg?raw=true)
+1. ![그림3](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-02.jpg?raw=true)
+1. ![그림4](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-03.jpg?raw=true)
+1. ![그림5](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-04.jpg?raw=true)
+1. ![그림6](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-05.jpg?raw=true)
+1. ![그림7](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-06.jpg?raw=true)
+1. ![그림8](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-11-00-00-07.jpg?raw=true)
 
 ## 풀이
 

@@ -29,13 +29,13 @@ tags: [algorithm, baekjoon, python, dynamic-programming]
 
 Baekjoon Online Judge. 「1912번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/1912)
 
-![문제](/_image/2025-03-07-00-00-00.png)
+![문제](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-07-00-00-00.png?raw=true)
 
 ## 첫 번째 시도
 
 원소 배열 하나하나 돌면서 첫번째 최댓값, 두번째 최댓값, ..., n번째 최댓값을 비교해서 최종 최댓값 하나를 구하려고 했다.
 
-![그림 1](/_image/2025-03-05-00-00-07.png)
+![그림 1](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-07.png?raw=true)
 
 ``` python
 import sys
@@ -77,7 +77,7 @@ print(total_max)
 O(n)만에 끝낼 수 있다는 말을 듣고 생각해본 것  
 연속합 값이 현재 최댓값보다 크면 최댓값을 현재 연속합 값으로 바꾸고, 연속합 값이 0보다 작다면 0으로 초기화하는 것이었다.
 
-![그림 2](/_image/2025-03-05-00-00-08.png)
+![그림 2](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-08.png?raw=true)
 
 ``` python
 import sys

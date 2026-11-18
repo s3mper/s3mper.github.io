@@ -34,7 +34,7 @@ tags: [web, vmware]
 
 ## 1. VMWare 환경 설정
 
-![ifconfig](/_image/2024-10-17-00-00-00.png)
+![ifconfig](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-00.png?raw=true)
 
 결과로 나오는 docker0, ens33, lo가 무엇을 의미하는 지 궁금했다.
 
@@ -68,9 +68,9 @@ VSCode STFP 플러그인 있다고 하니 VSC 이용하시는 분들은 참고�
 ### 2.2. termius
 
 termius 접속하면 볼 수 있는 화면이다  
-![termius 화면](/_image/2024-10-20-00-00-00.png)
+![termius 화면](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-00.png?raw=true)
 host를 만들어서
-![host 만들 때](/_image/2024-10-20-00-00-01.png)
+![host 만들 때](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-01.png?raw=true)
 IP 주소 넣고, User name이랑 PW 입력하면 접속할 수 있다.  
 VM을 새롭게 시작할 때마다 IP 주소가 바뀌더라.
 
@@ -86,27 +86,27 @@ SSH 프로토콜은 웹호스팅을 이용하거나, 리눅스 서버에 접속�
 python 설치가 안 돼있나? 확인을 위해 `python -v` -> python3 쓰란다  
 
 * python과 python3의 차이점은 뭣이더냐  
-![python2 vs python3](/_image/2024-10-19-00-00-01.png)  
+![python2 vs python3](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-19-00-00-01.png?raw=true)  
 
 `sudo python3 -m http.server 80`  
-![sudo python3 -m http.server 80](/_image/2024-10-17-00-00-01.png)
+![sudo python3 -m http.server 80](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-01.png?raw=true)
 
 ctrl + z 눌러서 나왔는데 프로세스가 제대로 안 죽은 모양이다  
 ctrl + z는 일시정지였던 것 같다  
 `OSError: Errno 98 Address already in use`  
-![OSError: Errno 98 Address already in use](/_image/2024-10-17-00-00-02.png)
+![OSError: Errno 98 Address already in use](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-02.png?raw=true)
 
 `netstat -lntp`로 봤는데
 PID가 안 나오대?  
-![netstat -lntp](/_image/2024-10-17-00-00-03.png)
+![netstat -lntp](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-03.png?raw=true)
 
 `sudo lsof -i :80` 하니까 PID가 나와서  
-![sudo lsof -i :80](/_image/2024-10-17-00-00-04.png)
+![sudo lsof -i :80](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-04.png?raw=true)
 
 -> 명령어 잘못 쳤다기 보다는 권한 안 줘서 안 나왔던 것 같다.
 
 `kill -9`로 죽였는데 안 죽대?  
-![kill -9](/_image/2024-10-17-00-00-05.png)
+![kill -9](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-17-00-00-05.png?raw=true)
 권한이 없다고 하는 거 뿐이니까 `sudo kill -9`로 확인사살함
 
 ## 4. 동적 페이지(Dynamic)
@@ -118,7 +118,7 @@ PID가 안 나오대?
 `sudo docker rm -f [pid]` 돌아가고 있다면 종료시키고
 `./dockerCMD &` 도커 실행 (&: background 실행)  
 The container name ~ is already in use 에러가 발생했을 때  
-![The container name ~ is already in use](/_image/2024-10-20-00-00-02.png)
+![The container name ~ is already in use](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-02.png?raw=true)
 Root file = webapp이었다.
 
 ```html
@@ -128,11 +128,11 @@ Root file = webapp이었다.
 </html>
 ```
 
-![score.php](/_image/2024-10-20-00-00-00.jpg)
+![score.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-00.jpg?raw=true)
 
 url: <http://192.168.219.139:1018/score.php?name=hello>
 
-![score.php](/_image/2024-10-20-00-00-01.jpg)
+![score.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-01.jpg?raw=true)
 
 웹서버에서는 백엔드의 코드들이 아닌 코드의 결과물만 전달해준다
 
@@ -161,9 +161,9 @@ front-end: 클라이언트 측 코드, 브라우저가 실행 코드 ex) html, c
 ?>
 ```
 
-![name.php](/_image/2024-10-20-00-00-02.jpg)
-![name.php](/_image/2024-10-20-00-00-03.jpg)
-![name.php](/_image/2024-10-20-00-00-04.jpg)
+![name.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-02.jpg?raw=true)
+![name.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-03.jpg?raw=true)
+![name.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-04.jpg?raw=true)
 
 ```html
 <form method = "GET" action = "login_proc.php">
@@ -173,7 +173,7 @@ front-end: 클라이언트 측 코드, 브라우저가 실행 코드 ex) html, c
 </form>
 ```
 
-![login.php](/_image/2024-10-20-00-00-05.jpg)
+![login.php](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-10-20-00-00-05.jpg?raw=true)
 
 &: html에서는 파라미터 구분자  
 

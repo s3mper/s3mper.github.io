@@ -31,7 +31,7 @@ tags: [computer-vision, image-processing]
 
 ## 1. 사람의 눈과 카메라
 
-![Alt Images](/_image/2025-10-14-00-00-02.jpg)
+![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-02.jpg?raw=true)
 
 | 사람의 눈 | 카메라/이미지 파이프라인 | 비고 |
 | --- | --- | --- |
@@ -44,36 +44,36 @@ tags: [computer-vision, image-processing]
 ## 2. A Photon’s Life Choices
 
 - Absorption(흡수)
-	- ![Alt Images](/_image/2025-10-14-00-00-04.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-04.jpg?raw=true)
 	- 매질 내부에서 광자 소멸
 - Diffuse Reflection(난반사)
-	- ![Alt Images](/_image/2025-10-14-00-00-05.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-05.jpg?raw=true)
 	- 거친 표면에서 무작위 산란 → 방향 독립에 가까운 반사
 - Specular Reflection(정반사)
-	- ![Alt Images](/_image/2025-10-14-00-00-06.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-06.jpg?raw=true)
 	- 매끄러운 계면에서 거울같이 반사(뷰 의존)
 - Transparency(투사)
-	- ![Alt Images](/_image/2025-10-14-00-00-07.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-07.jpg?raw=true)
 	- 흡수·산란 거의 없음 → 선명 투과
 - Refraction(굴절)
-	- ![Alt Images](/_image/2025-10-14-00-00-08.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-08.jpg?raw=true)
 	- 굴절률(밀도) 차이로 진행 방향 변화
 - Fluorescence(형광)
-	- ![Alt Images](/_image/2025-10-14-00-00-11.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-11.jpg?raw=true)
 	- 흡수 직후 장파장 재방출(나노–마이크로초)
 - Subsurface Scattering(표면하 산란, SSS)
-	- ![Alt Images](/_image/2025-10-14-00-00-12.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-12.jpg?raw=true)
 	- 표면 아래 들어가 다중 산란 후 다른 지점에서 출사
 - Phosphorescence(인광)
-	- ![Alt Images](/_image/2025-10-14-00-00-13.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-13.jpg?raw=true)
 	- 삼중항 전이로 지연 방출(ms–시간)
 - Interreflection(상호반사)
-	- ![Alt Images](/_image/2025-10-14-00-00-14.jpg)
+	- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-14.jpg?raw=true)
 	- 표면 간 다중 반사로 색·광량 교환
 
 ## 3. Image Formation
 
-![Alt Images](/_image/2025-10-14-00-00-15.jpg){: width="394" height="247" }
+![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-15.jpg?raw=true){: width="394" height="247" }
 
 - 요소 사슬: **광원 → 표면 형상·방향 → 표면 반사특성 → 광학계 → 센서**(Exposure 포함). 이들이 합쳐져 영상이 형성된다.
 - **기본 방사측정 관계**: 영상면 조사조도 $E$는 장면 복사휘도 $L$에 **선형**이며, **렌즈 구경(면적)** 에 비례, **렌즈–영상면 거리의 제곱**에 반비례, **시선각 증가에 따라 감소** 한다.
@@ -81,13 +81,13 @@ tags: [computer-vision, image-processing]
 
 ## 4. From Light Rays to Pixel Values
 
-![Alt Images](/_image/2025-10-14-00-00-01.jpg)
+![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-14-00-00-01.jpg?raw=true)
 
 - **카메라 응답함수(CRF)**: 조사조도/노출량 → **픽셀값**으로의 비선형 매핑. **재질 추정**·**HDR 복원**에서 중요
 
 ## 5. 투영 모델과 좌표 사상
 
-- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-20-16-43-38.png)
+- ![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-20-16-43-38.png?raw=true)
 	- 핀홀 카메라와 3차원 → 2차원 투영
 - **원근 투영식**: Optical center 기준
 	- $$3D (P(X,Y,Z)) → 2D (P'(x,y))$$

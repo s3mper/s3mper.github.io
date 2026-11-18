@@ -115,7 +115,7 @@ df = pd.DataFrame(data, columns=["id", "text", "label"])
 ```
 
 전처리 된 데이터
-![Image](/_image/2025-04-14-00-00-00.png)
+![Image](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-14-00-00-00.png?raw=true)
 
 ### 3.2. 감정 label 인코딩
 
@@ -325,7 +325,7 @@ def evaluate_accuracy(model, dataloader, tokenizer, sample_texts=None):
 evaluate_accuracy(model, val_loader, tokenizer)
 ```
 
-![그림](/_image/2025-04-20-00-00-00.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-00.png?raw=true)
 
 ## 8. 해리포터 소설에 감정 분석 모델 적용하기
 
@@ -564,9 +564,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 1권
 
-![그림](/_image/2025-04-20-00-00-11.png)
-![그림](/_image/2025-04-20-00-00-15.png)
-![그림](/_image/2025-04-20-00-00-16.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-11.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-15.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-16.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -622,9 +622,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 2권
 
-![그림](/_image/2025-04-20-00-00-17.png)
-![그림](/_image/2025-04-20-00-00-18.png)
-![그림](/_image/2025-04-20-00-00-19.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-17.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-18.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-19.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -677,9 +677,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 3권
 
-![그림](/_image/2025-04-20-00-00-20.png)
-![그림](/_image/2025-04-20-00-00-21.png)
-![그림](/_image/2025-04-20-00-00-01.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-20.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-21.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-01.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -732,9 +732,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 4권
 
-![그림](/_image/2025-04-20-00-00-02.png)
-![그림](/_image/2025-04-20-00-00-03.png)
-![그림](/_image/2025-04-20-00-00-04.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-02.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-03.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-04.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -787,9 +787,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 5권
 
-![그림](/_image/2025-04-20-00-00-05.png)
-![그림](/_image/2025-04-20-00-00-06.png)
-![그림](/_image/2025-04-20-00-00-07.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-05.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-06.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-07.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -842,9 +842,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 6권
 
-![그림](/_image/2025-04-20-00-00-08.png)
-![그림](/_image/2025-04-20-00-00-09.png)
-![그림](/_image/2025-04-20-00-00-10.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-08.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-09.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-10.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>
@@ -897,9 +897,9 @@ for (path, dirs, files) in os.walk(root_path):
 
 ### 7권
 
-![그림](/_image/2025-04-20-00-00-12.png)
-![그림](/_image/2025-04-20-00-00-13.png)
-![그림](/_image/2025-04-20-00-00-14.png)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-12.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-13.png?raw=true)
+![그림](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-04-20-00-00-14.png?raw=true)
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
   <thead>

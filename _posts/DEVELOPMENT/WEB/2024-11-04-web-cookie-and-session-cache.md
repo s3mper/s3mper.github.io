@@ -51,7 +51,7 @@ tags: [web, php]
 
 ## 쿠키 동작 방식
 
-![쿠키 동작](/_image/2024-11-08-00-00-03.jpg "쿠키 동작")
+![쿠키 동작](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-08-00-00-03.jpg?raw=true "쿠키 동작")
 
 # 2. 세션(Session)
 
@@ -63,7 +63,7 @@ tags: [web, php]
 
 ## 세션 동작 방식
 
-![세션 동작](/_image/2024-11-08-00-00-04.jpg "세션 동작")
+![세션 동작](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-08-00-00-04.jpg?raw=true "세션 동작")
 
 # 3. 쿠키(Cookie) vs. 세션(Session)
 

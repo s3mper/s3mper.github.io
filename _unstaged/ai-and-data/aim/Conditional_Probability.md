@@ -23,7 +23,7 @@ $$P(B|A) = \frac{P(A \cap B)}{P(A)}$$
 
 ## 3. 예제
 
-![2025-10-11-00-00-00](/_image/2025-10-11-00-00-00.png)
+![2025-10-11-00-00-00](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-11-00-00-00.png?raw=true)
 
 위 그림은 100개의 종이를 모아놓은 것이다.
 * 백색 부분: 양면이 백색인 종이

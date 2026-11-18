@@ -42,7 +42,7 @@ tags: [js, web]
 </body>
 ```
 
-![](/_image/2024-11-10-00-00-00.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-00.png?raw=true)
 
 ## 2. console.log()
 
@@ -56,7 +56,7 @@ tags: [js, web]
 
 `F12 - 개발자도구 - 콘솔`에서만 확인이 가능하다
 
-![](/_image/2024-11-10-00-00-01.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-01.png?raw=true)
 
 ## 3. document.write()
 
@@ -65,7 +65,7 @@ document.write("Hello, World!<br>");
 document.write("Hello, World!");
 ```
 
-![](/_image/2024-11-10-00-00-02.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-02.png?raw=true)
 
 ## 4. alert()
 
@@ -77,7 +77,7 @@ document.write("Hello, 119");
 alert("It's OK?");
 ```
 
-![](/_image/2024-11-10-00-00-00.gif)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-00.gif?raw=true)
 
 ## 5. prompt()
 
@@ -90,7 +90,7 @@ document.write("Hi");
 prompt("I'm not OK");
 ```
 
-![](/_image/2024-11-10-00-00-01.gif)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-01.gif?raw=true)
 
 ## 6. confirm()
 
@@ -103,7 +103,7 @@ document.write("DEF");
 confirm("ALPHABET");
 ```
 
-![](/_image/2024-11-10-00-00-02.gif)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-10-00-00-02.gif?raw=true)
 
 ---
 

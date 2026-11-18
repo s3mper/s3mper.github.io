@@ -33,7 +33,7 @@ tags: [ai, deep-learning]
 
 ## 1. 정의
 
-![Alt Images](/_image/2025-11-11-00-00-00.png)
+![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-11-00-00-00.png?raw=true)
 
 **Gradient Clipping**: **기울기(gradient)의 크기가 너무 커지는 것(기울기 폭발)** 을 방지하기 위해 기울기의 **크기(norm)** 를 일정 한도 이하로 잘라내는(clipping) 기법이다.
 

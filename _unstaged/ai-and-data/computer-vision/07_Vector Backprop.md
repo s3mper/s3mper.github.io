@@ -64,7 +64,7 @@ $$\frac{\partial L}{\partial \mathbf{x}}
 ## 3. Backprop with Vectors – ReLU 예제
 ### 3.1. 예제 설정
 
-![](../../../_image/2025-12-04-19-47-37.jpg){: width="398" height="181" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-04-19-47-37.jpg?raw=true){: width="398" height="181" }
 
 - 함수: $f(x) = \max(0, x)$
 - 4D 입력:  
@@ -87,7 +87,7 @@ $$\frac{\partial L}{\partial \mathbf{x}}
 
 ### 3.2. ReLU의 Jacobian
 
-![](../../../_image/2025-12-04-19-55-46.jpg){: width="398" height="189" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-04-19-55-46.jpg?raw=true){: width="398" height="189" }
 
 각 성분에 대해 $y_i = \max(0, x_i)$ 이므로
 $$  
@@ -150,7 +150,7 @@ $$
 ## 4. Backprop with Matrices (또는 Tensors)
 ### 4.1. 모양(Shape) 일반화
 
-![](../../../_image/2025-12-04-20-11-17.jpg){: width="398" height="206" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-04-20-11-17.jpg?raw=true){: width="398" height="206" }
 
 벡터 개념을 그대로 **행렬/텐서**로 확장한다.
 - 입력: $x \in \mathbb{R}^{D_x \times M_x}$

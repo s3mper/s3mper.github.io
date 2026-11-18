@@ -155,7 +155,7 @@ btn.type = 'submit';
 
 2. HTML에서 HTML 요소를 바로 출력하기
 
-![pre tag가 일을 안 해요](/_image/2024-12-27-00-00-00.png "pre tag가 일을 안 해요")
+![pre tag가 일을 안 해요](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-12-27-00-00-00.png?raw=true "pre tag가 일을 안 해요")
 
 **DOM이 로딩된 이후 document.write()를 사용할 경우 HTML 요소가 전부 지워짐**
 

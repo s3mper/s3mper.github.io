@@ -1,7 +1,7 @@
 ## 1. Firewall (방화벽)
 ### 1.1 정의
 
-![](../../../../_image/2025-12-10-17-50-54.jpg){: width="398" height="279" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-50-54.jpg?raw=true){: width="398" height="279" }
 
 - 컴퓨터 시스템/네트워크에서 **허가되지 않은 접근을 차단**하고, **허가된 통신만 허용**하도록 설계된 장비 또는 소프트웨어.
 - 사전에 정의된 **규칙 집합(rule-set, policy)** 에 따라 패킷을 허용(accept) 또는 차단(deny/drop)한다.
@@ -77,8 +77,8 @@
 
 - 단순히 IP/Port 수준의 상태만이 아니라, **애플리케이션 프로토콜의 맥락까지 이해**하는 방화벽.
 - 예) FTP Active / Passive 모드:
-	- ![](../../../../_image/2025-12-10-17-51-37.jpg){: width="500" height="479" }
-	- ![](../../../../_image/2025-12-10-17-51-41.jpg){: width="500" height="405" }
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-51-37.jpg?raw=true){: width="500" height="479" }
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-51-41.jpg?raw=true){: width="500" height="405" }
     - FTP는 제어 포트(21)와 데이터 포트(20 또는 동적 포트)를 따로 사용.
     - 방화벽이 FTP 명령을 파싱해서, 제어 채널에서 협상된 데이터 포트에 대해 **임시 규칙을 자동 추가**해 준다.
 - HTTP encapsulation, 동적 포트 사용 등 **포트가 수시로 바뀌는 프로토콜**에서는 이런 stateful inspection이 필수적.
@@ -86,8 +86,8 @@
 ## 4. DMZ (Demilitarized Zone)
 ### 4.1 개념
 
-![](../../../../_image/2025-12-10-17-52-08.jpg){: width="500" height="441" }
-![](../../../../_image/2025-12-10-17-51-54.jpg){: width="500" height="356" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-52-08.jpg?raw=true){: width="500" height="441" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-51-54.jpg?raw=true){: width="500" height="356" }
 
 - 조직의 **외부 서비스를 외부 네트워크(인터넷)에 노출**시키기 위해 내부망과 분리된 **물리/논리적 서브넷**.
 - 원칙:
@@ -115,7 +115,7 @@
 
 ### 5.2 방식 1: L4/L7 스위치 이용
 
-![](../../../../_image/2025-12-10-17-52-21.jpg){: width="500" height="1265" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-52-21.jpg?raw=true){: width="500" height="1265" }
 
 - 구조: 인터넷 — L4/L7 스위치 — FW1 / FW2 — L4/L7 스위치 — 내부망
 - 동작:
@@ -144,7 +144,7 @@
 
 ### 6.2 VRRP(Virtual Router Redundancy Protocol)
 
-![](../../../../_image/2025-12-10-17-52-45.jpg){: width="500" height="406" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-52-45.jpg?raw=true){: width="500" height="406" }
 
 - RFC 3768 표준.
 - LAN 상의 여러 물리 라우터 중 하나를 **가상 라우터(Virtual Router)** 의 역할(마스터)로 선출하는 **선출(election) 프로토콜**.
@@ -167,7 +167,7 @@
 Active/Passive 구조: 한 라우터만 실사용, 다른 한 대는 대기(standby) → 자원 낭비.
 
 HA for Server Clusters
-![](../../../../_image/2025-12-10-17-55-58.jpg){: width="500" height="561" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-55-58.jpg?raw=true){: width="500" height="561" }
 
 Active/Active로 확장:
 - **VIP를 두 개** 사용 (예: 42.1, 42.10).
@@ -203,7 +203,7 @@ Active/Active로 확장:
 
 ### 7.2 DR(Disaster Recovery) 센터 & GSLB
 
-![](../../../../_image/2025-12-10-17-36-52.png){: width="500" height="427" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-36-52.png?raw=true){: width="500" height="427" }
 
 - 메인 데이터센터 + 백업 DR 센터를 구성하여 **지역 재난 대비**.
 - Global Server Load Balancing(GSLB):
@@ -327,8 +327,8 @@ Evasion 기법:
 ### 10.2 DDoS 대응 기능
 
 1. **IP Spoofing Test**
-	- ![](../../../../_image/2025-12-10-17-54-18.jpg){: width="500" height="339" }
-	- ![](../../../../_image/2025-12-10-17-54-22.jpg){: width="500" height="419" }
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-54-18.jpg?raw=true){: width="500" height="339" }
+	- ![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-12-10-17-54-22.jpg?raw=true){: width="500" height="419" }
     - SYN-cookie를 이용해 TCP 3-way handshake의 신뢰성을 검증.
     - HTTP 레벨에서 캡차/리다이렉트 등으로 실제 브라우저인지 확인(Cisco Guard 등).
 2. **Traffic Management

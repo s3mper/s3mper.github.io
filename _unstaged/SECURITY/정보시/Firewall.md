@@ -12,7 +12,7 @@
 packet filtering/classification
 기본 예시 룰:
 
-![](2025-11-17-00-27-47.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-17-00-27-47.png?raw=true)
 
 1. 외부 → 웹서버(80/tcp) 허용
 2. 웹서버(80/tcp) → 외부 응답 허용
@@ -34,7 +34,7 @@ packet filtering/classification
 - **TCP 세션** 개념을 도입:
     - 최초 SYN/3-way handshake를 통과한 이후,  그 세션에 속한 후속 패킷(ACK 등)은 **세션 테이블을 기준으로 자동 허용**.
 - 장점:
-	![](2025-11-17-00-49-39.png)
+	![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-17-00-49-39.png?raw=true)
     - 3번/4번처럼 “쌍을 이루는 규칙”을 세션 레벨에서 관리 → 정책 간소화.
     - 응답 패킷을 굳이 넓게 열 필요 없이, “이미 허가된 세션에 대한 응답”만 허용.
 - 교수님이 강조한 포인트:
@@ -46,10 +46,10 @@ packet filtering/classification
     - 웹 서버(Web)와 DB 서버(DB)를 **같은 내부 망**에 두면,  공격자가 Web만 뚫어도 곧바로 DB로 이동 가능.
     - Web은 인터넷에 열려 있어 공격 당하기 쉬움, DB는 내부 핵심 정보라 더 잘 보호해야 함.
 
-![](2025-11-17-00-34-42.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-17-00-34-42.png?raw=true)
 > 단일 방화벽 DMZ
 
-![](2025-11-17-00-53-22.png)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-17-00-53-22.png?raw=true)
 > 듀얼 방화벽 DMZ
 
 - DMZ 구조:

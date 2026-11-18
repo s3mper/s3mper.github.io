@@ -46,8 +46,8 @@ tags: [database]
 **(관계형) 데이터베이스**: 테이블(table)들의 집합
 * **테이블(table)**: 같은 레코드 타입(record type)을 따르는 레코드 인스턴스(record instance)의 집합
 
-![그림1](/_image/2025-03-16-00-00-00.jpg)  
-![그림2](/_image/2025-03-16-00-00-01.jpg)  
+![그림1](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-16-00-00-00.jpg?raw=true)  
+![그림2](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-16-00-00-01.jpg?raw=true)  
 
 ## 4. Database의 구성요소
 

@@ -25,15 +25,15 @@ tags: [algorithm, baekjoon, python]
 
 Baekjoon Online Judge. 「11758번 문제」. [Baekjoon Online Judge](https://www.acmicpc.net/problem/11758)
 
-![문제](/_image/2025-03-05-00-00-09.png)
+![문제](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-09.png?raw=true)
 
 ## 문제 이해
 
-![그림 1](/_image/2025-03-05-00-00-00.png)  
+![그림 1](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-00.png?raw=true)  
 
 P1 -> P2 -> P3 순서로 화살표를 그리면 나오는 방향으로 시계 방향, 반시계 방향을 판단하는 것 같다  
 
-![그림 2](/_image/2025-03-05-00-00-01.png)  
+![그림 2](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-01.png?raw=true)  
 
 선분 P1P2를 직선으로 쭉 늘렸을 때 P3의 y좌표가 위쪽에 위치할 경우 반시계 방향, 아래에 위치할 경우 시계 방향으로 판단할 수 있다.  
 그렇게 P1과 P2로 방정식을 구하게 되면 부동소수점의 한계로 오차가 생기게 되므로 양쪽에 ***P2의 x좌표 - P1의 x좌표***를 곱해 나눗셈을 제거한다.  

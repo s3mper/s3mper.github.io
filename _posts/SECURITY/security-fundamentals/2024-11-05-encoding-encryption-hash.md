@@ -95,7 +95,7 @@ SEED, ARIA, BB84,
 <abbr title = "Ron's Code 5">RC5</abbr>, 
 Skipjack, 
 <abbr title = "Lightweight Encryption Algorithm">LEA</abbr> 등
-![](/_image/2024-11-08-00-00-00.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-08-00-00-00.jpg?raw=true)
 
 ### 비대칭키(공개키)
 
@@ -104,10 +104,10 @@ Skipjack,
 * 단점: 암호문을 만든 사람이 복호화할 사람에게 암호화 키를 전달할 필요가 없다.
 * e.g. <abbr title="Rivert, Sharmir, Adleman">RSA</abbr> 등
 
-![](/_image/2024-11-08-00-00-02.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-08-00-00-02.jpg?raw=true)
 
 * 서로 다른 키를 가지고 어떻게 복호화할 수 있느냐?
-![](/_image/2024-11-08-00-00-01.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2024-11-08-00-00-01.jpg?raw=true)
 -> 이런 방식으로 서로 같은 키를 공유할 수 있다!
 
 ## 출처

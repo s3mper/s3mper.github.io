@@ -79,7 +79,7 @@ tags: [blog, github-pages]
 ~~이 부분이 특히 참고 사이트가 많은 이유는 구글 애너리틱스가 잘 적용됬는지 확인이 잘 되지 않아서 틀려서 그런건가하고 다른 사이트를 참조하느라 그랬다.~~  
   
 물론 지금은 확실히 확인이 되었다.
-![google-analytics](/_image/2021-12-09-00-00-00.png)
+![google-analytics](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-09-00-00-00.png?raw=true)
 
 ---
 

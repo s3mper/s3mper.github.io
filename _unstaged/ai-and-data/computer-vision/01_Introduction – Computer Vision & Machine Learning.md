@@ -26,17 +26,17 @@
 
 ## 3. AI, Machine Learning, Deep Learning, Computer Vision 관계
 
-![](../../../_image/2025-11-24-18-03-28.png){: width="500" height="271" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-03-28.png?raw=true){: width="500" height="271" }
 
 - **AI ⊃ Machine Learning ⊃ Deep Learning**
 
-![](../../../_image/2025-11-24-18-03-23.png){: width="500" height="273" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-03-23.png?raw=true){: width="500" height="273" }
 
 - **Computer Vision**은 이들 안에서
     - 예전에는: 주로 **머신러닝 + 수작업 특징(feature) 설계**
     - 최근에는: **딥러닝 모델이 feature를 자동 학습**하는 방향으로 변화
 
-![](../../../_image/2025-11-24-18-05-10.png){: width="500" height="495" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-05-10.png?raw=true){: width="500" height="495" }
 
 ## 4. 클래식 비전 vs 딥러닝 비전
 
@@ -84,7 +84,7 @@
 
 ### 7.1. 회귀 (Regression)
 
-![](../../../_image/2025-11-24-18-18-14.jpg){: width="500" height="288" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-18-14.jpg?raw=true){: width="500" height="288" }
 
 - 입력–출력 쌍: $(x_i, y_i)$
 - 목표: $f(x)$ 를 학습해서 **연속 값 y를 예측**
@@ -94,7 +94,7 @@
 
 ### 7-2. 분류 (Classification)
 
-![](../../../_image/2025-11-24-18-18-07.jpg){: width="500" height="193" }
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-18-07.jpg?raw=true){: width="500" height="193" }
 
 - 입력–출력 쌍: $(x_i, y_i)$
 - 목표: $f(x)$ 를 학습해서 **범주형 y(클래스)를 예측**
@@ -108,7 +108,7 @@
 ## 8. 비지도/준지도 학습의 역할
 
 - **비지도 학습**
-		![](../../../_image/2025-11-24-18-15-57.png){: width="500" height="182" }
+		![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-15-57.png?raw=true){: width="500" height="182" }
     - 라벨 없는 데이터에서 **유사한 특징 벡터끼리 군집화**
     - 데이터 마이닝, 빅데이터 분석, 정보 검색 등 많은 응용에서 사용
 
@@ -128,7 +128,7 @@
     2. 성능을 개선하는 방향으로 $\Theta$를 갱신
     3. 수렴할 때까지 반복
 - **일반화 능력 (Generalization)**
-	![](../../../_image/2025-11-24-18-14-20.png){: width="500" height="269" }
+	![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-11-24-18-14-20.png?raw=true){: width="500" height="269" }
 
     - 학습에 사용하지 않은 **테스트 집합**으로 최종 모델 성능 평가
     - 학습/테스트 성능이 비슷하면 **일반화가 잘 됨**

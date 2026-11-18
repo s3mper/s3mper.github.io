@@ -11,14 +11,14 @@
     - **의사난수성/확산(Avalanche)**: 입력 1비트 변화 → 출력 절반 정도 뒤집힘
     - **고정 길이 출력**: 예) SHA-256 = 256비트
 
-![](2025-10-22-00-37-02.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-22-00-37-02.jpg?raw=true)
 
 - 예시/출력 길이: **MD5(128비트)**, **SHA-1(160비트)**, RIPEMD-160, Whirlpool 등.
 - 처리 개요: 메시지를 **512비트 배수**가 되도록 패딩 후, **512비트 단위**로 압축 함수에 투입.
 
 ## 2. 생일 공격(Birthday attack)
 
-![](2025-10-22-00-35-25.jpg)
+![](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-10-22-00-35-25.jpg?raw=true)
 > 생일 문제: 23명만 모여도 50%가 된다
 
 - 아이디어: 생일 역설처럼, **충돌은 직관보다 훨씬 자주 발생**한다는 점을 이용. 간단한 확률 예시로 설명됨.

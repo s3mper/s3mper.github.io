@@ -54,7 +54,7 @@ tags: [computer-network, network]
 
 ## 3. Data communications System의 5가지 요소
 
-![Alt Images](/_image/2025-03-05-00-00-00.jpg)
+![Alt Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-00.jpg?raw=true)
 
 1. Message(메시지, 보내는 내용)
 1. Sender(송신자, 보내는 사람)
@@ -68,7 +68,7 @@ tags: [computer-network, network]
 
 ### 4.1. Text
 
-![이미지](/_image/2025-03-05-00-00-02.png)
+![이미지](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-02.png?raw=true)
 <small>Unicode. 「charts」. [Unicode](https://www.unicode.org/charts/)</small>
 
 * text는 0과 1로 이뤄진 일련의 bit들이다.
@@ -77,7 +77,7 @@ tags: [computer-network, network]
 
 ### 4.2. Numbers
 
-![이미지](/_image/2025-03-05-00-00-03.png)
+![이미지](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-03.png?raw=true)
 <small>k_k_s__h. 「이진수」. [Velog](https://velog.io/@k_k_s__h/%EC%9D%B4%EC%A7%84%EC%88%98)</small>
 
 * numbers 또한 0과 1로 이뤄진 일련의 bit들이다.
@@ -85,7 +85,7 @@ tags: [computer-network, network]
 
 ### 4.3. Images
 
-![이미지](/_image/2025-03-05-00-00-04.png)
+![이미지](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-04.png?raw=true)
 <small>Mega Voxels. 「how to make a pixel art watermelon」. [Mega Voxels](https://www.megavoxels.com/learn/how-to-make-a-pixel-art-watermelon/)</small>
 
 * images은 pixels(picture elements)의 행렬 형태로 구성되어 있다.
@@ -95,7 +95,7 @@ tags: [computer-network, network]
 
 ### 4.4. Audio
 
-![이미지](/_image/2025-03-05-00-00-05.png)
+![이미지](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-05.png?raw=true)
 <small>Long Island University. 「audio.htm」. [Long Island University](https://myweb.liu.edu/jmeschi/audweb/audio.htm)</small>
 
 * Audio는 소리나 음악을 녹음한 것이나 방송한 것을 말한다
@@ -104,7 +104,7 @@ tags: [computer-network, network]
 
 ### 4.5. Video
 
-![이미지](/_image/2025-03-05-00-00-06.png)
+![이미지](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-03-05-00-00-06.png?raw=true)
 <small>The Script Lab. 「36023 what was the first movie ever made」. [The Script Lab](https://thescriptlab.com/blogs/36023-what-was-the-first-movie-ever-made/)</small>
 
 * Video는 사진이나 영상을 녹화한 것이나 방송한 것을 말한다

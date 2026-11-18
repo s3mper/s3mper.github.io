@@ -2,7 +2,7 @@
 ## 타원 곡선
 ### 정의
 
-![2025-09-03-20-26-32](/_image/2025-09-03-20-26-32.png)
+![2025-09-03-20-26-32](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-03-20-26-32.png?raw=true)
 
 타원 곡선은 다음 방정식으로 정의되는 수학적 곡선이다.
 $$
@@ -21,7 +21,7 @@ $$
 ### 연산
 
 
-![2025-09-03-20-26-49](/_image/2025-09-03-20-26-49.png)
+![2025-09-03-20-26-49](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-03-20-26-49.png?raw=true)
 ## 비특이 타원 곡선(Nonsingular Elliptic Curve)
 첨점(Sharp Point), 교차점(Intersection Point)이 존재하지 않는 타원 곡선
 e.g. 

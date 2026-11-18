@@ -93,7 +93,7 @@
 	* 무결성(Integrity): 비인가 접근으로부터의 보호
 	* 사용성(Usability): 사용하기 얼마나 쉬운가
 
-![20250902232644](/_image/2025-09-02-23-26-44.png)
+![20250902232644](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-26-44.png?raw=true)
 Figure 1: The McCall quality model (a.k.a. McCall’s Triangle of Quality) organized around three types of quality characteristics.
 
 세 가지 상위 특성을 계층적 구조로 세분화
@@ -101,10 +101,10 @@ Figure 1: The McCall quality model (a.k.a. McCall’s Triangle of Quality) organ
 * 23개 기준(Criteria): 개발자가 보는 내부적 관점
 * 메트릭(Metrics): 품질을 측정하는 척도
 
-![20250902232723](/_image/2025-09-02-23-27-23.png)
+![20250902232723](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-27-23.png?raw=true)
 Figure 2: McCall’s Quality Model illustrated through a hierarchy of 11 quality factors (on the left hand side of the figure) related to 23 quality criteria (on the right hand side of the figure).
 
-![2025-09-02-23-33-29](/_image/2025-09-02-23-33-29.png)
+![2025-09-02-23-33-29](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-33-29.png?raw=true)
 Figure 3: McCall’s Quality Model (cont.) illustrated through a hierarchy of 11 quality factors (on the left hand side of the figure) related to 23 quality criteria (on the right hand side of the figure).
 
 ### 1.4.2. by Barry W. Boehm
@@ -128,10 +128,10 @@ McCall 모델처럼 계층적 구조, 유지보수성에 중점을 둠
 
 이 중간 요인들은 다시 하위 특성(Primitive characteristics)으로 분해되어 각종 메트릭과 연결됨.
 
-![2025-09-02-23-37-32](/_image/2025-09-02-23-37-32.png)
+![2025-09-02-23-37-32](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-37-32.png?raw=true)
 Figure 4: Boehm's Software Quality Characteristics Tree. As-is Utility, Maintainability, and Portability are necessary (but not sufficient) conditions for General Utility. As-is Utility requires a program to be Reliable and adequately Efficient and Human-Engineered. Maintainability requires that the user be able to understand, modify, and test the program, and is aided by good Human-engineering
 
-![2025-09-02-23-38-16](/_image/2025-09-02-23-38-16.png)
+![2025-09-02-23-38-16](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-38-16.png?raw=true)
 Figure 5: Comparison between criteria/goals of the McCall and Boehm quality models
 
 품질 향상으로 인한 소프트웨어 유지보수 비용 절감 효과를 강조
@@ -153,7 +153,7 @@ F(기능성): 기능적 요구사항, URPS(비기능적 요구사항): 비기능
 소프트웨어 품질 평가는 제품마다 다르다는 점을 강조 -> **보다 동적인 모델링 접근법**이 필요하다고 주장
 소프트웨어 제품의 속성과 소프트웨어 품질 특성 간의 관계를 명확히 연결하려 함.
 
-![2025-09-02-23-44-26](/_image/2025-09-02-23-44-26.png)
+![2025-09-02-23-44-26](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-44-26.png?raw=true)
 Figure 6: Principles of Dromey’s Quality Model
 
 세 가지 기본 요소
@@ -172,7 +172,7 @@ Figure 6: Principles of Dromey’s Quality Model
 
 ### 1.4.5. ISO
 #### 1.4.5.1. ISO 9000
-![2025-09-02-23-45-33](/_image/2025-09-02-23-45-33.png)
+![2025-09-02-23-45-33](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-45-33.png?raw=true)
 Figure 7: The ISO 9000:2000 standards. The crosses and arrows indicate changes made from the older ISO 9000 standard to the new ISO 9000:2000 standard.
 
 **ISO 9001**은 모든 산업 분야 조직에 적용 가능한 국제 품질경영시스템(QMS) 표준
@@ -203,16 +203,16 @@ ISO 9001은 프로세스 지향적 품질 관리 접근법을 취한다. 즉, �
 ISO 9000 계열은 조직이 **품질을 프로세스 관점에서 관리하고 개선**하도록 한다.
 
 #### 1.4.5.2. ISO 9126
-![2025-09-02-23-53-23](/_image/2025-09-02-23-53-23.png)
+![2025-09-02-23-53-23](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-53-23.png?raw=true)
 Figure 8: The ISO 9126 quality model
 
 ISO 9126: 소프트웨어 제품 평가 – 품질 특성과 활용 지침을 발표
 맥콜과 보헴 모델을 기반으로 하며, 유사한 구조를 가지지만 기능성(Functionality)을 별도의 주요 요인으로 포함
 
-![2025-09-02-23-53-59](/_image/2025-09-02-23-53-59.png)
+![2025-09-02-23-53-59](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-53-59.png?raw=true)
 Figure 9: Comparison between criteria/goals of the McCall, Boehm and ISO 9126 quality models
 
-![2025-09-02-23-54-25](/_image/2025-09-02-23-54-25.png)
+![2025-09-02-23-54-25](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-02-23-54-25.png?raw=true)
 Figure 10: ISO 9126: Software Product Evaluation: Quality Characteristics and Guidelines for their Use
 
 6가지 주요 요인
@@ -291,7 +291,7 @@ Figure 10: ISO 9126: Software Product Evaluation: Quality Characteristics and Gu
 - **CMMI**: Capability Maturity Model Integration (통합 모델)
 - 그 외 파생 모델: PDD-CMM, SE-CMM, SA-CMM 등
 
-![2025-09-03-00-01-58](/_image/2025-09-03-00-01-58.png)
+![2025-09-03-00-01-58](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-03-00-01-58.png?raw=true)
 Figure 11: Maturity Levels of (SW-)CMM
 
 **SW-CMM**은 소프트웨어 품질을 프로세스 관점에서 다룸
@@ -302,7 +302,7 @@ Figure 11: Maturity Levels of (SW-)CMM
 4. 관리됨(Managed): 정량적 품질 및 프로세스 관리
 5. 최적화됨(Optimizing): 지속적 개선 및 혁신
 
-![2025-09-03-00-02-46](/_image/2025-09-03-00-02-46.png)
+![2025-09-03-00-02-46](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-03-00-02-46.png?raw=true)
 Figure 12: The two representations of the CMMI model.
 
 SW-CMM은 이후 CMMI로 확장. 소프트웨어뿐만 아니라 시스템 엔지니어링, 프로젝트 관리, 지원 영역까지 포함

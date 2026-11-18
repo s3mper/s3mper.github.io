@@ -28,13 +28,13 @@ SAR (Segmentation and Reassembly): 너무 큰 데이터는 나누고, 수신 측
 * 쪼갤 때 source와 destination 변경 금지
 * 라우터는 내용 변경 금지: 단지 주소만 확인해서 다음 홉으로 포워딩
 * 쪼개놓은 모든 packet 부분에 기존 header와 fragments header가 있어야 한다
-![SAR](/_image/2025-05-28-00-00-04.jpg){: width="40" }
-![SAR in intermediate node](/_image/2025-05-28-00-00-07.jpg)
+![SAR](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-04.jpg?raw=true){: width="40" }
+![SAR in intermediate node](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-07.jpg?raw=true)
 
 * destination에서는 모든 fragments가 도착할 때까지 기다리고 재조립한 후 L4로 전달
 
 ## Routing(=Forwarding)
-![Routing](/_image/2025-05-28-00-00-02.jpg)
+![Routing](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-02.jpg?raw=true)
 
 Routing: destination까지 최적 경로 결정, 라우팅 알고리즘에 따라 전체 경로 계산
 패킷을 적절한 인터페이스로 전달, 포워딩 테이블(라우팅 테이블)을 기반으로 동작
@@ -127,7 +127,7 @@ worm, e-mail virus와 같이 특정 pattern을 갖고 있는 packet 등 제어 �
 DoS, DDoS 해결
 
 ## Datagram 방식 (Connectionless)
-![Connectinoless](/_image/2025-05-28-00-00-03.jpg)
+![Connectinoless](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-03.jpg?raw=true)
 
 각 패킷이 독립적으로 전송, 서로 다른 경로를 갈 수도 있음
 
@@ -136,7 +136,7 @@ IP 네트워크가 사용하는 방식
 각 라우터는 패킷의 목적지 주소만 보고 처리
 
 ## Virtual Circuit 방식 (Connection-oriented)
-![Connection-oriented](/_image/2025-05-28-00-00-08.jpg)
+![Connection-oriented](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-08.jpg?raw=true)
 
 가상 회선 설정 후 모든 패킷이 동일 경로로 이동
 
@@ -147,8 +147,8 @@ IP 네트워크가 사용하는 방식
 Set-up Phase
 2개의 보조 packets(request packet, ACK packet)을 이용해 가상 회선의 entry를 만든다
 request packet: source와 destination의 주소를 옮긴다
-![Set-up Phase 1](/_image/2025-05-28-00-00-09.jpg)
-![Set-up Phase 2](/_image/2025-05-28-00-00-01.jpg)
+![Set-up Phase 1](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-09.jpg?raw=true)
+![Set-up Phase 2](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-05-28-00-00-01.jpg?raw=true)
 
 Data-Transfer Phase
 가상회선을 따라 packet이 전송된다

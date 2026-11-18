@@ -26,35 +26,35 @@ tags: [blog, github-pages]
 
 <figure markdown="1">
 
-[![Images](/_image/2021-12-01-00-00-05.png)](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-screenshot-error.png?raw=true)
+![Images](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-05.png?raw=true)
 
 	<figcaption>
-  <a href="https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-screenshot-google-analytics.png?raw=true" title="Error">_posts에 업로드했을 경우에는 이미지 주소 복사를 눌러서 직접 가져와야하는 듯.
+  <a href="https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-06.png?raw=true" title="Error">_posts에 업로드했을 경우에는 이미지 주소 복사를 눌러서 직접 가져와야하는 듯.
   </a>
   </figcaption>
 </figure>
   
-![google-analytics](/_image/2021-12-01-00-00-06.png)
+![google-analytics](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-06.png?raw=true)
 
 ## favicon icons history
 
 1. 첫번째 favicon
-![1st-favicon](/_image/2021-12-01-00-00-00.jpg)
+![1st-favicon](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-00.jpg?raw=true)
 2. 두번째 favicon
-![2nd-favicon](/_image/2021-12-01-00-00-00.png){: width="656" height="656" }
+![2nd-favicon](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-00.png?raw=true){: width="656" height="656" }
 3. 세번째 favicon
-![3rd-favicon](/_image/2021-12-01-00-00-01.png)
+![3rd-favicon](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-01.png?raw=true)
 4. 네번째 favicon
-![4th-favicon](/_image/2021-12-01-00-00-02.png)
+![4th-favicon](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-02.png?raw=true)
 
 ## wallpaper history
 
 1. 첫번째 wallpaper
-![1st-wallpaper](/_image/2021-12-01-00-00-01.jpg)
+![1st-wallpaper](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-01.jpg?raw=true)
 1. 두번째 wallpaper
-![2nd-wallpaper](/_image/2021-12-01-00-00-03.png)
+![2nd-wallpaper](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-03.png?raw=true)
 1. 세번째 wallpaper
-![1st-wallpaper](/_image/2021-12-01-00-00-04.png)
+![1st-wallpaper](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2021-12-01-00-00-04.png?raw=true)
 
 cdn 이용하기
 `https://cdn.jsdelivr.net/gh/<github_user_name>/<repo_url@branch_name>/<file_path>`

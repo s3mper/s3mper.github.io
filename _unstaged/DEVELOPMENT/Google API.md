@@ -5,7 +5,7 @@
 3. 사용자가 부여한 액세스 범위를 검사
 4. 액세스 토큰을 API로 전송
 5. 필요한 경우 액세스 토큰을 갱신
-![2025-09-21-20-00-37](/_image/2025-09-21-20-00-37.png)
+![2025-09-21-20-00-37](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2025-09-21-20-00-37.png?raw=true)
 ## 출처
 - arcticwillow. 「Google API - OAuth 2.0 인증」. [Tistory](https://arcticwillow.tistory.com/31)
 - Google Developers. 「OAuth 2.0을 사용하여 Google API에 액세스하기」. [Google Developers](https://developers.google.com/identity/protocols/oauth2?hl=ko#webserver)

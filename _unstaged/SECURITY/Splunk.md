@@ -1,48 +1,48 @@
-![2026-10-27 10 46 18](../../_image/2026-10-27%2010%2046%2018.png)
+![2026-10-27 10 46 18](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2010%2046%2018.png?raw=true)
 
-![2026-10-27 11 28 07](../../_image/2026-10-27%2011%2028%2007.png)
+![2026-10-27 11 28 07](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2028%2007.png?raw=true)
 
-![2026-10-27 11 29 43](../../_image/2026-10-27%2011%2029%2043.png)
+![2026-10-27 11 29 43](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2029%2043.png?raw=true)
 
-![2026-10-27 11 32 11](../../_image/2026-10-27%2011%2032%2011.png)
+![2026-10-27 11 32 11](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2032%2011.png?raw=true)
 
-![2026-10-27 11 38 05](../../_image/2026-10-27%2011%2038%2005.png)
+![2026-10-27 11 38 05](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2038%2005.png?raw=true)
 
-![2026-10-27 11 41 33](../../_image/2026-10-27%2011%2041%2033.png)
+![2026-10-27 11 41 33](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2041%2033.png?raw=true)
 
-![2026-10-27 11 50 48](../../_image/2026-10-27%2011%2050%2048.png)
+![2026-10-27 11 50 48](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2050%2048.png?raw=true)
 
-![2026-10-27 11 59 42](../../_image/2026-10-27%2011%2059%2042.png)
+![2026-10-27 11 59 42](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2011%2059%2042.png?raw=true)
 
-![2026-10-27 14 17 53](../../_image/2026-10-27%2014%2017%2053.png)
+![2026-10-27 14 17 53](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2014%2017%2053.png?raw=true)
 
-![2026-10-27 14 38 36](../../_image/2026-10-27%2014%2038%2036.png)
+![2026-10-27 14 38 36](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2014%2038%2036.png?raw=true)
 
-![2026-10-27 14 42 53](../../_image/2026-10-27%2014%2042%2053.png)
+![2026-10-27 14 42 53](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2014%2042%2053.png?raw=true)
 
-![2026-10-27 15 04 10](../../_image/2026-10-27%2015%2004%2010.png)
+![2026-10-27 15 04 10](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2015%2004%2010.png?raw=true)
 
-![2026-10-27 15 15 02](../../_image/2026-10-27%2015%2015%2002.png)
+![2026-10-27 15 15 02](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2015%2015%2002.png?raw=true)
 
-![2026-10-27 17 12 16](../../_image/2026-10-27%2017%2012%2016.png)
+![2026-10-27 17 12 16](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2017%2012%2016.png?raw=true)
 
-![2026-10-27 17 12 45](../../_image/2026-10-27%2017%2012%2045.png)
+![2026-10-27 17 12 45](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2017%2012%2045.png?raw=true)
 
-![2026-10-27 17 16 12](../../_image/2026-10-27%2017%2016%2012.png)
+![2026-10-27 17 16 12](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2017%2016%2012.png?raw=true)
 
-![2026-10-27 17 19 47](../../_image/2026-10-27%2017%2019%2047.png)
+![2026-10-27 17 19 47](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2017%2019%2047.png?raw=true)
 
-![2026-10-27 17 29 31](../../_image/2026-10-27%2017%2029%2031.png)
+![2026-10-27 17 29 31](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-27%2017%2029%2031.png?raw=true)
 
-![2026-10-28 09 29 39](../../_image/2026-10-28%2009%2029%2039.png)
+![2026-10-28 09 29 39](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-28%2009%2029%2039.png?raw=true)
 
-![2026-10-28 09 31 18](../../_image/2026-10-28%2009%2031%2018.png)
+![2026-10-28 09 31 18](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-28%2009%2031%2018.png?raw=true)
 
-![2026-10-28 09 35 08](../../_image/2026-10-28%2009%2035%2008.png)
+![2026-10-28 09 35 08](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-28%2009%2035%2008.png?raw=true)
 
-![2026-10-28 09 39 04](../../_image/2026-10-28%2009%2039%2004.png)
+![2026-10-28 09 39 04](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-28%2009%2039%2004.png?raw=true)
 
-![2026-10-28 09 41 39](../../_image/2026-10-28%2009%2041%2039.png)
+![2026-10-28 09 41 39](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/2026-10-28%2009%2041%2039.png?raw=true)
 splunk app location: `C:\Program Files\Splunk\etc\apps`
 
 `C:\Program Files\Splunk\etc\apps\TA-user-agents\bin\uap-core\regexes.yaml`
@@ -50,13 +50,13 @@ splunk app location: `C:\Program Files\Splunk\etc\apps`
 
 일반적인 웹 브라우저: Mozila로 시작, 공백, 괄호 내부에 metadata
 
-![Pasted image 20261028100333](../../_image/Pasted%20image%2020261028100333.png)
+![Pasted image 20261028100333](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/Pasted%20image%2020261028100333.png?raw=true)
 
-![Pasted image 20261028101814](../../_image/Pasted%20image%2020261028101814.png)
+![Pasted image 20261028101814](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/Pasted%20image%2020261028101814.png?raw=true)
 
-![Pasted image 20261028102101](../../_image/Pasted%20image%2020261028102101.png)
+![Pasted image 20261028102101](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/Pasted%20image%2020261028102101.png?raw=true)
 
-![Pasted image 20261028102255](../../_image/Pasted%20image%2020261028102255.png)
+![Pasted image 20261028102255](https://cdn.jsdelivr.net/gh/s3mper/s3mper.github.io@main/_image/Pasted%20image%2020261028102255.png?raw=true)
 이전 명령어에서 `\S`라 안 적고 `\/S`라 적어놓아서 수정해야 함
 
 RFI(Remote File Inclusion)
