@@ -1,4 +1,5 @@
 # <font color="#ff0000">Gradient Descent</font>
+
 ## 1. 챕터 개요
 
 - 목표: 주어진 목적 함수: $$\Theta^* = \arg\min_\Theta J(\Theta)$$의 해를 **해석적으로(analytical)** 구하기 어려울 때, **수치적으로** 최소점을 찾는 방법인 **경사하강법(Gradient Descent)** 를 설명.
@@ -8,6 +9,7 @@
     - 데이터가 너무 커서 행렬 역행렬 계산이 비현실적인 경우 등
 
 ## 2. 1차원 경사하강법
+
 ### 2.1. 기본 아이디어
 
 - 파라미터가 하나일 때(Θ ∈ ℝ), 함수 $f(\Theta)$의 그래프를 ‘언덕/골짜기’라고 생각.
@@ -45,6 +47,7 @@
     - gradient descent는 **초기값 $x_{init}$** 에 따라 **서로 다른 local minimum**으로 수렴.
 
 ## 3. 다차원 경사하강법
+
 ### 3.1. Gradient의 정의
 
 - 파라미터:
@@ -69,6 +72,7 @@
     - 혹은 gradient norm $|\nabla_\Theta f(\Theta^{(t)})|$ 가 충분히 작을 때 등.
 
 ## 4. 회귀(regression)에의 적용
+
 ### 4.1. 선형 회귀 MSE loss에 대한 GD
 
 - 선형 회귀의 평균제곱오차(MSE) 목적함수:  
@@ -84,6 +88,7 @@
 > 이 문제는 정상적으로는 closed-form 해(정규방정식)로 풀 수 있지만, GD로도 수치적으로 해를 구할 수 있다는 점을 보여주는 예.
 
 ## 5. Ridge Regression에서의 Gradient Descent
+
 ### 5.1. Ridge 목적함수
 
 - Ridge Regression (L2 정규화 포함):
@@ -103,12 +108,13 @@
 ### 5.3. Ridge용 GD 알고리즘
 
 업데이트 규칙:
+
 - θ 업데이트:
     $$\theta^{(t)} = \theta^{(t-1)} - \eta \left(  
     \frac{1}{n}\sum_{i=1}^{n}  
     (\theta^{(t-1)T} x^{(i)} + \theta_0^{(t-1)} y^{(i)})x^{(i)} \lambda \theta^{(t-1)}  
         \right)$$
-- θ₀ 업데이트: 
+- θ₀ 업데이트:
     $$\theta_0^{(t)} = \theta_0^{(t-1)} - \eta \left(  
     \frac{1}{n}\sum_{i=1}^{n}  
     (\theta^{(t-1)T} x^{(i)} + \theta_0^{(t-1)} - y^{(i)})  
@@ -117,6 +123,7 @@
 > 질문 포인트로, 왜 θ₀ 업데이트 식에는 λ가 없고, 왜 gradient에 있던 2가 빠졌는지(η에 흡수 가능)를 생각해 보라고 유도함.
 
 ## 6. 확률적 경사하강법(Stochastic Gradient Descent, SGD)
+
 ### 6.1. 기본 아이디어
 
 - 목적 함수가 데이터 포인트들의 합으로 표현되는 경우: $$f(\Theta) = \sum_{i=1}^n f_i(\Theta)$$
@@ -126,9 +133,10 @@
 ### 6.2. SGD 알고리즘
 
 반복 t = 1 … T:
+
 1. i ~ Uniform{1, …, n} 랜덤 선택
 2. $\Theta^{(t)} = \Theta^{(t-1)} - \eta^{(t)} \nabla_\Theta f_i(\Theta^{(t-1)})$
-- 여기서 step size η는 반복에 따라 달라지는 **η(t)** 를 사용.
+    - 여기서 step size η는 반복에 따라 달라지는 **η(t)** 를 사용.
 
 ### 6.3. 수렴 조건
 

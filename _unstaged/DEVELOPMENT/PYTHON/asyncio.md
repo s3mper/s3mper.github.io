@@ -17,7 +17,6 @@ coroutines 안에서 다른 coroutines을 호출할 때는 await을 함수명 �
 `[task].result()`: 실행 task의 결과값 반환
 `asyncio.run(main())`: run loop를 생성해 main() coroutines을 실행한다. coroutines을 실행하려면 run loop가 반드시 필요하다. coroutines이 모두 비동기적으로 실행되기 때문에 그 시작과 종료를 감지할 수 있는 이벤트 loop가 반드시 필요하기 때문이다.
 
-
 ``` python
 import asyncio
 import time
@@ -61,10 +60,10 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main()) # main() coroutines 실행
-
 ```
 
 ## 출처
+
 - WikiDocs. 「071 비동기 방식으로 프로그래밍하려면? ― asyncio」. [WikiDocs](https://wikidocs.net/125092)
 - Python Docs. 「코루틴과 태스크」. [Python Docs](https://docs.python.org/ko/3/library/asyncio-task.html)
 

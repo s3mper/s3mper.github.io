@@ -1,4 +1,5 @@
 # Introduction – Computer Vision & Machine Learning
+
 ## 1. 컴퓨터 비전이란?
 
 - **정의**: 사람이 눈으로 사물을 보고 인지하는 작업을 컴퓨터가 수행하게 만드는 학문.
@@ -80,6 +81,7 @@
     - 에이전트가 환경과 상호작용하면서 **보상(reward)** 을 통해 정책(policy)을 학습
 
 ## 7. 지도 학습: 회귀(Regression)와 분류(Classification)
+
 ### 7.1. 회귀 (Regression)
 
 ![|500x288](2025-11-24-18-18-14.jpg)
