@@ -1,4 +1,18 @@
-<!-- markdownlint-disable md060 -->
+---
+layout: post
+comments: true
+
+title: "DHCP(Dynamic Host Configuration Protocol)"
+excerpt: "DHCP 개념과 동작 과정, 보안 위협과 대응"
+
+date: 2025-11-19
+last_modified_at: 2026-09-01
+
+categories: [network]
+tags: [network, dhcp]
+---
+
+<!-- markdownlint-disable md025 md060 -->
 
 # DHCP(Dynamic Host Configuration Protocol)
 
@@ -67,13 +81,13 @@ sequenceDiagram
 
 따라서 DHCP 서버를 찾기 위해 `DHCP Discover`를 브로드캐스트로 전송한다.
 
-| 항목      | 값                   |
-| ------- | ------------------- |
-| 출발지 MAC | 클라이언트 MAC           |
+| 항목 | 값 |
+| --- | --- |
+| 출발지 MAC | 클라이언트 MAC |
 | 목적지 MAC | `FF:FF:FF:FF:FF:FF` |
-| 출발지 IP  | `0.0.0.0`           |
-| 목적지 IP  | `255.255.255.255`   |
-| UDP 포트  | 68 → 67             |
+| 출발지 IP  | `0.0.0.0` |
+| 목적지 IP  | `255.255.255.255` |
+| UDP 포트  | 68 → 67 |
 
 Discover에는 일반적으로 다음 정보가 들어간다.
 
