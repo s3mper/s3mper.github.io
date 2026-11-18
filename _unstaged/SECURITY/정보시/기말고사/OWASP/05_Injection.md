@@ -134,9 +134,9 @@ ORM과 HQL을 사용한다고 해서 자동으로 인젝션이 방어되는 것�
 
 ---
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A05:2025 Injection](https://owasp.org/Top10/2025/A05_2025-Injection/ "A05 Injection - OWASP Top 10:2025")
+- OWASP. 「OWASP Foundation – A05:2025 Injection」. [OWASP](https://owasp.org/Top10/2025/A05_2025-Injection/ "A05 Injection - OWASP Top 10:2025")
 
 ## 관련 문서
 

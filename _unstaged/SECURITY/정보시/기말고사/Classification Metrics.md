@@ -106,9 +106,9 @@ Recall이 “양성을 얼마나 잘 맞추냐”면, TNR은 “음성을 얼마
     - **클래스 불균형이 심한 데이터셋**에서 모델 성능 비교할 때 유리
     - 특히 Positive가 매우 적은 경우(희귀 이벤트 탐지 등) 자주 사용.
 
-# 참고
+## 출처
 
-- [Tistory: 분류 성능 지표: Precision(정밀도), Recall(재현율), F1-score](https://ai-com.tistory.com/entry/ML-%EB%B6%84%EB%A5%98-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-Precision%EC%A0%95%EB%B0%80%EB%8F%84-Recall%EC%9E%AC%ED%98%84%EC%9C%A8)
-- [Wikipedia: Confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
-- [cosmiccoding: PR vs ROC Curves - Which to Use?](https://cosmiccoding.com.au/tutorials/pr_vs_roc_curves/)
-- [Wikipedia: Receiver operating characteristic](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+- ai-com. 「Tistory: 분류 성능 지표: Precision(정밀도), Recall(재현율), F1-score」. [Tistory](https://ai-com.tistory.com/entry/ML-%EB%B6%84%EB%A5%98-%EC%84%B1%EB%8A%A5-%EC%A7%80%ED%91%9C-Precision%EC%A0%95%EB%B0%80%EB%8F%84-Recall%EC%9E%AC%ED%98%84%EC%9C%A8)
+- Wikipedia. 「Wikipedia: Confusion matrix」. [Wikipedia](https://en.wikipedia.org/wiki/Confusion_matrix)
+- cosmiccoding.com.au. 「cosmiccoding: PR vs ROC Curves - Which to Use?」. [cosmiccoding.com.au](https://cosmiccoding.com.au/tutorials/pr_vs_roc_curves/)
+- Wikipedia. 「Wikipedia: Receiver operating characteristic」. [Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)

@@ -102,14 +102,14 @@ OWASP가 제시하는 권고와 주변 해설을 합쳐 보면, 핵심 키워드
 
 ---
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A10:2025 Mishandling of Exceptional Conditions](https://owasp.org/Top10/2025/A10_2025-Mishandling_of_Exceptional_Conditions/ "A10 Mishandling of Exceptional Conditions - OWASP Top 10:2025")
-- [Cyber Security News](https://cyberpress.org/owasp-releases-2025-top-10-list/?utm_source=chatgpt.com)
-- [Aikido](https://www.aikido.dev/blog/owasp-top-10-2025-changes-for-developers?utm_source=chatgpt.com)
-- [eSecurity Planet](https://www.esecurityplanet.com/threats/news-owasp-top-10-2025/?utm_source=chatgpt.com)
-- [Orca Security](https://orca.security/resources/blog/owasp-top-10-2025-key-changes/?utm_source=chatgpt.com)
-- [blog.gitguardian.com](https://blog.gitguardian.com/owasp-top-10-2025/?utm_source=chatgpt.com)
+- OWASP. 「OWASP Foundation – A10:2025 Mishandling of Exceptional Conditions」. [OWASP](https://owasp.org/Top10/2025/A10_2025-Mishandling_of_Exceptional_Conditions/ "A10 Mishandling of Exceptional Conditions - OWASP Top 10:2025")
+- CyberPress. 「Cyber Security News」. [CyberPress](https://cyberpress.org/owasp-releases-2025-top-10-list/?utm_source=chatgpt.com)
+- Aikido. 「Aikido」. [Aikido](https://www.aikido.dev/blog/owasp-top-10-2025-changes-for-developers?utm_source=chatgpt.com)
+- eSecurity Planet. 「eSecurity Planet」. [eSecurity Planet](https://www.esecurityplanet.com/threats/news-owasp-top-10-2025/?utm_source=chatgpt.com)
+- Orca Security. 「Orca Security」. [Orca Security](https://orca.security/resources/blog/owasp-top-10-2025-key-changes/?utm_source=chatgpt.com)
+- GitGuardian. 「blog.gitguardian.com」. [GitGuardian](https://blog.gitguardian.com/owasp-top-10-2025/?utm_source=chatgpt.com)
 
 ## 관련 문서
 

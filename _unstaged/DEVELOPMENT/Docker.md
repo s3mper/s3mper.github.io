@@ -100,7 +100,7 @@ docker logs -f authentik-server-1
 - **외부 접속**: 라우터에서 새 내부 IP로 포워딩 다시 설정(예: 80→9000, 443→9443), 혹은 리버스 프록시 사용 시 프록시 설정 갱신.
 - **도메인**: 도메인 쓴다면 DNS를 새 공인 IP로 업데이트.
 
-# 참고
-* [[Rasp/Docker] 라즈베리파이4에 도커 설치하기](https://ban2aru.tistory.com/70)
-* [Raspberry Pi OS(라즈비안)에 Docker & Docker Compose 설치 (ft. transmission)](https://ansimcode.tistory.com/19)
+## 출처
+- ban2aru. 「[Rasp/Docker] 라즈베리파이4에 도커 설치하기」. [Tistory](https://ban2aru.tistory.com/70)
+- ansimcode. 「Raspberry Pi OS(라즈비안)에 Docker & Docker Compose 설치 (ft. transmission)」. [Tistory](https://ansimcode.tistory.com/19)
 * 

@@ -1,3 +1,3 @@
-## 참고
+## 출처
 
-- [How to Use Dirsearch](https://www.blackhillsinfosec.com/how-to-use-dirsearch/)
+- Black Hills Information Security. 「How to Use Dirsearch」. [Black Hills Information Security](https://www.blackhillsinfosec.com/how-to-use-dirsearch/)

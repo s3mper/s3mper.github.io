@@ -6,9 +6,9 @@
 4. 액세스 토큰을 API로 전송
 5. 필요한 경우 액세스 토큰을 갱신
 ![2025-09-21-20-00-37](/_image/2025-09-21-20-00-37.png)
-# 참고
-* [Google API - OAuth 2.0 인증](https://arcticwillow.tistory.com/31)
-* [OAuth 2.0을 사용하여 Google API에 액세스하기](https://developers.google.com/identity/protocols/oauth2?hl=ko#webserver)
-* [Google API Client Python Github](https://github.com/googleapis/google-api-python-client)
-* [[API] 구글 로그인 API (구글 OAuth 2.0 웹 로그인)](https://minibcake.tistory.com/222)
-* [Google Cloud caredian API console](https://console.cloud.google.com/auth/clients?project=caredian-473115&supportedpurview=project,organizationId,folder)
+## 출처
+- arcticwillow. 「Google API - OAuth 2.0 인증」. [Tistory](https://arcticwillow.tistory.com/31)
+- Google Developers. 「OAuth 2.0을 사용하여 Google API에 액세스하기」. [Google Developers](https://developers.google.com/identity/protocols/oauth2?hl=ko#webserver)
+- GitHub. 「Google API Client Python Github」. [GitHub](https://github.com/googleapis/google-api-python-client)
+- minibcake. 「[API] 구글 로그인 API (구글 OAuth 2.0 웹 로그인)」. [Tistory](https://minibcake.tistory.com/222)
+- Google. 「Google Cloud caredian API console」. [Google](https://console.cloud.google.com/auth/clients?project=caredian-473115&supportedpurview=project,organizationId,folder)

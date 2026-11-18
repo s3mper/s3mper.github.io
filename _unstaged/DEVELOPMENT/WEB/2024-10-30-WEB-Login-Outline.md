@@ -344,9 +344,9 @@ OTP 인증 우회 취약점을 방어하기 위해서는 다음과 같은 보안
 
 ---
 
-# 참고
+## 출처
 
-1. [https://ko.wikipedia.org/wiki/로그인](https://ko.wikipedia.org/wiki/로그인)
+- Wikipedia. 「https://ko.wikipedia.org/wiki/로그인」. [Wikipedia](https://ko.wikipedia.org/wiki/로그인)
 
 ## 관련 문서
 

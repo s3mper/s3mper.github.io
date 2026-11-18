@@ -118,9 +118,9 @@ OWASP가 제시하는 예방책과 일반적인 베스트 프랙티스를 묶어
 
 ---
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A08:2025 Software or Data Integrity Failures](https://owasp.org/Top10/2025/A08_2025-Software_or_Data_Integrity_Failures/ "A08 Software or Data Integrity Failures - OWASP Top 10:2025")
+- OWASP. 「OWASP Foundation – A08:2025 Software or Data Integrity Failures」. [OWASP](https://owasp.org/Top10/2025/A08_2025-Software_or_Data_Integrity_Failures/ "A08 Software or Data Integrity Failures - OWASP Top 10:2025")
 
 ## 관련 문서
 

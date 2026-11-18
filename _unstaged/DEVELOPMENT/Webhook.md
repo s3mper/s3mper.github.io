@@ -54,13 +54,13 @@ Webhook:
 2. HTTP 헤더 설정: 요청 헤더에는 인증 정보나 데이터 형식을 지정하는 정보가 포함된다. 예를 들어, Content-Type을 application/json으로 설정해 데이터 형식을 지정한다.
 3. HTTP 본문 구성: 요청 본문에는 이벤트와 관련된 데이터가 포함된다. 예를 들어, 회원 가입 이벤트의 경우, 유저 ID, 이름, 이메일 등의 정보를 포함할 수 있다.
 
-## 참고
+## 출처
 
-* [웹훅(Webhook)](https://docs.tosspayments.com/resources/glossary/webhook)
-* [웹훅(Webhook)의 개념과 활용 예시: 쿠폰 발급, 게임 레벨업, 마케팅자동화 쉽게 만드세요!](https://blog.notifly.tech/webhook-definition-examples/)
-* [웹훅[Webhook]이란 무엇일까?](https://frtt0608.tistory.com/143)
-* [웹훅](https://ko.wikipedia.org/wiki/%EC%9B%B9%ED%9B%85)
-* [Webhook 을 통해 알림을 구현해보자!](https://velog.io/@weskii/Webhook-%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%95%8C%EB%A6%BC%EC%9D%84-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B4%EC%9E%90)
+- Toss Payments. 「웹훅(Webhook)」. [Toss Payments](https://docs.tosspayments.com/resources/glossary/webhook)
+- Notifly. 「웹훅(Webhook)의 개념과 활용 예시: 쿠폰 발급, 게임 레벨업, 마케팅자동화 쉽게 만드세요!」. [Notifly](https://blog.notifly.tech/webhook-definition-examples/)
+- frtt0608. 「웹훅[Webhook]이란 무엇일까?」. [Tistory](https://frtt0608.tistory.com/143)
+- Wikipedia. 「웹훅」. [Wikipedia](https://ko.wikipedia.org/wiki/%EC%9B%B9%ED%9B%85)
+- weskii. 「Webhook 을 통해 알림을 구현해보자!」. [Velog](https://velog.io/@weskii/Webhook-%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%95%8C%EB%A6%BC%EC%9D%84-%EA%B5%AC%ED%98%84%ED%95%B4%EB%B3%B4%EC%9E%90)
 
 ## 관련 문서
 

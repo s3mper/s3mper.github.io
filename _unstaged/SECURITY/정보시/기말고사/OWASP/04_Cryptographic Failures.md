@@ -133,9 +133,9 @@ Cryptographic Failures는 **암호화가 필요한 데이터를 적절히 보호
 
 ---
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A04:2025 Cryptographic Failures](https://owasp.org/Top10/2025/A04_2025-Cryptographic_Failures/ "A04 Cryptographic Failures - OWASP Top 10:2025")
+- OWASP. 「OWASP Foundation – A04:2025 Cryptographic Failures」. [OWASP](https://owasp.org/Top10/2025/A04_2025-Cryptographic_Failures/ "A04 Cryptographic Failures - OWASP Top 10:2025")
 
 ## 관련 문서
 

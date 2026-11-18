@@ -102,10 +102,10 @@ $k_AK^+_B$
 ### 증명
 $k_AK^+_B = k_A(k_BG) = k_Bk_AG = k_BK^+_A$
 
-# 참고
-* [기초 암호학(4) - ECC(타원곡선 암호화 알고리즘)](https://developer-mac.tistory.com/83)
-* [타원 곡선 이산 대수 문제의 풀기 어려움에 대한 설명](https://www.reddit.com/r/cryptography/comments/11s6myd/clarification_on_the_intractability_of_the/?tl=ko)
-* [공개키암호2_타원곡선암호(ECC)](https://www.youtube.com/watch?v=xtkDTtf_efs&t=840s)
+## 출처
+- developer-mac. 「기초 암호학(4) - ECC(타원곡선 암호화 알고리즘)」. [Tistory](https://developer-mac.tistory.com/83)
+- Reddit. 「타원 곡선 이산 대수 문제의 풀기 어려움에 대한 설명」. [Reddit](https://www.reddit.com/r/cryptography/comments/11s6myd/clarification_on_the_intractability_of_the/?tl=ko)
+- YouTube. 「공개키암호2_타원곡선암호(ECC)」. [YouTube](https://www.youtube.com/watch?v=xtkDTtf_efs&t=840s)
 * [P-NP Problem](../../COMPUTER_SCIENCE/P-NP_Problem.md)
 
 ## 관련 문서

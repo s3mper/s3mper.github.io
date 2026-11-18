@@ -156,12 +156,12 @@ OWASP가 제안하는 Insecure Design 예방 전략을 정리하면 다음과 �
 - Threat Modeling을 통해 “봇 기반 re-sale” 시나리오를 미리 정의하고,  
     구매 속도·패턴·계정 연관성 등에 기반한 도메인 규칙을 설계에 포함했다면 예방이 가능했을 사례입니다.
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A06:2025 Insecure Design](https://owasp.org/Top10/2025/A06_2025-Insecure_Design/ "A06 Insecure Design - OWASP Top 10:2025")
-- [aikido.dev](https://www.aikido.dev/blog/owasp-top-10-2025-changes-for-developers?utm_source=chatgpt.com)
-- [Cyber Security News](https://cybersecuritynews.com/owasp-top-10-2025/?utm_source=chatgpt.com)
-- [eSecurity Planet](https://www.esecurityplanet.com/threats/news-owasp-top-10-2025/?utm_source=chatgpt.com)
+- OWASP. 「OWASP Foundation – A06:2025 Insecure Design」. [OWASP](https://owasp.org/Top10/2025/A06_2025-Insecure_Design/ "A06 Insecure Design - OWASP Top 10:2025")
+- Aikido. 「aikido.dev」. [Aikido](https://www.aikido.dev/blog/owasp-top-10-2025-changes-for-developers?utm_source=chatgpt.com)
+- Cyber Security News. 「Cyber Security News」. [Cyber Security News](https://cybersecuritynews.com/owasp-top-10-2025/?utm_source=chatgpt.com)
+- eSecurity Planet. 「eSecurity Planet」. [eSecurity Planet](https://www.esecurityplanet.com/threats/news-owasp-top-10-2025/?utm_source=chatgpt.com)
 
 ## 관련 문서
 

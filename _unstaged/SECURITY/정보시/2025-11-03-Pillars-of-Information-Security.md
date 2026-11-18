@@ -80,10 +80,10 @@ tags: [cryptography]
 
 ---
 
-# 참고
+## 출처
 
-- [Tistory: [정보보호개론] 보안의 속성(CIA triad, AAA triad)](https://junbyeol.tistory.com/20)
-- [Velog: Security](https://velog.io/@kimjihong9/Security)
+- junbyeol. 「Tistory: [정보보호개론] 보안의 속성(CIA triad, AAA triad)」. [Tistory](https://junbyeol.tistory.com/20)
+- kimjihong9. 「Velog: Security」. [Velog](https://velog.io/@kimjihong9/Security)
 
 ## 관련 문서
 

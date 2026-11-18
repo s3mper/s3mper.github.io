@@ -35,11 +35,11 @@ class User(BaseModel): # pydantic의 BaseModel 상속
     email: str = Field(..., regex=r"^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$") # 정규 표현식 -> 이메일 형식의 유효성 검사
     age: int = Field(..., ge=0, le=130) # 최소값과 최대값을 설정해 유효한 나이 범위 지정
 ```
-# 참고
+## 출처
 
-* [[Python] Pydantic 의  BaseModel 클래스 사용](https://mobicon.tistory.com/627)
-* [Fields](https://docs.pydantic.dev/latest/concepts/fields/)
-* [Pydantic - Field 클래스의 용도와 사용법](https://light-tree.tistory.com/301)
+- mobicon. 「[Python] Pydantic 의  BaseModel 클래스 사용」. [Tistory](https://mobicon.tistory.com/627)
+- Pydantic Docs. 「Fields」. [Pydantic Docs](https://docs.pydantic.dev/latest/concepts/fields/)
+- light-tree. 「Pydantic - Field 클래스의 용도와 사용법」. [Tistory](https://light-tree.tistory.com/301)
 
 ## 관련 문서
 

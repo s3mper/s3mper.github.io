@@ -65,10 +65,10 @@ SSO 토큰은 사용자 이름 또는 전자 메일 주소와 같은 사용자 �
 
 ---
 
-## 참고
+## 출처
 
-* [SSO(Single Sign On)란 무엇인가요?](https://aws.amazon.com/ko/what-is/sso/)
-* [SSO(Single Sign-On)이란?](https://toma0912.tistory.com/75)
+- AWS. 「SSO(Single Sign On)란 무엇인가요?」. [AWS](https://aws.amazon.com/ko/what-is/sso/)
+- toma0912. 「SSO(Single Sign-On)이란?」. [Tistory](https://toma0912.tistory.com/75)
 
 ## 관련 문서
 

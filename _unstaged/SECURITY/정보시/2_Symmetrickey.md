@@ -294,11 +294,11 @@ D(E(m)) = E(m) ⊕ OTP = 	1110100 1110010
 
 ---
 
-# 참고
+## 출처
 
-- [NAVER: DES(Data Encryption Standard)](https://m.blog.naver.com/wnrjsxo/221708511553)
-- [NAVER: AES(Advanced Encryption Standard)](https://blog.naver.com/PostView.naver?blogId=wnrjsxo&logNo=221711255389)
-- [Wikipedia: OTPassword](https://ko.wikipedia.org/wiki/%EC%9D%BC%ED%9A%8C%EC%9A%A9_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8)
+- wnrjsxo. 「NAVER: DES(Data Encryption Standard)」. [네이버 블로그](https://m.blog.naver.com/wnrjsxo/221708511553)
+- wnrjsxo. 「NAVER: AES(Advanced Encryption Standard)」. [네이버 블로그](https://blog.naver.com/PostView.naver?blogId=wnrjsxo&logNo=221711255389)
+- Wikipedia. 「Wikipedia: OTPassword」. [Wikipedia](https://ko.wikipedia.org/wiki/%EC%9D%BC%ED%9A%8C%EC%9A%A9_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8)
 
 ## 관련 문서
 

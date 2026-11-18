@@ -7,9 +7,9 @@
 
 ---
 
-## 참고
+## 출처
 
-- [[개발자 영어] Happy Path](https://nodiscard.tistory.com/397)
+- nodiscard. 「[개발자 영어] Happy Path」. [Tistory](https://nodiscard.tistory.com/397)
 
 ## 관련 문서
 

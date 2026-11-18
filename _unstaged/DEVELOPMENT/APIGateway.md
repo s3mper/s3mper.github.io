@@ -50,10 +50,10 @@ API(Application Programming Interface): 소프트웨어 애플리케이션이 �
 
 ---
 
-## 참고
+## 출처
 
-* [API Gateway란 무엇인가요?](https://www.ibm.com/kr-ko/think/topics/api-gateway#:~:text=API%20Gateway%EB%8A%94%20API%20%ED%98%B8%EC%B6%9C(API%20%EC%9A%94%EC%B2%AD%EC%9D%B4%EB%9D%BC%EA%B3%A0%EB%8F%84%20%ED%95%A8)%EC%9D%84,%EB%B3%B4%EC%95%88%20%EA%B8%B0%EB%8A%A5%EB%8F%84%20%EC%A0%9C%EA%B3%B5%ED%95%A9%EB%8B%88%EB%8B%A4.)
-* [Amazon API Gateway](https://aws.amazon.com/ko/api-gateway/#:~:text=Amazon%20API%20Gateway%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EA%B7%9C%EB%AA%A8%EC%97%90%EC%84%9C%EB%93%A0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20API%EB%A5%BC,Gateway%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%96%91%EB%B0%A9%ED%96%A5%20%ED%86%B5%EC%8B%A0%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%B4%20%EA%B0%80%EB%8A%A5)
-* [MSA 아키텍쳐 구현을 위한 API 게이트웨이의 이해 (API GATEWAY)](https://bcho.tistory.com/1005)
-* [[AWS] 📚 API Gateway 개념 & 기본 사용법 정리](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-API-Gateway-%EA%B0%9C%EB%85%90-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)
-* [REST API](https://developers.home-assistant.io/docs/api/rest/)
+- IBM. 「API Gateway란 무엇인가요?」. [IBM](https://www.ibm.com/kr-ko/think/topics/api-gateway#:~:text=API%20Gateway%EB%8A%94%20API%20%ED%98%B8%EC%B6%9C(API%20%EC%9A%94%EC%B2%AD%EC%9D%B4%EB%9D%BC%EA%B3%A0%EB%8F%84%20%ED%95%A8)%EC%9D%84,%EB%B3%B4%EC%95%88%20%EA%B8%B0%EB%8A%A5%EB%8F%84%20%EC%A0%9C%EA%B3%B5%ED%95%A9%EB%8B%88%EB%8B%A4.)
+- AWS. 「Amazon API Gateway」. [AWS](https://aws.amazon.com/ko/api-gateway/#:~:text=Amazon%20API%20Gateway%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EA%B7%9C%EB%AA%A8%EC%97%90%EC%84%9C%EB%93%A0%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20API%EB%A5%BC,Gateway%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%96%91%EB%B0%A9%ED%96%A5%20%ED%86%B5%EC%8B%A0%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%B4%20%EA%B0%80%EB%8A%A5)
+- bcho. 「MSA 아키텍쳐 구현을 위한 API 게이트웨이의 이해 (API GATEWAY)」. [Tistory](https://bcho.tistory.com/1005)
+- inpa. 「[AWS] 📚 API Gateway 개념 & 기본 사용법 정리」. [Tistory](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-API-Gateway-%EA%B0%9C%EB%85%90-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)
+- Home Assistant Developers. 「REST API」. [Home Assistant Developers](https://developers.home-assistant.io/docs/api/rest/)

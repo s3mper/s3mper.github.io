@@ -66,14 +66,14 @@ packet filtering/classification
 
 ---
 
-# 참고
+## 출처
 
-- [Naver: 방화벽(Firewall)이란 무엇인가?](https://blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kebinj&logNo=40102444089)
-- [Cloudflare: 방화벽이란? 네트워크 방화벽의 작동 방식](https://www.cloudflare.com/ko-kr/learning/security/what-is-a-firewall/)
-- [Tistory: Stateful/Stateless 방화벽 이해하기](https://logforlog.tistory.com/entry/StatefulStateless-%EB%B0%A9%ED%99%94%EB%B2%BD-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
-- [방화벽에서의 Stateful VS Stateless](http://blog.omoknooni.me/64)
-- [ITpedia: 비무장지대(DMZ)란 무엇입니까?](https://ko.itpedia.nl/2023/01/28/wat-is-een-demilitarized-zone-dmz/)
-- [Fortinet: DMZ 네트워크](https://www.fortinet.com/kr/resources/cyberglossary/what-is-dmz)
+- kebinj. 「Naver: 방화벽(Firewall)이란 무엇인가?」. [네이버 블로그](https://blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kebinj&logNo=40102444089)
+- Cloudflare. 「Cloudflare: 방화벽이란? 네트워크 방화벽의 작동 방식」. [Cloudflare](https://www.cloudflare.com/ko-kr/learning/security/what-is-a-firewall/)
+- logforlog. 「Tistory: Stateful/Stateless 방화벽 이해하기」. [Tistory](https://logforlog.tistory.com/entry/StatefulStateless-%EB%B0%A9%ED%99%94%EB%B2%BD-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
+- blog.omoknooni.me. 「방화벽에서의 Stateful VS Stateless」. [blog.omoknooni.me](http://blog.omoknooni.me/64)
+- ITpedia. 「ITpedia: 비무장지대(DMZ)란 무엇입니까?」. [ITpedia](https://ko.itpedia.nl/2023/01/28/wat-is-een-demilitarized-zone-dmz/)
+- Fortinet. 「Fortinet: DMZ 네트워크」. [Fortinet](https://www.fortinet.com/kr/resources/cyberglossary/what-is-dmz)
 -
 
 ## 관련 문서

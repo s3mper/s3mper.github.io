@@ -55,7 +55,7 @@ bar(name='one', age=27)
 # {'name': 'one', 'age': 27}
 ```
 
-# 참고
+## 출처
 
-* [4.9. More on Defining Functions](https://docs.python.org/dev/tutorial/controlflow.html#more-on-defining-functions)
-* [파라미터에 사용되는 * 와 ** (asterisk와 double asterisk, star와 double star)](https://m.blog.naver.com/hankrah/222399059877)
+- Python Docs. 「4.9. More on Defining Functions」. [Python Docs](https://docs.python.org/dev/tutorial/controlflow.html#more-on-defining-functions)
+- hankrah. 「파라미터에 사용되는 * 와 ** (asterisk와 double asterisk, star와 double star)」. [네이버 블로그](https://m.blog.naver.com/hankrah/222399059877)

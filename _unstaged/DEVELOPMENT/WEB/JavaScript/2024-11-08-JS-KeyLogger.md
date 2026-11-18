@@ -23,9 +23,8 @@ tags: [web, js]
 # JS로 Key Logger 간단 구현
 
 
-# 참고
-* [키로거란?](https://www.checkpoint.com/kr/cyber-hub/threat-prevention/what-is-malware/what-is-a-keylogger/)
-* [input 입력값 가져와서 출력하기](https://hianna.tistory.com/411)
-* [](https://apost.dev/962/)
-* [](https://velog.io/@971126chr/Javascript%EC%99%80-HTML-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0)
-* []()
+## 출처
+- Check Point. 「키로거란?」. [Check Point](https://www.checkpoint.com/kr/cyber-hub/threat-prevention/what-is-malware/what-is-a-keylogger/)
+- hianna. 「input 입력값 가져와서 출력하기」. [Tistory](https://hianna.tistory.com/411)
+- apost.dev. 「원문」. [apost.dev](https://apost.dev/962/)
+- 971126chr. 「원문」. [Velog](https://velog.io/@971126chr/Javascript%EC%99%80-HTML-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0)

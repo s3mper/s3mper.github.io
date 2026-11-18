@@ -146,9 +146,9 @@ OWASP가 제시하는 권고를 정리하면 다음과 같다.([OWASP Foundation
 
 ---
 
-## 참고
+## 출처
 
-- [OWASP Foundation – A09:2025 Logging & Alerting Failures](https://owasp.org/Top10/2025/A09_2025-Logging_and_Alerting_Failures/ "A09 Logging and Alerting Failures - OWASP Top 10:2025")
+- OWASP. 「OWASP Foundation – A09:2025 Logging & Alerting Failures」. [OWASP](https://owasp.org/Top10/2025/A09_2025-Logging_and_Alerting_Failures/ "A09 Logging and Alerting Failures - OWASP Top 10:2025")
 
 ## 관련 문서
 

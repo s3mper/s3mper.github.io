@@ -42,4 +42,4 @@
 
 ## 출처
 
-- [Youtube: 10 Hacking Principles NOBODY Taught Me](https://youtu.be/QPK1QJB3Hik?si=n7pee6cCqLFhUP5N)
+- YouTube. 「Youtube: 10 Hacking Principles NOBODY Taught Me」. [YouTube](https://youtu.be/QPK1QJB3Hik?si=n7pee6cCqLFhUP5N)

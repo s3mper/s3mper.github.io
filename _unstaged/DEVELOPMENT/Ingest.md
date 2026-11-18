@@ -30,8 +30,8 @@ Ingest 서비스는 테이프, 라이브 방송, 파일 등 다양한 형태의 
 * ThinQ Poller
 * [Webhook](Webhook.md)
 
-## 참고
+## 출처
 
-* [What is the Ingest server and how is it compared to Sony Vegas Pro?](https://www.quora.com/What-is-the-Ingest-server-and-how-is-it-compared-to-Sony-Vegas-Pro)
-* [NPS - 인제스트 시스템](https://blog.naver.com/t_rex_one/220979406065)
-* [미디어 수집 Ingest](https://www.gemiso.co.kr/ariel-v2-1#:~:text=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A5%BC%20%EC%88%98%EC%A7%91%ED%95%98%EB%8A%94%20%EC%9D%B8%EC%A0%9C%EC%8A%A4%ED%8A%B8(Ingest)%EB%8A%94%20%ED%85%8C%EC%9D%B4%ED%94%84%2C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EB%B0%A9%EC%86%A1%2C%20%ED%8C%8C%EC%9D%BC,%EC%8B%A0%EC%86%8D%ED%95%98%EA%B3%A0%20%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B4%EB%A9%B0%20%ED%8E%B8%EB%A6%AC%ED%95%98%EA%B2%8C%20MAM%EC%97%90%20%EB%93%B1%EB%A1%9D%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.)
+- Quora. 「What is the Ingest server and how is it compared to Sony Vegas Pro?」. [Quora](https://www.quora.com/What-is-the-Ingest-server-and-how-is-it-compared-to-Sony-Vegas-Pro)
+- t_rex_one. 「NPS - 인제스트 시스템」. [네이버 블로그](https://blog.naver.com/t_rex_one/220979406065)
+- 제미소. 「미디어 수집 Ingest」. [제미소](https://www.gemiso.co.kr/ariel-v2-1#:~:text=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A5%BC%20%EC%88%98%EC%A7%91%ED%95%98%EB%8A%94%20%EC%9D%B8%EC%A0%9C%EC%8A%A4%ED%8A%B8(Ingest)%EB%8A%94%20%ED%85%8C%EC%9D%B4%ED%94%84%2C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EB%B0%A9%EC%86%A1%2C%20%ED%8C%8C%EC%9D%BC,%EC%8B%A0%EC%86%8D%ED%95%98%EA%B3%A0%20%EC%95%88%EC%A0%95%EC%A0%81%EC%9D%B4%EB%A9%B0%20%ED%8E%B8%EB%A6%AC%ED%95%98%EA%B2%8C%20MAM%EC%97%90%20%EB%93%B1%EB%A1%9D%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.)
