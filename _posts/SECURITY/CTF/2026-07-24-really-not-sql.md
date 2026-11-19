@@ -2,7 +2,7 @@
 layout: post
 comments: true
 
-title: "\[Dreamhack\] Really Not SQL 풀이"
+title: "[Dreamhack] Really Not SQL 풀이"
 excerpt: "임의 파일 덮어쓰기"
 
 date: 2026-07-24
