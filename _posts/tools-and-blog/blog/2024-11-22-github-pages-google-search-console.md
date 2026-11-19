@@ -25,7 +25,7 @@ tags: [blog, github-pages]
 
 ---
 
-[GitHub Pages 블로그 만들기]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-02-github-pages-making-1 %}) 이후 검색 등록을 진행한 기록이다. 방문자의 이용 통계를 확인하는 설정은 [Google Analytics 적용하기]({% post_url TOOLS_AND_BLOG/BLOG/2021-12-09-github-pages-google-analytics %})에 정리했다.
+[GitHub Pages 블로그 만들기]({% post_url tools-and-blog/blog/2021-11-02-github-pages-making-1 %}) 이후 검색 등록을 진행한 기록이다. 방문자의 이용 통계를 확인하는 설정은 [Google Analytics 적용하기]({% post_url tools-and-blog/blog/2021-12-09-github-pages-google-analytics %})에 정리했다.
 
 ## 1. sitemap.xml 생성하기
 

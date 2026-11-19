@@ -21,7 +21,7 @@ tags: [blog, github-pages]
 
 ---
 
-[GitHub Pages 만들기 1]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-02-github-pages-making-1 %})과 [테마 설정·오류 해결 기록]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-30-github-pages-making-2 %})을 진행하며 남긴 회고이다. 블로그를 만든 이후에는 [Google Search Console 등록]({% post_url TOOLS_AND_BLOG/BLOG/2024-11-22-github-pages-google-search-console %})과 [Google Analytics 적용]({% post_url TOOLS_AND_BLOG/BLOG/2021-12-09-github-pages-google-analytics %})으로 운영 기록을 이어갈 수 있다.
+[GitHub Pages 만들기 1]({% post_url tools-and-blog/blog/2021-11-02-github-pages-making-1 %})과 [테마 설정·오류 해결 기록]({% post_url tools-and-blog/blog/2021-11-30-github-pages-making-2 %})을 진행하며 남긴 회고이다. 블로그를 만든 이후에는 [Google Search Console 등록]({% post_url tools-and-blog/blog/2024-11-22-github-pages-google-search-console %})과 [Google Analytics 적용]({% post_url tools-and-blog/blog/2021-12-09-github-pages-google-analytics %})으로 운영 기록을 이어갈 수 있다.
 
 ## 자주 본 오류들
 

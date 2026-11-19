@@ -16,7 +16,7 @@ tags: [nlp, sentiment-analysis]
 
 # 한글 텍스트 자연어 처리 실습 1
 
-[자연어 처리 기본 개념]({% post_url AI_AND_DATA/AI/2025-03-25-nlp %})과 [한글 텍스트 토큰화]({% post_url AI_AND_DATA/AI/2025-03-17-korean-tokenization %})를 바탕으로 데이터를 불러오고 전처리한다. 모델 학습을 준비하는 다음 과정은 [한글 텍스트 자연어 처리 실습 2]({% post_url AI_AND_DATA/AI/2025-04-14-korean-text-nlp-prac-2 %})에서 이어진다.
+[자연어 처리 기본 개념]({% post_url ai-and-data/ai/2025-03-25-nlp %})과 [한글 텍스트 토큰화]({% post_url ai-and-data/ai/2025-03-17-korean-tokenization %})를 바탕으로 데이터를 불러오고 전처리한다. 모델 학습을 준비하는 다음 과정은 [한글 텍스트 자연어 처리 실습 2]({% post_url ai-and-data/ai/2025-04-14-korean-text-nlp-prac-2 %})에서 이어진다.
 
 ## 목차
 

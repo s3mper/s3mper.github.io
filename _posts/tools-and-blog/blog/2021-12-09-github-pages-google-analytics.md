@@ -22,7 +22,7 @@ tags: [blog, github-pages]
 
 ---
 
-검색 결과 노출과 관련된 등록 과정은 [Google Search Console 등록하기]({% post_url TOOLS_AND_BLOG/BLOG/2024-11-22-github-pages-google-search-console %})에서 확인할 수 있다. 이 글은 블로그 방문 이후의 이용 통계를 확인하기 위한 설정을 다룬다.
+검색 결과 노출과 관련된 등록 과정은 [Google Search Console 등록하기]({% post_url tools-and-blog/blog/2024-11-22-github-pages-google-search-console %})에서 확인할 수 있다. 이 글은 블로그 방문 이후의 이용 통계를 확인하기 위한 설정을 다룬다.
 
 1. google-analytics 가입함.
 2. google-analytics에서 속성 만들기

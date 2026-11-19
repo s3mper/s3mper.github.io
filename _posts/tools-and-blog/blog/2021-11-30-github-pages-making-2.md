@@ -16,7 +16,7 @@ tags: [blog, github-pages, jekyll]
 
 # Github.io 만들기 2
 
-[GitHub Pages 만들기 1 - Ruby·Jekyll 설치와 저장소 연결]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-02-github-pages-making-1 %})에서 이어지는 설정 기록이다. 작업 중 겪은 문제와 자주 쓴 명령어는 [GitHub Pages 제작 회고]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-30-github-pages-making-3 %})에 정리했다.
+[GitHub Pages 만들기 1 - Ruby·Jekyll 설치와 저장소 연결]({% post_url tools-and-blog/blog/2021-11-02-github-pages-making-1 %})에서 이어지는 설정 기록이다. 작업 중 겪은 문제와 자주 쓴 명령어는 [GitHub Pages 제작 회고]({% post_url tools-and-blog/blog/2021-11-30-github-pages-making-3 %})에 정리했다.
 
 ## 목차
 

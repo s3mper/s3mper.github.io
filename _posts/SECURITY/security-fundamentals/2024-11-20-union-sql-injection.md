@@ -31,8 +31,8 @@ tags:
 
 ---
 
-- SQL Injection: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
-- Blind SQLi: [Blind SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-blind-sql-injection %})
+- SQL Injection: [SQL Injection 정리]({% post_url SECURITY/security-fundamentals/2024-11-14-sql-injection %})
+- Blind SQLi: [Blind SQL Injection]({% post_url SECURITY/security-fundamentals/2024-11-28-blind-sql-injection %})
 
 ## 1. UNION SQL Injection이란?
 

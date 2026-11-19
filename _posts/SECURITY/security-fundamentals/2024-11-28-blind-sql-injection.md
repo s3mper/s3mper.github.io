@@ -34,8 +34,7 @@ tags:
 
 ---
 
-- SQL Injection: [SQL Injection의 전체 원리와 유형]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
-- 실습: [Blind SQL Injection CTF 풀이]({% post_url SECURITY/CTF/2024-11-29-ctf-sql-injection-6 %})
+- SQL Injection: [SQL Injection의 전체 원리와 유형]({% post_url SECURITY/security-fundamentals/2024-11-14-sql-injection %})
 
 ## Blind SQL Injection이란?
 

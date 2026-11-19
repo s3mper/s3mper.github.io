@@ -336,8 +336,8 @@ KoNLPy는 여러 한국어 형태소 분석기를 Python에서 사용할 수 있
 
 ## 관련 글
 
-- [자연어 처리의 기본 개념]({% post_url AI_AND_DATA/AI/2025-03-25-nlp %})
-- [한글 텍스트 자연어 처리 실습 1]({% post_url AI_AND_DATA/AI/2025-03-26-korean-text-nlp-prac %})
+- [자연어 처리의 기본 개념]({% post_url ai-and-data/ai/2025-03-25-nlp %})
+- [한글 텍스트 자연어 처리 실습 1]({% post_url ai-and-data/ai/2025-03-26-korean-text-nlp-prac %})
 
 ## 출처
 

@@ -36,8 +36,7 @@ tags: [web, security, csrf]
 ---
 
 인증 상태가 유지되는 원리: [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})
-`iframe`과 `form`을 이용한 실습: [CSRF CTF 풀이]({% post_url SECURITY/CTF/2025-01-11-ctf-csrf-1 %})
-관련 내용: [SSRF]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2026-01-16-ssrf %})
+관련 내용: [SSRF]({% post_url SECURITY/security-fundamentals/2026-01-16-ssrf %})
 
 ## 1. 정의
 

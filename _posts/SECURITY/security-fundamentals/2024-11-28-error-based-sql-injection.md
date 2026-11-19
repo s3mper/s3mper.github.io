@@ -29,8 +29,8 @@ tags: [web, database, security, sql-injection]
 
 ---
 
-- SQLi: [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})
-- UNION SQLi: [Union SQL Injection]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-20-union-sql-injection %})
+- SQLi: [SQL Injection 정리]({% post_url SECURITY/security-fundamentals/2024-11-14-sql-injection %})
+- UNION SQLi: [Union SQL Injection]({% post_url SECURITY/security-fundamentals/2024-11-20-union-sql-injection %})
 
 ## Error-Based SQL Injection란?
 

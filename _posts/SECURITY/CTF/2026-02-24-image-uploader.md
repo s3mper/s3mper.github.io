@@ -18,7 +18,7 @@ tags: [web, ctf]
 
 Dreamhack. 「드림핵 Wargame Web 2 Image Uploader」. [Dreamhack](https://dreamhack.io/wargame/challenges/2624)
 
-업로드 파일 처리 흐름은 [File Upload 취약점의 원인과 공격 시나리오]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2025-01-27-file-upload %})와 직접 연결된다.
+업로드 파일 처리 흐름은 [File Upload 취약점의 원인과 공격 시나리오]({% post_url SECURITY/security-fundamentals/2025-01-27-file-upload %})와 직접 연결된다.
 
 ## 목차
 

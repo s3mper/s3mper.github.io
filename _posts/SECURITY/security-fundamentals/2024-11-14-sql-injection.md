@@ -17,7 +17,6 @@ tags: [web, database, security, sql-injection]
 # SQL Injection
 
 - 쿼리가 사용되는 로그인 흐름: [로그인 로직]({% post_url DEVELOPMENT/WEB/2024-11-03-web-login-logic %})
-- 실습: [SQL Injection CTF 풀이]({% post_url SECURITY/CTF/2024-11-18-ctf-sql-injection-1 %})
 
 ---
 
@@ -164,7 +163,7 @@ FROM another_table;
 * 대응하는 열의 자료형이 서로 호환되어야 한다.
 * 결과가 웹페이지 등에 출력되어야 한다.
 
-관련 글: [Union SQLi]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-20-union-sql-injection %})
+관련 글: [Union SQLi]({% post_url SECURITY/security-fundamentals/2024-11-20-union-sql-injection %})
 
 #### 4.1.2. Error-based SQLi
 
@@ -181,7 +180,7 @@ FROM another_table;
 
 운영 환경에서는 상세한 데이터베이스 오류를 사용자에게 직접 반환하지 않아야 한다.
 
-[Error-Based SQLi]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-error-based-sql-injection %})
+[Error-Based SQLi]({% post_url SECURITY/security-fundamentals/2024-11-28-error-based-sql-injection %})
 
 ### 4.2. Inferential SQLi
 
@@ -204,7 +203,7 @@ FROM another_table;
 * 리다이렉션 여부
 * 조회 결과 개수
 
-[Blind SQLi]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-28-blind-sql-injection %})
+[Blind SQLi]({% post_url SECURITY/security-fundamentals/2024-11-28-blind-sql-injection %})
 
 #### 4.2.2. Time-based Blind SQLi
 

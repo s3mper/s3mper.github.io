@@ -234,7 +234,7 @@ Git이 파일을 관리하게 하려면 저장소에 파일을 추가하고 커�
 -> 왜 안되는지 잘 모르겠음  
 -> 새로운 방법으로 다시 만들기로 함.
 
-[다음 글: GitHub Pages 만들기 2 - 테마 설정과 설치 오류 해결]({% post_url TOOLS_AND_BLOG/BLOG/2021-11-30-github-pages-making-2 %})
+[다음 글: GitHub Pages 만들기 2 - 테마 설정과 설치 오류 해결]({% post_url tools-and-blog/blog/2021-11-30-github-pages-making-2 %})
 
 ---
 

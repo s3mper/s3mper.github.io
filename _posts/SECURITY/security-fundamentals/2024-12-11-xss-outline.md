@@ -36,7 +36,7 @@ tags: [web, security, xss]
 
 XSS 공격 방식으로는 <mark>Cookie Sniffing</mark>, <mark>스크립트 암호화 및 우회</mark>, <mark>악성 스크립트 유포</mark>, <mark>Key Logger</mark>, <mark>Mouse Sniffer</mark>, <mark>거짓 정보추가</mark> 등이 있다.
 
-쿠키가 로그인 상태 유지에 쓰이는 이유는 [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})에서 다룬다. 취약한 입력 위치를 찾는 과정은 [XSS CTF 풀이]({% post_url SECURITY/CTF/2024-12-18-ctf-xss-1 %}), iframe을 활용하는 사례는 [XSS로 다른 페이지 데이터 탈취하기]({% post_url SECURITY/CTF/2024-12-30-ctf-xss-3 %})에서 이어서 볼 수 있다.
+쿠키가 로그인 상태 유지에 쓰이는 이유는 [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})에서 다룬다.
 
 ### 2.1. Cookie Sniffing
 

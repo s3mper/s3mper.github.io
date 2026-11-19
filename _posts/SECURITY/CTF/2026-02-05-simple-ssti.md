@@ -32,7 +32,7 @@ tags: [web, ctf, ssti]
 
 ## 1. Vuln
 
-[SSTI(Server-side Template Injection)의 원리와 탐지 방법]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2026-02-05-ssti %}): 공격자의 악의적인 코드가 웹 템플릿 엔진(Web Template Engine)에 들어가 서버측에서 템플릿 코드가 실행되는 취약점이다.
+[SSTI(Server-side Template Injection)의 원리와 탐지 방법]({% post_url SECURITY/security-fundamentals/2026-02-05-ssti %}): 공격자의 악의적인 코드가 웹 템플릿 엔진(Web Template Engine)에 들어가 서버측에서 템플릿 코드가 실행되는 취약점이다.
 
 ## 2. Code
 

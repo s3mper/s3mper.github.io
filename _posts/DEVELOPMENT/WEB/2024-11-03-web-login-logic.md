@@ -22,7 +22,7 @@ tags: [web, php]
 
 # 로그인 로직 케이스
 
-로그인 이후의 상태 관리는 [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})에서 다룬다. 이 글의 문자열 결합 쿼리와 관련된 취약점 및 대응 방안은 [SQL Injection 정리]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2024-11-14-sql-injection %})를 함께 참고한다.
+로그인 이후의 상태 관리는 [쿠키와 세션]({% post_url DEVELOPMENT/WEB/2024-11-04-web-cookie-and-session-cache %})에서 다룬다. 이 글의 문자열 결합 쿼리와 관련된 취약점 및 대응 방안은 [SQL Injection 정리]({% post_url SECURITY/security-fundamentals/2024-11-14-sql-injection %})를 함께 참고한다.
 
 ## 1. 식별, 인증 동시
 

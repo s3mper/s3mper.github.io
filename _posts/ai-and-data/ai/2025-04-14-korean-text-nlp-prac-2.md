@@ -16,7 +16,7 @@ tags: [nlp, sentiment-analysis]
 
 # 한글 텍스트 자연어 처리 실습 2
 
-[한글 텍스트 자연어 처리 실습 1]({% post_url AI_AND_DATA/AI/2025-03-26-korean-text-nlp-prac %})의 데이터 준비 과정에서 이어지는 모델 학습 기록이다. 배경 개념은 [자연어 처리(NLP) 개요]({% post_url AI_AND_DATA/AI/2025-03-25-nlp %})에서 확인할 수 있다.
+[한글 텍스트 자연어 처리 실습 1]({% post_url ai-and-data/ai/2025-03-26-korean-text-nlp-prac %})의 데이터 준비 과정에서 이어지는 모델 학습 기록이다. 배경 개념은 [자연어 처리(NLP) 개요]({% post_url ai-and-data/ai/2025-03-25-nlp %})에서 확인할 수 있다.
 
 ## 목차
 

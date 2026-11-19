@@ -27,7 +27,7 @@ tags: [web, ctf]
 
 ## 1. Vuln
 
-[JSON Injection의 원리와 파서 불일치]({% post_url SECURITY/SECURITY_FUNDAMENTALS/2026-02-03-json-injection %})
+[JSON Injection의 원리와 파서 불일치]({% post_url SECURITY/security-fundamentals/2026-02-03-json-injection %})
 
 - 애플리케이션이 사용자 제공 데이터를 검증, 필터링 하지 않는다.
 - 악성 데이터가 직접 사용되거나 이어붙여진다. 즉, 동적 쿼리/명령/저장 과정에서 명령 문자열이 "구조 + 악성 데이터" 형태로 구성된다.
