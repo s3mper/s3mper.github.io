@@ -14,7 +14,7 @@ tags: [web, ctf]
 
 <!-- markdownlint-disable MD010 MD025 MD029 MD033 -->
 
-# [Dreamhack] Are you admin?
+# [Dreamhack] Are you admin? 풀이
 
 ## 목차
 

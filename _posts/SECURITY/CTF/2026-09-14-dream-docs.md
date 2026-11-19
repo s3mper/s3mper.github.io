@@ -14,7 +14,7 @@ tags: [web, ctf]
 
 <!-- markdownlint-disable MD010 MD025 MD029 MD033 -->
 
-# [Dreamhack] DreamDocs
+# [Dreamhack] DreamDocs 풀이
 
 ## 목차
 
